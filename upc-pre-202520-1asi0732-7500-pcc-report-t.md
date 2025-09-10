@@ -4,15 +4,15 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Curso: Desarrollo de Soluciones IOT</strong><br>
-    <strong>Profesor: Leon Baca, Marco Antonio </strong><br>
+    <strong>Curso: Diseño de Experimentos de Ingeniería de Software</strong><br>
+    <strong>Profesor: Ivan Robles Fernández </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
 
 <center>
 
-#### Startup: **Momentum**
-#### Product: **PumpUp**
+#### Startup: **PCC**
+#### Product: **Quadrapp**
 
 </center>
 
@@ -21,12 +21,11 @@
 
 | Codigo                           | Miembro       |
 |----------------------------------|------------|
-|  U202211212 | Del Castillo Bueno, Daniel Mateo |
-|        |  |
-|       |  |
-|  |  |
-|              |  |
-|          |  |
+|  U20211G163 | Solis Solis, Leonardo José|
+|  U202215462 | Nanfuñay Liza, Pedro Jesús|
+|  U202121935 | Calisaya Sánchez, Juan Jesús|
+|  U202213423 | Oneglio De Paz, Beth Shantal|
+|  U202121975 | Lagos Aguilar, Luis Eduardo|
 
 <br> AGOSTO 2025
 </center>  
