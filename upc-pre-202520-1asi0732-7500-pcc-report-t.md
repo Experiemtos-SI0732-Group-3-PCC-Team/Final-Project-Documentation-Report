@@ -99,56 +99,73 @@
 [3.2. Impact Mapping](#32-impact-mapping)  
 [3.3. Product Backlog](#33-product-backlog)  
 
-[Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-[4.1. Strategic-Level Domain-Driven Design.](#41-strategic-level-domain-driven-design)
-[4.1.1. Design-Level EventStorming.](#411-design-level-eventstorming)
-[4.1.1.1 Candidate Context Discovery.](#4111-candidate-context-discovery)
-[4.1.1.2 Domain Message Flows Modeling.](#4112-domain-message-flows-modeling)
-[4.1.1.3 Bounded Context Canvases.](#4113-bounded-context-canvases)
-[4.1.2. Context Mapping.](#412-context-mapping)
-[4.1.3. Software Architecture.](#413-software-architecture)
-[4.1.3.1. Software Architecture System Landscape Diagram.](#4131-software-architecture-system-landscape-diagram)
-[4.1.3.2. Software Architecture Context Level Diagrams.](#4132-software-architecture-container-level-diagrams)
-[4.1.3.2. Software Architecture Container Level Diagrams.](#4132-software-architecture-container-level-diagrams)
-[4.1.3.3. Software Architecture Deployment Diagrams.](#4133-software-architecture-deployment-diagrams)
-[4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-[4.2.X. Bounded Context: ](#42x-bounded-context)
-[4.2.X.1. Domain Layer.](#42x1-domain-layer)
-[4.2.X.2. Interface Layer.](#42x2-interface-layer)
-[4.2.X.3. Application Layer.](#42x3-application-layer)
-[4.2.X.4. Infrastructure Layer.](#42x4-infrastructure-layer)
-[4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.](#42x5-bounded-context-software-architecture-component-level-diagrams)
-[4.2.X.6. Bounded Context Software Architecture Code Level Diagrams.](#42x6-bounded-context-software-architecture-code-level-diagrams)
-[4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.](#42x61-bounded-context-domain-layer-class-diagrams)
-[4.2.X.6.2. Bounded Context Database Design Diagram.](#42x62-bounded-context-database-design-diagram)
+## Capítulo IV: Product Design
+[4.1. Style Guidelines](#41-style-guidelines)  
+[4.1.1. General Style Guidelines](#411-general-style-guidelines)  
+[4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
+[4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
+[4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
+[4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
 
-[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-[5.1. Style Guidelines.](#51-style-guidelines)
-[5.1.1. General Style Guidelines.](#511-general-style-guidelines)
-[5.1.2. Web, Mobile and IoT Style Guidelines.](#512-web-mobile-and-iot-style-guidelines)
-[5.2. Information Architecture.](#52-information-architecture)
-[5.2.1. Organization Systems.](#521-organization-systems)
-[5.2.2. Labeling Systems.](#522-labeling-systems)
-[5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-[5.2.4. Searching Systems.](#524-searching-systems)
-[5.2.5. Navigation Systems.](#525-navigation-systems)
-[5.3. Landing Page UI Design.](#53-landing-page-ui-design)
-[5.3.1. Landing Page Wireframe.](#531-landing-page-wireframe)
-[5.3.2. Landing Page Mock-up.](#532-landing-page-mock-up)
-[5.4. Applications UX/UI Design.](#54-applications-uxui-design)
-[5.4.1. Applications Wireframes.](#541-applications-wireframes)
-[5.4.2. Applications Wireflow Diagrams.](#542-applications-mock-ups)
-[5.4.2. Applications Mock-ups.](#542-applications-mock-ups)
-[5.4.3. Applications User Flow Diagrams.](#543-applications-user-flow-diagrams)
-[5.5. Applications Prototyping.](#55-applications-prototyping)
+[4.2. Information Architecture](#42-information-architecture)  
+[4.2.1. Organization Systems](#421-organization-systems)  
+[4.2.2. Labeling Systems](#422-labeling-systems)  
+[4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+[4.2.4. Searching Systems](#424-searching-systems)  
+[4.2.5. Navigation Systems](#425-navigation-systems)
+
+[4.3. Landing Page UI Design](#43-landing-page-ui-design)  
+[4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
+[4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+
+[4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)  
+[4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)  
+[4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
+[4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)  
+[4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+
+[4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
+[4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)  
+[4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+
+[4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)  
+[4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)  
+[4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
+[4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)  
+[4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+
+[4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+
+[4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
+[4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)  
+[4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)  
+[4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+
+[4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
+[4.9.1. Class Diagrams](#491-class-diagrams)  
+[4.9.2. Class Dictionary](#492-class-dictionary)
+
+[4.10. Database Design](#410-database-design)  
+[4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
 
-[6.3. Validation Interviews](#53-validation-interviews)  
-[6.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)  
-[6.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)  
-[6.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)  
+## Capítulo V: Product Implementation
+[5.1. Software Configuration Management](#51-software-configuration-management)  
+[5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
+[5.1.2. Source Code Management](#512-source-code-management)  
+[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
+[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 
-[5.4. Video About-the-Product](#54-video-about-the-product)  
+[5.2. Product Implementation & Deployment](#52-product-implementation--deployment)  
+[5.2.1. Sprint Backlogs](#521-sprint-backlogs)  
+[5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)  
+[5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)  
+[5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)  
+[5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)  
+[5.2.6. RESTful API Documentation](#526-restful-api-documentation)  
+[5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+
+[5.3. Video About-the-Product](#53-video-about-the-product)
 
 [Conclusiones](#conclusiones)  
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
@@ -345,123 +362,680 @@ Texto ubiquo: Definicion de este
 | ------ | ------------- | ----- | ---------- | ------------------------ |
 | 1      | HU01          | titulo his | desc  | 5                        |
 
-# Capítulo IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design.
-### 4.1.1. Design-Level EventStorming.
-#### 4.1.1.1 Candidate Context Discovery.
-#### 4.1.1.2 Domain Message Flows Modeling.
-#### 4.1.1.3 Bounded Context Canvases.
-### 4.1.2. Context Mapping.
-### 4.1.3. Software Architecture.
-#### 4.1.3.1. Software Architecture System Landscape Diagram.
-#### 4.1.3.2. Software Architecture Context Level Diagrams.
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
-#### 4.1.3.3. Software Architecture Deployment Diagrams.
-## 4.2. Tactical-Level Domain-Driven Design
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### Quadrapp - Lineamientos de Diseño
+
+La aplicación **Quadrapp** se fundamenta en un **diseño intuitivo, limpio y accesible**, priorizando la **legibilidad** y la **simplicidad de interacción**.
+
+Se busca una **experiencia consistente** en todas las plataformas, evitando la **sobrecarga visual** y utilizando los **espacios en blanco** de forma estratégica.
+
+La **tipografía principal** será **Sans Serif moderna Roboto**, garantizando **claridad en pantallas de distinto tamaño**.
+### 4.1.1. General Style Guidelines
+
+##### Branding
+El branding de **Quadrapp** busca proyectar **confianza, inclusión y eficiencia urbana**.  
+La identidad evoluciona hacia una **paleta violeta–azul con acentos en naranja**, que comunica innovación cercana y resalta las llamadas a la acción, sobre fondos claros y alto contraste para favorecer la accesibilidad.
+
+El resultado es una **marca moderna, consistente y orientada a la acción**, alineada con el propósito de ordenar y facilitar la movilidad del usuario.
+
+---
+
+##### Typography
+La tipografía de **Quadrapp** adopta **Sans Serif moderna** por su legibilidad, disponibilidad multiplataforma y estética limpia.  
+
+Se prioriza una **jerarquía clara**, un **interlineado generoso** y **tamaños mínimos accesibles** para asegurar una lectura cómoda en web y móvil.
+
+###### Tamaño y estilos
+- **H1:** 32 px · peso 600 · color violeta `#6B46C1`  
+  *Uso: títulos de página y secciones principales.*
+
+- **H2:** 24 px · peso 600 · color azul `#2563EB`  
+  *Uso: subtítulos de secciones y bloques.*
+
+- **H3:** 20 px · peso 600 · color violeta `#6B46C1`  
+  *Uso: encabezados de tarjetas, módulos y tablas.*
+
+- **Párrafo (p):** 16–18 px · peso 400 · color `#111827`  
+  *Uso: cuerpo de texto, ayudas y descripciones.*
+
+###### Ajustes móviles (guideline)
+- **H1:** 28–32 px
+- **H2:** 22–24 px
+- **H3:** 18–20 px
+- **P:** 16–18 px
+
+###### Interlineado recomendado:
+- H1 → 40 px
+- H2 → 32 px
+- H3 → 28 px
+- P → 24–28 px
+
+---
+
+##### Colors
+La paleta de **Quadrapp** integra tonos **violeta** y **azul** con **acentos en naranja**, priorizando:
+- Accesibilidad (alto contraste)
+- Modernidad
+- Llamadas a la acción claras
+
+###### Paleta aplicada a tipografía
+- **Primario (violeta):** `#6B46C1`
+- **Secundario (azul):** `#2563EB`
+- **Texto principal:** `#111827` (gris muy oscuro, alta legibilidad)
+
+# Quadrapp - Color Palette
+
+| Color Name       | Hex Code | Uso Principal |
+|------------------|----------|-------------------------------------------------------------------|
+| **Violeta Claro**   | `#C4B5FD` | Fondos de tarjetas suaves, estados “hover” sutiles |
+| **Violeta Primario**| `#6B46C1` | Encabezados destacados, énfasis de marca |
+| **Violeta Oscuro**  | `#4C1D95` | Fondos de secciones clave, barras y overlays oscuros |
+| **Azul Claro**      | `#93C5FD` | Badges informativos, resaltados secundarios |
+| **Azul Primario**   | `#2563EB` | Enlaces, botones secundarios, títulos de módulo |
+| **Azul Muy Oscuro** | `#1E3A8A` | Color primario de texto sobre fondos claros, iconografía sólida |
+| **Naranja CTA**     | `#F59E0B` | Botones primarios de acción (Call To Action) |
+| **Naranja (Hover)** | `#D97706` | Estados hover/pressed del CTA, advertencias suaves |
+| **Éxito (Green)**   | `#16A34A` | Confirmaciones, estados OK, indicadores positivos |
+| **Alerta (Red)**    | `#DC2626` | Errores, estados críticos, validación fallida |
+| **Texto Principal** | `#111827` | Párrafos y contenidos largos (alta legibilidad) |
+| **Texto Secundario**| `#4B5563` | Etiquetas, meta-información, placeholders |
+| **Bordes/Divisores**| `#E5E7EB` | Líneas de separación, contornos de inputs |
+| **Fondo**           | `#FFFFFF` | Fondo base de la interfaz |
+| **Fondo Alt**       | `#F9FAFB` | Paneles alternos, listas, tarjetas |
+
+![Quadrapp Color Palette](./assets/Quadrapp_Paleta_Colores.png)
+
+##### Spacing
+Usamos una **escala de 8 px** para asegurar ritmo visual, coherencia entre web y móvil y mejor legibilidad.  
+La regla es construir márgenes, paddings y gaps con múltiplos de 8.
+
+**Escala base:** `8 · 16 · 24 · 32 · 40 · 48 · 64 · 96 px`
+
+###### Reglas generales
+- **Márgenes y paddings estándar:** 8/16/24/32 px según jerarquía del contenido.
+- **Separación entre bloques mayores (secciones, fold/hero, módulos):** 64–96 px (48–64 px en móvil).
+- **Gaps entre componentes hermanos (tarjetas, gráficos, tablas):** 24–32 px (16–24 px en móvil).
+- **Espacio negativo intencional:** prioriza respiración visual; evita valores improvisados.
+
+---
+
+##### Icons
+- **Línea:** minimal, reconocible y consistente.
+- **Tamaño mínimo:** 24 px (web) / 24–32 px (móvil).
+- **Área táctil:** ≥ 44 px.
+- **Peso trazo:** 1.5–2 px.
+- **Contraste:** nivel AA.
+
+###### Estados (color)
+- **Default:** `#4B5563` (texto secundario)
+- **Hover/focus:** `#2563EB` (azul primario)
+- **Activo/seleccionado:** `#6B46C1` (violeta primario)
+- **En botón CTA naranja:** `#F59E0B` → icono blanco `#FFFFFF`
+- **Deshabilitado:** `#E5E7EB`
+
+---
+
+###### Paleta aplicada
+- **Primarios:** violeta `#6B46C1`, azul `#2563EB`
+- **Éxito:** `#16A34A`
+- **Error:** `#DC2626`
+- **Texto:** `#111827`
+
+###### Quadrapp - Iconografía de Acciones
+
+| Acción              | Icono (Material)   | Color por defecto             | Notas de uso |
+|---------------------|--------------------|-------------------------------|--------------|
+| **Guardar**         | `save`             | `#6B46C1`                     | En botones primarios: blanco sobre CTA. |
+| **Reservar**        | `calendar_month`   | `#2563EB`                     | En “crear reserva” usar CTA naranja. |
+| **Email**           | `mail`             | `#2563EB`                     | En enlaces/contacto. |
+| **Buscar**          | `search`           | `#4B5563` → hover `#2563EB`   | Input con icono leading. |
+| **Filtrar**         | `filter_list`      | `#4B5563`                     | Chips de filtro activos en `#6B46C1`. |
+| **Lista/Mapa (toggle)** | `list` / `map` | `#4B5563`                     | Estado activo en `#6B46C1`. |
+| **Parking**         | `local_parking`    | `#2563EB`                     | Marca/identificador de estacionamiento. |
+| **Ubicación**       | `pin_drop`         | `#2563EB`                     | En cards y detalle. |
+| **Disponibilidad libre** | `check_circle` | `#16A34A`                     | Ocupado: `block #DC2626`; Reservado: `schedule #D97706`. |
+| **Reseñas/Rating**  | `star`             | `#F59E0B`                     | Media estrella: `star_half`. |
+| **Notificaciones**  | `notifications`    | `#4B5563`                     | No leído en `#2563EB`. |
+| **Perfil**          | `person`           | `#4B5563`                     | Activo en tab bar: `#6B46C1`. |
+| **Dashboard**       | `dashboard`        | `#2563EB`                     | Tarjetas/resúmenes. |
+| **QR**              | `qr_code_2`        | `#4B5563`                     | Acciones: descargar/mostrar. |
+| **Editar**          | `edit`             | `#4B5563`                     | En tabla: acción secundaria. |
+| **Eliminar**        | `delete`           | `#DC2626`                     | Confirmación obligatoria. |
+| **Volver**          | `arrow_back`       | `#4B5563`                     | Navegación superior. |
+| **Inicio**          | `home`             | `#2563EB`                     | Página principal. |
+| **Pago**            | `credit_card`      | `#2563EB`                     | Éxito de pago: `check_circle #16A34A`. |
+
+##### Quadrapp - Tone of Voice
+
+###### Personalidad
+- Claro, cercano y orientado a la acción
+- Inclusivo y sereno
+- Profesional sin ser frío
+
+###### Objetivo
+Que el usuario se sienta **acompañado y en control** (confianza + eficiencia).
+
+---
+
+###### Principios
+1. **Claridad primero:** frases cortas, verbos en activo, sin tecnicismos.
+2. **Cercanía respetuosa:** trato en segunda persona (“tú”) en móvil; tono profesional cercano en panel web (dueños/operadores).
+3. **Honestidad y calma:** informa qué pasó, por qué y qué hacer después.
+4. **Inclusivo y accesible:** lenguaje sencillo, sin jerga local ni género marcado.
+5. **Consistencia:** *sentence case*, sin mayúsculas sostenidas; evita signos y emojis en exceso.
+
+---
+
+###### Guía de estilo
+- **CTA concretos y accionables:**  
+  Ejemplo: *“Reservar ahora”*, *“Pagar”*, *“Ver detalles”*.
+
+- **Mensajes breves:** máx. 1–2 oraciones por bloque.
+
+- **Prioriza lo útil:** primero la acción o la solución; luego el contexto.
 
 
-### 4.2.X. Bounded Context:
-#### 4.2.X.1. Domain Layer.
-#### 4.2.X.2. Interface Layer.
-#### 4.2.X.3. Application Layer.
-#### 4.2.X.4. Infrastructure Layer.
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams..
+### 4.1.2. Web Style Guidelines
 
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.X.6.2. Bounded Context Database Design Diagram.
+Estas pautas definen cómo debe verse y comportarse la app web de **Quadrapp**, alineada al branding **violeta–azul con CTA naranja**, la **escala de 8 px** y la **accesibilidad AA**.
 
-# Capítulo V: Solution UI/UX Design
+---
 
-## 5.1. Style Guidelines.
-### 5.1.1. General Style Guidelines.
-### 5.1.2. Web, Mobile and IoT Style Guidelines.
-## 5.2. Information Architecture.
-### 5.2.1. Organization Systems.
-### 5.2.2. Labeling Systems.
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems.
-### 5.2.5. Navigation Systems.
-## 5.3. Landing Page UI Design.
-### 5.3.1. Landing Page Wireframe.
-### 5.3.2. Landing Page Mock-up.
-## 5.4. Applications UX/UI Design.
-### 5.4.1. Applications Wireframes.
-### 5.4.2. Applications Wireflow Diagrams.
-### 5.4.2. Applications Mock-ups.
-### 5.4.3. Applications User Flow Diagrams.
-## 5.5. Applications Prototyping.
+##### Diseño responsivo
+- **Grid y ritmo:** escala 8 px (8/16/24/32/64), gutters:
+    - 24 px desktop
+    - 16 px tablet
+    - 12–16 px móvil
+- **Lectura en F/Z:** jerarquiza con títulos claros, subtítulos y párrafos de 16–18 px.
+- **Breakpoints de referencia:**
+    - ≥1280 px: 12 columnas (máx. ancho 1200–1280 px).
+    - ≥960 px: 12 columnas (contenido centrado).
+    - <960 px: 4–8 columnas, navegación colapsada.
+- Imágenes y tablas responsivas; evita scroll horizontal.
+
+---
+
+##### Navegación
+###### App shell (panel operador)
+- **Top App Bar:** con título de módulo y acciones globales (Soporte, Cuenta).
+- **Sidenav izquierdo (~280 px):** secciones → Dashboard, Reservas, Reseñas, Perfil (y otras definidas).
+- **Estado activo de ítem:** violeta `#6B46C1` + fondo sutil.
+- **Pantallas pequeñas:** botón hamburguesa para abrir/cerrar sidenav.
+- **Profundidad:** breadcrumbs cuando haya >2 niveles.
+
+###### Landing (marketing)
+- **Navbar superior minimal:** Inicio, Beneficios, Planes, Contacto.
+- **CTA visible** en todo momento.
+
+---
+
+##### Componentes UI (Angular Material)
+
+###### Botones
+- **Primario (CTA):** `mat-flat-button` naranja `#F59E0B` (texto blanco).
+- **Secundario:** `mat-stroked-button` azul `#2563EB`.
+- **Terciario/Ghost:** `mat-button` texto azul `#2563EB`.
+- Estados hover/pressed/focus visibles.
+- Deshabilitado con contraste suficiente.
+
+###### Formularios
+- `mat-form-field` con label arriba, ayuda breve y error bajo el campo.
+- **Espaciado:**
+    - Label → campo: 8 px
+    - Entre campos: 16–24 px
+    - Entre grupos: 32 px
+- **Validación:** clara y oportuna (al blur o submit fallido).
+
+###### Tablas
+- `mat-table` con paginación, orden y filtros.
+- Altura de fila: 44–48 px (cómoda) o 36–40 px (compacta).
+- Columnas críticas fijas en desktop.
+- Acciones al final con **icon buttons**.
+
+###### Tarjetas
+- `mat-card` fondo blanco, bordes 12–16 px, sombra sutil.
+- Títulos **H3**: 20 px.
+
+###### Chips / Filtros
+- `mat-chip` con estado activo en `#6B46C1`.
+- Texto con contraste suficiente.
+
+###### Gráficos
+- Paleta consistente (violeta/azul).
+- Leyendas legibles.
+- Líneas/áreas con suficiente contraste.
+
+---
+
+##### Accesibilidad
+- **Contraste:** AA mínimo para texto/íconos; revisar combinaciones en botones pequeños.
+- **Teclado:** focus visible en todos los controles; orden lógico de tabulación.
+- **Semántica ARIA:**
+    - Formularios con `aria-describedby` para errores/ayudas.
+    - Tablas con `scope` en headers.
+- “Skip to content” al inicio.
+- Títulos únicos por página.
+- Alt text en imágenes.
+- **Motion:** respeta `prefers-reduced-motion`; transiciones sutiles 150–200 ms.
+
+### 4.1.3. Mobile Style Guidelines
+#### Objetivo
+Ofrecer una **experiencia táctil rápida y clara**, con el mismo lenguaje visual que la web pero optimizada para pantallas pequeñas y uso en movimiento.
+
+---
+
+#### Principios generales
+- **Touch-first y accesible:** objetivos táctiles ≥ 44 px, foco visible, contrastes AA.
+- **Ritmo 8 px:** márgenes/paddings y gaps en múltiplos de 8 (8/16/24/32/64).
+- **Prioridad de funciones:** acceso directo a *Explorar/Reservar*, *Mis reservas*, *Notificaciones* y *Perfil* desde **tab bar**.
+- **Legibilidad:** Sans Serif (Inter/Roboto en Flutter).
+    - Tamaños base: H1 28–32, H2 22–24, H3 18–20, P 16–18.
+    - Interlineado cómodo.
+- **Paleta Quadrapp:**
+    - Primarios: violeta `#6B46C1`, azul `#2563EB`
+    - CTA naranja `#F59E0B`
+    - Texto `#111827`
+- **Jerarquía visual:** tarjetas blancas con bordes 12–16 px, sombras suaves; CTA naranja destacado.
+- **Motion sutil:** transiciones 150–200 ms; respeta *reduce motion*.
+- **Safe areas y notch:** contenido evita recortes (status bar, gesto home) y respeta teclado (*scroll insets*).
+
+---
+
+#### Patrones de UI
+- **Navegación:**
+    - Tab bar inferior: Inicio/Explorar, Reservas, Notificaciones, Perfil.
+    - Pila de navegación con gesto “back”.
+
+- **Listas y detalle:**
+    - Listas en tarjetas con icono/estado.
+    - Detalle con CTA fijo (ej. “Reservar”).
+
+- **Búsqueda y filtros:**
+    - Campo de búsqueda con debounce.
+    - Chips de filtros arriba.
+    - Resultados en tiempo real.
+
+- **Formularios:**
+    - Labels claros, ayudas breves.
+    - Errores bajo el campo (8 px).
+    - Grupos separados (24–32 px).
+
+- **Estados vacíos:** mensaje claro + CTA contextual.
+
+- **Feedback:**
+    - Toasts no intrusivos para éxito.
+    - Diálogos solo para confirmaciones críticas.
+
+---
+
+#### Colores y estados (móvil)
+- **Activos/selección:** violeta `#6B46C1` (tab activo, chips activos).
+- **Enlaces/acciones secundarias:** azul `#2563EB`.
+- **CTA:** naranja `#F59E0B` (texto blanco); hover/pressed `#D97706`.
+- **Éxito/Error:** verde `#16A34A` / rojo `#DC2626`.
+- **Fondos:** blanco `#FFFFFF` / alterno `#F9FAFB`.
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+#### Navegación
+- **Tab bar inferior** con labels visibles; icono activo en violeta `#6B46C1`.
+- **Large Title opcional** en vistas raíz (ej. “Explorar”); toolbar limpia.
+- **Gesto back** desde el borde izquierdo habilitado en vistas apiladas.
+
+---
+
+#### Controles y listas
+- **Botones filled** para acciones primarias (CTA naranja).
+- **Botones plain** para acciones secundarias.
+- **Listas con separación sutil**; chevrons para navegación a detalle.
+- **Action Sheets / Bottom Sheets** para selecciones rápidas (horarios, métodos de pago).
+
+---
+
+#### Formularios
+- Labels sobre el campo.
+- Teclado adecuado al tipo (email, numérico).
+- Botón **“Continuar” / “Pagar ahora”** siempre visible (*bottom anchored*) en pasos críticos.
+
+---
+
+#### Tipografía y espaciado
+- Títulos: 28–32 px con interlineado amplio.
+- Párrafos: 16–18 px.
+- Espacios:
+    - 8/16 px dentro de tarjetas.
+    - 24–32 px entre secciones.
+
+---
+
+#### Haptics y microinteracciones
+- **Light impact** al confirmar.
+- **Warning** en errores críticos.
+
+---
+
+#### Accesibilidad
+- Soporte **VoiceOver** (orden lógico, `semanticsLabel` en Flutter).
+- Tamaños dinámicos (*text scaling*) sin romper layout.
+- Focus visible para mandos de hardware / teclado externo.
+
+#### 4.1.3.2. Android Mobile Style Guidelines
+#### Navegación
+- **Bottom navigation bar** con 3–4 destinos; icono y label siempre visibles.
+- **Top App Bar** (center o small) con acciones contextuales (buscar, filtrar).
+- **Back** mediante botón del sistema o App Bar.
+
+---
+
+#### Componentes M3
+- **FAB:** solo si agrega valor (acción primaria contextual, ej. “Nueva reserva” en *Mis reservas*).
+- **Cards:** elevación sutil y radios 12–16 px.
+- **Chips:** para filtros.
+- **Snackbars:** para confirmaciones.
+- **Dialogs:** para confirmaciones destructivas.
+
+---
+
+#### Formularios
+- **TextField** con label claro.
+- **Helper/error:** en 8 px bajo el campo.
+- **Grupos por pasos:**
+    1. Resumen
+    2. Método de pago
+    3. Confirmación
+
+---
+
+#### Tipografía y espaciado
+- **H1:** 28–32 px
+- **H2:** 22–24 px
+- **H3:** 18–20 px
+- **P:** 16–18 px
+
+**Gaps:**
+- 16–24 px intra-sección
+- 32 px entre grupos
+- 64 px entre bloques mayores
+
+---
+
+#### Accesibilidad
+- Soporte **TalkBack** y `semantics` en controles.
+- Estados **enabled/disabled** con contraste suficiente.
+- **Touch targets ≥44 px**.
+- **Foco visible:** ripple + outline.
+
+---
+
+#### Motion y temas
+- **Transiciones:** 150–200 ms (fade/slide).
+- Respeta **Dynamic Color** si se habilita, manteniendo la identidad Quadrapp.
+- Prioriza los **colores primarios definidos**.
+
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+#### Modelo híbrido
+Jerárquico + orientado a tareas.
+
+---
+
+#### Módulos principales
+- **Autenticación (Auth):** Sign In / Sign Up / Recuperar clave.
+- **Explorar / Directorio:** búsqueda por lista ↔ mapa; filtros por distancia, precio, rating y horario.
+- **Parking:** Home del parking, Perfil/Configuración, Tarifas/Horarios, Servicios.
+- **Reservas:** listar, detalle, creación y pago.
+- **Reseñas:** feed y creación de reseña.
+- **Perfil de usuario/owner:** datos, seguridad, preferencias.
+- **Dashboard & Analytics (web):** KPIs, tablas y gráficos.
+- **IoT (futuro, solo mención):** monitoreo conceptual de dispositivos/ocupación.
+
+---
+
+#### Procesos secuenciales (task-flows)
+- **Reserva:** Explorar → Detalle parking → Crear reserva → Pago → Comprobante/QR.
+- **Gestión (web):** Registro/edición de parking → Tarifas → Publicación.
+
+---
+
+#### Estructura de contenidos
+- **Web (operador/owner):**  
+  App Shell con Top App Bar + Sidenav → Dashboard, Reservas, Reseñas, Perfil, Configuración.
+
+- **Móvil (conductor):**  
+  Tab bar → Inicio/Explorar, Reservas, Notificaciones, Perfil.
+
+---
+
+#### Sitemaps (resumen)
+
+###### Web (Angular)
+- `/sign-in`, `/sign-up`
+- `/dashboard`
+- `/reservations` (tabla + detalle/modal)
+- `/parking/directory/:ownerId`
+- `/parking/home/:parkingId`
+- `/parking/profile`
+- `/parking/registration`
+- `/parking/reviews`
+- `/profile/:ownerId`
+- `/devices` (IoT conceptual)
+- `/**` (404)
+
+###### Móvil (Flutter)
+- **Tabs:** Explorar | Reservas | Notificaciones | Perfil
+- **Flujos:** Login/Registro → Explorar (lista/mapa) → Detalle → Reserva → Pago → Éxito → Mis reservas
+
+### 4.2.2. Labeling Systems
+
+#### Principios
+- **Claridad y consistencia:** usar *sentence case*, sin tecnicismos.
+- **Etiquetas cortas:** máximo 2–3 palabras, accionables cuando aplica.
+
+---
+
+#### Convenciones
+- **Navegación global (web):** Dashboard, Reservas, Reseñas, Perfil, Configuración.
+- **Móvil (tab bar):** Inicio, Reservas, Notificaciones, Perfil.
+- **Acciones:** *Reservar ahora*, *Pagar*, *Ver detalle*, *Editar*, *Descargar*.
+- **Formularios:**
+    - Labels con sustantivo claro (*Correo electrónico*, *Contraseña*).
+    - Ayudas breves (1 línea).
+    - Errores directos (*Este campo es obligatorio.*).
+- **Icono + texto siempre** (evitar *icon-only* en navegación principal).
+- **i18n listo:**
+    - No incrustar variables en medio de frases si se puede evitar.
+    - Preferir placeholders al final:
+        - Ejemplo: *“Reservas de {month}”*.
+
+---
+
+#### URLs y slugs (web)
+- **Formato:** kebab-case, semánticos.
+- **Ejemplos:**
+    - `/parking/home/{id-o-slug}`
+    - `/reservations?from=2025-09-01&to=2025-09-10&status=active`
+    - `/parking/directory/{owner-id}`
+- **Regla:** evitar IDs sensibles en query strings; usar slugs cuando haya nombres públicos.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+#### Básicos
+- **Title (≤60 caracteres):**  
+  `Quadrapp | Reserva de estacionamiento fácil en [Ciudad]`
+
+- **Meta description (≤160 caracteres):**  
+  `Encuentra, reserva y paga estacionamientos cercanos en minutos. Disponibilidad en tiempo real, reseñas y comprobante QR.`
+
+- **Viewport:**  
+  `width=device-width, initial-scale=1`
+
+- **Robots:**
+    - `index, follow` → solo en landing y páginas públicas.
+    - `noindex` → en `/app/*`.
+
+---
+
+#### Social (Open Graph / Twitter)
+- **Open Graph:**
+    - `og:title`
+    - `og:description`
+    - `og:image` (1200×630)
+    - `og:type=website`
+    - `og:url`
+
+- **Twitter:**
+    - `summary_large_image`
+
+---
+
+#### Canonical
+- Usar etiqueta:  
+  `<link rel="canonical" href="https://quadrapp.com/">`
+- Aplicar en landing y listados con filtros para **evitar contenido duplicado**.
+
+---
+
+#### Estructurados (opcional)
+- **JSON-LD:**
+    - Organización / Marca.
+    - Listado de parkings (si hay páginas públicas).
+- Mantenerlo **simple y consistente**.
+
+### 4.2.4. Searching Systems
+#### Objetivo
+Localizar estacionamientos y reservas **rápido y con pocos pasos**.
+
+---
+
+#### Patrones
+
+###### Búsqueda principal (Explorar)
+- Campo con **debounce (~300 ms)**.
+- Sugerencias por barrio/avenida.
+- Detección de ubicación (permiso explícito).
+- Toggle **Lista/Mapa**.
+
+###### Facetas / filtros (chips arriba)
+- Distancia (cercanía).
+- Precio/hora.
+- Horario.
+- Disponibilidad.
+- Calificación (★).
+- Servicios (techado, vigilancia).
+- Método de pago.
+
+###### Ordenar por
+- Distancia.
+- Precio.
+- Mejor valorado.
+- Más cercano.
+
+###### Resultados
+- Tarjetas con nombre, dirección, distancia, precio y estado.
+- En mapa: **markers** + *bottom sheet* al seleccionar.
+
+###### Estados
+- **No results:** mostrar sugerencias → limpiar filtros, ampliar radio.
+
+---
+
+###### Reservas (web)
+- Búsqueda por **ID / usuario / fecha**.
+- Filtros por **estado** y **rango de fechas**.
+- Exportación **CSV**.
+
+---
+
+###### Accesibilidad
+- Campo con **label visible**.
+- `aria-describedby` para ayudas/errores.
+- Resultados **navegables por teclado**.
+- **Foco visible** en chips y lista.
+
+### 4.2.5. Navigation Systems
+#### Web (Angular + Material)
+- **Top App Bar:** título de módulo, acciones globales (Soporte, Cuenta).
+- **Sidenav:** secciones principales (activo en violeta); colapsable en `<960 px` (hamburguesa).
+- **Breadcrumbs:** cuando exista profundidad >2 (ej. *Reservas > Detalle*).
+- **Enlaces profundos:** rutas directas a detalle de reserva/parking.
+- **Estados de ruta:** loading skeletons al navegar; toasts para confirmaciones.
+
+---
+
+#### Móvil (Flutter)
+- **Tab bar:** 4 destinos → Inicio/Explorar, Reservas, Notificaciones, Perfil.
+- **Stack por tab:** gesto back y App Bar con acciones contextuales (buscar, filtrar).
+- **Bottom sheet:** para selecciones rápidas (horarios, métodos de pago).
+- **CTA anclado en detalle:** *Reservar / Pagar ahora*.
+
+---
+
+#### Reglas de navegación
+- Mantener **consistencia cross-platform** en nombres y jerarquía.
+- Minimizar pasos en flujos críticos (**reserva/pago**); CTA siempre visible.
+- Evitar **callejones sin salida**: siempre ofrecer *Volver* o *Ir al inicio*.
+- **404 y vacíos** con CTA de salida (ej. *Explorar parkings*).
+
+---
+
+#### IoT (mención escalable)
+- En **web**, entrada de *Dispositivos* solo como vista conceptual:
+    - Lista de sensores con estado (ON/OFF, última señal).
+    - No se implementa lógica embebida en este alcance.
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+
+### 4.3.2. Landing Page Mock-up
+
+## 4.4. Mobile Applications UX/UI Design
+### 4.4.1. Mobile Applications Wireframes
+### 4.4.2. Mobile Applications Wireflow Diagrams
+### 4.4.3. Mobile Applications Mock-ups
+### 4.4.4. Mobile Applications User Flow Diagrams
+
+## 4.5. Mobile Applications Prototyping
+### 4.5.1. Android Mobile Applications Prototyping
+### 4.5.2. iOS Mobile Applications Prototyping
+
+## 4.6. Web Applications UX/UI Design
+### 4.6.1. Web Applications Wireframes
+### 4.6.2. Web Applications Wireflow Diagrams
+### 4.6.3. Web Applications Mock-ups
+### 4.6.4. Web Applications User Flow Diagrams
+
+## 4.7. Web Applications Prototyping
+
+## 4.8. Domain-Driven Software Architecture
+### 4.8.1. Software Architecture Context Diagram
+### 4.8.2. Software Architecture Container Diagrams
+### 4.8.3. Software Architecture Components Diagrams
+
+## 4.9. Software Object-Oriented Design
+### 4.9.1. Class Diagrams
+### 4.9.2. Class Dictionary
+
+## 4.10. Database Design
+### 4.10.1. Relational/Non-Relational Database Diagram
 
 
-# Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
+# Capítulo V: Product Implementation
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Environment Configuration
+### 5.1.2. Source Code Management
+### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.4. Software Deployment Configuration
 
-## 6.2. Landing Page, Services & Applications Implementation.
+## 5.2. Product Implementation & Deployment
+### 5.2.1. Sprint Backlogs
+### 5.2.2. Implemented Landing Page Evidence
+### 5.2.3. Implemented Frontend-Web Application Evidence
+### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. RESTful API Documentation
+### 5.2.7. Team Collaboration Insights
 
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-#### 6.2.X.2. Aspect Leaders and Collaborators.
-#### 6.2.X.3. Sprint Backlog n.
-#### 6.2.X.4. Development Evidence for Sprint Review.
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.6. Execution Evidence for Sprint Review.
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
-
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
-
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
-
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 6.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
-### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
-## 6.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
+## 5.3. Video About-the-Product
 # Conclusiones
 {texto}
 # Conclusiones y recomendaciones.
