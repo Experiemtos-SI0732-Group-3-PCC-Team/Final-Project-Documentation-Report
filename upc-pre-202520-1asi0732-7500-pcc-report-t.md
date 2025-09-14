@@ -331,11 +331,42 @@ As Is:
 ## 2.4 Big Picture EventStorming.
 
 ## 2.5. Ubiquitous Language.
-```
-Texto ubiquo: Definicion de este
-```
 
----
+- **Parking space (Espacio de Estacionamiento):** Lugar específico dentro de un estacionamiento donde un vehículo puede ser aparcado.
+
+- **Reservation (Reserva):** La acción de reservar un espacio de estacionamiento específico por un periodo de tiempo determinado, garantizando su disponibilidad.
+
+- **Real-Time Availability (Disponibilidad en Tiempo Real):** Información actualizada instantáneamente sobre los espacios de estacionamiento libres y ocupados.
+
+- **Geolocation (Geolocalización):** El uso de tecnologías de ubicación para determinar la posición geográfica del usuario y mostrar opciones de estacionamiento cercanas.
+
+- **Interactive Map (Mapa Interactivo):** Un mapa digital dentro de la aplicación que muestra la ubicación de estacionamientos disponibles en tiempo real.
+
+- **Hourly Rates (Tarifas por Hora):** El costo asociado con la reserva de un espacio de estacionamiento, calculado por horas de uso.
+
+- **Online Payment (Pago en Línea):** El proceso de completar el pago para una reserva a través de métodos de pago digitales, como tarjetas de crédito, débito o billeteras electrónicas.
+
+- **Booking History (Historial de Reservas):** Un registro de todas las reservas pasadas realizadas por el usuario, que incluye detalles como fecha, hora, ubicación y costo.
+
+- **Real-Time Notifications (Notificaciones en Tiempo Real):** Alertas enviadas al usuario para informarles sobre cambios en la disponibilidad, confirmaciones de reserva, o vencimientos de tiempo de estacionamiento.
+
+- **User (Usuario):** Persona que utiliza la aplicación para buscar, reservar y pagar por espacios de estacionamiento.
+
+- **Parking Lot Owner (Propietario de Estacionamiento):** Persona o entidad que posee y administra un estacionamiento y que ofrece espacios para la reserva a través de la aplicación.
+
+- **System Administrator (Administrador del Sistema):** Persona responsable de la gestión y mantenimiento de la aplicación, incluyendo la supervisión de la disponibilidad de los espacios y la gestión de usuarios y datos.
+
+- **Check-in (Registro):** El proceso de confirmar la llegada al espacio de estacionamiento reservado, activando el tiempo de uso.
+
+- **Check-out (Salida):** El proceso de marcar la salida del espacio de estacionamiento, finalizando el tiempo de uso y actualizando la disponibilidad.
+
+- **Parking Zone (Zona de Estacionamiento):** Una área geográfica específica que contiene múltiples espacios de estacionamiento, gestionada dentro de la aplicación.
+
+- **Time of Grace (Tiempo de Gracia):** Un periodo corto de tiempo permitido antes o después de la reserva, en el cual el usuario puede llegar sin incurrir en cargos adicionales.
+
+- **Fine for Excess Time (Multa por Exceso de Tiempo):** Un cargo adicional aplicado si un usuario excede el tiempo de estacionamiento reservado.
+
+- **Validation System (Sistema de Validación):** Mecanismo para verificar que un vehículo tenga una reserva válida para un espacio de estacionamiento específico.
 
 # Capítulo III: Requirements Specification
 
