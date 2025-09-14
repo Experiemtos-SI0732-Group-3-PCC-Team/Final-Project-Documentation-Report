@@ -339,20 +339,38 @@ Texto ubiquo: Definicion de este
 
 # Capítulo III: Requirements Specification
 
-## 3.1. User Stories.
+## 3.1. To-Be Scenario Mapping.
+
+**Segmento 1 - Conductores Urbanos Frecuentes:** <br>
+El "To-Be Scenario Mapping" para Conductores Urbanos Frecuentes muestra los resultados esperados para los conductores urbanos frecuentes que necesitan tener rápido acceso a estacionamientos.
+
+Escenario ideal para usuarios frecuentes que buscan estacionarse sin complicaciones.
+
+![ToBeScenarioMapping-Segmento1](assets/ToBeScenarioMapping-Segmento1.PNG)
+
+<br>
+
+**Segmento 2 - Propietarios de estacionamientos:** <br>
+El "To-Be Scenario Mapping" para Propietarios de Estacionamientos muestra los resultados esperados para la gestión de estacionamientos brindadas por Quadrapp.
+
+Escenario ideal para usuarios frecuentes que buscan estacionar sin complicaciones.
+
+![ToBeScenarioMapping-Segmento2](assets/ToBeScenarioMapping-Segmento2.PNG)
+
+## 3.2. User Stories.
 
 | HU0X | Historia Usuario | "Descripcion"  |
 |-|-|-|
-
-## 3.2. Impact Mapping.
-
-![Impact Mapping](image.jpg)
 
 ## 3.3. Product Backlog.
 
 | #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
 | ------ | ------------- | ----- | ---------- | ------------------------ |
 | 1      | HU01          | titulo his | desc  | 5                        |
+
+## 3.4. Impact Mapping.
+
+![Impact Mapping](image.jpg)
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design.
