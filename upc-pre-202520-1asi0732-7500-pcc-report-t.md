@@ -1080,6 +1080,7 @@ En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mocku
 
 
 
+
 ## 4.5. Mobile Applications Prototyping
 ### 4.5.1. Android Mobile Applications Prototyping
 ### 4.5.2. iOS Mobile Applications Prototyping
@@ -1168,17 +1169,491 @@ Component Notification:
 ### 4.9.1. Class Diagrams
 En el marco del proyecto Quadrapp, se desarrollaron los Class Diagrams con el propósito de modelar las estructuras de datos y sus relaciones dentro de los distintos módulos de la aplicación. Estos diagramas representan las clases principales, sus atributos, métodos y asociaciones, permitiendo visualizar la lógica interna del sistema y cómo los objetos colaboran entre sí. De esta manera, los Class Diagrams sirven como puente entre el diseño conceptual y la implementación, asegurando consistencia, mantenibilidad y alineación con los bounded contexts previamente definidos.
 
+Iam Class Diagram:
+
+---
+![Quadrapp Diagram](./assets/IAMClassDiagram.png)
+
+---
+Review Class Diagram:
+
+---
+![Quadrapp Diagram](./assets/ReviewBoundedContextClassDiagram.png)
+
+---
+Notification  Class Diagram:
+
+---
+![Quadrapp Diagram](./assets/NotificationBoundedContextClassDiagram.png)
+
+---
+
+Parking Management Class Diagram: 
+
+---
+![Quadrapp Diagram](./assets/ParkingmanagementClassDiagram.png)
+
+---
+
+Payment Class Diagram:
+
+---
+![Quadrapp Diagram](./assets/PaymentClassDiagram.png)
+
+---
+
+Profile Class Diagram:
+
+---
+
+![Quadrapp Diagram](./assets/SmartParking_Class_Diagram-Profile.png)
+
+---
+
+Reservation Class Diagram:
+
+![Quadrapp Diagram](./assets/class-diagram-reservation.png)
+
+
+
+
+
+
 
 
 
 ### 4.9.2. Class Dictionary
 En el marco del proyecto Quadrapp, se elaboró el Class Dictionary con el objetivo de documentar de manera precisa las clases definidas en el sistema. Este diccionario describe los nombres de las clases, sus atributos, tipos de datos, métodos principales y relaciones, brindando un nivel de detalle técnico que complementa a los Class Diagrams. Su función es servir como una guía de referencia clara y estructurada para el equipo de desarrollo, garantizando consistencia en la implementación y facilitando el mantenimiento del sistema a lo largo del tiempo.
 
+**1. Reservation**
+
+
+**Atributos**
+
+* id: Long
+
+* userId: Long
+
+* vehiclePlate: String
+
+* parkingId: Long
+
+* parkingSpotId: UUID
+
+* startTime: LocalDateTime
+
+* endTime: LocalDateTime
+
+* totalPrice: Float
+
+* status: ReservationStatus
+
+**Métodos**
+
+* Reservation(command: CreateReservationCommand)
+
+* calculateTotalPrice(): void
+
+* getDurationInHours(): Long
+
+* confirm(): void
+
+* cancel(): void
+
+* complete(): void
+
+**Relaciones**
+
+* 1..1 con ReservationPayment
+
+**ReservationPayment**
+
+**Atributos**
+
+* reservationId: Long
+
+**Métodos**
+
+* ReservationPayment(reservationId: Long, amount: Double)
+
+**2. IAM (Identity & Access Management)**
+
+**Role**
+
+**Atributos**
+
+* id: Long
+* name: Roles
+
+**Métodos**
+
+* Role(), Role(name: Roles)
+
+* getStringName(): String
+
+* getDefaultRole(): Role
+
+* toRoleFromName(name: String): Role
+
+* validateRoleSet(roles: List<Role>): List<Role>
+
+* getId(), setId(id: Long)
+
+* getName(), setName(name: Roles)
+
+**User**
+
+**Atributos**
+
+* id: Long
+* email: String
+* password: String
+* role: Set<Role>
+* createdAt: Date
+* updatedAt: Date
+
+**Métodos**
+
+* Constructores con email/password/roles
+
+* addRole(role: Role)
+
+* addRoles(roles: List<Role>)
+
+* getSerializedRoles(): List<String>
+
+* getEmail(), getPassword(), getRoles()
+
+**Role (Enumeration)**
+
+**Valores**
+
+* ROLE_ADMIN
+
+* ROLE_PARKING_OWNER
+
+* ROLE_DRIVER
+
+**3. Notification**
+
+
+**Atributos**
+
+* id: Long
+
+* userId: Long
+
+* type: String
+
+* message: String
+
+**Métodos**
+
+* Notification(command: CreateNotificationCommand)
+
+**Relaciones**
+
+* 1..* con User
+
+**User**
+
+**Atributos**
+
+* id: Long
+* email: String
+* password: String
+* role: Set<Role>
+* createdAt: Date
+* updatedAt: Date
+
+**Métodos**
+
+* Constructores con email/password/roles
+
+* addRole(role: Role)
+
+* addRoles(roles: List<Role>)
+
+* getSerializedRoles(): List<String>
+
+* getEmail(), getPassword(), getRoles()
+
+**4. Parking Management**
+
+
+**Atributos**
+
+* id: Long
+
+* ownerId: OwnerId
+
+* name: String
+
+* description: String
+
+* address: String
+
+* lat: Double, lng: Double
+
+* ratePerHour: Float
+
+* rating: Float
+
+* totalSpots, availableSpots: Integer
+
+* totalRows, totalColumns: Integer
+
+* imageUrl: String
+
+* parkingSpotManager: SpotManager
+
+**Métodos**
+
+* Parking(command: CreateParkingCommand)
+* addParkingSpot(command: AddParkingSpotCommand)
+* getParkingSpots(): List<ParkingSpot>
+* getParkingSpot(UUID): ParkingSpot
+
+**ParkingSpotManager (Value Object)**
+
+**Atributos**
+
+* parkingSpots: List<ParkingSpot>
+
+**Métodos**
+
+* addParkingSpot(parking, row, column, label)
+
+* getParkingSpotById(UUID)
+
+* updateParkingSpot(ParkingSpot, UUID)
+
+**ParkingSpot**
+
+**Atributos**
+
+* id: UUID
+
+* parkingId: Long
+
+* available: Boolean
+
+* rowIndex, columnIndex: Integer
+
+* label: String
+
+**Métodos**
+
+* setAvailability(state: Boolean)
+
+5. Payment
+   **Payment (Value Object)**
+
+**Atributos**
+
+* id: Long
+* amount: Double
+* paidAt: LocalDateTime
+* status: PaymentStatus
+
+**Métodos**
+
+* Payment(amount: Double)
+
+* markAsPaid(): void
+
+* isForSubscription(): boolean
+
+* isForReservation(): boolean
+
+**ReservationPayment**
+
+**Atributos**
+
+* reservationId: Long
+
+**SubscriptionPayment**
+
+**Atributos**
+
+* subscriptionId: Long
+
+**PaymentStatus (Enumeration)**
+
+**Valores**
+
+* PENDING
+
+* PROCESSING
+
+* CANCELLED
+
+* COMPLETED
+
+* FAILED
+
+6. Review
+
+
+**Atributos**
+
+* id: Long
+
+* userId: Long
+
+* parkingId: Long
+
+* rating: Integer
+
+* comment: String
+
+**Métodos**
+
+* Review(command: CreateReviewCommand)
+
+**Relaciones**
+
+* *..1 con User
+
+* 1..* con Parking
+
+**Parking**
+
+**Atributos**
+
+* id: Long
+
+* ownerId: OwnerId
+
+* name: String
+
+* description: String
+
+* address: String
+
+* lat: Double, lng: Double
+
+* ratePerHour: Float
+
+* rating: Float
+
+* totalSpots, availableSpots: Integer
+
+* totalRows, totalColumns: Integer
+
+* imageUrl: String
+
+* parkingSpotManager: SpotManager
+
+**Métodos**
+
+* Parking(command: CreateParkingCommand)
+* addParkingSpot(command: AddParkingSpotCommand)
+* getParkingSpots(): List<ParkingSpot>
+* getParkingSpot(UUID): ParkingSpot
+
+**User**
+
+**Atributos**
+
+* id: Long
+* email: String
+* password: String
+* role: Set<Role>
+* createdAt: Date
+* updatedAt: Date
+
+**Métodos**
+
+* Constructores con email/password/roles
+
+* addRole(role: Role)
+
+* addRoles(roles: List<Role>)
+
+* getSerializedRoles(): List<String>
+
+* getEmail(), getPassword(), getRoles()
+
+7. Profile
+
+**User**
+
+**Atributos**
+
+* id: Long
+* email: String
+* password: String
+* role: Set<Role>
+* createdAt: Date
+* updatedAt: Date
+
+**Métodos**
+
+* Constructores con email/password/roles
+
+* addRole(role: Role)
+
+* addRoles(roles: List<Role>)
+
+* getSerializedRoles(): List<String>
+
+* getEmail(), getPassword(), getRoles()
+
+**ParkingOwner**
+
+**Atributos**
+
+* id: Long
+
+* fullName: String
+
+* city, country: String
+
+* phone: Phone
+
+* companyName: String
+
+* ruc: Ruc
+
+* userId: Long
+
+* createdAt, updatedAt: Date
+
+**Métodos**
+
+* ParkingOwner(command, userId)
+
+* getPhone(), getRuc(), getCompanyName(), getCity(), getCountry(), getUserId()
+
+**Driver**
+
+**Atributos**
+
+* id: Long
+
+* fullName: String
+
+* city, country: String
+
+* phone: Phone
+
+* dni: Dni
+
+* userId: Long
+
+* createdAt, updatedAt: Date
+
+**Métodos**
+
+* Driver(command, userId)
+* getDni(), getPhone(), getFullName(), getCity(), getCountry(), getUserId()
+
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
 En el marco del proyecto Quadrapp, se desarrolló el Relational Database Diagram (ERD) con el propósito de representar de forma estructurada las entidades del sistema, sus atributos y las relaciones entre ellas. Este diagrama permite visualizar la lógica de la base de datos, facilitando la comprensión de la arquitectura de datos que sustenta funcionalidades críticas como la gestión de usuarios, reservas, pagos, reseñas y administración de estacionamientos.
 
-
+![Quadrapp DiagramBase](./assets/BaseDeDatosDiagramaQuadrapp.PNG)
 
 # Capítulo V: Product Implementation
 ## 5.1. Software Configuration Management
