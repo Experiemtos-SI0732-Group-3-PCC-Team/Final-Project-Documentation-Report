@@ -1107,6 +1107,61 @@ En el marco del proyecto Quadrapp, se desarrollaron los Container Diagrams, que 
 
 En el marco del proyecto Quadrapp, se elaboraron los Component Diagrams con el fin de detallar la organización interna de los contenedores principales, en especial el API Backend. Estos diagramas permiten visualizar los componentes clave (controladores, servicios, repositorios y adaptadores) y su relación con los bounded contexts definidos (Bookings, Payments, Directory, Reviews, Auth, Notifications, etc.). El objetivo es mostrar cómo se implementan las reglas de negocio, la interacción entre capas y la comunicación con sistemas externos, aportando un nivel de detalle esencial para el diseño, desarrollo y mantenimiento del sistema.
 
+Component IAM:
+
+---
+
+![Quadrapp C4](./assets/Digram-Component-IAM-QUADRAP.png)
+
+
+---
+
+Component Reservation:
+
+---
+
+![Quadrapp C4](./assets/Diagram-Component-Reservation-Quadrapp.png)
+
+---
+
+Component Profile:
+
+---
+
+![Quadrapp C4](./assets/Diagram-Component-Profile-Quadrapp.png)
+
+
+---
+
+Component Payment:
+
+---
+
+![Quadrapp C4](./assets/Diagram-Component-Payment-Quadrapp.png)
+
+---
+
+Component Review:
+
+---
+![Quadrapp C4](./assets/Diagram-Component-Review-Quadrapp.png)
+
+---
+
+Component Parking Management:
+
+---
+![Quadrapp C4](./assets/Diagram-Component-ParkingManagement-Quadrapp.png)
+
+---
+
+Component Notification:
+
+---
+![Quadrapp C4](./assets/Diagram-Component-Notification-Quadrapp.png)
+
+
+---
 
 
 ## 4.9. Software Object-Oriented Design
