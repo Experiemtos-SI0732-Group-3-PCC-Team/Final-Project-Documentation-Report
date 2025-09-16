@@ -205,7 +205,7 @@ Además, incluimos espacios particulares: cualquier usuario con una cochera o es
 |----------------------------------------|--------------------------------------|
 | Mi nombre es Juan Jesús Calisaya Sánchez - u202121935, tengo 21 años y actualmente curso Ingeniería de Software. Me considero una persona responsable, amigable y empática. Poseo conocimientos en C++, SQL, Python, HTML/CSS, JavaScript, C#, entre otros lenguajes y tecnologías. Estas habilidades me serán de gran utilidad para llevar a cabo el proyecto. | ![Foto de Juan Jesús Calisaya Sánchez](assets/Perfil_Juan.png) |
 | Mi nombre es Luis, estudiante de la carrera de Ingeniería de Software, y estoy con muchas ganas de dar lo mejor de mí por este equipo. Me considero una persona curiosa, siempre dispuesta a escuchar y proponer ideas que aporten al grupo. A lo largo de mi formación, he desarrollado habilidades técnicas en el diseño guiado por el dominio (Domain Driven Design) y en el desarrollo front-end utilizando frameworks como Vue y Angular. Además, tengo experiencia intermedia programando en lenguajes como C++ y Python. | ![Foto de Luis Lagos](assets/Perfil_Luis.png) |
-|  | ![Foto de Pedro Nanfuñay](https://via.placeholder.com/150) |
+| Mi nombre es Pedro Jesús Nanfuñay Liza, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Me considero una persona creativa, responsable, perseverante y siempre dispuesto a trabajar en equipo. Tengo conocimientos en varios lenguajes de programación como C++, Java y Python; en el desarrollo web con frameworks Angular y Primevue, y en base de datos relacionales y no relacionales como SQL y MongoDB. Espero aportar de manera positiva al equipo y cumplir con los objetivos establecidos. | ![Foto de Pedro Nanfuñay](assets/Perfil_Pedro.jpeg) |
 | Mi nombre es Beth Shantal Oneglio De Paz - u202213423, tengo 19 años y estudio Ingeniería de Software en la UPC. Disfruto trabajar en equipo y resolver problemas digitales. Estoy capacitada para enfrentar situaciones estresantes con responsabilidad y liderazgo. Poseo conocimientos avanzados en gestión y programación, adquiridos en ciclos anteriores. Manejo lenguajes y tecnologías como Python, C++, HTML5, CSS3, .NET, Vue.js, C#, JavaScript, PHP, MongoDB y MySQL. | ![Foto de Beth Oneglio](assets/Perfil_Beth.png) |
 | Mi nombre es Leonardo Solis - U20211G163, tengo 21 años y actualmente curso la carrera de Ingeniería de Software. Desde pequeño me gustan los videojuegos, y esto me llevó a investigar cómo estaban hechos, descubriendo la programación e impulsándome a seguir aprendiendo más acerca de este mundo. | ![Foto de Leonardo Solis](assets/Perfil_Leonardo.png) |
 
@@ -412,9 +412,38 @@ Los riesgos principales se relacionan con la baja adopción inicial por desconfi
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
+- **Hypothesis Statement 01:**
+
+**Creemos que** los conductores buscan una forma rápida y confiable de encontrar estacionamiento disponible en tiempo real.  
+**Sabremos que** esto es cierto al observar un alto número de búsquedas de estacionamiento en la aplicación.  
+**Cuando** al menos el 60% de los usuarios consulte la app al menos 3 veces por semana para ubicar espacios libres.  
+
+- **Hypothesis Statement 02:**
+
+**Creemos que** los dueños de estacionamientos necesitan una plataforma que les permita optimizar el uso de sus espacios vacíos.  
+**Sabremos que** esto es cierto al medir la cantidad de espacios registrados y la frecuencia de reservas confirmadas.  
+**Cuando** más del 50% de los estacionamientos registrados incrementen su ocupación en un 30% durante el primer trimestre.  
+
+- **Hypothesis Statement 03:**
+
+**Creemos que** los usuarios valoran la posibilidad de pagar y reservar estacionamiento desde la app para ahorrar tiempo.  
+**Sabremos que** esto es cierto al rastrear el número de reservas y pagos realizados a través de la aplicación.  
+**Cuando** al menos el 40% de los usuarios activos utilicen el sistema de pago en línea al menos una vez por semana.  
+
+- **Hypothesis Statement 04:**
+
+**Creemos que** ofrecer notificaciones en tiempo real sobre disponibilidad y tarifas aumentará la satisfacción del usuario.  
+**Sabremos que** esto es cierto al analizar las calificaciones en la app y las reseñas positivas sobre la utilidad de las alertas.  
+**Cuando** más del 70% de los usuarios activen y mantengan activadas las notificaciones de la aplicación.  
+
+- **Hypothesis Statement 05:**
+
+**Creemos que** una interfaz sencilla y visualmente clara hará que los usuarios adopten y recomienden la aplicación.  
+**Sabremos que** esto es cierto al evaluar las métricas de retención de usuarios y la tasa de invitaciones compartidas.  
+**Cuando** al menos el 50% de los nuevos usuarios regresen a la app en la primera semana y un 20% recomiende Quadrapp a otros.  
+
 #### 1.2.2.4. Lean UX Canvas.
-(imagen con texto)
-| Geográfica                |  |  |
-| Demográfica               |  |  |
-| Psicológica               |  |  |
-| Función de comportamiento |  |  |
+
+El Lean UX Canvas es una herramienta empleada en el ámbito del diseño centrado en el usuario (UX) y la metodología Lean, con el propósito de desarrollar productos de manera más eficiente y eficaz. Su finalidad es ofrecer un marco estructurado que facilita la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas que el equipo ha trabajado utilizando Canva.
+
+![Lean UX Canvas](assets/Lean_UX_Canvas.jpg)
