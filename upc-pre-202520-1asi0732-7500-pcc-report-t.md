@@ -193,11 +193,11 @@ Además, incluimos espacios particulares: cualquier usuario con una cochera o es
 
 **Logotipo de la Startup:**
 
-![Logotipo PCC Team](assets/Logotipo_Startup.png)
+<img src="assets/Logotipo_Startup.png" alt="Logotipo PCC Team" width="200" />
 
 **Logotipo del Servicio:**
 
-[Logotipo Quadrapp](assets/Logotipo_Servicio.png)
+<img src="assets/Logotipo_Servicio.png" alt="Logotipo Quadrapp" width="200" />
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
