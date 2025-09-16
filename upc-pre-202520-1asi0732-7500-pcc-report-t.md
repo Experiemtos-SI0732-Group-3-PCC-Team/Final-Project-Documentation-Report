@@ -45,10 +45,7 @@
 
 (Imagenes de los commits cada entrega)
 
-
 # Contenido
-
-
 
 [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 
@@ -170,336 +167,254 @@
 |-|-|-|
 |Trabaja en equipo para proporcionar liderazgo en forma conjunta.|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
 |Trabaja en equipo para proporcionar liderazgo en forma conjunta|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
+
 # Capítulo I: Introducción
+
 ## 1.1. Startup Profile
+
+En esta sección se ofrece una descripción del startup y se detallan los perfiles de los integrantes del equipo.
+
 ### 1.1.1. Descripción de la Startup
+
+Quadrapp surge como una respuesta innovadora ante la ineficiente gestión de estacionamientos en espacios públicos y privados de alto tráfico. En las ciudades, los conductores pierden tiempo buscando espacios disponibles, lo que genera congestión, contaminación y malestar en la experiencia de uso.
+
+Lo que nos diferencia de otras aplicaciones es que no solo mostramos disponibilidad de espacios, sino que integramos tecnología IoT, cámaras de monitoreo, sensores y geolocalización para:
+
+- Detectar en tiempo real los espacios libres.
+- Permitir la reserva y el pago automatizado de estacionamientos.
+- Optimizar las rutas hacia los estacionamientos cercanos.
+- Brindar a los administradores una gestión eficiente y rentable de sus espacios.
+
+Además, incluimos espacios particulares: cualquier usuario con una cochera o estacionamiento privado podrá registrarlo en la app y generar ingresos extra.
+
+**Misión:** Facilitar el acceso a estacionamientos seguros, rápidos y confiables mediante el uso de tecnología, mejorando la movilidad urbana y la experiencia del conductor.
+
+**Visión:** Convertirnos en la aplicación líder en gestión de estacionamientos inteligentes, contribuyendo a ciudades más sostenibles, organizadas y conectadas.
+
+**Logotipo de la Startup:**
+
+![Logotipo PCC Team](assets/Logotipo_Startup.png)
+
+**Logotipo del Servicio:**
+
+[Logotipo Quadrapp](assets/Logotipo_Servicio.png)
+
 #### 1.1.2. Perfiles de integrantes del equipo
-|Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
-|-|-|-|-|
-|Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
+
+| Descripción de los Miembros del Equipo | Perfiles de los Miembros del Equipo |
+|----------------------------------------|--------------------------------------|
+| Mi nombre es Juan Jesús Calisaya Sánchez - u202121935, tengo 21 años y actualmente curso Ingeniería de Software. Me considero una persona responsable, amigable y empática. Poseo conocimientos en C++, SQL, Python, HTML/CSS, JavaScript, C#, entre otros lenguajes y tecnologías. Estas habilidades me serán de gran utilidad para llevar a cabo el proyecto. | ![Foto de Juan Jesús Calisaya Sánchez](assets/Perfil_Juan.png) |
+| Mi nombre es Luis, estudiante de la carrera de Ingeniería de Software, y estoy con muchas ganas de dar lo mejor de mí por este equipo. Me considero una persona curiosa, siempre dispuesta a escuchar y proponer ideas que aporten al grupo. A lo largo de mi formación, he desarrollado habilidades técnicas en el diseño guiado por el dominio (Domain Driven Design) y en el desarrollo front-end utilizando frameworks como Vue y Angular. Además, tengo experiencia intermedia programando en lenguajes como C++ y Python. | ![Foto de Luis Lagos](assets/Perfil_Luis.png) |
+|  | ![Foto de Pedro Nanfuñay](https://via.placeholder.com/150) |
+| Mi nombre es Beth Shantal Oneglio De Paz - u202213423, tengo 19 años y estudio Ingeniería de Software en la UPC. Disfruto trabajar en equipo y resolver problemas digitales. Estoy capacitada para enfrentar situaciones estresantes con responsabilidad y liderazgo. Poseo conocimientos avanzados en gestión y programación, adquiridos en ciclos anteriores. Manejo lenguajes y tecnologías como Python, C++, HTML5, CSS3, .NET, Vue.js, C#, JavaScript, PHP, MongoDB y MySQL. | ![Foto de Beth Oneglio](assets/Perfil_Beth.png) |
+| Mi nombre es Leonardo Solis - U20211G163, tengo 21 años y actualmente curso la carrera de Ingeniería de Software. Desde pequeño me gustan los videojuegos, y esto me llevó a investigar cómo estaban hechos, descubriendo la programación e impulsándome a seguir aprendiendo más acerca de este mundo. | ![Foto de Leonardo Solis](assets/Perfil_Leonardo.png) |
 
 ## 1.2. Solution Profile
+
+Está compuesta por dos secciones:
+
+### Antecedentes y Problemática:
+
+Esta sección describe el problema que el proyecto busca resolver. Incluye el enunciado del problema, una descripción de los aspectos clave que la solución debe abordar, así como los objetivos y las restricciones del proyecto.
+
+### Lean UX Process:
+
+Esta sección aplica el proceso de Lean UX y detalla cómo se abordará la resolución del problema mediante el modelo de negocio.
+
 ### 1.2.1 Antecedentes y problemática
+
+### Antecedentes:
+
+En la última década, el crecimiento acelerado del parque automotor ha generado una presión sin precedentes sobre los espacios de estacionamiento. Según la Asociación Automotriz del Perú (2023), Lima incrementa en más de 100,000 vehículos por año, intensificando el tráfico sobre todo en horas pico (7:00–9:00 AM y 5:00–8:00 PM).
+
+Además, estudios como el de Lima Cómo Vamos (2022) señalan que el 60% del tráfico en distritos como Miraflores y San Isidro se debe a vehículos en búsqueda de estacionamiento. Investigaciones internacionales como las de Shoup (2018) y Litman (2020) también destacan que la falta de estacionamientos inteligentes genera pérdidas económicas y un impacto ambiental considerable.
+
+Ante este panorama, la necesidad de alternativas de gestión inteligente de estacionamientos es cada vez más urgente.
+
+### Problemática (5Ws y 2Hs)
+
+#### What (Qué)
+
+**¿Cuál es el problema?**
+
+La ineficiente gestión de estacionamientos en espacios públicos y privados de alto tráfico. Los conductores pierden tiempo buscando un espacio, lo que genera congestión vehicular, contaminación y frustración.
+
+#### When (Cuándo)
+
+**¿Cuándo se presenta el problema?**
+
+- En horas pico (entrada/salida laboral, horarios escolares).
+- Durante eventos masivos (conciertos, partidos, ferias, etc.).
+- En zonas de alta demanda y poca oferta de estacionamientos.
+
+#### Who (Quién)
+
+**¿Quiénes están involucrados?**
+
+- Conductores particulares.
+- Propietarios/administradores de estacionamientos (comerciales y privados).
+
+**¿A quién le sucede el problema?**
+
+- A los conductores que pierden tiempo y dinero buscando estacionamiento.
+- A los propietarios que no logran rentabilizar al máximo sus espacios.
+
+**¿Quién lo utilizará?**
+
+- Conductores que buscan estacionar rápido y seguro.
+- Propietarios de cocheras, playas de estacionamiento o espacios privados que quieran generar ingresos extra.
+
+#### Why (Por qué)
+
+**¿Cuál es la causa del problema?**
+
+- Crecimiento desordenado de las ciudades.
+- Alta demanda y poca oferta de estacionamientos disponibles.
+- Falta de herramientas tecnológicas de gestión y monitoreo en tiempo real.
+- Ineficiencia en la administración de espacios privados no integrados al sistema.
+
+#### ¿Cuáles son las 2H?
+
+#### How (Cómo)
+
+**¿En qué condiciones los usuarios usan nuestro producto?**
+
+- Cuando necesitan estacionar en zonas de alto tráfico.
+- Bajo presión de tiempo (citas, trabajo, estudios, eventos).
+- Buscando reducir estrés, tiempo perdido y costos de transporte.
+
+**¿Cómo nos conocieron los usuarios?**
+
+- A través de campañas digitales (redes sociales, Google Maps, App Stores).
+- Recomendaciones boca a boca.
+- Al buscar soluciones a problemas de estacionamiento en apps móviles.
+
+**¿Cómo prefieren los usuarios acceder a nuestro servicio?**
+
+- Mediante aplicación móvil (Android/iOS).
+- Con integración web para reservas previas.
+- Opcionalmente con integración en sistemas de GPS o apps de movilidad.
+
+#### How much (Cuánto)
+
+**¿Cuánto impacta el problema?**
+
+- Un conductor puede perder entre 15 a 30 minutos diarios buscando estacionamiento.
+- Esto genera más del 30% del tráfico en zonas céntricas según estudios urbanos.
+- Impacto económico: pérdida de productividad, gastos adicionales en combustible y contaminación ambiental.
+- Impacto en propietarios: espacios desaprovechados que reducen ingresos potenciales.
+
 ### 1.2.2 Lean UX Process.
+
 #### 1.2.2.1. Lean UX Problem Statements.
+
+**Problem Statement**
+
+Nuestro propósito es desarrollar una aplicación que conecte a conductores urbanos con espacios de estacionamiento disponibles, tanto públicos como privados, mediante tecnologías IoT, cámaras, sensores y una plataforma digital (web y móvil).
+
+Hemos observado que los conductores pierden una cantidad significativa de tiempo y combustible buscando estacionamiento, lo cual genera congestión vehicular, contaminación ambiental y estrés. Asimismo, los propietarios de estacionamientos carecen de herramientas para gestionar, rentabilizar y optimizar sus espacios de manera eficiente.
+
+Este problema refleja una ineficiencia estructural en la gestión de la movilidad urbana, que afecta tanto a usuarios como a autoridades y administradores de espacios.
+
+La pregunta que nos planteamos es:
+
+¿Cómo podemos diseñar una solución tecnológica que optimice la búsqueda, reserva y pago de estacionamientos en tiempo real, reduciendo el impacto en la movilidad y el medio ambiente, al mismo tiempo que brinda valor económico a los propietarios de espacios?
+
 #### 1.2.2.2. Lean UX Assumptions.
-|Business Assumptions|User Assumptions|
-|-|-|
-|1. - 12. |1. - 6.|
+
+**Business Assumptions**
+
+**Necesidades de los Clientes**
+
+**Creemos que nuestros clientes buscan** encontrar estacionamientos de forma rápida, segura y confiable, reducir el tiempo perdido y el estrés al buscar parqueo, acceder a tarifas claras con reservas anticipadas y pagos digitales, y contar con una alternativa sostenible que disminuya la congestión y la contaminación.
+
+**Solución Propuesta**
+
+Nuestra aplicación está diseñada para mostrar en tiempo real los espacios de estacionamiento disponibles mediante IoT y sensores, permitir la reserva anticipada y el pago digital inmediato, ofrecer a los propietarios de espacios una plataforma web para gestionar, optimizar y rentabilizar sus estacionamientos, e integrar seguridad y trazabilidad en cada transacción.
+
+**Valor Principal**
+
+El valor principal de la aplicación se basa en la optimización de la movilidad urbana al reducir el tiempo de búsqueda de estacionamiento y el tráfico, así como en la generación de ingresos adicionales para los propietarios de estacionamientos. Entre los beneficios adicionales se encuentra la disminución de emisiones de CO₂ al reducir las vueltas innecesarias, la mayor seguridad y confianza al estacionar en espacios validados y la digitalización de la fiscalización municipal.
+
+**Beneficios Adicionales**
+
+**Adquisición de Clientes**
+
+La promoción de la aplicación se realizará a través de campañas en redes sociales y Google Ads, convenios con municipalidades y centros comerciales, estrategias de marketing con influencers y prensa digital especializada en movilidad urbana, además de un programa de referidos y recompensas para los usuarios iniciales.
+
+**Modelo de Ingresos**
+
+El modelo de ingresos se fundamenta en una comisión por cada reserva de estacionamiento confirmada, visible mediante un comprobante en pantalla, tarifas dinámicas en función de la demanda y la ubicación, y suscripciones premium para propietarios que deseen acceder a herramientas avanzadas de gestión.
+
+**Competencia**
+
+La competencia está representada por aplicaciones de estacionamiento como EasyPark o Parkopedia, que se centran principalmente en la búsqueda de espacios, pero carecen de integración local con municipalidades y propietarios particulares. La ventaja diferencial de Quadrapp es su modelo híbrido entre web y móvil, su integración de IoT en tiempo real y la inclusión de espacios particulares que actualmente no son explotados.
+
+**Riesgos Principales**
+
+**Estrategias para Mitigar Riesgos**
+
+Los riesgos principales se relacionan con la baja adopción inicial por desconfianza en pagos digitales, los costos de instalación de sensores o cámaras de monitoreo y la posible competencia de soluciones internacionales que ingresen al mercado local. Para mitigar estos riesgos se consideran promociones iniciales con estacionamientos gratuitos o con descuento, alianzas con municipalidades para reducir costos de infraestructura, un fuerte enfoque en seguridad digital con pagos encriptados y comprobantes visibles, y campañas educativas sobre los beneficios de la aplicación.
+
+**User Assumptions**
+
+**¿Quién es el usuario?**
+
+- Conductores urbanos (18–45 años).
+- Propietarios de estacionamientos (comerciales o residenciales).
+
+**¿Dónde encaja nuestro producto en sus trabajos o vidas?**
+
+- Conductores: uso cotidiano en trayectos a trabajo, estudios o actividades sociales.
+- Propietarios: gestión digital y en tiempo real de sus espacios desde la web.
+
+**¿Qué problema resuelve nuestro producto?**
+
+- Reduce el tiempo de búsqueda de parqueo.
+- Mejora la seguridad y confianza al estacionar.
+- Aumenta ingresos de propietarios.
+
+**¿Cuándo y cómo es usado nuestro producto?**
+
+- Conductores: antes y durante la salida, al planificar o llegar a un destino.
+- Propietarios: de manera continua para registrar disponibilidad, tarifas y reservas.
+
+**¿Qué características son importantes?**
+
+- Reserva en tiempo real y pagos digitales seguros.
+- Integración con mapas y geolocalización.
+- Notificaciones de disponibilidad y tarifas.
+- Panel web para gestión de espacios.
+
+**Feature Assumptions**
+
+- Los sensores IoT podrán detectar en tiempo real la disponibilidad de espacios.
+- Los usuarios preferirán pagar digitalmente desde la app en lugar de efectivo.
+- Los propietarios estarán dispuestos a digitalizar su gestión para aumentar ingresos.
+
+**Business Outcomes**
+
+- Reducción del 30% en tiempo de búsqueda de estacionamientos.
+- Aumento del 20% en ingresos para propietarios y municipalidades.
+- Disminución del 15% en emisiones contaminantes en zonas críticas.
+
+**Users**
+
+- Conductores urbanos con smartphone.
+- Propietarios de espacios de estacionamiento.
+- Municipalidades que administran espacios públicos.
+
+**User Outcomes & Benefits**
+
+- Ahorro de tiempo y combustible.
+- Reducción del estrés y mejora en la experiencia de movilidad.
+- Ingresos adicionales para propietarios de estacionamientos.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-Texto
+
 #### 1.2.2.4. Lean UX Canvas.
 (imagen con texto)
-## 1.3. Segmentos objetivo.
-| | Segmento 1 | Segmento 2  |
-| - | - |-|
-| Variables                 |  |  |
 | Geográfica                |  |  |
 | Demográfica               |  |  |
 | Psicológica               |  |  |
 | Función de comportamiento |  |  |
-
----
-
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores.
-### 2.1.1. Análisis competitivo.
-
-| Competitive Analysis Landscape                          |  |
-| ------------------------------------------------------- | -|
-| ¿Por qué llevar a cabo este análisis?                   | -- |
-
-
-| |  | (Nosotros) | Competidor  | Comptdor |
-|-|-|-|-|-|
-| PERFIL| Overview | lorem | ipsum | lorem |
-|| Ventaja competitiva ¿Qué valor ofrece a los clientes? |  ipsu | impuz |
-|| Mercado Objetivo                                        | Jeda | asa | asa2 |
-| Perfil de marketing                                     | Estrategia de Marketing | Redes Sociales | Redes Sociales | Televisión, Redes Sociales |
-| Perfil del producto                                     | Productos y servicios | Elementos Gráficos Interactivos Enseñanza de Matemáticas Lúdica y Autodidacta Educación matemática interactiva Ámbito Freemium | Educación matemática interactiva Mas de 100 cursos en 28 idiomas diferentes | Educación general interactiva Contratos con Movistar |
-|| Precios y costos                                        | Freemium (Cuenta Premium permite personalizar los juegos) Gratis | Gratuito | Gratuito |
-|| Canales de distribución (Web y/o Móvil)                 | Web y Móvil Web | Móvil Web | Web y móvil Web |
-### 2.1.2. Estrategias y tácticas frente a competidores.
-
-
-|Competidores ->|  | Nosotros | Competidor2| Competidor3|
-|-|-|-|-|-|
-| Análisis SWOT | Fortalezas | lorem | Lorem | lorem |
-|| Debilidades   | lorem | lorem | lorem | lorem | 
-|| Oportunidades | lorem | lorem | lorem | lorem | 
-|| Amenazas      | lorem | lorem | lorem | lorem |
-
-## 2.2. Entrevistas.
-### 2.2.1. Diseño de entrevistas.
-**Preguntas generales:**
-
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
-
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 2.2.2. Registro de entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
-
-### 2.2.3. Análisis de entrevistas.
-**Segmento 1:**
-{texto}
-**Segmento 2:**
-{texto}
-## 2.3. Needfinding.
-### 2.3.1. User Personas.
-**Segmento 1:**  
-![Imagen User Persona 1](image.jpg)
-
-**Segmento 2:**
-![Imagen User Persona 1](image.jpg)
-
-### 2.3.2. User Task Matrix.
-| --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
-| --- | ------ | ----------- | ------------ | ----------- | ---------- |
-| ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
-| U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
-### 2.3.3. User Journey Mapping.
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
-  
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
-
-### 2.3.4. Empathy Mapping.
-**Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
-
-**Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
-### 2.3.5. As-is Scenario Mapping.
-
-**Segmento 1**  
-Escenario: {escenario}
-
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
-
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
-
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
-## 2.4 Big Picture EventStorming.
-
-## 2.5. Ubiquitous Language.
-```
-Texto ubiquo: Definicion de este
-```
-
----
-
-# Capítulo III: Requirements Specification
-
-## 3.1. User Stories.
-
-| HU0X | Historia Usuario | "Descripcion"  |
-|-|-|-|
-
-## 3.2. Impact Mapping.
-
-![Impact Mapping](image.jpg)
-
-## 3.3. Product Backlog.
-
-| #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
-| ------ | ------------- | ----- | ---------- | ------------------------ |
-| 1      | HU01          | titulo his | desc  | 5                        |
-
-# Capítulo IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design.
-### 4.1.1. Design-Level EventStorming.
-#### 4.1.1.1 Candidate Context Discovery.
-#### 4.1.1.2 Domain Message Flows Modeling.
-#### 4.1.1.3 Bounded Context Canvases.
-### 4.1.2. Context Mapping.
-### 4.1.3. Software Architecture.
-#### 4.1.3.1. Software Architecture System Landscape Diagram.
-#### 4.1.3.2. Software Architecture Context Level Diagrams.
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
-#### 4.1.3.3. Software Architecture Deployment Diagrams.
-## 4.2. Tactical-Level Domain-Driven Design
-
-
-### 4.2.X. Bounded Context:
-#### 4.2.X.1. Domain Layer.
-#### 4.2.X.2. Interface Layer.
-#### 4.2.X.3. Application Layer.
-#### 4.2.X.4. Infrastructure Layer.
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams..
-
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.X.6.2. Bounded Context Database Design Diagram.
-
-# Capítulo V: Solution UI/UX Design
-
-## 5.1. Style Guidelines.
-### 5.1.1. General Style Guidelines.
-### 5.1.2. Web, Mobile and IoT Style Guidelines.
-## 5.2. Information Architecture.
-### 5.2.1. Organization Systems.
-### 5.2.2. Labeling Systems.
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems.
-### 5.2.5. Navigation Systems.
-## 5.3. Landing Page UI Design.
-### 5.3.1. Landing Page Wireframe.
-### 5.3.2. Landing Page Mock-up.
-## 5.4. Applications UX/UI Design.
-### 5.4.1. Applications Wireframes.
-### 5.4.2. Applications Wireflow Diagrams.
-### 5.4.2. Applications Mock-ups.
-### 5.4.3. Applications User Flow Diagrams.
-## 5.5. Applications Prototyping.
-
-
-# Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
-
-## 6.2. Landing Page, Services & Applications Implementation.
-
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-#### 6.2.X.2. Aspect Leaders and Collaborators.
-#### 6.2.X.3. Sprint Backlog n.
-#### 6.2.X.4. Development Evidence for Sprint Review.
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.6. Execution Evidence for Sprint Review.
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
-
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
-
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
-
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 6.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
-### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
-## 6.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
-# Conclusiones
-{texto}
-# Conclusiones y recomendaciones.
-{texto}
-# Video About-the-Team.
-[URL del video about the team](https://www.example.com)
-
-# Bibliografía
-qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
-Recuperado 20 de junio de 2022, de [LINK](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
-
-LeaseIN. (2018). Importancia de contar con un equipo de soporte
-técnico. [Entrada en blog]. Recuperado de:
-[LINK](https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/)
-``` 
-formato
-
-"Apellido", Ini.Ciales. & "otroAutor", O.A. (año). titulo del articulo.
-        "nombre del articulo o lo q sea, Volumen(si es que tiene), numero  de pagina"#-#. https//link.org/eeeseneko
-
-```
-# Anexos
-
-datos, gráficos, imágenes, esquemas, mapas o referencias de otros autores
-
-![Imagen de algo no nuestro ](image.jpg)
-
-
-
-
-
-
