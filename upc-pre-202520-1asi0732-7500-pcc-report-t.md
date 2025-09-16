@@ -346,7 +346,7 @@ El "To-Be Scenario Mapping" para Conductores Urbanos Frecuentes muestra los resu
 
 Escenario ideal para usuarios frecuentes que buscan estacionarse sin complicaciones.
 
-![ToBeScenarioMapping-Segmento1](assets/ToBeScenarioMapping-Segmento1.PNG)
+![ToBeScenarioMapping-Segmento1](assets/ToBeScenarioMapping-Segmento1.png)
 
 <br>
 
@@ -355,7 +355,7 @@ El "To-Be Scenario Mapping" para Propietarios de Estacionamientos muestra los re
 
 Escenario ideal para usuarios frecuentes que buscan estacionar sin complicaciones.
 
-![ToBeScenarioMapping-Segmento2](assets/ToBeScenarioMapping-Segmento2.PNG)
+![ToBeScenarioMapping-Segmento2](assets/ToBeScenarioMapping-Segmento2.png)
 
 ## 3.2. User Stories.
 
