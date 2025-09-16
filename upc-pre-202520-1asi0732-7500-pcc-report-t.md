@@ -1749,9 +1749,66 @@ Los User Stories para el proyecto Quadrapp están orientadas a mejorar la experi
 
 ## 3.3. Product Backlog.
 
-| #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
-| ------ | ------------- | ----- | ---------- | ------------------------ |
-| 1      | HU01          | titulo his | desc  | 5                        |
+| #Orden | User Story ID | Título | Descripción | Story Points (1/2/3/5/8) |
+| ------ | ------------- | ------ | ----------- | ------------------------ |
+| 1 | US01 | Navegación Intuitiva en la Landing Page | Como visitante de Quadrapp, deseo que la landing page tenga una barra de navegación clara y accesible para encontrar fácilmente las secciones importantes. | 5 |
+| 2 | US02 | Visualización de Ciudades con Servicio | Como visitante, deseo ver en la landing page las ciudades donde Quadrapp está disponible para saber si puedo utilizar el servicio en mi ubicación. | 3 |
+| 3 | US03 | Promociones Destacadas | Como visitante, deseo ver promociones destacadas en la landing page para aprovechar descuentos y beneficios en las ciudades disponibles. | 5 |
+| 4 | US04 | Beneficios para Conductores y Dueños de Estacionamiento | Como visitante, deseo ver una sección en la landing page que me explique los beneficios de usar Quadrapp para entender las ventajas que ofrece. | 3 |
+| 5 | US05 | Visualización de Misión de la Empresa | Como visitante, deseo ver una sección en la landing page que me explique los beneficios de usar Quadrapp para entender las ventajas que ofrece. | 2 |
+| 6 | US06 | Visualización de Visión de la Empresa | Como visitante, deseo ver la visión de Quadrapp en la landing page para conocer sus metas futuras y crecimiento. | 2 |
+| 7 | US07 | Visualización del Equipo | Como visitante, deseo ver una sección que muestre a los miembros del equipo de Quadrapp para conocer quiénes están detrás del proyecto. | 3 |
+| 8 | US08 | Información de Contacto                                  | Como visitante, deseo ver una sección de contacto en la landing page para saber cómo comunicarme con Quadrapp si tengo preguntas o comentarios. | 3 |
+| 9 | US09 | Envío de Mensaje de Contacto | Como visitante, deseo poder enviar un mensaje a Quadrapp desde la landing page para hacer preguntas o dar feedback. | 5 |
+| 10 | US10 | Visualización de Información de Características | Como visitante, deseo ver las características de Quadrapp en la landing page para entender qué ofrece el servicio. | 3 |
+| 11 | US11 | Botón de Registro e Inicio de Sesión | Como visitante, deseo ver botones destacados de "Registrarse" e "Iniciar Sesión" en la landing page para acceder a la plataforma o crear una cuenta fácilmente. | 5 |
+| 12 | US12 | Enlace a Redes Sociales | Como visitante, deseo ver enlaces a las redes sociales de Quadrapp en la landing page para seguir sus novedades y actualizaciones. | 2 |
+| 13 | US13 | Visualización de Slogan | Como visitante, deseo ver un slogan atractivo en la landing page de Quadrapp para entender de inmediato la propuesta del servicio. | 2 |
+| 14 | US14 | Acceso a Información Legal | Como visitante, deseo ver enlaces a la información legal y políticas de privacidad en la landing page para revisar los términos de uso y la protección de mis datos. | 3 |
+| 15 | US15 | Inicio de Sesión para Conductores | Como conductor interesado en usar Quadrapp, deseo iniciar sesión con mi cuenta registrada anteriormente para acceder a la aplicación. | 5 |
+| 16 | US16 | Registro de Conductores | Como conductor interesado en usar Quadrapp, deseo registrar mi cuenta para acceder a la plataforma. | 5 |
+| 17 | US17 | Registro de Propietarios de estacionamiento | Como propietario de estacionamiento, deseo registrar mi cuenta para hacer uso de las funcionalidades que me ofrece Quadrapp. | 5 |
+| 18 | US18 | Búsqueda de Reservas para Conductores | Como conductor, deseo hacer uso de la búsqueda de reservas para visualizar mis reservas activas y pasadas. | 3 |
+| 19 | US19 | Pago de Reservas por Transacción | Como conductor, deseo realizar el pago de mis reservas por transacción para completar mis reservas. | 5 |
+| 20 | US20 | Confirmación de Reserva Registrada | Como conductor, deseo que se muestre una pantalla de confirmación para asegurarme de que la reserva fue registrada correctamente. | 3 |
+| 21 | US21 | Registro de Opiniones | Como usuario, deseo registrar mis opiniones para dar mi retroalimentación sobre mis experiencias con las funcionalidades de la plataforma. | 3 |
+| 22 | US22 | Notificaciones en el Dashboard del Conductor | Como conductor, deseo recibir notificaciones en mi dashboard para recibir alertas relevantes como ofertas o recordatorios de reservas. | 5 |
+| 23 | US23 | Configuración de Preferencias de Usuario | Como usuario, deseo configurar mis preferencias de uso para personalizar mi experiencia en la plataforma. | 3 |
+| 24 | US24 | Historial de Reservas en el Dashboard del Conductor | Como conductor, deseo visualizar mi historial de reservas para consultar mis reservas realizadas. | 3 |
+| 25 | US25 | Alerta de Espacio Disponible | Como conductor, deseo recibir alertas de disponibilidad de espacios para ser notificado cuando un espacio de mi interés esté disponible. | 5 |
+| 26 | US26 | Soporte en Tiempo Real en el Dashboard del Conductor | Como conductor, deseo un sistema de soporte en tiempo real para poder resolver mis dudas o problemas rápidamente. | 5 |
+| 27 | US27 | Favoritos para Conductores | Como conductor, deseo marcar estacionamientos de mi interés como favoritos para facilitar futuras reservas. | 3 |
+| 28 | US28 | Verificación de Reserva en el Dashboard del Conductor    | Como conductor, deseo verificar el estado de mi reserva para confirmar si el espacio que deseo está listo para ocuparse. | 3 |
+| 29 | US29 | Cancelación de Reserva en el Dashboard | Como conductor, deseo acceder a la opción de cancelar mi reserva para evitar inconvenientes en caso de cambio de planes. | 5 |
+| 30 | US30 | Gestión de Alertas para Conductores | Como conductor, deseo visualizar las alertas en mi dashboard para gestionar mis alertas de seguridad o disponibilidad. | 5 |
+| 31 | US31 | Personalización de Notificaciones para Conductores | Como conductor, deseo personalizar mis preferencias de notificación para recibir solo las alertas que me interesan. | 3 |
+| 32 | US32 | Visualización de Mapa en el Dashboard del Conductor | Como conductor, deseo acceder a un mapa interactivo en el dashboard para ver ubicaciones de estacionamientos cercanos en tiempo real. | 5 |
+| 33 | US33 | Seguimiento de Reserva en Tiempo Real | Como conductor, deseo hacer seguimiento en tiempo real de mi reserva para ver el estado del mismo en todo momento. | 5 |
+| 34 | TS01 | Gestión de Clientes en Servicio al Cliente | Como developer, deseo crear un endpoint para gestionar consultas y solicitudes de servicio al cliente para permitir soporte eficaz a los usuarios. | 3 |
+| 35 | TS02 | Notificación de Cambios en la Disponibilidad de Espacios | Como developer, deseo implementar un endpoint que envíe notificaciones automáticas cuando un espacio cambie de estado para mantener a los usuarios informados en tiempo real. | 5 |
+| 36 | TS03 | Historial de Transacciones para Usuarios | Como developer, deseo desarrollar un endpoint para consultar el historial de transacciones de cada usuario para permitir la revisión de pagos y reservas anteriores. | 3 |
+| 37 | TS04 | Gestión de Ocupación de Espacios en Tiempo Real | Como developer, deseo implementar un endpoint para actualizar automáticamente la disponibilidad de espacios para reflejar cambios en tiempo real según las cámaras de monitoreo visual. | 5 |
+| 38 | TS05 | Configuración de Alertas de Seguridad | Como developer, deseo implementar un endpoint para que los administradores configuren alertas de seguridad para responder rápidamente a eventos sospechosos en los espacios de estacionamiento. | 5 |
+| 39 | TS06 | Administración de Tarifas por Ubicación | Como developer, deseo implementar un endpoint para configurar tarifas de estacionamiento basadas en la ubicación para que los administradores ajusten precios según la demanda. | 5 |
+| 40 | TS07 | Registro de Alertas de Seguridad | Como developer, deseo un endpoint para registrar todas las alertas de seguridad detectadas en los estacionamientos para que los administradores revisen incidentes pasados. | 3 |
+| 41 | TS08 | Gestión de Datos de Vehículos | Como developer, deseo un endpoint para almacenar y gestionar información de los vehículos registrados para poder hacer seguimiento y gestionar accesos. | 3 |
+| 42 | TS09 | Reportes de Promociones Utilizadas | Como developer, deseo un endpoint para generar reportes de promociones utilizadas para analizar la efectividad de las promociones y optimizar futuras campañas. | 3 |
+| 43 | TS10 | Auditoría de Acciones en la Plataforma | Como developer, deseo un endpoint para registrar y auditar todas las acciones críticas de los usuarios y administradores para garantizar la seguridad y trazabilidad de las operaciones. | 5 |
+| 44 | TS11 | Historial de Opiniones de Usuarios | Como developer, deseo implementar un endpoint para registrar y consultar el historial de opiniones de los usuarios para mejorar la experiencia de usuario a través del feedback. | 3 |
+| 45 | TS12 | Integración con el Sistema de Pago | Como developer, deseo un endpoint para procesar pagos y verificar transacciones para asegurar que todos los pagos de reservas se realicen de forma segura. | 5 |
+| 46 | TS13 | Generación de Reportes de Ocupación | Como developer, deseo un endpoint para generar reportes de ocupación de los estacionamientos para analizar el uso y optimizar la disponibilidad de espacios. | 3 |
+| 47 | TS14 | Configuración de Opciones de Notificaciones | Como developer, deseo implementar un endpoint para que los usuarios configuren sus preferencias de notificaciones para personalizar los avisos que desean recibir. | 3 |
+| 48 | TS15 | API de Feedback Automático | Como developer, deseo implementar un endpoint para recopilar feedback de los usuarios al finalizar su reserva para obtener insights sobre su experiencia de usuario. | 3 |
+| 49 | TS16 | Gestión de Reembolsos | Como developer, deseo implementar un endpoint para gestionar solicitudes de reembolso para asegurar que los usuarios puedan solicitar reembolsos fácilmente en caso de problemas. | 3 |
+| 50 | TS17 | Auditoría de Cambios de Tarifas | Como developer, deseo un endpoint para auditar todas las modificaciones de tarifas en la plataforma para asegurar un control y seguimiento sobre los cambios de precios. | 8 |
+| 51 | SP01 | Investigación sobre integración de OAuth2 | Como developer, quiero investigar bibliotecas de autenticación OAuth2 disponibles, con el fin de garantizar una integración segura y compatible con la arquitectura del sistema. | 5 |
+| 52 | SP02 | Evaluación de pasarelas de pago | Como developer, quiero investigar distintas pasarelas de pago (PayPal, MercadoPago, Yape), para de identificar la opción más adecuada para la plataforma. | 5 |
+| 53 | SP03 | Investigación de mapas en tiempo real | Como developer, quiero evaluar servicios de mapas en tiempo real (Google Maps, Mapbox, OpenStreetMap), para determinar cuál permite mostrar ubicaciones y trayectorias de reservas activas con mejor rendimiento. | 8 |
+| 54 | SP04 | Evaluación de notificaciones push y alertas | Como developer, quiero investigar servicios de notificaciones push (Firebase, OneSignal, WebPush), con el fin de identificar la solución más confiable y con menor latencia para propietarios de estacionamiento y conductores. | 5 |
+| 55 | SP05 | Investigación de escalabilidad para múltiples reservas simultáneas | Como developer, quiero analizar cómo manejar múltiples reservas simultáneas, con el fin de evitar conflictos en la asignación de reservas y garantizar la integridad de los datos. | 5 |
+| 56 | SP06 | Evaluación de seguridad y cifrado de datos sensibles | Como developer, quiero implementar el cifrado de datos, para cumplir con los estándares de seguridad y proteger la información de usuarios y pagos. | 8 |
+| 57 | SP07 | Pruebas de rendimiento de la aplicación | Como developer, quiero realizar pruebas de rendimiento en la aplicación, para garantizar que el sistema soporte un alto volumen de usuarios concurrentes. | 8 |
+
 
 ## 3.4. Impact Mapping.
 
