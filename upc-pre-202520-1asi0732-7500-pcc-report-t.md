@@ -1547,6 +1547,203 @@ Los User Stories para el proyecto Quadrapp están orientadas a mejorar la experi
 <tr> 
   <td colspan="4">Escenario 01: Given que un administrador modifica una tarifa, When se registra el cambio en el endpoint `/api/rate-audit`, Then debería almacenar la fecha, hora y detalles de la tarifa modificada. <br> Escenario 02: Given que un auditor revisa el historial de cambios de tarifas, When solicita un reporte, Then debería obtener un listado con todas las modificaciones realizadas.</td> 
 </tr>
+
+<tr>
+  <td>SP01</td>
+  <td>Developer</td>
+  <td>Alta</td>
+  <td>EP15</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Investigación sobre integración de OAuth2</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero investigar bibliotecas de autenticación OAuth2 disponibles, 
+    con el fin de garantizar una integración segura y compatible con la arquitectura del sistema.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br>
+    Given que el developer debe evaluar opciones de autenticación, When se evaluán criterios de compatilidad, seguridad y facilidad de integración y se realizan al menos dos pruebas de librerías OAuth2, Then se debe documentar su compatibilidad y facilidad de integración.<br> Escenario 02: <br>
+    Given que se implementa un prototipo mínimo, When se realiza un inicio de sesión de prueba,<br>
+    Then el sistema debe autenticar correctamente y emitir un token válido.
+  </td>
+</tr>
+
+<tr>
+  <td>SP02</td>
+  <td>Developer</td>
+  <td>Alta</td>
+  <td>EP19</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Evaluación de pasarelas de pago</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero investigar distintas pasarelas de pago (PayPal, MercadoPago, Yape), 
+    para de identificar la opción más adecuada para la plataforma.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br> Given que se seleccionan al menos dos pasarelas de pago, When se simula un pago exitoso en cada una, Then la transacción debe completarse correctamente y quedar registrada. <br> Escenario 02: <br> Given que se comparan las APIs de las pasarelas, When se revisa documentación y costos, Then se debe entregar un informe con ventajas y desventajas de cada una.<br>
+  </td>
+</tr>
+
+<tr>
+  <td>SP03</td>
+  <td>Developer</td>
+  <td>Alta</td>
+  <td>EP12</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Investigación de mapas en tiempo real</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero evaluar servicios de mapas en tiempo real (Google Maps, Mapbox, OpenStreetMap), para determinar cuál permite mostrar ubicaciones y trayectorias de reservas activas con mejor rendimiento.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br> Given que se integra una librería de mapas,<br> When se visualiza la ubicación de un dispositivo en tiempo real,<br>Then el mapa debe actualizarse sin retraso significativo.<br> Escenario 02: <br> Given que se prueban las opciones seleccionadas en un dispositivo, When se mide consumo de datos y rendimiento, Then se debe documentar cuál ofrece mejor balance entre costo y eficiencia.<br>
+  </td>
+</tr>
+
+<tr>
+  <td>SP04</td>
+  <td>Developer</td>
+  <td>Media</td>
+  <td>EP11</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Evaluación de notificaciones push y alertas</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero investigar servicios de notificaciones push (Firebase, OneSignal, WebPush), 
+    con el fin de identificar la solución más confiable y con menor latencia para propietarios de estacionamiento y conductores.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br> Given que el sistema envía una notificación de prueba, When un usuario con dispositivo Android la recibe, Then la notificación debe mostrarse de forma inmediata. <br> Escenario 02: <br> Given que se configuran distintos proveedores de push notifications, When se ejecutan pruebas de latencia, Then se debe documentar cuál presenta mejor tiempo de entrega y personalización.<br>
+  </td>
+</tr>
+
+<tr>
+  <td>SP05</td>
+  <td>Developer</td>
+  <td>Alta</td>
+  <td>EP18</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Investigación de escalabilidad para múltiples reservas simultáneas</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero analizar cómo manejar múltiples reservas simultáneas, con el fin de evitar conflictos en la asignación de reservas y garantizar la integridad de los datos.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br> Given que se simulan múltiples conductores solicitando reservas, When dos solicitudes intentan reservar el mismo espacio, Then solo una debe confirmarse y la otra ser rechazada. <br> Escenario 02: <br> Given que se utiliza una estrategia de concurrencia, When se ejecuta una prueba de carga, Then los resultados deben demostrar que los datos de las reservas se mantienen consistentes.<br>
+  </td>
+</tr>
+
+<tr>
+  <td>SP06</td>
+  <td>Developer</td>
+  <td>Alta</td>
+  <td>EP15</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Evaluación de seguridad y cifrado de datos sensibles</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero implementar el cifrado de datos, para cumplir con los estándares de seguridad y proteger la información de usuarios y pagos.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br> Given que se configura cifrado en base de datos, When se guarda información sensible, Then los registros no deben almacenarse en texto plano. <br> Escenario 02: <br> Given que se activa protocolos TLS para las comunicaciones, When un cliente se conecta al servidor, Then la transferencia de datos debe estar encriptada de extremo a extremo.<br>
+  </td>
+</tr>
+
+<tr>
+  <td>SP07</td>
+  <td>Developer</td>
+  <td>Alta</td>
+  <td>EP18</td>
+</tr>
+<tr>
+  <td>Title</td>
+  <td colspan="3">Pruebas de rendimiento de la aplicación</td>
+</tr>
+<tr>
+  <td colspan="4">Description</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Como developer, quiero realizar pruebas de rendimiento en la aplicación, para garantizar que el sistema soporte un alto volumen de usuarios concurrentes.
+  </td>
+</tr>
+<tr>
+  <td colspan="4">Acceptance Criteria</td>
+</tr>
+<tr>
+  <td colspan="4">
+    Escenario 01: <br> Given que se configuran pruebas de carga con al menos 500 usuarios simultáneos, When se ejecuta la simulación, Then el sistema debe responder sin errores críticos y manteniendo un tiempo de respuesta aceptable. <br> Escenario 02: <br> Given que se ejecutan pruebas bajo condiciones de red inestables, When el sistema procesa solicitudes de usuarios con pérdida de paquetes, Then debe seguir funcionando sin afectar la integridad de los datos.
+  </td>
+</tr>
+
+
 </table>
 
 
