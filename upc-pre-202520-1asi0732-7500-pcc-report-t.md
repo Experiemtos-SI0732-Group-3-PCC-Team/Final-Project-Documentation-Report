@@ -986,13 +986,99 @@ Localizar estacionamientos y reservas **rápido y con pocos pasos**.
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
+En el marco del proyecto Quadrapp, se ha diseñado una landing page como puerta de entrada principal para los usuarios. Su propósito es transmitir la propuesta de valor, guiar al visitante hacia la acción de reservar estacionamientos y generar confianza en la aplicación. El diseño se inició con un wireframe en baja fidelidad, que definió estructura y jerarquía visual. Posteriormente, se aplicará la guía de estilos establecida para producir mockups en alta fidelidad. De esta manera, la landing integra coherencia estética y funcionalidad acorde al branding de Quadrapp.
+
+![Quadrapp LandingPageWireframe](./assets/LandingPage-Experimentos.png)
+
+---
+
+
+![Quadrapp LandingPageWireframe](./assets/LandigPageWireframeResponsive.png)
+
 ### 4.3.2. Landing Page Mock-up
+
+En el marco del proyecto Quadrapp, se desarrolló el mockup en alta fidelidad de la landing page, aplicando la guía de estilos definida (colores, tipografía, iconografía y componentes). Este mockup refleja de manera visual el branding de la aplicación, transmitiendo modernidad y confianza. A partir del wireframe inicial, se incorporaron mejoras en la jerarquía, usabilidad y atractivo visual. El resultado es una propuesta clara y coherente que guía al usuario hacia la acción de reservar estacionamientos. De esta forma, el mockup consolida la estética final y la experiencia esperada de Quadrapp.
+
+![Quadrapp LandingPageMockup](./assets/LandingPageMockup-Experimentos.png)
+
+
+---
+
+![Quadrapp LandingPageMockup](./assets/LandingPageMockupResponsiv-Expermientos.png)
+
 
 ## 4.4. Mobile Applications UX/UI Design
 ### 4.4.1. Mobile Applications Wireframes
+
+En el marco del proyecto Quadrapp, se elaboraron los wireframes móviles como base para la aplicación destinada a conductores. Estos prototipos en baja fidelidad permiten definir la estructura de navegación, distribución de pantallas y principales flujos de interacción. Se incluyen vistas clave como login, registro, búsqueda de estacionamientos, reservas y perfil de usuario. Su objetivo es validar la usabilidad y lógica de la aplicación antes de aplicar el diseño visual final. Así, los wireframes móviles sirven como punto de partida para los mockups en alta fidelidad.
+
+Inicio de sesión:
+
+---
+
+![Quadrapp WireframeMovil](./assets/IniciarSesionWFmovil.png)
+
+---
+Crear cuenta:
+
+---
+
+![Quadrapp WireframeMovil](./assets/CreacionCuentaWFMovil.png)
+
+---
+Información de estacionamiento:
+
+---
+![Quadrapp WireframeMovil](./assets/InformacionReservaWfmovil.png)
+
+---
+Filtrar busqueda: 
+
+---
+![Quadrapp WireframeMovil](./assets/FiltrarEstacionamientoWFMovil.png)
+
+---
+Perfil de usuario:
+
+---
+
+![Quadrapp WireframeMovil](./assets/PerfilWfMovil.png)
+
+  
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+En el desarrollo de Quadrapp, se diseñaron los wireflow diagrams móviles para representar de manera clara los flujos de navegación entre pantallas. Estos diagramas combinan wireframes con conexiones que muestran las acciones del usuario y sus posibles recorridos. Permiten visualizar cómo se realiza una reserva desde la búsqueda hasta el pago, incluyendo casos alternativos. Su propósito es validar la coherencia y simplicidad de la experiencia antes de la implementación. De este modo, los wireflows complementan a los wireframes y enriquecen el proceso de diseño de la app
+
+Primeros pasos del usuario:
+
+---
+
+![Quadrapp FlujoFrame](./assets/FlujoPrimerosPasosWireFrame.png)
+
+---
+Reserva de estacionamiento:
+
+---
+
+![Quadrapp FlujoFrame](./assets/ReservaDeUnEstacionamientoWFmovil.png)
+
+---
+
+![Quadrapp FlujoFrame](./assets/ConfiguracionsdePerdilWFmovil.png)
+
+
 ### 4.4.3. Mobile Applications Mock-ups
+
+En el marco del proyecto Quadrapp, se desarrollaron los mockups móviles en alta fidelidad como evolución de los wireframes iniciales. Estos prototipos incorporan el sistema de diseño definido (colores, tipografía, iconografía y componentes) para reflejar la identidad visual de la aplicación. Se presentan las vistas clave de login, registro, búsqueda de estacionamientos, reservas y perfil de usuario con un estilo consistente y atractivo. Su finalidad es mostrar cómo será la experiencia real del usuario en la app. De esta manera, los mockups móviles consolidan la propuesta final antes de la etapa de desarrollo.
+
+
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mockups móviles, con el fin de representar los principales recorridos del usuario dentro de la aplicación. Estos diagramas muestran de manera visual y detallada cómo el usuario avanza desde el inicio de sesión, la búsqueda de estacionamientos y la reserva, hasta el pago y la visualización del pase QR. Al estar basados en los mockups de alta fidelidad, permiten validar la coherencia del diseño, la facilidad de navegación y la efectividad de los flujos planteados. Así, los User Flow Diagrams sirven como guía clara para el desarrollo e implementación de la experiencia de usuario en la app.
+
+
+
 
 ## 4.5. Mobile Applications Prototyping
 ### 4.5.1. Android Mobile Applications Prototyping
@@ -1008,15 +1094,35 @@ Localizar estacionamientos y reservas **rápido y con pocos pasos**.
 
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
+En el marco del proyecto Quadrapp, se elaboró el Software Architecture Context Diagram, el cual muestra una visión de alto nivel de la plataforma y su relación con los actores externos. Este diagrama identifica a los principales usuarios (conductores, operadores y administradores), así como los sistemas externos con los que interactúa (autenticación, pasarela de pagos, mapas y notificaciones). Su objetivo es establecer los límites del sistema, evidenciar las dependencias tecnológicas y brindar una comprensión clara del ecosistema donde se desarrollará la solución.
+
+![Quadrapp C4](./assets/C4QuadrappContext.PNG)
+
 ### 4.8.2. Software Architecture Container Diagrams
+En el marco del proyecto Quadrapp, se desarrollaron los Container Diagrams, que descomponen el sistema en sus principales contenedores de software. Estos diagramas muestran cómo se organizan la aplicación web, la aplicación móvil, el backend API, los servicios de soporte y la base de datos. Su objetivo es detallar la responsabilidad de cada contenedor, las tecnologías empleadas y las interacciones entre ellos, brindando una visión clara de la arquitectura lógica y de despliegue de la solución.
+
+![Quadrapp C4](./assets/C4QuadrappContainers.PNG)
+
 ### 4.8.3. Software Architecture Components Diagrams
+
+En el marco del proyecto Quadrapp, se elaboraron los Component Diagrams con el fin de detallar la organización interna de los contenedores principales, en especial el API Backend. Estos diagramas permiten visualizar los componentes clave (controladores, servicios, repositorios y adaptadores) y su relación con los bounded contexts definidos (Bookings, Payments, Directory, Reviews, Auth, Notifications, etc.). El objetivo es mostrar cómo se implementan las reglas de negocio, la interacción entre capas y la comunicación con sistemas externos, aportando un nivel de detalle esencial para el diseño, desarrollo y mantenimiento del sistema.
+
+
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
+En el marco del proyecto Quadrapp, se desarrollaron los Class Diagrams con el propósito de modelar las estructuras de datos y sus relaciones dentro de los distintos módulos de la aplicación. Estos diagramas representan las clases principales, sus atributos, métodos y asociaciones, permitiendo visualizar la lógica interna del sistema y cómo los objetos colaboran entre sí. De esta manera, los Class Diagrams sirven como puente entre el diseño conceptual y la implementación, asegurando consistencia, mantenibilidad y alineación con los bounded contexts previamente definidos.
+
+
+
+
 ### 4.9.2. Class Dictionary
+En el marco del proyecto Quadrapp, se elaboró el Class Dictionary con el objetivo de documentar de manera precisa las clases definidas en el sistema. Este diccionario describe los nombres de las clases, sus atributos, tipos de datos, métodos principales y relaciones, brindando un nivel de detalle técnico que complementa a los Class Diagrams. Su función es servir como una guía de referencia clara y estructurada para el equipo de desarrollo, garantizando consistencia en la implementación y facilitando el mantenimiento del sistema a lo largo del tiempo.
 
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
+En el marco del proyecto Quadrapp, se desarrolló el Relational Database Diagram (ERD) con el propósito de representar de forma estructurada las entidades del sistema, sus atributos y las relaciones entre ellas. Este diagrama permite visualizar la lógica de la base de datos, facilitando la comprensión de la arquitectura de datos que sustenta funcionalidades críticas como la gestión de usuarios, reservas, pagos, reseñas y administración de estacionamientos.
+
 
 
 # Capítulo V: Product Implementation
