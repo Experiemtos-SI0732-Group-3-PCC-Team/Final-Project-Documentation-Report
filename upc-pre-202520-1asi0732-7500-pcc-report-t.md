@@ -1087,6 +1087,56 @@ En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mocku
 
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
+
+Inicio de Sesion:
+
+---
+
+![Quadrapp WireframeWeb](./assets/WireframeInicioSesionWeb.png)
+
+---
+
+Registro de Usuario:
+
+---
+
+![Quadrapp WireframeWeb](./assets/WireframeRegistroUsuarioWeb.png)
+
+---
+
+Perfil de Propietario:
+
+---
+
+![Quadrapp WireframeWeb](./assets/WireframePerfilOwnerWeb.png)
+
+---
+
+Registro de Estacionamiento:
+
+---
+
+![Quadrapp WireframeWeb](./assets/WireframeRegistroServicioWeb.png)
+
+---
+
+Editar el perfil del estacionamiento:
+
+---
+
+![Quadrapp WireframeWeb](./assets/WireframeRegistroServicioWeb.png)
+
+---
+
+Reseña de los estacionamientos:
+
+---
+
+![Quadrapp WireframeWeb](./assets/WireframeReviewWeb.png)
+
+---
+
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 ### 4.6.3. Web Applications Mock-ups
 ### 4.6.4. Web Applications User Flow Diagrams
