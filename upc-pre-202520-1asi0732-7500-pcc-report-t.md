@@ -1812,7 +1812,23 @@ Los User Stories para el proyecto Quadrapp están orientadas a mejorar la experi
 
 ## 3.4. Impact Mapping.
 
-![Impact Mapping](image.jpg)
+**Descripción del Impact Map: Conductor Urbano Frecuente**
+
+Este Impact Map de Quadrapp se enfoca en aumentar el número de conductores urbanos frecuentes que siguen utilizando el servicio, mejorando la seguridad y accesibilidad en los estacionamientos de zonas urbanas. El objetivo es aumentar el uso del servicio en un 30%, proponiendo soluciones como sistemas de navegación más eficientes, cámaras de monitoreo visual para actualización en tiempo real y notificaciones sobre espacios disponibles. Las historias de usuario se centran en mejorar las rutas, garantizar la seguridad y gestionar las alertas, ofreciendo una mejor experiencia a los conductores.
+
+<p style="text-align: center;"><em>Mejorando rutas y seguridad para el conductor urbano.</em></p>
+
+![ImpactMapping-Segmento1](assets/Impact%20Mapping%20-%20%20Segmento1.png)
+
+<br>
+
+**Descripción del Impact Map: Propietario de Estacionamiento**
+
+El Impact Map para los propietarios de estacionamientos está diseñado para optimizar la gestión de sus espacios y aumentar la satisfacción de los clientes en un 30% durante los próximos seis meses. Las soluciones propuestas incluyen un sistema de reservas en tiempo real, herramientas visuales para monitorear la disponibilidad de espacios en tiempo real mediante cámaras, y funcionalidades para obtener opiniones de los usuarios. Estas funciones ayudan a los propietarios a maximizar el uso de los espacios, reducir tiempos de espera y mejorar la calidad del servicio basado en el feedback directo de los clientes.
+
+<p style="text-align: center;"><em>Gestión optimizada para administradores de espacios.</em></p>
+
+![ImpactMapping-Segmento2](assets/Impact%20Mapping%20-%20Segmento2.png)
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design.
