@@ -9,8 +9,12 @@ Esta sección establece las decisiones y convenciones para mantener la consisten
 A continuación se detallan los productos de software utilizados por el equipo, su propósito y la ruta de referencia o descarga:
 
 - **Project Management:** Trello (https://trello.com) – Gestión de tareas y sprints.
-- **Requirements Management:** Google Drive (https://drive.google.com) – Documentación y almacenamiento colaborativo.
+  <img src="assets/chapter-5-5.1/trello.png" alt="Trello" width="150"/>
 - **Product UX/UI Design:** Figma (https://figma.com) – Prototipado y diseño de interfaces.
+  <img src="assets/chapter-5-5.1/figma.png" alt="Figma" width="150"/>
+- **Software Architecture:** Structurizr ([enlace](https://structurizr.com)), Vertabelo ([enlace](https://vertabelo.com))  
+  <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="150"/>
+
 - **Personas, Empathy Maps, Journey Maps, Impact Maps:** UXPressia (https://uxpressia.com)
 - **Scenario Maps:** LucidChart (https://lucidchart.com) / Miro (https://miro.com)
 - **Wireflows y User Flows:** LucidChart / Overflow (https://overflow.io)
@@ -26,7 +30,9 @@ A continuación se detallan los productos de software utilizados por el equipo, 
   - JUnit (https://junit.org) – Pruebas unitarias para backend Java.
 - **Software Deployment:** 
   - Azure Portal (https://portal.azure.com) – Despliegue en la nube.
+      <img src="assets/chapter-5-5.1/azure.png" alt="Azure" width="150"/>
   - GitHub Actions (https://github.com/features/actions) – Integración y despliegue continuo.
+      <img src="assets/chapter-5-5.1/github-actions.png" alt="GitHub Actions" width="150"/>
 - **Software Documentation:** 
   - Markdown (https://www.markdownguide.org) – Documentación técnica.
   - Draw.io (https://app.diagrams.net) – Diagramas de arquitectura.
@@ -34,19 +40,23 @@ A continuación se detallan los productos de software utilizados por el equipo, 
 
 ## 5.1.2. Source Code Management.
 
-El control de versiones se realiza con GitHub, utilizando la siguiente organización:
+El control de versiones se realiza con GitHub, bajo la organización [Experiemtos-SI0732-Group-3-PCC-Team](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team):
 
 - **Repositorios:**
-  - Landing Page: [https://github.com/Quadrapp/landing-page](https://github.com/Quadrapp/landing-page)
-  - Web Services: [https://github.com/Quadrapp/web-services](https://github.com/Quadrapp/web-services)
-  - Frontend Web Application: [https://github.com/Quadrapp/frontend-app](https://github.com/Quadrapp/frontend-app)
+  - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)
+  - [Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web)
+  - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)
+  - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)
+  - [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
 
-- **Workflow GitFlow:**
+- **Workflow GitFlow:**  
+  <img src="assets/chapter-5-5.1/gitflow.png" alt="GitFlow" width="350"/>
   - Ramas principales: `main` (producción), `develop` (integración).
   - Ramas de features: `feature/nombre-descriptivo`.
-  - Ramas de releases: `release/x.y.z` (siguiendo Semantic Versioning 2.0.0).
+  - Ramas de releases: `release/x.y.z` (Semantic Versioning 2.0.0).
   - Ramas de hotfixes: `hotfix/x.y.z`.
-  - Convenciones de commits: Se utiliza Conventional Commits (por ejemplo, `feat: add booking API`, `fix: correct payment bug`).
+  - Convenciones de commits: Conventional Commits (ejemplo: `feat: add booking API`, `fix: correct payment bug`).
+
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
@@ -63,14 +73,40 @@ Se adoptan las siguientes guías y convenciones:
 
 ### 5.1.4. Software Deployment Configuration. 
 
-El despliegue de Quadrapp se realiza de la siguiente manera:
+El despliegue de Quadrapp se realiza de la siguiente manera, asegurando la integración de internacionalización (i18n) y accesibilidad (a11y) en todos los productos:
 
-- **Entornos:** Desarrollo local (Docker), Staging (Azure), Producción (Azure).
-- **CI/CD:** GitHub Actions automatiza la construcción, pruebas y despliegue de cada producto.
-- **Landing Page y Frontend:** Build con Node.js/Vue CLI, despliegue en Azure Static Web Apps. Se asegura soporte i18n y a11y.
-- **Web Services:** Build y pruebas con Spring Boot, despliegue en Azure App Service. Documentación de API con Swagger/OpenAPI y soporte i18n en mensajes de error y respuestas.
-- **Variables sensibles:** Gestionadas con Azure Key Vault y variables de entorno.
+- **Entornos:** 
+  - **Desarrollo local:** Uso de Docker para estandarizar el entorno de desarrollo.
+  - **Staging:** Azure App Service para pruebas previas a producción.
+  - **Producción:** Azure App Service para backend y frontend, GitHub Pages para Landing Page.
+
+- **CI/CD:** GitHub Actions automatiza la construcción, pruebas y despliegue de cada producto. Los pipelines están definidos en cada repositorio:
+  - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)
+  - [Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web)
+  - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)
+  - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)
+
+- **Landing Page:** 
+  - Desplegada en GitHub Pages, asegurando soporte i18n (en_US, es_419) y a11y (atributos ARIA, contraste, navegación por teclado).
+  - ![Landing Page Deployment](assets/chapter-5-5.1/github-pages.png)
+
+- **Frontend Web y Mobile:** 
+  - Build con Node.js/Vue CLI, despliegue en Azure Static Web Apps.
+  - Soporte i18n y a11y implementado en la interfaz de usuario.
+  - ![Frontend Deployment](assets/chapter-5-5.1/azure-static-web-apps.png)
+
+- **Backend (Web Services):** 
+  - Build y pruebas con Java Spring Boot, despliegue en Azure App Service.
+  - Documentación de API con Swagger/OpenAPI, mensajes de error multilenguaje.
+  - ![Backend Deployment](assets/chapter-5-5.1/azure-app-service.png)
+
+- **Variables sensibles:** Gestionadas con Azure Key Vault y variables de entorno en los pipelines de GitHub Actions.
+
 - **Rollback:** Versionado de despliegues y rollback automático en caso de error.
+
 - **Monitoreo:** Azure Application Insights para trazabilidad y alertas.
+
+- **Documentación:** Todo el ciclo de vida y la documentación técnica se gestiona en Markdown dentro del repositorio central:  
+  [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
 
 Esta configuración asegura un despliegue seguro, inclusivo, repetible y eficiente para todos los componentes de Quadrapp.
