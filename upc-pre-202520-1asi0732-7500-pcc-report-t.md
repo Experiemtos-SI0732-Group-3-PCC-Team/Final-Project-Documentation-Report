@@ -1,51 +1,113 @@
-# <center>COURSE PROJECT</center>
-
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>    
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Curso: Diseño de Experimentos de Ingeniería de Software</strong><br>
-    <strong>Profesor: Ivan Robles Fernández </strong><br>
-    <br>INFORME TRABAJO FINAL
+    <br><strong>Diseño de Experimentos de Ingeniería de Software - 7500</strong><br>
+    <br><strong>Docente: Ivan Robles Fernández</strong><br> 
 </p>
 
-<center>
+<p align="center">
+    <strong>Startup: PCC Team</strong><br>
+    <br><strong>Producto: Quadrapp</strong><br>
+</p>
 
-#### Startup: **PCC**
-#### Product: **Quadrapp**
+<div>
+    <h3 align="center">Team Members:</h3>
+</div>
 
-</center>
+<div>
+    <table align="center">
+        <tr>
+            <th style="text-align:center;">Nombre</th>
+            <th style="text-align:center;">Código</th>
+        </tr>
+        <tr>
+            <td style="text-align:center;">Solis Solis, Leonardo José</td>
+            <td style="text-align:center;">U20211G163</td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">Nanfuñay Liza, Pedro Jesús</td>
+            <td style="text-align:center;">U202215462</td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">Calisaya Sánchez, Juan Jesús</td>
+            <td style="text-align:center;">U202121935</td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">Oneglio De Paz, Beth Shantal</td>
+            <td style="text-align:center;">U202213423</td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">Lagos Aguilar, Luis Eduardo</td>
+            <td style="text-align:center;">U202121975</td>
+        </tr>
+    </table>
+    </div>
+</body>
 
-### <center>Team  Members:</center>
-<center>
-
-| Codigo                           | Miembro       |
-|----------------------------------|------------|
-|  U20211G163 | Solis Solis, Leonardo José|
-|  U202215462 | Nanfuñay Liza, Pedro Jesús|
-|  U202121935 | Calisaya Sánchez, Juan Jesús|
-|  U202213423 | Oneglio De Paz, Beth Shantal|
-|  U202121975 | Lagos Aguilar, Luis Eduardo|
-
-<br> AGOSTO 2025
-</center>  
-<div style="page-break-after: always;"></div>
+<p align="center">
+<br><strong>2025-02</strong></p>
+<br>
 
 # Registro de Versiones del Informe
-<center>
 
-| Version | Fecha | Autor | Descripcion de Modificacion |
+| Versión | Fecha | Autor | Descripción de Modificación |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 01/09/2025 |Grupo 1 |Se crea el documento |  
-
-</center>
+| 1.0 | 10/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Creación del documento de trabajo en formato Markdown. |
+| 1.1 | 14/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Desarrollo del perfil de la startup y de la solución, identificación de segmentos objetivo y formulación de preguntas para el diseño de entrevistas. |
+| 1.2 | 14/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Redacción de las guías de estilo e infraestructura de la información. |
+| 1.3 | 15/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Realización y registro de entrevistas con los segmentos objetivo y análisis de los resultados. Creación del Impact Mapping. Redacción de las guías de estilo y la arquitectura de la información. |
+| 1.4 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Elaboración de historias de usuario y del backlog del producto. |
+| 1.5 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Creación del diagrama de base de datos, diagrama de clases, diccionario de clases, diagramas de contenedores, diagramas de contexto y diagramas de componentes. |
+| 1.5 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Registro de las evidencias del Sprint. |
 
 # Project Report Collaboration Insights
-[URL del repositorio](https://www.example.com)
 
-(Imagenes de los commits cada entrega)
+URL del repositorio para el Project Report en la organización de GitHub del equipo:
+
+https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report/blob/Chapter-I/upc-pre-202520-1asi0732-7500-pcc-report-t.md 
+
+**TB1**
+
+Para la elaboración del informe correspondiente a la entrega TB1, la implementación de las secciones se distribuyó entre los miembros del equipo de la siguiente manera:
+
+| Integrantes | Tareas Asignadas |
+| ----------- | ---------------- |
+| Solis Solis, Leonardo José | Product Implementation & Deployment, Video About-the-Product, Back-end |
+| Nanfuñay Liza, Pedro Jesús | Ubiquitous Language, Requirements Specification, Front-end |
+| Calisaya Sánchez, Juan Jesús | Product Implementation, Back-end |
+| Oneglio De Paz, Beth Shantal | Introducción, Requirements Elicitation & Analysis, Front-end |
+| Lagos Aguilar, Luis Eduardo | Product Design, Architecture Design |
+
+La colaboración en el informe se llevó a cabo mediante commits frecuentes en el repositorio de la organización PCC Team.
+
+**GitHub Collaboration Insights**
+
+GitHub también muestra un historial de las ramas principales y los procesos de fusión realizados. Todas las ramas se crearon siguiendo el diseño de GitFlow para asegurar una adecuada organización al utilizar un sistema de control de versiones.
+
+Los miembros del equipo son:
+
+- Solis Solis, Leonardo José
+- Nanfuñay Liza, Pedro Jesús
+- Calisaya Sánchez, Juan Jesús
+- Oneglio De Paz, Beth Shantal
+- Lagos Aguilar, Luis Eduardo
+
+Se describen las ramas más destacadas de la siguiente manera:
+
+main: Representada en negro. Es la rama principal del proyecto y se actualiza con cada entregable.
+develop: Representada en azul. Es la rama principal para el proceso de desarrollo del proyecto.
+feature-product-design: Representada en verde. Incluye el contenido de flujos de usuario y wireframes.
+feature-sprint1: Representada en amarillo. Contiene los artefactos relacionados con el sprint 1 en el informe.
+Los gráficos siguientes muestran los análisis de commits en el repositorio del informe, incluyendo la cantidad de líneas de texto añadidas por cada miembro del equipo.
+
+**TB1**
+
+<img src="assets/Insights-Tb1.png" alt="Logotipo Quadrapp"/>
 
 # Contenido
+
+## Tabla de contenidos
 
 [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 
@@ -163,10 +225,11 @@
 [Anexos](#anexos)  
 
 # Student Outcome
-|Criterio Especifico|Acciones Realizadas|Conclusiones|
-|-|-|-|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta.|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
+
+| Criterio específico | Acciones Realizadas | Conclusiones |
+|---------------------|----------------------|--------------|
+| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | Solis Solis, Leonardo José<br><br>**TB1**<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>**TB1**<br><br>Durante el desarrollo y documentación de la presente solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software. Reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>Lagos Aguilar, Luis Eduardo<br><br>**TB1**<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas. | El trabajo realizado ha sido sobresaliente, cumpliendo con todos los segmentos del proyecto. El documento redactado ofrece un detallado informe sobre los pasos seguidos en la planificación, desarrollo y envío del proyecto a producción, garantizando así un resultado digno y completo. |
+| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Solis Solis, Leonardo José <br><br>**TB1**<br><br>En esta entrega, evalué el impacto de la solucion propuesta para el desarrollo de los bounded contexts de IAM y ParkingManagement, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>Nanfuñay Liza, Pedro Jesús <br><br>**TB1**<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica en cómo su implementación pueda generar beneficios en contextos globales, económicos, ambientales y sociales. Ello me permitió emitir juicios informados, valorando cómo la solución puede contribuir positivamente en diversos entornos.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, estableciendo el entorno de desarrollo adecuado, la administración del código fuente y la definición de guías de estilo y convenciones para mantener la calidad y legibilidad del proyecto. Asimismo, documenté la configuración para el despliegue del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución propuesta en contextos globales, económicos, ambientales y sociales.<br><br>Lagos Aguilar, Luis Eduardo<br><br>**TB1**<br><br> Se logró emitir juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos. El aprendizaje incluyó valorar el rol del ingeniero en la generación de soluciones sostenibles y responsables, reconociendo la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software. | En conclusión, el trabajo realizado refleja un compromiso ético y profesional en cada etapa, asegurando calidad, organización y responsabilidad en la documentación, análisis y desarrollo de la solución propuesta, lo que garantiza una implementación sólida y confiable del proyecto. |
 
 # Capítulo I: Introducción
 
@@ -206,7 +269,7 @@ Además, incluimos espacios particulares: cualquier usuario con una cochera o es
 | Mi nombre es Juan Jesús Calisaya Sánchez - u202121935, tengo 21 años y actualmente curso Ingeniería de Software. Me considero una persona responsable, amigable y empática. Poseo conocimientos en C++, SQL, Python, HTML/CSS, JavaScript, C#, entre otros lenguajes y tecnologías. Estas habilidades me serán de gran utilidad para llevar a cabo el proyecto. | ![Foto de Juan Jesús Calisaya Sánchez](assets/Perfil_Juan.png) |
 | Mi nombre es Luis, estudiante de la carrera de Ingeniería de Software, y estoy con muchas ganas de dar lo mejor de mí por este equipo. Me considero una persona curiosa, siempre dispuesta a escuchar y proponer ideas que aporten al grupo. A lo largo de mi formación, he desarrollado habilidades técnicas en el diseño guiado por el dominio (Domain Driven Design) y en el desarrollo front-end utilizando frameworks como Vue y Angular. Además, tengo experiencia intermedia programando en lenguajes como C++ y Python. | ![Foto de Luis Lagos](assets/Perfil_Luis.png) |
 | Mi nombre es Pedro Jesús Nanfuñay Liza, tengo 20 años y soy estudiante de la carrera de Ingeniería de Software. Me considero una persona creativa, responsable, perseverante y siempre dispuesto a trabajar en equipo. Tengo conocimientos en varios lenguajes de programación como C++, Java y Python; en el desarrollo web con frameworks Angular y Primevue, y en base de datos relacionales y no relacionales como SQL y MongoDB. Espero aportar de manera positiva al equipo y cumplir con los objetivos establecidos. | ![Foto de Pedro Nanfuñay](assets/Perfil_Pedro.jpeg) |
-| Mi nombre es Beth Shantal Oneglio De Paz - u202213423, tengo 19 años y estudio Ingeniería de Software en la UPC. Disfruto trabajar en equipo y resolver problemas digitales. Estoy capacitada para enfrentar situaciones estresantes con responsabilidad y liderazgo. Poseo conocimientos avanzados en gestión y programación, adquiridos en ciclos anteriores. Manejo lenguajes y tecnologías como Python, C++, HTML5, CSS3, .NET, Vue.js, C#, JavaScript, PHP, MongoDB y MySQL. | ![Foto de Beth Oneglio](assets/Perfil_Beth.png) |
+| Mi nombre es Beth Shantal Oneglio De Paz - u202213423, tengo 20 años y estudio Ingeniería de Software en la UPC. Disfruto trabajar en equipo y resolver problemas digitales. Estoy capacitada para enfrentar situaciones estresantes con responsabilidad y liderazgo. Poseo conocimientos avanzados en gestión y programación, adquiridos en ciclos anteriores. Manejo lenguajes y tecnologías como Python, C++, HTML5, CSS3, .NET, Vue.js, C#, JavaScript, PHP, MongoDB y MySQL. | ![Foto de Beth Oneglio](assets/Perfil_Beth.png) |
 | Mi nombre es Leonardo Solis - U20211G163, tengo 21 años y actualmente curso la carrera de Ingeniería de Software. Desde pequeño me gustan los videojuegos, y esto me llevó a investigar cómo estaban hechos, descubriendo la programación e impulsándome a seguir aprendiendo más acerca de este mundo. | ![Foto de Leonardo Solis](assets/Perfil_Leonardo.png) |
 
 ## 1.2. Solution Profile
