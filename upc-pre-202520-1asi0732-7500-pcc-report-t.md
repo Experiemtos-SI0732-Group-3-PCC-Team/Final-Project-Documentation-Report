@@ -111,12 +111,21 @@ Ocupación: _____
 ![Imagen de entrevista](image.jpg)  
 {texto mucho}
 
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
+**Segmento 2**
+
+**Entrevista 1** <br>
+**Nombres y Apellidos:** Joaquín Abdias Trujillo Lizarbe <br>
+**Edad:** 21 años <br>
+**Distrito:** Comas <br>
+**Timing:** <br>
+**Duración:** 3:29 <br>
+
+![ImagenEntrevista1-Segmento2](assets/Entrevista1-Segmento2.png) <br>
+
+**Resumen:**
+
+Joaquín Trujillo es un propietario de estacionamiento, él comenta que muchas veces le resulta complicado gestionar y organizar la disponibilidad y reservación de espacios en su estacionamiento por la cantidad de clientes. Considera que la visualización en tiempo real de la disponibilidad de los espacios, así como la generación de reportes de disponibilidad es importante para acelerar la gestión y mejorar la experiencia de los clientes. Los métodos de pago que utiliza principalmente es el pago efectivo y por transacciones a través de servicios como Yape. A pesar de no haber utilizado una sistema que le permita automatizar estos procesos, estaría dispuesto a implementarlo para disminuir el tiempo requerido en estas tareas. En conclusión, Joaquín considera importante la implementación de funciones que le permitan mejorar la gestión de su estacionamiento y de sus clientes.
+
 
 ### 2.2.3. Análisis de entrevistas.
 
