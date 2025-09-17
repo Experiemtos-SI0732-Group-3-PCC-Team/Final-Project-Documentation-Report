@@ -103,7 +103,7 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 
 **TB1**
 
-<img src="assets/Insights-Tb1.png" alt="Logotipo Quadrapp"/>
+<img src="assets/Insights-Tb1.png" alt="insights Quadrapp"/>
 
 # Contenido
 
