@@ -1,46 +1,115 @@
 # Capítulo V: Product Implementation
 
-### 5.1. Software Configuration Management.
+### 5.1. Software Configuration Management
 
-Esta sección establece las decisiones y convenciones para mantener la consistencia durante el ciclo de vida del proyecto Quadrapp. Incluye la gestión del código fuente, la configuración del entorno de desarrollo y el proceso de despliegue, considerando internacionalización (i18n) y accesibilidad (a11y) como principios transversales.
+En esta sección se establecen las decisiones técnicas y convenciones fundamentales adoptadas para garantizar la consistencia y calidad durante todo el ciclo de vida del proyecto Quadrapp. Abarcamos tres aspectos cruciales: la gestión efectiva del código fuente, la configuración estandarizada del entorno de desarrollo y el proceso robusto de despliegue. Como ejes transversales, implementamos principios de internacionalización (i18n) y accesibilidad (a11y) en todos los componentes del sistema.
 
-### 5.1.1. Software Development Environment Configuration. 
+### 5.1.1. Software Development Environment Configuration
 
-A continuación se detallan los productos de software utilizados por el equipo, su propósito y la ruta de referencia o descarga:
+A continuación, presentamos el ecosistema completo de herramientas y tecnologías seleccionadas estratégicamente por el equipo. Cada elemento ha sido escogido considerando su propósito específico, integración con el flujo de trabajo y facilidad de uso. Se incluyen las rutas de referencia o descarga para asegurar la consistencia en la configuración del entorno de desarrollo:
 
-- **Project Management:** Trello (https://trello.com) – Gestión de tareas y sprints.
+#### Herramientas de Gestión y Diseño
+
+- **Project Management**
+
+  - Trello ([https://trello.com](https://trello.com))
+  - Propósito: Gestión ágil de tareas y sprints
   <img src="assets/chapter-5-5.1/trello.png" alt="Trello" width="150"/>
-- **Product UX/UI Design:** Figma (https://figma.com) – Prototipado y diseño de interfaces.
+  <br>
+
+- **Product UX/UI Design**
+
+  - Figma ([https://figma.com](https://figma.com))
+  - Propósito: Prototipado y diseño de interfaces
+
   <img src="assets/chapter-5-5.1/figma.png" alt="Figma" width="150"/>
-- **Software Architecture:** Structurizr ([enlace](https://structurizr.com)), Vertabelo ([enlace](https://vertabelo.com))  
+  <br>
+  <br>
+
+- **Software Architecture**
+
+  - Structurizr ([https://structurizr.com](https://structurizr.com))
+  - Vertabelo ([https://vertabelo.com](https://vertabelo.com))
+  - Propósito: Modelado de arquitectura y base de datos
+
   <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="150"/>
 
-- **Personas, Empathy Maps, Journey Maps, Impact Maps:** UXPressia (https://uxpressia.com)
-- **Scenario Maps:** LucidChart (https://lucidchart.com) / Miro (https://miro.com)
-- **Wireflows y User Flows:** LucidChart / Overflow (https://overflow.io)
-- **Software Architecture Diagrams:** Structurizr (https://structurizr.com) para C4 Model, LucidChart para UML, Vertabelo (https://vertabelo.com) para diseño de base de datos.
-- **Software Development:** 
-  - Visual Studio Code (https://code.visualstudio.com) – Editor principal de código.
-  - Node.js (https://nodejs.org) – Entorno de ejecución para JavaScript y herramientas de frontend.
-  - Java JDK 17+ (https://adoptium.net) – Desarrollo de servicios backend con Spring Boot.
-  - Spring Boot (https://spring.io/projects/spring-boot) – Framework para desarrollo de Web Services en Java.
-  - Docker Desktop (https://www.docker.com/products/docker-desktop) – Contenedores para desarrollo y pruebas locales.
-- **Software Testing:** 
-  - Jest (https://jestjs.io) – Pruebas unitarias para frontend.
-  - JUnit (https://junit.org) – Pruebas unitarias para backend Java.
-- **Software Deployment:** 
-  - Azure Portal (https://portal.azure.com) – Despliegue en la nube.
-      <img src="assets/chapter-5-5.1/azure.png" alt="Azure" width="150"/>
-  - GitHub Actions (https://github.com/features/actions) – Integración y despliegue continuo.
-      <img src="assets/chapter-5-5.1/github-actions.png" alt="GitHub Actions" width="150"/>
-- **Software Documentation:** 
-  - Markdown (https://www.markdownguide.org) – Documentación técnica.
-  - Draw.io (https://app.diagrams.net) – Diagramas de arquitectura.
-  - Swagger/OpenAPI (https://swagger.io) – Documentación de APIs RESTful.
 
-## 5.1.2. Source Code Management.
+#### Herramientas de UX Research
 
-El control de versiones se realiza con GitHub, bajo la organización [Experiemtos-SI0732-Group-3-PCC-Team](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team):
+- **Investigación de Usuario**
+  - UXPressia ([https://uxpressia.com](https://uxpressia.com))
+  - Propósito: Creación de Personas, Empathy Maps, Journey Maps e Impact Maps
+  - Alcance: Investigación y análisis de usuarios
+<br>
+- **Mapeo de Escenarios**
+  - LucidChart ([https://lucidchart.com](https://lucidchart.com))
+  - Miro ([https://miro.com](https://miro.com))
+  - Propósito: Visualización de escenarios de usuario y flujos de trabajo
+<br>
+- **Flujos de Usuario**
+  - LucidChart ([https://lucidchart.com](https://lucidchart.com))
+  - Overflow ([https://overflow.io](https://overflow.io))
+  - Propósito: Documentación de Wireflows y User Flows interactivos
+
+#### Herramientas de Desarrollo
+
+- **Entorno de Desarrollo**
+  - Visual Studio Code ([https://code.visualstudio.com](https://code.visualstudio.com))
+  - Propósito: IDE principal con soporte para múltiples lenguajes y extensiones
+<br>
+- **Stack Frontend**
+  - Node.js ([https://nodejs.org](https://nodejs.org))
+  - Propósito: Runtime JavaScript y gestión de dependencias frontend
+<br>
+- **Stack Backend**
+  - Java JDK 17+ ([https://adoptium.net](https://adoptium.net))
+  - Spring Boot ([https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot))
+  - Propósito: Desarrollo de APIs RESTful y lógica de negocio
+<br>
+- **Virtualización**
+  - Docker Desktop ([https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop))
+  - Propósito: Contenedorización y orquestación de servicios
+
+#### Herramientas de Testing
+
+- **Testing Frontend**
+  - Jest ([https://jestjs.io](https://jestjs.io))
+  - Propósito: Framework de testing unitario para JavaScript/TypeScript
+<br>
+- **Testing Backend**
+  - JUnit ([https://junit.org](https://junit.org))
+  - Propósito: Framework de testing unitario para Java
+
+#### Herramientas de Despliegue
+
+- **Plataforma Cloud**
+  - Azure Portal ([https://portal.azure.com](https://portal.azure.com))
+  - Propósito: Infraestructura y servicios cloud
+  <img src="assets/chapter-5-5.1/azure.png" alt="Azure" width="150"/>
+<br>
+- **Automatización CI/CD**
+  - GitHub Actions ([https://github.com/features/actions](https://github.com/features/actions))
+  - Propósito: Pipelines de integración y despliegue continuo
+  <img src="assets/chapter-5-5.1/github-actions.png" alt="GitHub Actions" width="150"/>
+
+#### Herramientas de Documentación
+
+- **Documentación de Código**
+  - Markdown ([https://www.markdownguide.org](https://www.markdownguide.org))
+  - Propósito: Documentación técnica y guías de desarrollo
+<br>
+- **Documentación Visual**
+  - Draw.io ([https://app.diagrams.net](https://app.diagrams.net))
+  - Propósito: Diagramas técnicos y de arquitectura
+<br>
+- **Documentación de API**
+  - Swagger/OpenAPI ([https://swagger.io](https://swagger.io))
+  - Propósito: Documentación interactiva de endpoints REST
+
+## 5.1.2. Source Code Management
+
+La gestión del código fuente se centraliza en GitHub, implementando un sistema robusto de control de versiones bajo la organización [Experiemtos-SI0732-Group-3-PCC-Team](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team). Esta estructura nos permite mantener un flujo de trabajo colaborativo y organizado:
 
 - **Repositorios:**
   - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)
@@ -48,19 +117,20 @@ El control de versiones se realiza con GitHub, bajo la organización [Experiemto
   - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)
   - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)
   - [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
+  <br>
 
-- **Workflow GitFlow:**  
-  <img src="assets/chapter-5-5.1/gitflow.png" alt="GitFlow" width="350"/>
+- **Workflow GitFlow:** 
+ 
   - Ramas principales: `main` (producción), `develop` (integración).
   - Ramas de features: `feature/nombre-descriptivo`.
   - Ramas de releases: `release/x.y.z` (Semantic Versioning 2.0.0).
   - Ramas de hotfixes: `hotfix/x.y.z`.
   - Convenciones de commits: Conventional Commits (ejemplo: `feat: add booking API`, `fix: correct payment bug`).
+<img src="assets/chapter-5-5.1/gitflow.png" alt="GitFlow" width="350"/>
 
+### 5.1.3. Source Code Style Guide & Conventions
 
-### 5.1.3. Source Code Style Guide & Conventions.
-
-Se adoptan las siguientes guías y convenciones:
+Para mantener la consistencia y calidad del código a través de todo el proyecto, hemos adoptado un conjunto integral de guías de estilo y convenciones estandarizadas. Estas normas facilitan la colaboración efectiva entre los miembros del equipo y aseguran la mantenibilidad del código:
 
 - **HTML/CSS:** Google HTML/CSS Style Guide.
 - **JavaScript:** Google JavaScript Style Guide, MDN JavaScript guidelines, ESLint.
@@ -71,42 +141,94 @@ Se adoptan las siguientes guías y convenciones:
 - **Accesibilidad (a11y):** Se implementan atributos ARIA y buenas prácticas de accesibilidad en Landing Page y Frontend Web Applications.
 - **Herramientas de linting:** ESLint para JavaScript, Checkstyle para Java.
 
-### 5.1.4. Software Deployment Configuration. 
+### 5.1.4. Software Deployment Configuration
 
-El despliegue de Quadrapp se realiza de la siguiente manera, asegurando la integración de internacionalización (i18n) y accesibilidad (a11y) en todos los productos:
+La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un proceso confiable, seguro y automatizado. Implementamos una arquitectura cloud-native que asegura alta disponibilidad y escalabilidad, mientras mantenemos la integración consistente de internacionalización (i18n) y accesibilidad (a11y) en todos los componentes del sistema:
 
-- **Entornos:** 
-  - **Desarrollo local:** Uso de Docker para estandarizar el entorno de desarrollo.
-  - **Staging:** Azure App Service para pruebas previas a producción.
-  - **Producción:** Azure App Service para backend y frontend, GitHub Pages para Landing Page.
+#### Configuración de Entornos
 
-- **CI/CD:** GitHub Actions automatiza la construcción, pruebas y despliegue de cada producto. Los pipelines están definidos en cada repositorio:
-  - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)
-  - [Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web)
-  - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)
-  - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)
+- **Desarrollo Local**
+  - Tecnología: Docker Desktop
+  - Propósito: Estandarización del entorno de desarrollo
+  - Beneficios: Consistencia entre desarrolladores y aislamiento de dependencias
+<br>
+- **Staging**
+  - Plataforma: Azure App Service
+  - Propósito: Validación de cambios previa a producción
+  - Características: Entorno espejo de producción para pruebas de integración
+<br>
+- **Producción**
+  - Plataforma: Azure App Service y GitHub Pages
+  - Propósito: Despliegue de aplicaciones en producción
+  - Configuración: Alta disponibilidad y escalado automático
 
-- **Landing Page:** 
-  - Desplegada en GitHub Pages, asegurando soporte i18n (en_US, es_419) y a11y (atributos ARIA, contraste, navegación por teclado).
-  - ![Landing Page Deployment](assets/chapter-5-5.1/github-pages.png)
+#### Pipeline de CI/CD
 
-- **Frontend Web y Mobile:** 
-  - Build con Node.js/Vue CLI, despliegue en Azure Static Web Apps.
-  - Soporte i18n y a11y implementado en la interfaz de usuario.
-  - ![Frontend Deployment](assets/chapter-5-5.1/azure-static-web-apps.png)
+- **Automatización**
+  - Tecnología: GitHub Actions
+  - Propósito: Integración y despliegue continuo
+  - Repositorios con Pipelines:
+    - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend) - Servicios REST
+    - [Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web) - Aplicación Web
+    - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile) - App Móvil
+    - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp) - Página Principal
 
-- **Backend (Web Services):** 
-  - Build y pruebas con Java Spring Boot, despliegue en Azure App Service.
-  - Documentación de API con Swagger/OpenAPI, mensajes de error multilenguaje.
-  - ![Backend Deployment](assets/chapter-5-5.1/azure-app-service.png)
+#### Componentes del Sistema
 
-- **Variables sensibles:** Gestionadas con Azure Key Vault y variables de entorno en los pipelines de GitHub Actions.
+- **Landing Page**
+  - Plataforma: GitHub Pages
+  - Características:
+    - Soporte multilenguaje (en_US, es_419)
+    - Accesibilidad WCAG 2.1
+    - Optimización SEO
+  <img src="assets/chapter-5-5.1/github-pages.png" alt="Landing Page Deployment" width="150"/>
+<br>
+- **Frontend (Web y Mobile)**
+  - Tecnologías: Node.js/Vue CLI
+  - Plataforma: Azure Static Web Apps
+  - Características:
+    - Interfaces adaptativas
+    - Internacionalización i18n
+    - Accesibilidad ARIA
+  <img src="assets/chapter-5-5.1/azure-static-web-apps.png" alt="Frontend Deployment" width="150"/>
+<br>
+- **Backend (Web Services)**
+  - Framework: Spring Boot
+  - Plataforma: Azure App Service
+  - Características:
+    - APIs RESTful documentadas
+    - Mensajes multilenguaje
+    - Logging estructurado
+  <img src="assets/chapter-5-5.1/azure-app-service.png" alt="Backend Deployment" width="150"/>
 
-- **Rollback:** Versionado de despliegues y rollback automático en caso de error.
+#### Seguridad y Monitoreo
 
-- **Monitoreo:** Azure Application Insights para trazabilidad y alertas.
+- **Gestión de Secretos**
+  - Herramienta: Azure Key Vault
+  - Alcance: Credenciales y configuraciones sensibles
+  - Integración: Variables de entorno en CI/CD
+<br>
+- **Control de Versiones**
+  - Sistema: Git tags y releases
+  - Capacidad: Rollback automático
+  - Estrategia: Blue-Green Deployment
+<br>
+- **Observabilidad**
+  - Plataforma: Azure Application Insights
+  - Características:
+    - Monitoreo en tiempo real
+    - Alertas automatizadas
+    - Análisis de rendimiento
 
-- **Documentación:** Todo el ciclo de vida y la documentación técnica se gestiona en Markdown dentro del repositorio central:  
-  [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
+#### Gestión de Documentación
 
-Esta configuración asegura un despliegue seguro, inclusivo, repetible y eficiente para todos los componentes de Quadrapp.
+- **Documentación Técnica**
+  - Formato: Markdown
+  - Ubicación: Repositorio centralizado
+  - Repositorio: [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
+  - Alcance:
+    - Guías de desarrollo
+    - Procedimientos de despliegue
+    - Documentación de arquitectura
+
+Esta arquitectura de despliegue integral garantiza que Quadrapp opere de manera segura, inclusiva y eficiente. La automatización de procesos, junto con las prácticas de DevOps implementadas, asegura despliegues consistentes y repetibles, minimizando errores humanos y facilitando la recuperación ante posibles incidencias. La monitorización continua y la gestión centralizada de la configuración nos permiten mantener un alto nivel de calidad y disponibilidad en todos los componentes del sistema.
