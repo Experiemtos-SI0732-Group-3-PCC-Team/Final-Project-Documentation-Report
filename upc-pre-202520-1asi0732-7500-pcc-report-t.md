@@ -29,11 +29,11 @@ Basado en el análisis competitivo previo, se identificaron claramente las forta
 
 | **Fortalezas** | **Estrategias (Oportunidades)** | **Estrategias (Amenazas)** |
 |----------------|---------------------------------|-----------------------------|
-| Innovación, alcance a un público objetivo más amplio y soporte en tiempo real para los usuarios. | Garantizar el mejor servicio y soporte al cliente, fomentando la fidelización. La propuesta basada en sensores inteligentes representa un factor diferenciador que generará interés y disposición de adopción. | Anticipar posibles cambios normativos mediante un análisis constante de políticas de movilidad, asegurando la adaptación de la solución sin comprometer su viabilidad. |
+| Innovación tecnológica con IoT, cámaras, geolocalización y aplicación móvil; alcance a un público urbano amplio; soporte en tiempo real. | Brindar la mejor experiencia de usuario y servicio al cliente, destacando la facilidad de uso de la app. La propuesta de detección en tiempo real con sensores inteligentes será un factor diferenciador que generará interés y rápida adopción. | Implementar un sistema de monitoreo de regulaciones de movilidad urbana para adaptar la solución a cambios normativos, asegurando cumplimiento y sostenibilidad sin afectar su rentabilidad. |
 
 | **Debilidades** | **Estrategias (Oportunidades)** | **Estrategias (Amenazas)** |
 |-----------------|---------------------------------|-----------------------------|
-| Mercado altamente competitivo y emergente. | Incrementar la promoción de la aplicación destacando la innovación, con el fin de posicionarla como la mejor opción del mercado y ganar la validación de los usuarios. | Aprovechar que los cambios en políticas afectan también a los competidores, diferenciándonos con campañas que resalten cómo nuestra propuesta contribuye a mejorar la gestión de la movilidad en las ciudades. |
+| Mercado de aplicaciones de movilidad altamente competitivo y emergente. | Impulsar campañas de promoción resaltando los beneficios únicos de Quadrapp: reducción del tiempo de búsqueda de estacionamiento, reserva anticipada, comprobante digital y facilidad de pago. Esto posicionará a Quadrapp como la opción más innovadora y confiable. | Diferenciarnos con campañas que muestren cómo Quadrapp contribuye a la sostenibilidad urbana y a la gestión eficiente de espacios, mitigando el impacto de normativas que afectan por igual a los competidores. |
 
 ## 2.2. Entrevistas.
 
@@ -45,64 +45,55 @@ La sección detalla cómo investigamos nuestros segmentos objetivo mediante la r
 
 ----
 
+**Preguntas demográficas**
+
+- ¿Cuál es tu nombre?  
+- ¿Cuál es tu edad?  
+- ¿Dónde vives?  
+- ¿A qué te dedicas?  
+- ¿Cuáles consideras que son tus principales habilidades?  
+
 **Preguntas principales**
 
--¿Conduces un vehículo propio o que usas frecuentemente?    
--¿En qué distrito sueles manejar y estacionar con más frecuencia?
--¿Qué tipo de vehículo conduces con más frecuencia? (Auto, moto, SUV, camioneta, otro)
--¿Con qué frecuencia conduces? (A diario; 3–4 veces/semana; 1–2 veces/semana; menos)
--¿En qué zonas u horarios te cuesta más encontrar estacionamiento?
--¿Cuál es el motivo principal del viaje cuando más te falta estacionamiento? (Trabajo/estudios; trámites; compras/ocio; visitas; otro)
--¿Cuánto tiempo máximo estás dispuesto(a) a buscar estacionamiento? (<5 min; 5–10; 11–15; >15)
--¿Cómo buscas estacionamiento hoy? (Rondar la zona; playas formales; apps/mapas; vía pública; preguntar a vigilantes/negocios; otro)
--¿Usas apps para esto? ¿Cuáles?
--En una escala del 1 al 5, ¿qué tan satisfecho(a) estás con tu forma actual de encontrar estacionamiento?
--Marca tus tres criterios más importantes al elegir dónde estacionar. (Precio; distancia al destino; seguridad; rapidez; disponibilidad fiable; facilidad de pago; reseñas/confianza; techado)
--¿Cuál es tu precio máximo razonable por hora en zonas concurridas? (S/___)
--¿Qué es lo más frustrante para ti al estacionar?
--Imagina una app con disponibilidad en tiempo real, reservas y pago en un toque. ¿La probarías? (Sí/No/Depende)
--¿Pagarías una pequeña comisión por uso o una suscripción mensual para asegurar lugar rápido? (No; hasta S/1 por uso; S/2–S/3; suscripción mensual)
+- ¿Con qué frecuencia necesitas estacionamiento en la ciudad?  
+- ¿Cuánto tiempo dedicas normalmente a buscar estacionamiento?  
+- ¿Utilizas actualmente alguna aplicación o servicio para encontrar estacionamiento?  
+- ¿Qué tan importante es para ti conocer la disponibilidad de estacionamiento en tiempo real?  
+- ¿Estarías dispuesto/a a pagar una tarifa adicional por garantizar un espacio de estacionamiento reservado?  
+- ¿Qué consideras más importante al elegir un estacionamiento: costo, proximidad, o seguridad?  
+- ¿Te gustaría recibir recomendaciones de rutas hacia el estacionamiento más cercano basado en el tráfico en tiempo real?  
 
 **Preguntas complementarias**
 
--¿Has tenido incidentes relacionados al estacionamiento? (Multas, robos, daños). Si “Sí”, ¿qué ocurrió y dónde?
--¿Qué apps/mapas usas al conducir? (Waze; Google Maps; Apple Maps; otra)
--¿Cuál es tu método de pago preferido en estacionamientos? (Efectivo; Yape/Plin; tarjeta; pago en app; otro)
--¿Permitirías a una app conocer tu ubicación para sugerir estacionamientos cercanos? (Sí siempre; solo al usar la app; no)
--¿Qué te haría confiar en los lugares sugeridos? (Reseñas verificadas; cámaras/iluminación; personal/vigilancia; alianzas oficiales; fotos recientes; garantía/seguro)
--¿Qué información necesitas ver antes de decidir? (Precio final; altura/medidas; horario; plazas libres; ruta a pie al destino; política de cancelación)
--¿Qué funciones usarías? (Reservar espacio; navegar al ingreso; abrir barrera con el celular; pagar desde la app; recordatorio de tiempo; historial/boleta)
--Al abrir la app, ¿qué dato debería aparecer primero para ayudarte en segundos?
--¿Deseas participar en pruebas de prototipo? (Correo opcional)
+- ¿Has tenido experiencias frustrantes buscando estacionamiento en la ciudad?  
+- ¿Qué mejoras te gustaría ver en los servicios de estacionamiento que utilizas actualmente?  
 
 **Preguntas dirigidas a Propietarios de estacionamientos**
 
 ---
 
+**Preguntas demográficas**
+
+- ¿Cuál es tu nombre?  
+- ¿Cuál es tu edad?  
+- ¿Dónde vives?  
+- ¿A qué te dedicas?  
+- ¿Cuáles consideras que son tus principales habilidades?  
+
 **Preguntas principales**
 
-- ¿Podrías decirme tu nombre completo y edad?  
-- ¿En qué distrito resides actualmente?  
-- ¿Dónde naciste y en qué lugar vives actualmente?  
-- ¿Cuál es tu estado civil?  
-- ¿Podrías describir tu nivel socioeconómico? ¿Te consideras en un nivel alto, intermedio o bajo?  
-- ¿Podrías contarnos un poco acerca de ti y tu experiencia con el alquiler y la compra de vehículos?  
-- ¿Qué te impulsó a buscar una aplicación para alquilar o comprar vehículos?  
-- ¿Qué esperas lograr al utilizar una aplicación para alquilar o comprar vehículos?  
-- ¿Qué dificultades o problemas has enfrentado en tus experiencias previas con el alquiler y la compra de vehículos?  
-- ¿Qué características consideras esenciales en una aplicación para alquilar o comprar vehículos?  
-- ¿Qué métodos de pago prefieres para realizar transacciones en línea?  
-- ¿Cómo te gustaría recibir notificaciones sobre tus reservas y el estado de los vehículos?  
-- ¿Cuál ha sido tu experiencia con la seguridad y protección en el alquiler y la compra de vehículos?  
-- ¿Qué mejoras o características adicionales crees que podrían mejorar tu experiencia al usar una aplicación de renta o compra de vehículos?  
+- ¿Consideras sencillo el proceso de gestionamiento de espacios en tu estacionamiento?  
+- ¿Qué tan importante es para ti contar con información en tiempo real sobre los espacios disponibles?  
+- ¿Utilizas algún sistema digital para administrar los pagos y reservas de los espacios de estacionamiento?  
+- ¿Qué beneficios ves en la posibilidad de automatizar el proceso de reserva y pago de los espacios de estacionamiento?  
+- ¿Qué tan relevante es para ti ofrecer opciones de pago seguras y rápidas a tus clientes?  
+- ¿De qué manera crees que la integración de una app que gestione datos y pagos podría mejorar la eficiencia de tu negocio?  
 
 **Preguntas complementarias**
 
-- ¿Cómo has gestionado el alquiler o la compra de vehículos en el pasado?  
-- ¿Qué tipo de soporte o asistencia esperas recibir durante el proceso de alquiler o compra?  
-- ¿Tienes alguna preferencia particular en cuanto a la aplicación o tecnología que se utiliza para acceder a la aplicación?  
-- ¿Cómo prefieres gestionar la búsqueda de vehículos en una aplicación?  
-- ¿Qué tipo de información te gustaría ver en las descripciones de los vehículos?  
+- ¿Cuáles son los principales desafíos que enfrentas al administrar tu estacionamiento?  
+- ¿Qué funcionalidades adicionales te gustaría que una app ofreciera para facilitar la gestión de tu negocio?  
+- ¿Te gustaría recibir reportes o análisis sobre la ocupación y rotación de vehículos en tu estacionamiento?  
 
 ### 2.2.2. Registro de entrevistas.
 
@@ -203,9 +194,13 @@ Sin embargo, algunos manifestaron preocupación por los costos asociados al uso 
 
 **Análisis del Segmento Propietario de estacionamientos**
 
-Los entrevistados valoran la oportunidad de generar ingresos adicionales a través de la renta de sus espacios de estacionamiento, así como la posibilidad de llegar a un mayor número de clientes gracias a la visibilidad que ofrece una aplicación especializada. Resaltan la importancia de contar con herramientas que les permitan gestionar sus espacios de forma sencilla, con opciones para fijar precios, horarios de disponibilidad y medidas de seguridad.  
+De acuerdo con las entrevistas realizadas a propietarios de estacionamientos, se identificó que este segmento enfrenta desafíos relacionados con la gestión manual de espacios, la falta de información en tiempo real y las dificultades para controlar pagos y reservas. Muchos coincidieron en que aún dependen de métodos tradicionales como tickets en papel o registros en cuadernos, lo que genera errores y pérdidas económicas.
 
-Sin embargo, expresaron inquietudes respecto a la confiabilidad de los usuarios que alquilan los espacios y el riesgo de que los vehículos no respeten los tiempos establecidos o dañen las instalaciones. Asimismo, consideran necesario que la aplicación ofrezca garantías de pago seguras, soporte en caso de conflictos y mecanismos de evaluación que les permitan filtrar a los usuarios con mejor reputación.  
+Los entrevistados señalaron que lo más importante para ellos es contar con un sistema digital confiable que les permita visualizar la ocupación de los espacios al instante, así como facilitar el proceso de pago de manera segura y rápida. Además, mostraron interés en que la herramienta ofrezca reportes sobre rotación y niveles de ocupación, ya que esto les permitiría tomar mejores decisiones en cuanto a tarifas y promociones.
+
+En cuanto a motivaciones, destacaron la necesidad de optimizar ingresos, reducir la carga de trabajo del personal y brindar un servicio más moderno y competitivo. También se mencionó que una aplicación que centralice la información y los pagos podría generar confianza en los clientes y fidelizarlos a largo plazo.
+
+En conclusión, los propietarios ven en la integración de una aplicación digital una oportunidad clara para modernizar su negocio, mejorar la eficiencia operativa y aumentar la rentabilidad, al mismo tiempo que ofrecen una mejor experiencia a los usuarios.
 
 ## 2.3. Needfinding.
 
@@ -250,7 +245,7 @@ Al examinar los dos segmentos objetivo, se identifica que los conductores partic
 
 ### 2.3.3. User Journey Mapping.
 
-En esta sección se ilustra el recorrido completo del usuario (end-to-end journey) de la aplicación EcoMovil para los segmentos objetivos: Universitarios y adquirientes. El User Journey Mapping comienza desde el momento en que el cliente toma conocimiento de la aplicación, pasando por el proceso de decidir usarla, registrarse, utilizarla y, finalmente, la posibilidad de dejar de usarla.
+En esta sección se ilustra el recorrido completo del usuario (end-to-end journey) de la aplicación para los segmentos objetivos. El User Journey Mapping comienza desde el momento en que el cliente toma conocimiento de la aplicación, pasando por el proceso de decidir usarla, registrarse, utilizarla y, finalmente, la posibilidad de dejar de usarla.
 
 - **Segmento Conductores particulares:**
 
