@@ -147,20 +147,36 @@ Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estaci
 
 Joaquín Trujillo es un propietario de estacionamiento, él comenta que muchas veces le resulta complicado gestionar y organizar la disponibilidad y reservación de espacios en su estacionamiento por la cantidad de clientes. Considera que la visualización en tiempo real de la disponibilidad de los espacios, así como la generación de reportes de disponibilidad es importante para acelerar la gestión y mejorar la experiencia de los clientes. Los métodos de pago que utiliza principalmente es el pago efectivo y por transacciones a través de servicios como Yape. A pesar de no haber utilizado una sistema que le permita automatizar estos procesos, estaría dispuesto a implementarlo para disminuir el tiempo requerido en estas tareas. En conclusión, Joaquín considera importante la implementación de funciones que le permitan mejorar la gestión de su estacionamiento y de sus clientes.
 
-**Entrevista 5** 
-**Nombres y Apellidos:** Carlos Ponce
-**Edad:** 21 años 
-**Distrito:** La Molina 
-**Timing:** 
-**Duración:** 4:39
+**Segmento objetivo \#2: Propietario de estacionamiento**
 
-![ImagenEntrevista1-Segmento2](assets/dueño-playa-carlos.jpg) <br>
+**Entrevista 5**  
+**Nombres y Apellidos:** Luciano De la Torre Pay Pay  
+**Edad:** 21 años   
+**Distrito:** Ate  
+**Timing:**   
+**Duración:** 5:10  
+
+![ImagenEntrevista1-Segmento2](assets/dueño-luciano.png) <br>
 
 **Resumen:**
 
-Carlos tiene 20 años y vive en La Molina, donde administra un estacionamiento. Se considera una persona organizada, resolutiva y orientada a mantener el orden, aunque reconoce que durante momentos de alta afluencia la gestión puede volverse complicada. Respecto al control de los espacios, menciona que usualmente es sencillo, pero se dificulta cuando hay gran movimiento o los conductores no respetan los espacios asignados. Por esta razón, valora la posibilidad de contar con información en tiempo real sobre la disponibilidad, lo cual evitaría revisiones físicas continuas y mejoraría la eficiencia operativa. Actualmente no utiliza sistemas digitales de reservas, pero acepta pagos mediante Yape y Plin, métodos que considera ágiles y populares entre sus clientes. 
+Luciano De la Torre, propietario de un estacionamiento, señala que una de sus principales dificultades es la gestión y organización de la disponibilidad y las reservas de espacios debido a la gran cantidad de clientes. Considera fundamental contar con una visualización en tiempo real de los espacios disponibles y con reportes de disponibilidad, ya que estas herramientas agilizarían la administración y mejorarían la experiencia de los usuarios. Actualmente, los métodos de pago que utiliza con mayor frecuencia son el efectivo y las transacciones digitales a través de Yape. Aunque no ha empleado previamente un sistema automatizado, está dispuesto a implementarlo para reducir el tiempo invertido en estas tareas. En conclusión, Luciano destaca la importancia de incorporar funciones que optimicen la gestión de su estacionamiento y brinden un mejor servicio a sus clientes.
 
-Carlos considera que la automatización de reservas y pagos sería altamente beneficiosa, ya que permitiría organizar mejor los tiempos de permanencia, agilizar los ingresos y salidas, y llevar un control más preciso de los cobros. Resalta la importancia de ofrecer métodos de pago seguros y rápidos para mejorar la experiencia del cliente. Además, está convencido de que una aplicación que integre la gestión de espacios, reservas y pagos facilitaría el control detallado de la ocupación, ingresos diarios y aumentaría la transparencia en su administración. Entre los principales desafíos que enfrenta señala la organización en horarios de alta demanda y el seguimiento manual de los pagos. Finalmente, le gustaría que una app permita a los clientes registrar su tiempo de permanencia, calcule automáticamente el costo, notifique la disponibilidad en tiempo real y genere reportes de ocupación y rotación para tomar decisiones más estratégicas.
+**Segmento objetivo \#1: Conductores**
+
+**Entrevista 1** 
+**Nombres y Apellidos:** Joan Talizo Balbin 
+**Edad:** 23 años 
+**Distrito:** Surco 
+**Timing:** 
+**Duración:** 6:06 
+
+![Imagen de entrevista](./assets/conductor-balbin.jpg)  <br>
+
+**Resumen**
+
+Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
+
 
 ### 2.2.3. Análisis de entrevistas.
 
