@@ -27,7 +27,6 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
 <BR>
   <img src="assets/chapter-5-5.1/figma.png" alt="Figma" width="150"/>
   <br>
-  <br>
 
 - **Software Architecture**
 
