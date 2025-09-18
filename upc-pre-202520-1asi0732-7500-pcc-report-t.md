@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>    
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
@@ -511,7 +511,7 @@ Los riesgos principales se relacionan con la baja adopción inicial por desconfi
 El Lean UX Canvas es una herramienta empleada en el ámbito del diseño centrado en el usuario (UX) y la metodología Lean, con el propósito de desarrollar productos de manera más eficiente y eficaz. Su finalidad es ofrecer un marco estructurado que facilita la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas que el equipo ha trabajado utilizando Canva.
 
 ![Lean UX Canvas](assets/Lean_UX_Canvas.jpg)
-=======
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
