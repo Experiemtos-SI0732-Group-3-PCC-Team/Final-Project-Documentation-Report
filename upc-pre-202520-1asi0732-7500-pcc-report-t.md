@@ -1071,7 +1071,53 @@ Reserva de estacionamiento:
 
 En el marco del proyecto Quadrapp, se desarrollaron los mockups móviles en alta fidelidad como evolución de los wireframes iniciales. Estos prototipos incorporan el sistema de diseño definido (colores, tipografía, iconografía y componentes) para reflejar la identidad visual de la aplicación. Se presentan las vistas clave de login, registro, búsqueda de estacionamientos, reservas y perfil de usuario con un estilo consistente y atractivo. Su finalidad es mostrar cómo será la experiencia real del usuario en la app. De esta manera, los mockups móviles consolidan la propuesta final antes de la etapa de desarrollo.
 
+Tiempo de espera:
 
+---
+
+![Quadrapp MovilMockup](./assets/TiempoEsperaMovilMockup.png)
+
+---
+
+Inicio de Sesion:
+
+---
+
+![Quadrapp MovilMockup](./assets/InicioSesionMockuoMovil.png)
+
+---
+
+Busqueda en el mapa:
+
+---
+
+![Quadrapp MovilMockup](./assets/BusquedaMapaMockUp.png)
+
+---
+
+Resultado de Parkings Cercanos:
+
+---
+
+![Quadrapp MovilMockup](./assets/ResultadosDeParkingsCercanosMockUp.png)
+
+---
+
+Reserva de Parking:
+
+---
+
+![Quadrapp MovilMockup](./assets/ReservaDeParkingMockup.png)
+
+---
+
+Perfil de Conductor:
+
+---
+
+![Quadrapp MovilMockup](./assets/PerfilMockupMovil.png)
+
+---
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
