@@ -14,6 +14,9 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
 
   - Trello ([https://trello.com](https://trello.com))
   - Propósito: Gestión ágil de tareas y sprints
+
+  <BR>
+  
   <img src="assets/chapter-5-5.1/trello.png" alt="Trello" width="150"/>
   <br>
 
@@ -21,6 +24,7 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
 
   - Figma ([https://figma.com](https://figma.com))
   - Propósito: Prototipado y diseño de interfaces
+<BR>
 
   <img src="assets/chapter-5-5.1/figma.png" alt="Figma" width="150"/>
   <br>
@@ -31,7 +35,7 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Structurizr ([https://structurizr.com](https://structurizr.com))
   - Vertabelo ([https://vertabelo.com](https://vertabelo.com))
   - Propósito: Modelado de arquitectura y base de datos
-
+<BR>
   <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="150"/>
 
 
@@ -42,11 +46,13 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Propósito: Creación de Personas, Empathy Maps, Journey Maps e Impact Maps
   - Alcance: Investigación y análisis de usuarios
 <br>
+
 - **Mapeo de Escenarios**
   - LucidChart ([https://lucidchart.com](https://lucidchart.com))
   - Miro ([https://miro.com](https://miro.com))
   - Propósito: Visualización de escenarios de usuario y flujos de trabajo
 <br>
+
 - **Flujos de Usuario**
   - LucidChart ([https://lucidchart.com](https://lucidchart.com))
   - Overflow ([https://overflow.io](https://overflow.io))
@@ -58,15 +64,18 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Visual Studio Code ([https://code.visualstudio.com](https://code.visualstudio.com))
   - Propósito: IDE principal con soporte para múltiples lenguajes y extensiones
 <br>
+
 - **Stack Frontend**
   - Node.js ([https://nodejs.org](https://nodejs.org))
   - Propósito: Runtime JavaScript y gestión de dependencias frontend
 <br>
+
 - **Stack Backend**
   - Java JDK 17+ ([https://adoptium.net](https://adoptium.net))
   - Spring Boot ([https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot))
   - Propósito: Desarrollo de APIs RESTful y lógica de negocio
 <br>
+
 - **Virtualización**
   - Docker Desktop ([https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop))
   - Propósito: Contenedorización y orquestación de servicios
@@ -77,6 +86,7 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Jest ([https://jestjs.io](https://jestjs.io))
   - Propósito: Framework de testing unitario para JavaScript/TypeScript
 <br>
+
 - **Testing Backend**
   - JUnit ([https://junit.org](https://junit.org))
   - Propósito: Framework de testing unitario para Java
@@ -88,6 +98,7 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Propósito: Infraestructura y servicios cloud
   <img src="assets/chapter-5-5.1/azure.png" alt="Azure" width="150"/>
 <br>
+
 - **Automatización CI/CD**
   - GitHub Actions ([https://github.com/features/actions](https://github.com/features/actions))
   - Propósito: Pipelines de integración y despliegue continuo
@@ -99,10 +110,12 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Markdown ([https://www.markdownguide.org](https://www.markdownguide.org))
   - Propósito: Documentación técnica y guías de desarrollo
 <br>
+
 - **Documentación Visual**
   - Draw.io ([https://app.diagrams.net](https://app.diagrams.net))
   - Propósito: Diagramas técnicos y de arquitectura
 <br>
+
 - **Documentación de API**
   - Swagger/OpenAPI ([https://swagger.io](https://swagger.io))
   - Propósito: Documentación interactiva de endpoints REST
@@ -126,6 +139,8 @@ La gestión del código fuente se centraliza en GitHub, implementando un sistema
   - Ramas de releases: `release/x.y.z` (Semantic Versioning 2.0.0).
   - Ramas de hotfixes: `hotfix/x.y.z`.
   - Convenciones de commits: Conventional Commits (ejemplo: `feat: add booking API`, `fix: correct payment bug`).
+
+  <BR>
 <img src="assets/chapter-5-5.1/gitflow.png" alt="GitFlow" width="350"/>
 
 ### 5.1.3. Source Code Style Guide & Conventions
@@ -152,11 +167,13 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
   - Propósito: Estandarización del entorno de desarrollo
   - Beneficios: Consistencia entre desarrolladores y aislamiento de dependencias
 <br>
+
 - **Staging**
   - Plataforma: Azure App Service
   - Propósito: Validación de cambios previa a producción
   - Características: Entorno espejo de producción para pruebas de integración
 <br>
+
 - **Producción**
   - Plataforma: Azure App Service y GitHub Pages
   - Propósito: Despliegue de aplicaciones en producción
@@ -183,6 +200,7 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
     - Optimización SEO
   <img src="assets/chapter-5-5.1/github-pages.png" alt="Landing Page Deployment" width="150"/>
 <br>
+
 - **Frontend (Web y Mobile)**
   - Tecnologías: Node.js/Vue CLI
   - Plataforma: Azure Static Web Apps
@@ -192,6 +210,7 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
     - Accesibilidad ARIA
   <img src="assets/chapter-5-5.1/azure-static-web-apps.png" alt="Frontend Deployment" width="150"/>
 <br>
+
 - **Backend (Web Services)**
   - Framework: Spring Boot
   - Plataforma: Azure App Service
@@ -208,11 +227,13 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
   - Alcance: Credenciales y configuraciones sensibles
   - Integración: Variables de entorno en CI/CD
 <br>
+
 - **Control de Versiones**
   - Sistema: Git tags y releases
   - Capacidad: Rollback automático
   - Estrategia: Blue-Green Deployment
 <br>
+
 - **Observabilidad**
   - Plataforma: Azure Application Insights
   - Características:
