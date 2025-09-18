@@ -1139,6 +1139,56 @@ Reseña de los estacionamientos:
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 ### 4.6.3. Web Applications Mock-ups
+
+Inicio de Sesion:
+
+---
+
+![Quadrapp MockUpWeb](./assets/MockupWebInicioSesion.png)
+
+---
+
+Crear Cuenta:
+
+---
+
+![Quadrapp MockUpWeb](./assets/MockupWebCrearCuenta.png)
+
+---
+
+Perfil de Propietario:
+
+---
+
+![Quadrapp MockUpWeb](./assets/MockupWebPerfilPropietario.png)
+
+---
+
+Registro de Parking:
+
+---
+
+![Quadrapp MockUpWeb](./assets/MockupWebRegistroPerfilParking.png)
+
+---
+
+Editar Perfil de Parking:
+
+---
+
+![Quadrapp MockUpWeb](./assets/MockupWebEditarPerfilParking.png)
+
+---
+
+Reseña de Parking:
+
+---
+
+![Quadrapp MockUpWeb](./assets/MockupWebReview.png)
+
+---
+
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
 ## 4.7. Web Applications Prototyping
