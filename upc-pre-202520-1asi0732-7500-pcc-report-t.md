@@ -165,310 +165,284 @@
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
 
-# Student Outcome
-|Criterio Especifico|Acciones Realizadas|Conclusiones|
-|-|-|-|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta.|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|Compañero1:<br> *TB1:*  <p>* texto etc.. </p> |TB1 <p>Conclusion</p>|
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
-#### 1.1.2. Perfiles de integrantes del equipo
-|Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
-|-|-|-|-|
-|Compañero 1 	![Imagen del compañero](image.jpg)|U20...|Ingenieria de software|C++, piton .etc|
 
-## 1.2. Solution Profile
-### 1.2.1 Antecedentes y problemática
-### 1.2.2 Lean UX Process.
-#### 1.2.2.1. Lean UX Problem Statements.
-#### 1.2.2.2. Lean UX Assumptions.
-|Business Assumptions|User Assumptions|
-|-|-|
-|1. - 12. |1. - 6.|
-#### 1.2.2.3. Lean UX Hypothesis Statements.
-Texto
-#### 1.2.2.4. Lean UX Canvas.
-(imagen con texto)
-## 1.3. Segmentos objetivo.
-| | Segmento 1 | Segmento 2  |
-| - | - |-|
-| Variables                 |  |  |
-| Geográfica                |  |  |
-| Demográfica               |  |  |
-| Psicológica               |  |  |
-| Función de comportamiento |  |  |
+# Capítulo V: Product Implementation
 
----
+## 5.2. Product Implementation & Deployment.
+### 5.2.1. Sprint Backlogs.
 
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores.
-### 2.1.1. Análisis competitivo.
+## Sprint 1 Backlog
 
-| Competitive Analysis Landscape                          |  |
-| ------------------------------------------------------- | -|
-| ¿Por qué llevar a cabo este análisis?                   | -- |
+<p align="justify">
+El objetivo principal del Sprint 1 fue establecer la base funcional y visual de Quadrapp, 
+desarrollando la Landing Page y las primeras funcionalidades del MVP relacionadas con la 
+autenticación de usuarios, la gestión de estacionamientos, las reservas y el perfil del usuario.
+</p>
 
+<table>
+  <tr>
+    <th colspan="8">Sprint # &nbsp;&nbsp; Sprint 1</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="2">Work-Item / Task</th>
+    <th rowspan="2">Description</th>
+    <th rowspan="2">Estimation (Hours)</th>
+    <th rowspan="2">Assigned To</th>
+    <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+  </tr>
 
-| |  | (Nosotros) | Competidor  | Comptdor |
-|-|-|-|-|-|
-| PERFIL| Overview | lorem | ipsum | lorem |
-|| Ventaja competitiva ¿Qué valor ofrece a los clientes? |  ipsu | impuz |
-|| Mercado Objetivo                                        | Jeda | asa | asa2 |
-| Perfil de marketing                                     | Estrategia de Marketing | Redes Sociales | Redes Sociales | Televisión, Redes Sociales |
-| Perfil del producto                                     | Productos y servicios | Elementos Gráficos Interactivos Enseñanza de Matemáticas Lúdica y Autodidacta Educación matemática interactiva Ámbito Freemium | Educación matemática interactiva Mas de 100 cursos en 28 idiomas diferentes | Educación general interactiva Contratos con Movistar |
-|| Precios y costos                                        | Freemium (Cuenta Premium permite personalizar los juegos) Gratis | Gratuito | Gratuito |
-|| Canales de distribución (Web y/o Móvil)                 | Web y Móvil Web | Móvil Web | Web y móvil Web |
-### 2.1.2. Estrategias y tácticas frente a competidores.
+  <tr>
+    <td>US01</td>
+    <td>Navegación intuitiva</td>
+    <td>T01</td>
+    <td>Implementar navbar</td>
+    <td>Crear barra de navegación responsiva con links principales</td>
+    <td>5</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
+  <tr>
+    <td>US02</td>
+    <td>Visualización de ciudades con servicio</td>
+    <td>T02</td>
+    <td>Sección de ciudades</td>
+    <td>Diseñar e implementar listado dinámico de ciudades disponibles</td>
+    <td>3</td>
+    <td>Beth Oneglio</td>
+    <td>To-do</td>
+  </tr>
 
-|Competidores ->|  | Nosotros | Competidor2| Competidor3|
-|-|-|-|-|-|
-| Análisis SWOT | Fortalezas | lorem | Lorem | lorem |
-|| Debilidades   | lorem | lorem | lorem | lorem | 
-|| Oportunidades | lorem | lorem | lorem | lorem | 
-|| Amenazas      | lorem | lorem | lorem | lorem |
+  <tr>
+    <td>US03</td>
+    <td>Promociones destacadas</td>
+    <td>T03</td>
+    <td>Banner de promociones</td>
+    <td>Diseñar carrusel/banners para mostrar promociones activas</td>
+    <td>4</td>
+    <td>Beth Oneglio</td>
+    <td>To-do</td>
+  </tr>
 
-## 2.2. Entrevistas.
-### 2.2.1. Diseño de entrevistas.
-**Preguntas generales:**
+  <tr>
+    <td>US04</td>
+    <td>Beneficios para conductores y dueños</td>
+    <td>T04</td>
+    <td>Sección beneficios</td>
+    <td>Crear sección explicativa con íconos e imágenes ilustrativas</td>
+    <td>3</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
+  <tr>
+    <td>US05</td>
+    <td>Visualización de misión</td>
+    <td>T05</td>
+    <td>Sección misión</td>
+    <td>Agregar misión institucional con estilo visual atractivo</td>
+    <td>2</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 2.2.2. Registro de entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
+  <tr>
+    <td>US06</td>
+    <td>Visualización de visión</td>
+    <td>T06</td>
+    <td>Sección visión</td>
+    <td>Incorporar visión de la empresa en la landing</td>
+    <td>2</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
+  <tr>
+    <td>US07</td>
+    <td>Visualización del equipo</td>
+    <td>T07</td>
+    <td>Sección equipo</td>
+    <td>Mostrar miembros del equipo con fotos y roles</td>
+    <td>3</td>
+    <td>Beth Oneglio</td>
+    <td>In-Progress</td>
+  </tr>
 
-### 2.2.3. Análisis de entrevistas.
-**Segmento 1:**
-{texto}
-**Segmento 2:**
-{texto}
-## 2.3. Needfinding.
-### 2.3.1. User Personas.
-**Segmento 1:**  
-![Imagen User Persona 1](image.jpg)
+  <tr>
+    <td>US08</td>
+    <td>Información de contacto</td>
+    <td>T08</td>
+    <td>Sección contacto</td>
+    <td>Implementar sección con email, teléfono y dirección</td>
+    <td>3</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-**Segmento 2:**
-![Imagen User Persona 1](image.jpg)
+  <tr>
+    <td>US09</td>
+    <td>Envío de mensaje de contacto</td>
+    <td>T09</td>
+    <td>Formulario de contacto</td>
+    <td>Crear formulario que envíe mensaje al backend</td>
+    <td>5</td>
+    <td>Beth Oneglio</td>
+    <td>In-Process</td>
+  </tr>
 
-### 2.3.2. User Task Matrix.
-| --- | ------ | Segmento 1  | ------/----- | Segmento 2  | ---------- |
-| --- | ------ | ----------- | ------------ | ----------- | ---------- |
-| ID  | Titulo | Importancia | Frecuencia   | Importancia | Frecuencia |
-| U01X| {Texto}| Alta        | Alta         | Media       | Baja       |
-### 2.3.3. User Journey Mapping.
-**Registration:**
-Why would they trust us?
-- s
-- s
-- s
-  
-**Onboarding and first use:**
-How can they feel successful?
-- s
-- s
-- s  
-  
-**Sharing:**
-Why would they invite others?
-- s
-- s
-- s
+  <tr>
+    <td>US10</td>
+    <td>Información de características</td>
+    <td>T10</td>
+    <td>Sección características</td>
+    <td>Mostrar funcionalidades principales con íconos y textos</td>
+    <td>3</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-### 2.3.4. Empathy Mapping.
-**Segmento 1:**
-![Empathy Map Segmento1](image.jpg)
+  <tr>
+    <td>US11</td>
+    <td>Botón de registro e inicio de sesión</td>
+    <td>T11</td>
+    <td>Botones Auth</td>
+    <td>Agregar botones visibles de Registro e Inicio de Sesión</td>
+    <td>2</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-**Segmento 2:**
-![Empathy Map Segmento1](image.jpg)
-### 2.3.5. As-is Scenario Mapping.
+  <tr>
+    <td>US12</td>
+    <td>Enlace a redes sociales</td>
+    <td>T12</td>
+    <td>Footer redes sociales</td>
+    <td>Implementar íconos con links a Facebook, Instagram y LinkedIn</td>
+    <td>2</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-**Segmento 1**  
-Escenario: {escenario}
+  <tr>
+    <td>US13</td>
+    <td>Visualización de slogan</td>
+    <td>T13</td>
+    <td>Header slogan</td>
+    <td>Incorporar slogan atractivo en el header principal</td>
+    <td>2</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
+  <tr>
+    <td>US14</td>
+    <td>Acceso a información legal</td>
+    <td>T14</td>
+    <td>Footer legal</td>
+    <td>Agregar enlaces a términos de uso y políticas de privacidad</td>
+    <td>2</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
 
-**Segmento 2**  
-Escenario: Dificultad para entender Matemáticas
+<tr>
+    <td>US15</td>
+    <td>Inicio de sesión para conductores</td>
+    <td>T15</td>
+    <td>Implementar login</td>
+    <td>Desarrollar backend y frontend para inicio de sesión de conductores</td>
+    <td>5</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
 
-As Is:
-| Fases| Fase 1 | Fase 2| Fase 3| Fase 4|
-| -------- | --------- | --------- | ------- | --------- |
-| Doing | texto| texto | texto| texto|
-| Thinking | texto| texto | texto| texto|
-| Feeling  | texto| texto | texto| texto|
-## 2.4 Big Picture EventStorming.
+  <tr>
+    <td>US16</td>
+    <td>Registro de conductores</td>
+    <td>T16</td>
+    <td>Implementar registro conductor</td>
+    <td>Desarrollar backend y frontend para registro de conductores</td>
+    <td>5</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
 
-## 2.5. Ubiquitous Language.
-```
-Texto ubiquo: Definicion de este
-```
+  <tr>
+    <td>US17</td>
+    <td>Registro de propietarios de estacionamiento</td>
+    <td>T17</td>
+    <td>Implementar registro propietario</td>
+    <td>Desarrollar backend y frontend para registro de propietarios</td>
+    <td>5</td>
+    <td>Leonardo Solis</td>
+    <td>In-Progress</td>
+  </tr>
 
----
+  <tr>
+    <td>US18</td>
+    <td>Búsqueda de reservas</td>
+    <td>T18</td>
+    <td>Implementar búsqueda de reservas</td>
+    <td>Desarrollar lógica de búsqueda de reservas en backend y UI en frontend</td>
+    <td>6</td>
+    <td>Leonardo Solis</td>
+    <td>To-do</td>
+  </tr>
 
-# Capítulo III: Requirements Specification
+  <tr>
+    <td>US19</td>
+    <td>Pago de reservas por transacción</td>
+    <td>T19</td>
+    <td>Implementar pago de reservas</td>
+    <td>Integrar flujo de pago y registrar transacciones</td>
+    <td>8</td>
+    <td>Leonardo Solis</td>
+    <td>To-Do</td>
+  </tr>
 
-## 3.1. User Stories.
+  <tr>
+    <td>US20</td>
+    <td>Confirmación de reserva registrada</td>
+    <td>T20</td>
+    <td>Implementar confirmación de reserva</td>
+    <td>Generar confirmación automática al registrar una reserva</td>
+    <td>4</td>
+    <td>Leonardo Solis</td>
+    <td>In-Progress</td>
+  </tr>
 
-| HU0X | Historia Usuario | "Descripcion"  |
-|-|-|-|
+  <tr>
+    <td>US23</td>
+    <td>Configuración de preferencias de usuario</td>
+    <td>T23</td>
+    <td>Implementar configuración de preferencias</td>
+    <td>Desarrollar módulo para que el usuario configure sus preferencias</td>
+    <td>6</td>
+    <td></td>
+    <td>Done</td>
+  </tr>
 
-## 3.2. Impact Mapping.
+</table>
 
-![Impact Mapping](image.jpg)
+### 5.2.2. Implemented Landing Page Evidence.
 
-## 3.3. Product Backlog.
+![Landing Page](assets/landingPageEvidence.png)
 
-| #Orden | User Story ID | Titulo| Descripción| Story Points (1/2/3/5/8) |
-| ------ | ------------- | ----- | ---------- | ------------------------ |
-| 1      | HU01          | titulo his | desc  | 5                        |
+### 5.2.3. Implemented Frotend-Web Application Evidence.
+### 5.2.4. Implemented Native-Mobile Application Evidence. 
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
+### 5.2.6. RESTful API Documentation.
+### 5.2.7. Team Collaboration Insights.
 
-# Capítulo IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design.
-### 4.1.1. Design-Level EventStorming.
-#### 4.1.1.1 Candidate Context Discovery.
-#### 4.1.1.2 Domain Message Flows Modeling.
-#### 4.1.1.3 Bounded Context Canvases.
-### 4.1.2. Context Mapping.
-### 4.1.3. Software Architecture.
-#### 4.1.3.1. Software Architecture System Landscape Diagram.
-#### 4.1.3.2. Software Architecture Context Level Diagrams.
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
-#### 4.1.3.3. Software Architecture Deployment Diagrams.
-## 4.2. Tactical-Level Domain-Driven Design
+![Team Collaboration Insights](assets/teamCollabInsights.png)
 
-
-### 4.2.X. Bounded Context:
-#### 4.2.X.1. Domain Layer.
-#### 4.2.X.2. Interface Layer.
-#### 4.2.X.3. Application Layer.
-#### 4.2.X.4. Infrastructure Layer.
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams..
-
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.X.6.2. Bounded Context Database Design Diagram.
-
-# Capítulo V: Solution UI/UX Design
-
-## 5.1. Style Guidelines.
-### 5.1.1. General Style Guidelines.
-### 5.1.2. Web, Mobile and IoT Style Guidelines.
-## 5.2. Information Architecture.
-### 5.2.1. Organization Systems.
-### 5.2.2. Labeling Systems.
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems.
-### 5.2.5. Navigation Systems.
-## 5.3. Landing Page UI Design.
-### 5.3.1. Landing Page Wireframe.
-### 5.3.2. Landing Page Mock-up.
-## 5.4. Applications UX/UI Design.
-### 5.4.1. Applications Wireframes.
-### 5.4.2. Applications Wireflow Diagrams.
-### 5.4.2. Applications Mock-ups.
-### 5.4.3. Applications User Flow Diagrams.
-## 5.5. Applications Prototyping.
-
-
-# Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
-
-## 6.2. Landing Page, Services & Applications Implementation.
-
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-#### 6.2.X.2. Aspect Leaders and Collaborators.
-#### 6.2.X.3. Sprint Backlog n.
-#### 6.2.X.4. Development Evidence for Sprint Review.
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.6. Execution Evidence for Sprint Review.
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
-
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-**Preguntas generales:**
-
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
-
-**Entrevistas usuario segmento 2**
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-**Entrevistas usuario segmento 2**
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 6.3.2. Registro de Entrevistas.
-**Segmento 1**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-**Segmento 2**  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
-### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
 ## 6.4. Video About-the-Product.
 [URL del video about the product](https://www.example.com)
 # Conclusiones
