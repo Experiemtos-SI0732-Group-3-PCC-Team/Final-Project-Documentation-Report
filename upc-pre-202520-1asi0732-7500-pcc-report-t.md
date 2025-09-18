@@ -826,4 +826,3 @@ En esta sección se ilustra el recorrido completo del usuario (end-to-end journe
 - **Fine for Excess Time (Multa por Exceso de Tiempo):** Un cargo adicional aplicado si un usuario excede el tiempo de estacionamiento reservado.
 
 - **Validation System (Sistema de Validación):** Mecanismo para verificar que un vehículo tenga una reserva válida para un espacio de estacionamiento específico.
->>>>>>> Chapter-II
