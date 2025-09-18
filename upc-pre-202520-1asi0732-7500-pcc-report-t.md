@@ -13,7 +13,7 @@ En el caso de los Conductores Particulares, el To-Be Scenario Mapping describe l
 
 <br>
 
-**Propietarios de Estacionamientos**
+**Propietarios de Estacionamientos:**
 
 En relación con los Propietarios de Estacionamientos, el To-Be Scenario Mapping expone los resultados esperados tras la implementación de la solución Quadrapp, orientados a optimizar la gestión, el control de espacios y la eficiencia operativa. Este artefacto busca mostrar la manera en que se superan las limitaciones identificadas en el As-is Scenario, aportando mejoras tanto en la administración como en la experiencia de los usuarios.
 
@@ -22,36 +22,6 @@ El escenario ideal proyecta que los propietarios puedan administrar sus estacion
 ![ToBeScenarioMapping-Segmento2](assets/ToBeScenarioMapping-Segmento2.PNG)
 
 ## 3.2. User Stories.
-
-#### Epics
-
-En el proyecto **Quadrapp**, las *epics* se han definido con el objetivo de satisfacer las necesidades fundamentales de los usuarios y del equipo de desarrollo. Estas *epics* abarcan funcionalidades esenciales de la aplicación de gestión de estacionamientos en tiempo real, garantizando que los usuarios puedan interactuar de manera eficiente con el sistema y que los desarrolladores cuenten con herramientas que faciliten la administración y el mantenimiento de la aplicación.
-
-| Epic / Story ID | Título                          | Descripción                                                                 |
-|-----------------|---------------------------------|-----------------------------------------------------------------------------|
-| EP01            | Navegación en Landing Page      | Como usuario, quiero navegar de forma intuitiva por la landing page para acceder a funciones y contenidos clave de manera eficiente. |
-| EP02            | Autenticación y Registro        | Como usuario, quiero registrarme e iniciar sesión mediante correo o redes sociales para acceder de forma segura y cómoda a la plataforma. |
-| EP03            | Recuperación de Contraseña      | Como usuario, quiero recuperar fácilmente mi contraseña para poder acceder a mi cuenta en caso de olvido. |
-| EP04            | Servicios y Beneficios          | Como usuario, quiero conocer los servicios y beneficios de Quadrapp para entender cómo la plataforma puede satisfacer mis necesidades. |
-| EP05            | Soporte y FAQ                   | Como usuario, quiero acceder a soporte y preguntas frecuentes para resolver mis dudas de forma rápida y autónoma. |
-| EP06            | Conexión con Redes Sociales     | Como usuario, quiero vincular mi cuenta con redes sociales para compartir experiencias y aprovechar beneficios adicionales. |
-| EP07            | Búsqueda de Estacionamientos    | Como usuario, quiero buscar estacionamientos y ver la disponibilidad en tiempo real para seleccionar el lugar más conveniente. |
-| EP08            | Disponibilidad en Tiempo Real   | Como usuario, quiero que la disponibilidad de los estacionamientos se actualice automáticamente para evitar reservas en lugares ocupados. |
-| EP09            | Gestión de Reservas             | Como usuario, quiero realizar, modificar y cancelar reservas para poder ajustar mis planes según sea necesario. |
-| EP10            | Perfil de Usuario               | Como usuario, quiero actualizar y gestionar mi perfil para mantener mis datos y preferencias personales siempre actualizados. |
-| EP11            | Notificaciones en Tiempo Real   | Como usuario, quiero recibir notificaciones oportunas sobre eventos y reservas para estar informado de manera inmediata. |
-| EP12            | Integración con Mapas           | Como usuario, quiero visualizar rutas y ubicaciones de estacionamientos en mapas para optimizar mi tiempo y desplazamientos. |
-| EP13            | Favoritos                       | Como usuario, quiero marcar estacionamientos como favoritos para acceder rápidamente a los lugares que uso con frecuencia. |
-| EP14            | Opiniones y Calificaciones      | Como usuario, quiero leer y dejar opiniones sobre los estacionamientos para tomar decisiones fundamentadas. |
-| EP15            | Seguridad y Privacidad de Datos | Como usuario, quiero que mis datos personales y de pago estén protegidos para tener confianza al usar la app. |
-| EP16            | Optimización de Backend         | Como developer, quiero optimizar el backend para reducir tiempos de espera y mejorar la eficiencia de la plataforma. |
-| EP17            | Promociones y Beneficios        | Como usuario, quiero acceder a promociones y beneficios personalizados para maximizar mis ahorros y recompensas. |
-| EP18            | Administración de Reservas      | Como developer, quiero gestionar reservas en el backend para asegurar consistencia y actualización de los datos. |
-| EP19            | Pagos y Transacciones           | Como usuario, quiero realizar pagos seguros y gestionar mis transacciones para completar reservas de manera confiable. |
-
-----
-
-#### User Stories
 
 Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la experiencia del usuario final y facilitar las tareas del equipo de desarrollo. Estas historias abarcan diversos aspectos de la plataforma, incluyendo la landing page, la integración y optimización del backend, así como el desarrollo de interfaces de usuario eficientes para el frontend y la aplicación móvil. Cada historia se redacta de manera clara y comprensible, e incluye criterios de aceptación específicos que orientan el desarrollo y garantizan que las funcionalidades implementadas cumplan con los requisitos del negocio y las expectativas del usuario final.
 
@@ -76,7 +46,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante de Quadrapp, deseo que la landing page tenga una barra de navegación clara y accesible para encontrar fácilmente las secciones importantes.</td>
+    <td colspan="4">Como visitante de Quadrapp, quiero que la landing page tenga una barra de navegación clara y accesible para encontrar fácilmente las secciones importantes.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -99,7 +69,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver en la landing page las ciudades donde Quadrapp está disponible para saber si puedo utilizar el servicio en mi ubicación.</td>
+    <td colspan="4">Como visitante, quiero ver en la landing page las ciudades donde Quadrapp está disponible para saber si puedo utilizar el servicio en mi ubicación.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -122,7 +92,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver promociones destacadas en la landing page para aprovechar descuentos y beneficios en las ciudades disponibles.</td>
+    <td colspan="4">Como visitante, quiero ver promociones destacadas en la landing page para aprovechar descuentos y beneficios en las ciudades disponibles.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -145,7 +115,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver una sección en la landing page que me explique los beneficios de usar Quadrapp para entender las ventajas que ofrece.</td>
+    <td colspan="4">Como visitante, quiero ver una sección en la landing page que me explique los beneficios de usar Quadrapp para entender las ventajas que ofrece.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -168,7 +138,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver una sección en la landing page que me explique los beneficios de usar Quadrapp para entender las ventajas que ofrece.</td>
+    <td colspan="4">Como visitante, quiero ver una sección en la landing page que me explique los beneficios de usar Quadrapp para entender las ventajas que ofrece.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -191,7 +161,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver la visión de Quadrapp en la landing page para conocer sus metas futuras y crecimiento.</td>
+    <td colspan="4">Como visitante, quiero ver la visión de Quadrapp en la landing page para conocer sus metas futuras y crecimiento.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -214,7 +184,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver una sección que muestre a los miembros del equipo de Quadrapp para conocer quiénes están detrás del proyecto.</td>
+    <td colspan="4">Como visitante, quiero ver una sección que muestre a los miembros del equipo de Quadrapp para conocer quiénes están detrás del proyecto.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -237,7 +207,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo ver una sección de contacto en la landing page para saber cómo comunicarme con Quadrapp si tengo preguntas o comentarios.</td>
+    <td colspan="4">Como visitante, quiero ver una sección de contacto en la landing page para saber cómo comunicarme con Quadrapp si tengo preguntas o comentarios.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -260,7 +230,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     <td colspan="4">Description</td>
   </tr>
   <tr>
-    <td colspan="4">Como visitante, deseo poder enviar un mensaje a Quadrapp desde la landing page para hacer preguntas o dar feedback.</td>
+    <td colspan="4">Como visitante, quiero poder enviar un mensaje a Quadrapp desde la landing page para hacer preguntas o dar feedback.</td>
   </tr>
   <tr>
     <td colspan="4">Acceptance Criteria</td>
@@ -283,7 +253,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como visitante, deseo ver las características de Quadrapp en la landing page para entender qué ofrece el servicio.</td>
+  <td colspan="4">Como visitante, quiero ver las características de Quadrapp en la landing page para entender qué ofrece el servicio.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -306,7 +276,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como visitante, deseo ver botones destacados de "Registrarse" e "Iniciar Sesión" en la landing page para acceder a la plataforma o crear una cuenta fácilmente.</td>
+  <td colspan="4">Como visitante, quiero ver botones destacados de "Registrarse" e "Iniciar Sesión" en la landing page para acceder a la plataforma o crear una cuenta fácilmente.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -329,7 +299,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como visitante, deseo ver enlaces a las redes sociales de Quadrapp en la landing page para seguir sus novedades y actualizaciones.</td>
+  <td colspan="4">Como visitante, quiero ver enlaces a las redes sociales de Quadrapp en la landing page para seguir sus novedades y actualizaciones.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -352,7 +322,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como visitante, deseo ver un slogan atractivo en la landing page de Quadrapp para entender de inmediato la propuesta del servicio.</td>
+  <td colspan="4">Como visitante, quiero ver un slogan atractivo en la landing page de Quadrapp para entender de inmediato la propuesta del servicio.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -375,7 +345,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como visitante, deseo ver enlaces a la información legal y políticas de privacidad en la landing page para revisar los términos de uso y la protección de mis datos.</td>
+  <td colspan="4">Como visitante, quiero ver enlaces a la información legal y políticas de privacidad en la landing page para revisar los términos de uso y la protección de mis datos.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -398,7 +368,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor interesado en usar Quadrapp, deseo iniciar sesión con mi cuenta registrada anteriormente para acceder a la aplicación.</td>
+  <td colspan="4">Como conductor interesado en usar Quadrapp, quiero iniciar sesión con mi cuenta registrada anteriormente para acceder a la aplicación.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -421,7 +391,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor interesado en usar Quadrapp, deseo registrar mi cuenta para acceder a la plataforma.</td>
+  <td colspan="4">Como conductor interesado en usar Quadrapp, quiero registrar mi cuenta para acceder a la plataforma.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -444,7 +414,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como propietario de estacionamiento, deseo registrar mi cuenta para hacer uso de las funcionalidades que me ofrece Quadrapp.</td>
+  <td colspan="4">Como propietario de estacionamiento, quiero registrar mi cuenta para hacer uso de las funcionalidades que me ofrece Quadrapp.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -467,7 +437,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor, deseo hacer uso de la búsqueda de reservas para visualizar mis reservas activas y pasadas.</td>
+  <td colspan="4">Como conductor, quiero hacer uso de la búsqueda de reservas para visualizar mis reservas activas y pasadas.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -490,7 +460,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor, deseo realizar el pago de mis reservas por transacción para completar mis reservas.</td>
+  <td colspan="4">Como conductor, quiero realizar el pago de mis reservas por transacción para completar mis reservas.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -513,7 +483,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor, deseo que se muestre una pantalla de confirmación para asegurarme de que la reserva fue registrada correctamente.</td>
+  <td colspan="4">Como conductor, quiero que se muestre una pantalla de confirmación para asegurarme de que la reserva fue registrada correctamente.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -536,7 +506,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como usuario, deseo registrar mis opiniones para dar mi retroalimentación sobre mis experiencias con las funcionalidades de la plataforma.</td>
+  <td colspan="4">Como usuario, quiero registrar mis opiniones para dar mi retroalimentación sobre mis experiencias con las funcionalidades de la plataforma.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -559,7 +529,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor, deseo recibir notificaciones en mi dashboard para recibir alertas relevantes como ofertas o recordatorios de reservas.</td>
+  <td colspan="4">Como conductor, quiero recibir notificaciones en mi dashboard para recibir alertas relevantes como ofertas o recordatorios de reservas.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -582,7 +552,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como usuario, deseo configurar mis preferencias de uso para personalizar mi experiencia en la plataforma.</td>
+  <td colspan="4">Como usuario, quiero configurar mis preferencias de uso para personalizar mi experiencia en la plataforma.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -605,7 +575,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor, deseo visualizar mi historial de reservas para consultar mis reservas realizadas.</td>
+  <td colspan="4">Como conductor, quiero visualizar mi historial de reservas para consultar mis reservas realizadas.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -628,7 +598,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td>
 </tr>
 <tr>
-  <td colspan="4">Como conductor, deseo recibir alertas de disponibilidad de espacios para ser notificado cuando un espacio de mi interés esté disponible.</td>
+  <td colspan="4">Como conductor, quiero recibir alertas de disponibilidad de espacios para ser notificado cuando un espacio de mi interés esté disponible.</td>
 </tr>
 <tr>
   <td colspan="4">Acceptance Criteria</td>
@@ -651,7 +621,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo un sistema de soporte en tiempo real para poder resolver mis dudas o problemas rápidamente.</td> 
+  <td colspan="4">Como conductor, quiero un sistema de soporte en tiempo real para poder resolver mis dudas o problemas rápidamente.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -674,7 +644,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo marcar estacionamientos de mi interés como favoritos para facilitar futuras reservas.</td> 
+  <td colspan="4">Como conductor, quiero marcar estacionamientos de mi interés como favoritos para facilitar futuras reservas.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -697,7 +667,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo verificar el estado de mi reserva para confirmar si el espacio que deseo está listo para ocuparse.</td> 
+  <td colspan="4">Como conductor, quiero verificar el estado de mi reserva para confirmar si el espacio que deseo está listo para ocuparse.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -720,7 +690,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo acceder a la opción de cancelar mi reserva para evitar inconvenientes en caso de cambio de planes.</td> 
+  <td colspan="4">Como conductor, quiero acceder a la opción de cancelar mi reserva para evitar inconvenientes en caso de cambio de planes.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -743,7 +713,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo visualizar las alertas en mi dashboard para gestionar mis alertas de seguridad o disponibilidad.</td> 
+  <td colspan="4">Como conductor, quiero visualizar las alertas en mi dashboard para gestionar mis alertas de seguridad o disponibilidad.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -766,7 +736,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo personalizar mis preferencias de notificación para recibir solo las alertas que me interesan.</td> 
+  <td colspan="4">Como conductor, quiero personalizar mis preferencias de notificación para recibir solo las alertas que me interesan.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -789,7 +759,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo acceder a un mapa interactivo en el dashboard para ver ubicaciones de estacionamientos cercanos en tiempo real.</td> 
+  <td colspan="4">Como conductor, quiero acceder a un mapa interactivo en el dashboard para ver ubicaciones de estacionamientos cercanos en tiempo real.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -812,7 +782,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como conductor, deseo hacer seguimiento en tiempo real de mi reserva para ver el estado del mismo en todo momento.</td> 
+  <td colspan="4">Como conductor, quiero hacer seguimiento en tiempo real de mi reserva para ver el estado del mismo en todo momento.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -835,7 +805,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo crear un endpoint para gestionar consultas y solicitudes de servicio al cliente para permitir soporte eficaz a los usuarios.</td> 
+  <td colspan="4">Como developer, quiero crear un endpoint para gestionar consultas y solicitudes de servicio al cliente para permitir soporte eficaz a los usuarios.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -858,7 +828,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint que envíe notificaciones automáticas cuando un espacio cambie de estado para mantener a los usuarios informados en tiempo real.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint que envíe notificaciones automáticas cuando un espacio cambie de estado para mantener a los usuarios informados en tiempo real.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -881,7 +851,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo desarrollar un endpoint para consultar el historial de transacciones de cada usuario para permitir la revisión de pagos y reservas anteriores.</td> 
+  <td colspan="4">Como developer, quiero desarrollar un endpoint para consultar el historial de transacciones de cada usuario para permitir la revisión de pagos y reservas anteriores.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -904,7 +874,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para actualizar automáticamente la disponibilidad de espacios para reflejar cambios en tiempo real según las cámaras de monitoreo visual.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para actualizar automáticamente la disponibilidad de espacios para reflejar cambios en tiempo real según las cámaras de monitoreo visual.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -927,7 +897,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para que los administradores configuren alertas de seguridad para responder rápidamente a eventos sospechosos en los espacios de estacionamiento.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para que los administradores configuren alertas de seguridad para responder rápidamente a eventos sospechosos en los espacios de estacionamiento.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -950,7 +920,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para configurar tarifas de estacionamiento basadas en la ubicación para que los administradores ajusten precios según la demanda.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para configurar tarifas de estacionamiento basadas en la ubicación para que los administradores ajusten precios según la demanda.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -973,7 +943,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para registrar todas las alertas de seguridad detectadas en los estacionamientos para que los administradores revisen incidentes pasados.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para registrar todas las alertas de seguridad detectadas en los estacionamientos para que los administradores revisen incidentes pasados.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -996,7 +966,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para almacenar y gestionar información de los vehículos registrados para poder hacer seguimiento y gestionar accesos.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para almacenar y gestionar información de los vehículos registrados para poder hacer seguimiento y gestionar accesos.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1019,7 +989,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para generar reportes de promociones utilizadas para analizar la efectividad de las promociones y optimizar futuras campañas.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para generar reportes de promociones utilizadas para analizar la efectividad de las promociones y optimizar futuras campañas.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1042,7 +1012,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para registrar y auditar todas las acciones críticas de los usuarios y administradores para garantizar la seguridad y trazabilidad de las operaciones.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para registrar y auditar todas las acciones críticas de los usuarios y administradores para garantizar la seguridad y trazabilidad de las operaciones.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1065,7 +1035,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para registrar y consultar el historial de opiniones de los usuarios para mejorar la experiencia de usuario a través del feedback.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para registrar y consultar el historial de opiniones de los usuarios para mejorar la experiencia de usuario a través del feedback.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1088,7 +1058,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para procesar pagos y verificar transacciones para asegurar que todos los pagos de reservas se realicen de forma segura.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para procesar pagos y verificar transacciones para asegurar que todos los pagos de reservas se realicen de forma segura.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1111,7 +1081,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para generar reportes de ocupación de los estacionamientos para analizar el uso y optimizar la disponibilidad de espacios.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para generar reportes de ocupación de los estacionamientos para analizar el uso y optimizar la disponibilidad de espacios.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1134,7 +1104,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para que los usuarios configuren sus preferencias de notificaciones para personalizar los avisos que desean recibir.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para que los usuarios configuren sus preferencias de notificaciones para personalizar los avisos que desean recibir.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1157,7 +1127,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para recopilar feedback de los usuarios al finalizar su reserva para obtener insights sobre su experiencia de usuario.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para recopilar feedback de los usuarios al finalizar su reserva para obtener insights sobre su experiencia de usuario.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1180,7 +1150,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo implementar un endpoint para gestionar solicitudes de reembolso para asegurar que los usuarios puedan solicitar reembolsos fácilmente en caso de problemas.</td> 
+  <td colspan="4">Como developer, quiero implementar un endpoint para gestionar solicitudes de reembolso para asegurar que los usuarios puedan solicitar reembolsos fácilmente en caso de problemas.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1203,7 +1173,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
   <td colspan="4">Description</td> 
 </tr> 
 <tr> 
-  <td colspan="4">Como developer, deseo un endpoint para auditar todas las modificaciones de tarifas en la plataforma para asegurar un control y seguimiento sobre los cambios de precios.</td> 
+  <td colspan="4">Como developer, quiero un endpoint para auditar todas las modificaciones de tarifas en la plataforma para asegurar un control y seguimiento sobre los cambios de precios.</td> 
 </tr> 
 <tr> 
   <td colspan="4">Acceptance Criteria</td> 
@@ -1227,8 +1197,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
 </tr>
 <tr>
   <td colspan="4">
-    Como developer, quiero investigar bibliotecas de autenticación OAuth2 disponibles, 
-    con el fin de garantizar una integración segura y compatible con la arquitectura del sistema.
+    Como developer, quiero investigar bibliotecas de autenticación OAuth2 disponibles, con el fin de garantizar una integración segura y compatible con la arquitectura del sistema.
   </td>
 </tr>
 <tr>
@@ -1258,8 +1227,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
 </tr>
 <tr>
   <td colspan="4">
-    Como developer, quiero investigar distintas pasarelas de pago (PayPal, MercadoPago, Yape), 
-    para de identificar la opción más adecuada para la plataforma.
+    Como developer, quiero investigar distintas pasarelas de pago (PayPal, MercadoPago, Yape), para identificar la opción más adecuada para la plataforma.
   </td>
 </tr>
 <tr>
@@ -1313,8 +1281,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
 </tr>
 <tr>
   <td colspan="4">
-    Como developer, quiero investigar servicios de notificaciones push (Firebase, OneSignal, WebPush), 
-    con el fin de identificar la solución más confiable y con menor latencia para propietarios de estacionamiento y conductores.
+    Como developer, quiero investigar servicios de notificaciones push (Firebase, OneSignal, WebPush), con el fin de identificar la solución más confiable y con menor latencia para propietarios de estacionamiento y conductores.
   </td>
 </tr>
 <tr>
@@ -1406,10 +1373,7 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
     Escenario 01: <br> Given que se configuran pruebas de carga con al menos 500 usuarios simultáneos, When se ejecuta la simulación, Then el sistema debe responder sin errores críticos y manteniendo un tiempo de respuesta aceptable. <br> Escenario 02: <br> Given que se ejecutan pruebas bajo condiciones de red inestables, When el sistema procesa solicitudes de usuarios con pérdida de paquetes, Then debe seguir funcionando sin afectar la integridad de los datos.
   </td>
 </tr>
-
-
 </table>
-
 
 ## 3.3. Product Backlog.
 
@@ -1473,172 +1437,25 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
 | 56 | SP06 | Evaluación de seguridad y cifrado de datos sensibles | Como developer, quiero implementar cifrado de datos para cumplir con estándares de seguridad y proteger información de usuarios y pagos. | 8 |
 | 57 | SP07 | Pruebas de rendimiento de la aplicación | Como developer, quiero realizar pruebas de rendimiento en la aplicación para garantizar que soporte un alto volumen de usuarios concurrentes. | 8 |
 
+Enlace: https://trello.com/invite/b/68cb76046c3ed8b6f0fc18c2/ATTI91035f3a2c18dc5abbb742838e8d0be8E6AB6959/quadrapp-product-backlog-tb1-sprint-1
+
 ## 3.4. Impact Mapping.
 
-**Descripción del Impact Map: Conductor Urbano Frecuente**
+En esta sección, presentamos el Impact Mapping para el proyecto de Quadrapp, cuyo objetivo es desarrollar e implementar un mapa interactivo que facilite la localización. Este mapa es esencial para optimizar la experiencia de nuestros usuarios y alcanzar los objetivos comerciales.
 
-Este Impact Map de Quadrapp se enfoca en aumentar el número de conductores urbanos frecuentes que siguen utilizando el servicio, mejorando la seguridad y accesibilidad en los estacionamientos de zonas urbanas. El objetivo es aumentar el uso del servicio en un 30%, proponiendo soluciones como sistemas de navegación más eficientes, cámaras de monitoreo visual para actualización en tiempo real y notificaciones sobre espacios disponibles. Las historias de usuario se centran en mejorar las rutas, garantizar la seguridad y gestionar las alertas, ofreciendo una mejor experiencia a los conductores.
+El Impact Mapping ofrece una visión clara de cómo los objetivos de negocio, las necesidades de los usuarios y las funcionalidades propuestas se interconectan. Asegura que cada elemento del desarrollo esté alineado con nuestras metas, contribuyendo al éxito de Quadrapp y mejorando tanto la experiencia de los universitarios como la de los adquirientes.
+<br>
 
-<p style="text-align: center;"><em>Mejorando rutas y seguridad para el conductor urbano.</em></p>
+- **Segmento Conductores Urbanos:**
+
+El Impact Map de Quadrapp se centra en incrementar el número de conductores urbanos frecuentes que utilizan la plataforma, mejorando la seguridad y accesibilidad en los estacionamientos de zonas urbanas. El objetivo es aumentar el uso del servicio en un 30%, implementando soluciones como rutas de navegación más eficientes, cámaras de monitoreo en tiempo real y notificaciones automáticas sobre disponibilidad de espacios. Las historias de usuario están orientadas a optimizar rutas, garantizar la seguridad y gestionar alertas, brindando así una experiencia más fluida y confiable para los conductores.
 
 ![ImpactMapping-Segmento1](assets/Impact%20Mapping%20-%20%20Segmento1.png)
 
-<br>
+----
 
-**Descripción del Impact Map: Propietario de Estacionamiento**
+- **Segmento Propietarios de Estacionamiento:**
 
-El Impact Map para los propietarios de estacionamientos está diseñado para optimizar la gestión de sus espacios y aumentar la satisfacción de los clientes en un 30% durante los próximos seis meses. Las soluciones propuestas incluyen un sistema de reservas en tiempo real, herramientas visuales para monitorear la disponibilidad de espacios en tiempo real mediante cámaras, y funcionalidades para obtener opiniones de los usuarios. Estas funciones ayudan a los propietarios a maximizar el uso de los espacios, reducir tiempos de espera y mejorar la calidad del servicio basado en el feedback directo de los clientes.
-
-<p style="text-align: center;"><em>Gestión optimizada para administradores de espacios.</em></p>
+El Impact Map para propietarios de estacionamientos está diseñado para optimizar la gestión de sus espacios y aumentar la satisfacción de los clientes en un 30% durante los próximos seis meses. Las soluciones incluyen reservas en tiempo real, herramientas visuales de monitoreo mediante cámaras y funcionalidades para recopilar opiniones de los usuarios. Estas funciones permiten a los propietarios maximizar la ocupación de sus espacios, reducir los tiempos de espera y mejorar la calidad del servicio a partir del feedback directo de los clientes.
 
 ![ImpactMapping-Segmento2](assets/Impact%20Mapping%20-%20Segmento2.png)
-
-# Capítulo IV: Solution Software Design
-## 4.1. Strategic-Level Domain-Driven Design.
-### 4.1.1. Design-Level EventStorming.
-#### 4.1.1.1 Candidate Context Discovery.
-#### 4.1.1.2 Domain Message Flows Modeling.
-#### 4.1.1.3 Bounded Context Canvases.
-### 4.1.2. Context Mapping.
-### 4.1.3. Software Architecture.
-#### 4.1.3.1. Software Architecture System Landscape Diagram.
-#### 4.1.3.2. Software Architecture Context Level Diagrams.
-#### 4.1.3.2. Software Architecture Container Level Diagrams.
-#### 4.1.3.3. Software Architecture Deployment Diagrams.
-## 4.2. Tactical-Level Domain-Driven Design
-
-
-### 4.2.X. Bounded Context:
-#### 4.2.X.1. Domain Layer.
-#### 4.2.X.2. Interface Layer.
-#### 4.2.X.3. Application Layer.
-#### 4.2.X.4. Infrastructure Layer.
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams..
-
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
-##### 4.2.X.6.2. Bounded Context Database Design Diagram.
-
-# Capítulo V: Solution UI/UX Design
-
-## 5.1. Style Guidelines.
-### 5.1.1. General Style Guidelines.
-### 5.1.2. Web, Mobile and IoT Style Guidelines.
-## 5.2. Information Architecture.
-### 5.2.1. Organization Systems.
-### 5.2.2. Labeling Systems.
-### 5.2.3. SEO Tags and Meta Tags
-### 5.2.4. Searching Systems.
-### 5.2.5. Navigation Systems.
-## 5.3. Landing Page UI Design.
-### 5.3.1. Landing Page Wireframe.
-### 5.3.2. Landing Page Mock-up.
-## 5.4. Applications UX/UI Design.
-### 5.4.1. Applications Wireframes.
-### 5.4.2. Applications Wireflow Diagrams.
-### 5.4.2. Applications Mock-ups.
-### 5.4.3. Applications User Flow Diagrams.
-## 5.5. Applications Prototyping.
-
-
-# Capítulo VI: Product Implementation, Validation & Deployment
-## 6.1. Software Configuration Management.
-### 6.1.1. Software Development Environment Configuration.
-### 6.1.2. Source Code Management.
-### 6.1.3. Source Code Style Guide & Conventions.
-### 6.1.4. Software Deployment Configuration.
-
-## 6.2. Landing Page, Services & Applications Implementation.
-
-### 6.2.X. Sprint n
-#### 6.2.X.1. Sprint Planning n.
-#### 6.2.X.2. Aspect Leaders and Collaborators.
-#### 6.2.X.3. Sprint Backlog n.
-#### 6.2.X.4. Development Evidence for Sprint Review.
-#### 6.2.X.5. Testing Suite Evidence for Sprint Review.
-#### 6.2.X.6. Execution Evidence for Sprint Review.
-#### 6.2.X.7. Services Documentation Evidence for Sprint Review.
-#### 6.2.X.8. Software Deployment Evidence for Sprint Review.
-#### 6.2.X.9. Team Collaboration Insights during Sprint.
-
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-Preguntas generales:
-
-1. ¿Cuál es su nombre? 
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
-4. ¿[Opinion de idea de propuesta]? 
-
-Entrevistas usuario segmento 2
-1. ¿Lorem?
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem?  
-   
-Entrevistas usuario segmento 2
-1. ¿Lorem? 
-2. ¿Lorem?
-3. ¿Lorem?
-4. ¿Lorem? 
-### 6.3.2. Registro de Entrevistas.
-Segmento 1  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
-
-Segmento 2  
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)
-{texto}
-### 6.3.3. Evaluaciones según heurísticas.
-| HEURÍSTICA   | EVALUACIÓN | NOTA      |
-| --------------------------------------------- | ---------- | --------- |
-| Visibilidad del estado del sistema            |            | {texto}   |
-| Coincidencia entre el sistema y el mundo real |            | {texto}   |
-| Control y libertad del usuario                |            | {texto}   |
-| Consistencia y estándares                     |            | {texto}   |
-| Prevención de errores                         |            | {texto}   |
-| Mostrar antes que recordar                    |            | {texto}   |
-| Flexibilidad y eficiencia de uso              |            | {texto}   |
-| Diseño estético y minimalista                 |            | {texto}   |
-| Comunicar errores con facilidad               |            | {texto}   |
-| Ayuda y documentación                         |            | {texto}   |
-## 6.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
-# Conclusiones
-{texto}
-# Conclusiones y recomendaciones.
-{texto}
-# Video About-the-Team.
-[URL del video about the team](https://www.example.com)
-
-# Bibliografía
-qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
-Recuperado 20 de junio de 2022, de [LINK](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
-
-LeaseIN. (2018). Importancia de contar con un equipo de soporte
-técnico. [Entrada en blog]. Recuperado de:
-[LINK](https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/)
-``` 
-formato
-
-"Apellido", Ini.Ciales. & "otroAutor", O.A. (año). titulo del articulo.
-        "nombre del articulo o lo q sea, Volumen(si es que tiene), numero  de pagina"#-#. https//link.org/eeeseneko
-
-```
-# Anexos
-
-datos, gráficos, imágenes, esquemas, mapas o referencias de otros autores
-
-![Imagen de algo no nuestro ](image.jpg)
-
-
-
-
-
-
