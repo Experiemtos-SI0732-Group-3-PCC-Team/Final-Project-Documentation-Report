@@ -1,174 +1,5 @@
-# <center>COURSE PROJECT</center>
-
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Curso: Diseño de Experimentos de Ingeniería de Software</strong><br>
-    <strong>Profesor: Ivan Robles Fernández </strong><br>
-    <br>INFORME TRABAJO FINAL
-</p>
-
-<center>
-
-#### Startup: **PCC**
-#### Product: **Quadrapp**
-
-</center>
-
-### <center>Team  Members:</center>
-<center>
-
-| Codigo                           | Miembro       |
-|----------------------------------|------------|
-|  U20211G163 | Solis Solis, Leonardo José|
-|  U202215462 | Nanfuñay Liza, Pedro Jesús|
-|  U202121935 | Calisaya Sánchez, Juan Jesús|
-|  U202213423 | Oneglio De Paz, Beth Shantal|
-|  U202121975 | Lagos Aguilar, Luis Eduardo|
-
-<br> AGOSTO 2025
-</center>  
-<div style="page-break-after: always;"></div>
-
-# Registro de Versiones del Informe
-<center>
-
-| Version | Fecha | Autor | Descripcion de Modificacion |
-| ----------- | ----------- | ----------- | ----------- |
-| 0.0 | 01/09/2025 |Grupo 1 |Se crea el documento |  
-
-</center>
-
-# Project Report Collaboration Insights
-[URL del repositorio](https://www.example.com)
-
-(Imagenes de los commits cada entrega)
-
-
-# Contenido
-
-
-
-[Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-
-[Project Report Collaboration Insights](#project-report-collaboration-insights)
-
-[Student Outcome](#student-outcome)
-
-[Capítulo I: Introducción](#capítulo-i-introducción)
-
-[1.1 Startup Profile](#11-startup-profile)  
-[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
-[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
-
-[1.2. Solution Profile](#12-solution-profile)  
-[1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)  
-[1.2.2 Lean UX Process.](#122-lean-ux-process)  
-[1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)  
-[1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)  
-[1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)  
-[1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)  
-
-[1.3. Segmentos objetivo.](#13-segmentos-objetivo)  
-
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)  
-
-[2.1. Competidores](#21-competidores)  
-[2.1.1. Análisis competitivo](#211-análisis-competitivo)  
-[2.1.2. Estrategias y tácticas frente a competidores](#211-análisis-competitivo)  
-
-[2.2. Entrevistas](#22-entrevistas)  
-[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
-[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
-[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
-
-[2.3. Needfinding](#23-needfinding)  
-[2.3.1. User Personas](#231-user-personas)  
-[2.3.2. User Task Matrix](#232-user-task-matrix)  
-[2.3.3. User Journey Mapping](#233-user-journey-mapping)  
-[2.3.4. Empathy Mapping](#234-empathy-mapping)  
-[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
-[2.4. Ubiquitous Language](#25-ubiquitous-language)  
-
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)  
-
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-[3.2. User Stories](#32-user-stories)  
-[3.3. Product Backlog](#33-product-backlog)  
-[3.4. Impact Mapping](#34-impact-mapping)  
-
-[Capítulo IV: Product Design](#capítulo-v-product-design)  
-[4.1. Style Guidelines.](#41-style-guidelines)  
-[4.1.1. General Style Guidelines.](#411-general-style-guidelines)  
-[4.1.2. Web, Mobile and IoT Style Guidelines.](#412-web-mobile-and-iot-style-guidelines)  
-[4.2. Information Architecture.](#42-information-architecture)  
-[4.2.1. Organization Systems.](#421-organization-systems)  
-[4.2.2. Labeling Systems.](#422-labeling-systems)  
-[4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-[4.2.4. Searching Systems.](#424-searching-systems)  
-[4.2.5. Navigation Systems.](#425-navigation-systems)  
-[4.3. Landing Page UI Design.](#43-landing-page-ui-design)  
-[4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)  
-[4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)  
-[4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)  
-[4.4.1. Mobile Applications Wireframes.](#441-applications-wireframes)  
-[4.4.2. Mobile Applications Wireflow Diagrams.](#442-applications-wireflow-diagrams)  
-[4.4.3. Mobile Applications Mock-ups.](#443-applications-mock-ups)  
-[4.4.4. Mobile Applications User Flow Diagrams.](#444-applications-user-flow-diagrams)  
-[4.5. Mobile Applications Prototyping.](#45-applications-prototyping)  
-[4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)  
-[4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)  
-
-[4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)  
-[4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)  
-[4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)  
-[4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)  
-[4.6.4. Web Applications User Flow Diagrams.](#464-web-applications-user-flow-diagrams)  
-
-[4.7. Web Applications Prototyping.](#47-web-applications-prototyping)  
-
-[4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)  
-[4.8.1. Software Architecture Context Diagram.](#481-software-architecture-context-diagram)  
-[4.8.2. Software Architecture Container Diagrams.](#482-software-architecture-container-diagrams)  
-[4.8.3. Software Architecture Components Diagrams.](#483-software-architecture-components-diagrams)  
-
-[4.9. Software Object-Oriented Design.](#49-software-object-oriented-design)  
-[4.9.1. Class Diagrams.](#491-class-diagrams)  
-[4.9.2. Class Dictionary.](#492-class-dictionary)  
-
-[4.10. Database Design.](#410-database-design)  
-[4.10.1. Relational/Non-Relational Database Diagram.](#4101-relational-non-relational-database-diagram)  
-
-[Capítulo V: Product Implementation](#capítulo-v-product-implementation)  
-
-[5.1. Software Configuration Management.](#51-software-configuration-management)  
-[5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)  
-[5.1.2. Source Code Management.](#512-source-code-management)  
-[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)  
-[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
-
-[5.2. Product Implementation & Deployment.](#52-product-implementation-deployment)  
-[5.2.1. Sprint Backlogs.](#521-sprint-backlogs)  
-[5.2.2. Implemented Landing Page Evidence.](#522-implemented-landing-page-evidence)  
-[5.2.3. Implemented Frotend-Web Application Evidence.](#523-implemented-frontend-web-application-evidence)  
-[5.2.4. Implemented Native-Mobile Application Evidence.](#524-implemented-native-mobile-application-evidence)  
-[5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.](#525-implemented-restful-api-and-or-serverless-backend-evidence)  
-[5.2.6. RESTful API Documentation.](#526-restful-api-documentation)  
-[5.2.7. Team Collaboration Insights.](#527-team-collaboration-insights)  
-
-[5.3. Video About-the-Product](#54-video-about-the-product)  
-
-[Conclusiones](#conclusiones)  
-[Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
-[Bibliografía](#bibliografía)  
-[Anexos](#anexos)  
-
-
-# Capítulo V: Product Implementation
-
 ## 5.2. Product Implementation & Deployment.
+
 ### 5.2.1. Sprint Backlogs.
 
 ## Sprint 1 Backlog
@@ -436,44 +267,70 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 ![Landing Page](assets/landingPageEvidence.png)
 
 ### 5.2.3. Implemented Frotend-Web Application Evidence.
-### 5.2.4. Implemented Native-Mobile Application Evidence. 
+
+### 5.2.4. Implemented Native-Mobile Application Evidence.
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
+
 ### 5.2.6. RESTful API Documentation.
+
 ### 5.2.7. Team Collaboration Insights.
 
 ![Team Collaboration Insights](assets/teamCollabInsights.png)
 
 ## 6.4. Video About-the-Product.
-[URL del video about the product](https://www.example.com)
+
+![Video About the Product](assets/Video-Producto.png)
+
+Enlace del Video About-the-Product: https://youtu.be/Kl0oUidnp8U
+
 # Conclusiones
-{texto}
-# Conclusiones y recomendaciones.
-{texto}
-# Video About-the-Team.
-[URL del video about the team](https://www.example.com)
+
+El desarrollo de Quadrapp permitió identificar y atender necesidades clave tanto de los conductores urbanos como de los propietarios de estacionamientos. A través de la definición de historias de usuario, epics e impact maps, se logró establecer un marco de funcionalidades orientado a mejorar la accesibilidad, la seguridad y la eficiencia en la gestión de estacionamientos. Asimismo, la incorporación de tecnologías como sensores, cámaras de monitoreo y notificaciones en tiempo real aporta soluciones innovadoras que responden a la problemática de congestión y pérdida de tiempo en zonas urbanas.  
+
+En general, el proyecto evidencia que una adecuada planificación, acompañada de metodologías ágiles, facilita la construcción de un producto escalable y adaptable a las necesidades del mercado.  
+
+# Conclusiones y recomendaciones
+
+El análisis realizado demuestra que Quadrapp tiene un alto potencial para transformar la experiencia de los usuarios y la gestión de los propietarios. No obstante, se recomienda:  
+
+1. Priorizar la seguridad de los datos de los usuarios mediante estándares de cifrado y cumplimiento normativo (p. ej., GDPR, CCPA).  
+2. Implementar pruebas de usabilidad constantes con usuarios reales para optimizar la experiencia en la aplicación móvil y la landing page.  
+3. Invertir en estrategias de marketing digital que aumenten la visibilidad y fomenten la adopción del sistema en nuevas ciudades.  
+4. Incorporar mecanismos de feedback continuo que permitan a los usuarios y propietarios sugerir mejoras de manera sistemática.  
+
+De esta manera, Quadrapp no solo podrá aumentar en un 30% el uso del servicio en seis meses, sino también consolidar una ventaja competitiva sostenible en el mercado de movilidad urbana.  
 
 # Bibliografía
-qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
-Recuperado 20 de junio de 2022, de [LINK](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
 
-LeaseIN. (2018). Importancia de contar con un equipo de soporte
-técnico. [Entrada en blog]. Recuperado de:
-[LINK](https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/)
-``` 
-formato
+Ainsalu, J., Arffman, V., Bellone, M., Ellner, M., Haapamäki, T., Haavisto, N., ... & Öörni, R. (2018). State of the art of automated buses. *Sustainability, 10*(9), 3118. https://doi.org/10.3390/su10093118  
 
-"Apellido", Ini.Ciales. & "otroAutor", O.A. (año). titulo del articulo.
-        "nombre del articulo o lo q sea, Volumen(si es que tiene), numero  de pagina"#-#. https//link.org/eeeseneko
+Badii, C., Belay, E., Bellini, P., Cenni, D., Difino, A., Nesi, P., & Paolucci, M. (2018). Smart city IoT platform respecting GDPR privacy and security aspects. *IEEE Access, 6*, 72702–72723. https://doi.org/10.1109/ACCESS.2018.2882073  
 
-```
+Behl, A., & Dutta, P. (2020). Smart parking technologies and solutions for smart cities. *IEEE Internet of Things Journal, 7*(5), 4272–4285. https://doi.org/10.1109/JIOT.2019.2954341  
+
+Cano, J. A., Collazos, C. A., & Granollers, T. (2018). Usabilidad en sistemas interactivos: de la teoría a la práctica. *Revista Ibérica de Sistemas e Tecnologias de Informação, E16*, 63–76. https://www.proquest.com/docview/2130375121  
+
+Cockburn, A. (2001). *Writing effective use cases*. Addison-Wesley.  
+
+International Organization for Standardization. (2019). *ISO 9241-210: Human-centred design for interactive systems*. ISO. https://www.iso.org/standard/77520.html  
+
+Munawar, H. S., Ullah, F., Qadir, Z., Saeed, A., & Al-Turjman, F. (2021). Smart IoT for smart cities: Opportunities and challenges. *Journal of Sensor and Actuator Networks, 10*(3), 42. https://doi.org/10.3390/jsan10030042  
+
+Pressman, R. S., & Maxim, B. R. (2020). *Software engineering: A practitioner’s approach* (9.ª ed.). McGraw-Hill.  
+
+Schwaber, K., & Sutherland, J. (2020). *The Scrum guide: The definitive guide to Scrum*. Scrum.org. https://scrumguides.org/  
+
+Villagra-Arnedo, C. J., Satorre-Cuerda, R., Molina-Carmona, R., Llorens-Largo, F., & Compañ-Rosique, P. (2019). Parking space management system based on IoT sensors: A smart city use case. *Sensors, 19*(2), 361. https://doi.org/10.3390/s19020361  
+
 # Anexos
 
-datos, gráficos, imágenes, esquemas, mapas o referencias de otros autores
+Enlace del Trello: https://trello.com/invite/b/68cb76046c3ed8b6f0fc18c2/ATTI91035f3a2c18dc5abbb742838e8d0be8E6AB6959/quadrapp-product-backlog-tb1-sprint-1
 
-![Imagen de algo no nuestro ](image.jpg)
+Enlace del Video About the Product: https://discord.com/channels/@me/1274158419292586106/1417715867222933504
 
+Enlace del Landing Page: https://experiemtos-si0732-group-3-pcc-team.github.io/Landing-Page-Quadrapp/
 
-
-
+Enlace del Figma: https://www.figma.com/design/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=0-1&t=f4MEQSrX7t8LfGka-1
 
 
