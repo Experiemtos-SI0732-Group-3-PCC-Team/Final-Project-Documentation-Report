@@ -47,31 +47,33 @@ La sección detalla cómo investigamos nuestros segmentos objetivo mediante la r
 
 **Preguntas principales**
 
-- ¿Podrías decirme tu nombre completo y edad?  
-- ¿En qué distrito resides actualmente?  
-- ¿Cuál es tu estado civil?  
-- ¿Dónde naciste?  
-- ¿Qué dispositivos tecnológicos utilizas?  
-- ¿Qué navegadores utilizas?  
-- ¿Qué tipo de vehículo(s) menor(es) posees?  
-- ¿Qué habilidades consideras que tienes en relación con el manejo o mantenimiento de tu(s) vehículo(s)?  
-- ¿Qué factores consideras al elegir un vehículo menor? (Ej. economía, estilo, funcionalidad)  
-- ¿Qué influencias (familia, amigos, medios, etc.) han afectado tus decisiones al comprar un vehículo?  
-- ¿Qué tipos de vehículos tienes disponibles para rentar o vender?  
-- ¿Cómo determinas el precio de tus vehículos?  
-- ¿Qué medidas de seguridad implementas para asegurarte de que tus vehículos estén siempre en buen estado antes de rentarlos o venderlos?  
-- ¿Cómo manejas la limpieza y desinfección de los vehículos?  
-- ¿Cuáles son los requisitos o condiciones para rentar o vender uno de tus vehículos?  
+-¿Conduces un vehículo propio o que usas frecuentemente?    
+-¿En qué distrito sueles manejar y estacionar con más frecuencia?
+-¿Qué tipo de vehículo conduces con más frecuencia? (Auto, moto, SUV, camioneta, otro)
+-¿Con qué frecuencia conduces? (A diario; 3–4 veces/semana; 1–2 veces/semana; menos)
+-¿En qué zonas u horarios te cuesta más encontrar estacionamiento?
+-¿Cuál es el motivo principal del viaje cuando más te falta estacionamiento? (Trabajo/estudios; trámites; compras/ocio; visitas; otro)
+-¿Cuánto tiempo máximo estás dispuesto(a) a buscar estacionamiento? (<5 min; 5–10; 11–15; >15)
+-¿Cómo buscas estacionamiento hoy? (Rondar la zona; playas formales; apps/mapas; vía pública; preguntar a vigilantes/negocios; otro)
+-¿Usas apps para esto? ¿Cuáles?
+-En una escala del 1 al 5, ¿qué tan satisfecho(a) estás con tu forma actual de encontrar estacionamiento?
+-Marca tus tres criterios más importantes al elegir dónde estacionar. (Precio; distancia al destino; seguridad; rapidez; disponibilidad fiable; facilidad de pago; reseñas/confianza; techado)
+-¿Cuál es tu precio máximo razonable por hora en zonas concurridas? (S/___)
+-¿Qué es lo más frustrante para ti al estacionar?
+-Imagina una app con disponibilidad en tiempo real, reservas y pago en un toque. ¿La probarías? (Sí/No/Depende)
+-¿Pagarías una pequeña comisión por uso o una suscripción mensual para asegurar lugar rápido? (No; hasta S/1 por uso; S/2–S/3; suscripción mensual)
 
 **Preguntas complementarias**
 
-- ¿Sigues algún protocolo específico para la limpieza y desinfección, y con qué frecuencia realizas estas tareas?  
-- ¿Qué proceso sigues para verificar la identidad y credibilidad de los posibles propietarios?  
-- ¿Cómo organizas la entrega y recogida de los vehículos? ¿Tienes puntos de recogida específicos o cómo coordinas estos procesos?  
-- ¿Cómo manejas las valoraciones y reseñas que dejan los propietarios?  
-- Durante el periodo de renta o venta, ¿qué tipo de soporte proporcionas a los propietarios?  
-- ¿Estás abierto a considerar descuentos o promociones especiales para atraer más propietarios?  
-- ¿Hay alguna mejora o característica que te gustaría ver en la aplicación que utilizas para gestionar tus vehículos?  
+-¿Has tenido incidentes relacionados al estacionamiento? (Multas, robos, daños). Si “Sí”, ¿qué ocurrió y dónde?
+-¿Qué apps/mapas usas al conducir? (Waze; Google Maps; Apple Maps; otra)
+-¿Cuál es tu método de pago preferido en estacionamientos? (Efectivo; Yape/Plin; tarjeta; pago en app; otro)
+-¿Permitirías a una app conocer tu ubicación para sugerir estacionamientos cercanos? (Sí siempre; solo al usar la app; no)
+-¿Qué te haría confiar en los lugares sugeridos? (Reseñas verificadas; cámaras/iluminación; personal/vigilancia; alianzas oficiales; fotos recientes; garantía/seguro)
+-¿Qué información necesitas ver antes de decidir? (Precio final; altura/medidas; horario; plazas libres; ruta a pie al destino; política de cancelación)
+-¿Qué funciones usarías? (Reservar espacio; navegar al ingreso; abrir barrera con el celular; pagar desde la app; recordatorio de tiempo; historial/boleta)
+-Al abrir la app, ¿qué dato debería aparecer primero para ayudarte en segundos?
+-¿Deseas participar en pruebas de prototipo? (Correo opcional)
 
 **Preguntas dirigidas a Propietarios de estacionamientos**
 
@@ -131,6 +133,17 @@ Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su
 **Resumen:**
 
 Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estacionamiento de forma constante. El tiempo que le toma encontrar un espacio varía según la zona y el tráfico, pudiendo tardar entre 10 a 20 minutos o más en horas punta. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que sería una herramienta muy útil. Destaca que conocer la disponibilidad de espacios en tiempo real es clave, ya que le permitiría ahorrar tiempo y evitar vueltas innecesarias. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre y cuando no sea excesiva. Al elegir un estacionamiento, valora principalmente el costo y la proximidad, dejando la seguridad en un segundo plano aunque también le parece importante. Ángel estaría muy interesado en una aplicación que le recomiende rutas hacia estacionamientos disponibles evitando el tráfico. Ha tenido experiencias frustrantes buscando estacionamiento, como perder espacios a último momento o tener que maniobrar en lugares muy estrechos. Finalmente, sugiere como mejoras la posibilidad de recibir notificaciones en tiempo real cuando se libera un espacio cercano, y también alertas de seguridad en caso de movimientos sospechosos cerca del vehículo.
+
+**Entrevista 3** 
+**Nombres y Apellidos:** Manuel Vargas
+**Edad:** 21 años 
+**Distrito:** San Juan de Miraflores
+**Timing:** 
+**Duración:** 25:00
+
+![ImagenEntrevista3-Segmento1](assets/Entrevista-Conductor-Manuel.png) <br>
+
+El entrevistado conduce a diario y encuentra mayores dificultades para estacionar en horas punta (3–4 p. m. y 7–8 p. m.). Busca estacionamiento con Google Maps (principal), Waze y Apple Maps, y pregunta a seguridad o locales si no conoce la zona; sin embargo, percibe que estas apps solo muestran el lugar y no brindan precio, horarios, “tiempo de gracia”, estado (abierto/mantenimiento) ni disponibilidad en tiempo real. Su satisfacción actual es 3–4/5. Sus criterios clave son seguridad del vehículo (prioridad), precio y distancia al destino. Considera razonables tarifas cercanas a S/ 7 por hora (centros comerciales) e inaceptables alrededor de S/ 40 (aeropuerto), con sensibilidad al “bolsillo común”. Prefiere pagar en efectivo o Yape en playas/calles y con tarjeta en centros comerciales. Confía sobre todo en reseñas de amigos/usuarios, además de iluminación, cámaras y personal de seguridad, y toma en cuenta el distrito. Antes de decidir necesita ver precio final, medidas/espacios amplios, plazas libres y horarios. Su principal dolor es la gente que se estaciona mal e invade espacios, con incidentes de golpes leves; además, a su padre le rompieron una luz por dejar el auto en la vía. Acepta compartir ubicación solo durante el uso de la app. Probaría una app con disponibilidad en tiempo real, reservas y pago en un toque, y pagaría comisión o suscripción si el precio es razonable, aunque reconoce que no siempre la usaría. Valora funciones como reservar espacio (prioritaria), recordatorios de tiempo, pago in-app, navegación directa al ingreso y notificaciones cercanas. Como implicaciones de producto, propone un MVP con disponibilidad en vivo, reserva, precio/hora claro, medidas/altura, señales de seguridad e identidad (iluminación/cámaras) y reseñas verificadas; un flujo “buscar cerca → ver precio final estimado → reservar → navegar al ingreso → pagar → alertas de tiempo”; pagos en efectivo/Yape y tarjeta, y un modo de privacidad que comparta la ubicación solo durante el uso.
 
 **Segmento objetivo \#2: Propietario de estacionamiento**
 
