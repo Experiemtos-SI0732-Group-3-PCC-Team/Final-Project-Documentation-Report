@@ -33,7 +33,7 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Vertabelo ([https://vertabelo.com](https://vertabelo.com))
   - Propósito: Modelado de arquitectura y base de datos
 <BR>
-  <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="150"/>
+    <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="150"/>
 
 
 #### Herramientas de UX Research
