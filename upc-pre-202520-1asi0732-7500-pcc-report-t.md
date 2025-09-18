@@ -25,7 +25,6 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
   - Figma ([https://figma.com](https://figma.com))
   - Propósito: Prototipado y diseño de interfaces
 <BR>
-
   <img src="assets/chapter-5-5.1/figma.png" alt="Figma" width="150"/>
   <br>
   <br>
