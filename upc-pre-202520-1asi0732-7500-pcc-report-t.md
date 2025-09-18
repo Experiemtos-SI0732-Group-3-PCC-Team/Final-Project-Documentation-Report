@@ -673,15 +673,53 @@ Perfil de Conductor:
 
 En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mockups móviles, con el fin de representar los principales recorridos del usuario dentro de la aplicación. Estos diagramas muestran de manera visual y detallada cómo el usuario avanza desde el inicio de sesión, la búsqueda de estacionamientos y la reserva, hasta el pago y la visualización del pase QR. Al estar basados en los mockups de alta fidelidad, permiten validar la coherencia del diseño, la facilidad de navegación y la efectividad de los flujos planteados. Así, los User Flow Diagrams sirven como guía clara para el desarrollo e implementación de la experiencia de usuario en la app.
 
+Inicio de Sesion:
+
+---
+
+![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-InicioDeSesion.png)
+
+---
+
+Perfil de Conductor:
+
+---
+
+![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-Perfil.png)
+
+---
+
+Visualizar Reserva:
+
+---
+
+![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-VisualizaReservas.png)
+
+---
+
+Realizar Reserva:
+
+---
+
+![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-ReservadeParking.png)
+
+---
+
 ## 4.5. Mobile Applications Prototyping
 
 ### 4.5.1. Android Mobile Applications Prototyping
 
-### 4.5.2. iOS Mobile Applications Prototyping
+A continuación, se visualizara un prototipo creado en figma de la aplicación movil.
+
+![Quadrapp PROTOMOVIL](./assets/PROTOTIPOMOVILIOS.PNG)
+
+[PROTOTIPO MOVIL FIGMA](https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6453&t=nMGDtb9oLjwWZlC5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6453&show-proto-sidebar=1)
 
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
+
+En el marco del proyecto Quadrapp, se elaboraron los wireframes webs como base para la aplicación destinada a propietarios. Estos prototipos en baja fidelidad permiten definir la estructura de navegación, distribución de pantallas y principales flujos de interacción. Se incluyen vistas clave como login, registro, registro de parking, gestion de reservas y perfil de usuario. Su objetivo es validar la usabilidad y lógica de la aplicación antes de aplicar el diseño visual final. Así, los wireframes webs sirven como punto de partida para los mockups en alta fidelidad.
 
 Inicio de sesión:
 
@@ -709,7 +747,39 @@ Reseña de los estacionamientos:
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+En el desarrollo de Quadrapp, se diseñaron los wireflow diagrams web para representar de manera clara los flujos de navegación entre pantallas. Estos diagramas combinan wireframes con conexiones que muestran las acciones del usuario y sus posibles recorridos. Permiten visualizar cómo se realiza un registro de parking, incluyendo casos alternativos. Su propósito es validar la coherencia y simplicidad de la experiencia antes de la implementación. De este modo, los wireflows complementan a los wireframes y enriquecen el proceso de diseño de la app.
+
+
+Inicio de sesión:
+
+![Quadrapp WireframeFlowWeb](./assets/WIREFLOWEBINICIODESESION.png)
+
+Gestion de reservas:
+
+![Quadrapp WireframeFlowWeb](./assets/GESTIONDERESERVASWIREFLOWWEB.png)
+
+Perfil de Propietario:
+
+![Quadrapp WireframeFlowWeb](./assets/PERFILPROPIETARIOWIREFLOWWEB.png)
+
+Registro de Estacionamiento:
+
+![Quadrapp WireframeFlowWeb](./assets/REGISTRODEPARKINGWIREFLOWWEB.png)
+
+Editar el perfil del estacionamiento y ver detalles:
+
+![Quadrapp WireframeFlowWeb](./assets/PERFILDEPARKINSWIREFLOWWEB.png)
+
+Reseña de los estacionamientos:
+
+![Quadrapp WireframeFlowWeb](./assets/RESEÑASWIREFLOWWEB.png)
+
+
+
 ### 4.6.3. Web Applications Mock-ups
+
+En el marco del proyecto Quadrapp, se desarrollaron los mockups webs en alta fidelidad como evolución de los wireframes iniciales. Estos prototipos incorporan el sistema de diseño definido (colores, tipografía, iconografía y componentes) para reflejar la identidad visual de la aplicación. Se presentan las vistas clave de login, registro, registro de parkings, gestion de reservas y perfil de usuario con un estilo consistente y atractivo. Su finalidad es mostrar cómo será la experiencia real del usuario en la app. De esta manera, los mockups webs consolidan la propuesta final antes de la etapa de desarrollo.
+
 
 Inicio de sesión:
 
@@ -737,7 +807,39 @@ Reseña de Parking:
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
+En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mockups webs, con el fin de representar los principales recorridos del usuario dentro de la aplicación. Estos diagramas muestran de manera visual y detallada cómo el usuario avanza desde el inicio de sesión, el registro de parkings y la gestion de reserva. Al estar basados en los mockups de alta fidelidad, permiten validar la coherencia del diseño, la facilidad de navegación y la efectividad de los flujos planteados. Así, los User Flow Diagrams sirven como guía clara para el desarrollo e implementación de la experiencia de usuario en la app.
+
+Inicio de sesión:
+
+![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBINICIOSSION.png)
+
+Gestions de reservas:
+
+![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBGESTIONDERESERVAS.png)
+
+Perfil de Propietario:
+
+![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBPERFILDEPROPIETARIO.png)
+
+Registro de Parking:
+
+![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBREGISTARPARKING.png)
+
+Editar Perfil de Parking:
+
+![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBEDITARYVISUALIZARDETALESPARKING.png)
+
+Reseña de Parking:
+
+![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBRESEÑAS.png)
+
 ## 4.7. Web Applications Prototyping
+
+A continuación, se visualizara un prototipo creado en figma de la aplicación web.
+
+![Quadrapp PROTOMOVIL](./assets/PROTIPOWEB.PNG)
+
+[PROTOTIPO WEB FIGMA](https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6248&t=M8zpNzlvuVHtU2No-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6248&show-proto-sidebar=1)
 
 ## 4.8. Domain-Driven Software Architecture
 
