@@ -103,22 +103,43 @@ La sección detalla cómo investigamos nuestros segmentos objetivo mediante la r
 - ¿Qué tipo de información te gustaría ver en las descripciones de los vehículos?  
 
 ### 2.2.2. Registro de entrevistas.
-**Segmento 1**
 
-Nombre: _____
-Edad: _ años 
-Ocupación: _____  
-![Imagen de entrevista](image.jpg)  
-{texto mucho}
+**Segmento objetivo \#1: Conductores**
 
-**Segmento 2**
+**Entrevista 1** 
+**Nombres y Apellidos:** Joan Talizo Balbin 
+**Edad:** 23 años 
+**Distrito:** Surco 
+**Timing:** 
+**Duración:** 6:06 
 
-**Entrevista 1** <br>
-**Nombres y Apellidos:** Joaquín Abdias Trujillo Lizarbe <br>
-**Edad:** 21 años <br>
-**Distrito:** Comas <br>
-**Timing:** <br>
-**Duración:** 3:29 <br>
+![Imagen de entrevista](./assets/conductor-balbin.jpg)  <br>
+
+**Resumen**
+
+Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
+
+**Entrevista 2** 
+**Nombres y Apellidos:** Luis Ángel Anampa Lavado 
+**Edad:** 21 años 
+**Distrito:** San Borja 
+**Timing:** 
+**Duración:** 3:00 
+
+![ImagenEntrevista1-Segmento2](assets/conductor-angel.jpg) <br>
+
+**Resumen:**
+
+Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estacionamiento de forma constante. El tiempo que le toma encontrar un espacio varía según la zona y el tráfico, pudiendo tardar entre 10 a 20 minutos o más en horas punta. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que sería una herramienta muy útil. Destaca que conocer la disponibilidad de espacios en tiempo real es clave, ya que le permitiría ahorrar tiempo y evitar vueltas innecesarias. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre y cuando no sea excesiva. Al elegir un estacionamiento, valora principalmente el costo y la proximidad, dejando la seguridad en un segundo plano aunque también le parece importante. Ángel estaría muy interesado en una aplicación que le recomiende rutas hacia estacionamientos disponibles evitando el tráfico. Ha tenido experiencias frustrantes buscando estacionamiento, como perder espacios a último momento o tener que maniobrar en lugares muy estrechos. Finalmente, sugiere como mejoras la posibilidad de recibir notificaciones en tiempo real cuando se libera un espacio cercano, y también alertas de seguridad en caso de movimientos sospechosos cerca del vehículo.
+
+**Segmento objetivo \#2: Propietario de estacionamiento**
+
+**Entrevista 4** 
+**Nombres y Apellidos:** Joaquín Abdias Trujillo Lizarbe 
+**Edad:** 21 años 
+**Distrito:** Comas 
+**Timing:** 
+**Duración:** 3:29 
 
 ![ImagenEntrevista1-Segmento2](assets/Entrevista1-Segmento2.png) <br>
 
@@ -126,6 +147,20 @@ Ocupación: _____
 
 Joaquín Trujillo es un propietario de estacionamiento, él comenta que muchas veces le resulta complicado gestionar y organizar la disponibilidad y reservación de espacios en su estacionamiento por la cantidad de clientes. Considera que la visualización en tiempo real de la disponibilidad de los espacios, así como la generación de reportes de disponibilidad es importante para acelerar la gestión y mejorar la experiencia de los clientes. Los métodos de pago que utiliza principalmente es el pago efectivo y por transacciones a través de servicios como Yape. A pesar de no haber utilizado una sistema que le permita automatizar estos procesos, estaría dispuesto a implementarlo para disminuir el tiempo requerido en estas tareas. En conclusión, Joaquín considera importante la implementación de funciones que le permitan mejorar la gestión de su estacionamiento y de sus clientes.
 
+**Entrevista 5** 
+**Nombres y Apellidos:** Carlos Ponce
+**Edad:** 21 años 
+**Distrito:** La Molina 
+**Timing:** 
+**Duración:** 4:39
+
+![ImagenEntrevista1-Segmento2](assets/dueño-playa-carlos.jpg) <br>
+
+**Resumen:**
+
+Carlos tiene 20 años y vive en La Molina, donde administra un estacionamiento. Se considera una persona organizada, resolutiva y orientada a mantener el orden, aunque reconoce que durante momentos de alta afluencia la gestión puede volverse complicada. Respecto al control de los espacios, menciona que usualmente es sencillo, pero se dificulta cuando hay gran movimiento o los conductores no respetan los espacios asignados. Por esta razón, valora la posibilidad de contar con información en tiempo real sobre la disponibilidad, lo cual evitaría revisiones físicas continuas y mejoraría la eficiencia operativa. Actualmente no utiliza sistemas digitales de reservas, pero acepta pagos mediante Yape y Plin, métodos que considera ágiles y populares entre sus clientes. 
+
+Carlos considera que la automatización de reservas y pagos sería altamente beneficiosa, ya que permitiría organizar mejor los tiempos de permanencia, agilizar los ingresos y salidas, y llevar un control más preciso de los cobros. Resalta la importancia de ofrecer métodos de pago seguros y rápidos para mejorar la experiencia del cliente. Además, está convencido de que una aplicación que integre la gestión de espacios, reservas y pagos facilitaría el control detallado de la ocupación, ingresos diarios y aumentaría la transparencia en su administración. Entre los principales desafíos que enfrenta señala la organización en horarios de alta demanda y el seguimiento manual de los pagos. Finalmente, le gustaría que una app permita a los clientes registrar su tiempo de permanencia, calcule automáticamente el costo, notifique la disponibilidad en tiempo real y genere reportes de ocupación y rotación para tomar decisiones más estratégicas.
 
 ### 2.2.3. Análisis de entrevistas.
 
