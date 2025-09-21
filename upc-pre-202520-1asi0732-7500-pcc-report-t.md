@@ -3817,20 +3817,132 @@ La gestión del código fuente se centraliza en GitHub, implementando un sistema
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para mantener la consistencia y calidad del código a través de todo el proyecto, hemos adoptado un conjunto integral de guías de estilo y convenciones estandarizadas. Estas normas facilitan la colaboración efectiva entre los miembros del equipo y aseguran la mantenibilidad del código:
+Para mantener la consistencia y calidad del código a través de todo el proyecto, hemos adoptado un conjunto integral de guías de estilo y convenciones estandarizadas. Estas normas facilitan la colaboración efectiva entre los miembros del equipo y aseguran la mantenibilidad del código.
 
-- **HTML/CSS:** Google HTML/CSS Style Guide.
-- **JavaScript:** Google JavaScript Style Guide, MDN JavaScript guidelines, ESLint.
-- **Java:** Google Java Style Guide, Spring Boot Best Practices, Checkstyle.
-- **Gherkin:** Gherkin Conventions for Readable Specifications.
-- **Nomenclatura:** Todo el código y los identificadores se escriben en inglés.
+#### General
+
+Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatura:
+
+- **Convención en inglés:** Todos los nombres de variables, funciones, métodos, clases y archivos se nombrarán en inglés.
+- **Convención de nombres:**
+  - **CamelCase:** Para nombres de variables, funciones y métodos.
+  - **PascalCase:** Para nombres de clases y componentes.
+  - **snake_case:** Para nombres de archivos.
+
+#### HTML (Landing Page)
+
+**Referencia:** [W3Schools HTML5 Syntax](https://www.w3schools.com/html/html5_syntax.asp)
+
+Convenciones de HTML:
+- Declarar el tipo de documento en la primera línea.
+- Usar nombres de etiquetas en minúsculas.
+- Usar nombres de atributos en minúsculas.
+- Cerrar todas las etiquetas correctamente.
+- Usar comillas en los valores de los atributos.
+- No dejar espacios alrededor del signo igual en los atributos.
+- Especificar los atributos alt, width y height en las imágenes.
+- No omitir las etiquetas `<html>`, `<head>`, `<body>` y `<title>`.
+- Usar el atributo lang para declarar el idioma del documento.
+- Incluir la metaetiqueta para definir la codificación del documento.
+- Usar títulos precisos y significativos en la etiqueta `<title>`.
+- Evitar líneas de código excesivamente largas.
+- Usar sintaxis clara y sencilla para enlaces y scripts externos.
+
+#### CSS (Landing Page)
+
+**Referencia:** [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+Convenciones de CSS:
+- Usar el protocolo HTTPS para archivos externos.
+- Utilizar minúsculas en todo el código (propiedades, atributos, valores, etc.).
+- Los nombres de clases deben ser breves, descriptivos y reflejar su propósito.
+- Separar palabras en nombres de clases e IDs con guiones.
+- Usar propiedades abreviadas cuando sea posible.
+- Preferir notación hexadecimal de 3 caracteres cuando aplique.
+- Ordenar las propiedades CSS alfabéticamente dentro de cada regla.
+- Incluir punto y coma al final de cada declaración.
+- Agregar un espacio después de los dos puntos en cada propiedad.
+- Agregar un espacio antes de la llave de apertura del bloque de declaraciones.
+- Usar comillas simples para atributos y valores de propiedades que las requieran.
+- Agrupar reglas relacionadas y separarlas con una línea en blanco para mayor legibilidad.
+
+#### JavaScript (Landing Page)
+
+**Referencia:** [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+
+Convenciones de JavaScript:
+- Usar camelCase para variables y funciones.
+- Usar PascalCase para clases y constructores.
+- Usar MAYÚSCULAS_CON_GUIONES_BAJOS para constantes.
+- Usar let y const para declarar variables (evitar var).
+- Declarar las variables al inicio de su ámbito.
+- Incluir punto y coma al final de cada instrucción.
+- Usar // para comentarios de una línea y /* */ para bloques de comentarios.
+- Escribir comentarios descriptivos en componentes, servicios y secciones complejas.
+
+#### Java (Spring Boot API)
+
+**Referencia:** [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+Convenciones de Java:
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas y usar camelCase.
+- El nombre de las variables debe ser en minúsculas y usar camelCase.
+- Para las sentencias if, else, for, do y while se deben usar "{ }".
+- Los nombres de variables que son constantes deben ir en mayúsculas.
+- Usar anotaciones de Spring Boot adecuadas (@RestController, @Service, @Repository, etc.).
+- Seguir el patrón de capas: Controller, Service, Repository.
+- Usar ResponseEntity para respuestas HTTP estructuradas.
+
+#### TypeScript (Angular Web Application)
+
+**Referencia:** [Angular Style Guide](https://angular.io/guide/styleguide)
+
+Convenciones de TypeScript y Angular:
+- Usar PascalCase para nombres de clases y componentes.
+- Usar camelCase para propiedades y métodos.
+- Usar kebab-case para nombres de archivos de componentes.
+- Usar el sufijo .component.ts para archivos de componentes.
+- Usar el sufijo .service.ts para archivos de servicios.
+- Implementar interfaces TypeScript para tipado fuerte.
+- Usar async/await en lugar de .then() para operaciones asíncronas.
+- Seguir la estructura de carpetas recomendada por Angular CLI.
+
+#### Flutter (Dart Mobile Application)
+
+**Referencia:** [Dart Effective Style](https://dart.dev/effective-dart/style)
+
+Convenciones de Flutter:
+- **Nombres de clases y tipos:** Se debe usar UpperCamelCase para los nombres de clases, tipos, enums y typedefs, por ejemplo, UserProfile.
+- **Nombres de variables y funciones:** Se debe usar lowerCamelCase para los nombres de variables, funciones y parámetros, por ejemplo, userProfile.
+- **Nombres de constantes:** Se debe usar lowerCamelCase para las constantes, por ejemplo, defaultTimeout.
+- **Nombres de archivos:** Los nombres de archivos deben estar en minúsculas y usar guiones bajos para separar las palabras, por ejemplo, user_profile.dart.
+- **Comentarios de documentación:** Se debe usar /// para comentarios de documentación y // para comentarios de una sola línea.
+- **Uso de const y final:** Se debe usar const para valores inmutables en tiempo de compilación y final para valores inmutables en tiempo de ejecución.
+- **Funciones cortas:** Se recomienda usar la sintaxis de flecha (=>) para funciones de una sola expresión.
+- **Evitar funciones y widgets grandes:** Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
+
+#### JUnit (Testing)
+
+**Referencia:** [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
+
+Convenciones para pruebas:
+- Los nombres de las clases de prueba deben terminar con "Test" (ejemplo: UserServiceTest).
+- Los métodos de prueba deben usar nombres descriptivos que expliquen qué se está probando.
+- Usar anotaciones @Test, @BeforeEach, @AfterEach según corresponda.
+- Seguir el patrón AAA (Arrange, Act, Assert) en los métodos de prueba.
+- Usar @DisplayName para proporcionar nombres legibles a las pruebas.
+- Agrupar pruebas relacionadas usando @Nested.
+
+#### Herramientas de Calidad de Código
+
 - **Internacionalización (i18n):** Todos los productos soportan inglés (en_US) y español latinoamericano (es_419) como idiomas configurables. El idioma por defecto es inglés.
 - **Accesibilidad (a11y):** Se implementan atributos ARIA y buenas prácticas de accesibilidad en Landing Page y Frontend Web Applications.
 - **Herramientas de linting:** ESLint para JavaScript, Checkstyle para Java.
 
 ### 5.1.4. Software Deployment Configuration
 
-La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un proceso confiable, seguro y automatizado. Implementamos una arquitectura cloud-native que asegura alta disponibilidad y escalabilidad, mientras mantenemos la integración consistente de internacionalización (i18n) y accesibilidad (a11y) en todos los componentes del sistema:
+La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un proceso confiable, seguro y automatizado. Implementamos una arquitectura cloud-native que asegura alta disponibilidad y escalabilidad, mientras mantenemos la integración consistente de internacionalización (i18n) en todos los componentes del sistema:
 
 #### Configuración de Entornos
 
@@ -3867,10 +3979,17 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
 - **Landing Page**
   - Plataforma: GitHub Pages
   - Características:
-    - Soporte multilenguaje (en_US, es_419)
+    - Soporte multilenguaje
     - Accesibilidad WCAG 2.1
     - Optimización SEO
-  <img src="assets/chapter-5-5.1/github-pages.png" alt="Landing Page Deployment" width="150"/>
+  Primero se va ala configuracion del repositrio para luego buscar Pages
+  <img src="./assets/chapter-5-5.1/paso1_deploy-lading-page.jpg" alt="Landing Page Deployment"/>
+  Luego nos vamos al apartado de Build and deployment y seleccionamos nuestra branch y le damos a Save
+  <img src="./assets/chapter-5-5.1/paso2_deploy-lanfing-page.jpg" alt="Landing Page Deployment"/>
+  Se nos cargara el link y acederas al landing page
+<img src="./assets/chapter-5-5.1/github-pages.jpg" alt="Landing Page Deployment"/>
+
+Link:  https://experiemtos-si0732-group-3-pcc-team.github.io/Landing-Page-Quadrapp/
 <br>
 
 - **Frontend (Web y Mobile)**
