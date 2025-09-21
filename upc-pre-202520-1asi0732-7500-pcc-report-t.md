@@ -4204,11 +4204,27 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 
 ### 5.2.3. Implemented Frotend-Web Application Evidence.
 
+![FrontEnd](assets/frontendEvidence.png)
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence.
+
+![MobileApp](assets/mobileEvidence.png)
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
 
+![BackEnd](assets/backendEvidence.png)
+
 ### 5.2.6. RESTful API Documentation.
+
+![1](assets/auth.png)
+![2](assets/signin.png)
+![3](assets/users.png)
+![4](assets/userID.png)
+![5](assets/roles.png)
+![6](assets/parkingownprofile.png)
+![7](assets/parkownID.png)
+![8](assets/driverprofile.png)
+![9](assets/driverprofResponse.png)
 
 ### 5.2.7. Team Collaboration Insights.
 
