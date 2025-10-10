@@ -4266,6 +4266,53 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 ![ReservationPaymentTest](./assets/chapter-6/ReservationPaymentTest.png)
 
 
+### 6.1.4. Core System Tests.
+
+**Registro e Inicio de de sesión del Usuario:**
+
+![SignUpCoreTest](./assets/chapter-6/SignUpCoreTest.png)
+
+![SignInCoreTest](./assets/chapter-6/SignInCoreTest.png)
+
+<br>
+
+**Listado de usuarios:**
+
+![GetUsersCoreTest](./assets/chapter-6/GetUsersCoreTest.png)
+
+<br>
+
+**Registro, actualización de estado y listado de Pago por Reserva de Espacio de Estacionamiento:**
+
+![AddReservationPaymentCoreTest](./assets/chapter-6/AddReservationPaymentCoreTest.png)
+
+![PutReservationPaymentStatusCoreTest](./assets/chapter-6/PutReservationPaymentStatusCoreTest.png)
+
+![GetReservationPaymentsCoreTest](./assets/chapter-6/GetReservationPaymentsCoreTest.png)
+
+<br>
+
+**Registro de perfiles de Propietario de Estacionamiento:**
+
+![CreateParkingOwnerProfileCoreTest](./assets/chapter-6/CreateParkingOwnerProfileCoreTest.png)
+
+<br>
+
+**Registro de perfiles de Conductor:**
+
+![CreateDriverProfileCoreTest](./assets/chapter-6/CreateDriverProfileCoreTest.png)
+
+<br>
+
+**Registro de Estacionamientos y espacios disponibles:**
+
+![CreateParkingCoreTest](./assets/chapter-6/CreateParkingCoreTest.png)
+
+![CreateParkingSpotCoreTest](./assets/chapter-6/CreateParkingSpotCoreTest.png)
+
+![GetParkingsCoreTest](./assets/chapter-6/GetParkingsCoreTest.png)
+
+
 ## 6.4. Video About-the-Product.
 
 ![Video About the Product](assets/Video-Producto.png)
