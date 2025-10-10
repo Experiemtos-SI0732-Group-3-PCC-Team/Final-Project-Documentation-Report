@@ -4230,6 +4230,42 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 
 ![Team Collaboration Insights](assets/teamCollabInsights.png)
 
+
+### 6.1.3. Core Behavior-Driven Development.
+
+En esta sección se muestran las pruebas BDD realizadas en base a las User Stories desarrolladas para nuestra solución haciendo uso del lenguaje Gherkin y de la herramienta Cucumber.
+
+**Auth Test:**
+
+![featureAuthTest](./assets/chapter-6/featureAuthTest.png)
+
+![AuthTest](./assets/chapter-6/AuthTest.png)
+
+<br>
+
+**Driver Profile Test:**
+
+![featureDriverProfileTest](./assets/chapter-6/featureDriverProfileTest.png)
+
+![DriverProfileTest](./assets/chapter-6/DriverProfileTest.png)
+
+<br>
+
+**Parking Management Test:**
+
+![featureParkingManagement](./assets/chapter-6/featureParkingManagement.png)
+
+![ParkingManagementTest](./assets/chapter-6/ParkingManagementTest.png)
+
+<br>
+
+**Reservation Payment Test:**
+
+![featureReservationPaymentTest](./assets/chapter-6/featureReservationPaymentTest.png)
+
+![ReservationPaymentTest](./assets/chapter-6/ReservationPaymentTest.png)
+
+
 ## 6.4. Video About-the-Product.
 
 ![Video About the Product](assets/Video-Producto.png)
