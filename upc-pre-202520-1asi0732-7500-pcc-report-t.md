@@ -4236,6 +4236,63 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 
 Enlace del Video About-the-Product: https://youtu.be/Kl0oUidnp8U
 
+## 7.2. Continuous Delivery
+
+### 7.2.1. Tools and Practices  
+
+#### **Herramientas**  
+- **Git:** Utilizado para el control de versiones del proyecto, permitiendo un seguimiento detallado de los cambios realizados en el código y facilitando el trabajo colaborativo entre los desarrolladores.  
+- **GitHub:** Plataforma central para la gestión del repositorio del proyecto, donde se almacenó el código fuente, se administraron las ramas y se realizaron revisiones mediante *pull requests*.  
+- **GitHub Pages:** Implementado para el despliegue de la *landing page* y la versión móvil, ofreciendo una solución rápida y gratuita para la visualización del entorno web del proyecto.  
+- **Azure:** Usado para alojar y ejecutar el *frontend* de la aplicación, proporcionando escalabilidad, disponibilidad y facilidad de integración con otros servicios.  
+- **AWS:** Plataforma destinada al desarrollo y despliegue del *backend*, aprovechando sus servicios para gestionar bases de datos, autenticación y almacenamiento seguro de información.  
+
+#### **Prácticas**  
+- **Estrategia de ramas:**  
+  Se aplicó una metodología basada en el uso de ramas *main* y *feature*, donde la rama *main* contenía versiones estables del proyecto y las *feature* se utilizaban para el desarrollo de nuevas funcionalidades o corrección de errores, promoviendo un flujo de trabajo ordenado y colaborativo.  
+
+- **Integración Continua (CI):**  
+  Se implementó un sistema de integración continua mediante el cual las pruebas automatizadas se ejecutaban de manera automática cada vez que se realizaba un *push* a cualquier rama o se generaba un *pull request*. Esto aseguraba que las modificaciones no introdujeran errores y que el código mantuviera su calidad y estabilidad.  
+
+- **Entrega Continua (CD) con Docker:**  
+  Las versiones de la aplicación se construyeron utilizando contenedores Docker, lo que permitió estandarizar los entornos y facilitar el despliegue. Estas versiones se publicaban en entornos de prueba (*staging*) antes de su paso a producción, permitiendo validar el comportamiento del sistema de forma ágil, confiable y segura.
+
+### 7.2.2. Stages – Deployments Pipeline Components  
+
+El proceso de despliegue del producto **Quadrapp** se ha estructurado mediante un **pipeline automatizado** que garantiza la calidad, eficiencia y control en cada entrega.  
+Este pipeline se aplica tanto al microservicio de **Inventory (Things)** como al de **Observability (Thing States)**, y está compuesto por las siguientes etapas:
+
+---
+
+#### **Build Stage**
+- Se construyen imágenes **Docker** de cada microservicio utilizando su respectivo *Dockerfile*.  
+- Esta etapa asegura que todas las dependencias estén correctamente instaladas y que el código sea ejecutable en un entorno uniforme y replicable.
+
+---
+
+#### **Test Stage**
+- Se ejecutan pruebas unitarias (y eventualmente de integración) para validar la lógica de negocio.  
+- Se verifica la correcta respuesta de los *endpoints* y la comunicación entre los distintos servicios.
+
+---
+
+#### **Push Stage**
+- Las imágenes **Docker** validadas se publican en un registro de contenedores (como **Docker Hub** o el registro interno de AWS).  
+- Esto facilita el versionamiento, la reutilización y el despliegue en diferentes entornos.
+
+---
+
+#### **Deploy Stage**
+- Se utiliza **AWS** como plataforma de despliegue automático de los microservicios.  
+- Se configuran las variables de entorno, las rutas y la conexión con la base de datos **MySQL**.  
+- Cada servicio es desplegado de forma independiente, manteniendo la conectividad y coherencia entre ellos.
+
+---
+
+#### **Post-Deployment Stage**
+- Se realizan pruebas rápidas (*smoke tests*) para verificar el correcto funcionamiento de los servicios desplegados.  
+- Se monitorea el estado y rendimiento de los microservicios mediante las herramientas de observabilidad que ofrece **AWS**, asegurando que las **APIs** permanezcan accesibles y operativas.
+
 # Conclusiones
 
 El desarrollo de Quadrapp permitió identificar y atender necesidades clave tanto de los conductores urbanos como de los propietarios de estacionamientos. A través de la definición de historias de usuario, epics e impact maps, se logró establecer un marco de funcionalidades orientado a mejorar la accesibilidad, la seguridad y la eficiencia en la gestión de estacionamientos. Asimismo, la incorporación de tecnologías como sensores, cámaras de monitoreo y notificaciones en tiempo real aporta soluciones innovadoras que responden a la problemática de congestión y pérdida de tiempo en zonas urbanas.  
