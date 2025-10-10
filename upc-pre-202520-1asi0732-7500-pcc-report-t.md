@@ -3878,8 +3878,10 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
     - Soporte multilenguaje (en_US, es_419)
     - Accesibilidad WCAG 2.1
     - Optimización SEO
-  <img src="assets/chapter-5-5.1/github-pages.png" alt="Landing Page Deployment" width="150"/>
-<br>
+    
+      ![git](./assets/chapter-5-5.1/github-actions.png)
+
+
 
 - **Frontend (Web y Mobile)**
   - Tecnologías: Node.js/Vue CLI
@@ -3888,8 +3890,9 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
     - Interfaces adaptativas
     - Internacionalización i18n
     - Accesibilidad ARIA
-  <img src="assets/chapter-5-5.1/azure-static-web-apps.png" alt="Frontend Deployment" width="150"/>
-<br>
+
+
+![git](./assets/chapter-5-5.1/azure.png)
 
 - **Backend (Web Services)**
   - Framework: Spring Boot
@@ -3898,7 +3901,7 @@ La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un pro
     - APIs RESTful documentadas
     - Mensajes multilenguaje
     - Logging estructurado
-  <img src="assets/chapter-5-5.1/azure-app-service.png" alt="Backend Deployment" width="150"/>
+      ![git](./assets/chapter-5-5.1/azure.png)
 
 #### Seguridad y Monitoreo
 
@@ -4204,11 +4207,11 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 
 ### 5.2.3. Implemented Frotend-Web Application Evidence.
 
-![FrontEnd](assets/frontendEvidence.png)
+![FrontEnd](assets/frontevidence.jpg)
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence.
 
-![MobileApp](assets/mobileEvidence.png)
+![MobileApp](assets/movilevidence.PNG)
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
 
@@ -4318,6 +4321,38 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 ![Video About the Product](assets/Video-Producto.png)
 
 Enlace del Video About-the-Product: https://youtu.be/Kl0oUidnp8U
+
+# Capítulo VII: Devops Practices
+## 7.1. Continuous Integration
+### 7.1 .1. Tools and Practices
+
+En el desarrollo y la verificación de software, es clave contar con prácticas y utilidades que aseguren la calidad del código y la eficacia del equipo. En nuestro flujo de trabajo usamos un conjunto de herramientas que acelera tanto la construcción de funcionalidades como la validación de su comportamiento esperado. Estas soluciones cubren todo el ciclo de vida: desde la codificación y las pruebas hasta la automatización y el control de calidad.
+
+Aplicamos metodologías como TDD (Desarrollo Guiado por Pruebas) y BDD (Desarrollo Guiado por Comportamiento) para alinear el producto con los requisitos del cliente y mantener altos estándares técnicos. Entre las herramientas principales que utilizamos destacan: JUnit 5 para ejecutar pruebas unitarias en Java, Mockito para simular dependencias y aislar la lógica de negocio, AssertJ para aserciones más expresivas, JaCoCo para medir cobertura, Testcontainers para pruebas de integración con dependencias reales en contenedores y Cucumber para escenarios BDD en Gherkin cuando corresponde.
+
+
+| Herramienta        | Tipo                               | Descripción                                                                   | Propósito                                                                         |
+| ------------------ | ---------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **JUnit 5**        | Framework de pruebas (TDD)         | Marco de pruebas unitarias para Java con anotaciones y ciclo de vida moderno. | Crear y ejecutar pruebas unitarias y de componentes con aserciones claras.        |
+| **Mockito**        | Simulaciones / *mocks* (TDD)       | Genera dobles de prueba para dependencias externas (repos, gateways, etc.).   | Aislar la unidad bajo prueba y verificar interacciones sin tocar recursos reales. |
+| **AssertJ**        | Librería de aserciones             | Proporciona aserciones fluídas, legibles y encadenables.                      | Mejorar la legibilidad de los asserts y mensajes de error en los tests.           |
+| **JaCoCo**         | Cobertura de código                | Plugin de cobertura para Maven/Gradle.                                        | Medir y monitorizar cobertura de líneas/ramas para orientar esfuerzos de prueba.  |
+| **Testcontainers** | Pruebas de integración             | Levanta dependencias reales (DB, colas, etc.) en contenedores efímeros.       | Probar integración contra servicios reales sin infraestructura fija ni *mocks*.   |
+| **Cucumber**       | BDD / Automatización de escenarios | Víncula escenarios Gherkin con pasos ejecutables en Java.                     | Alinear comportamiento esperado con requisitos del negocio y documentación viva.  |
+
+### 7.1.2. Build & Test Suite Pipeline Components
+Para la integración continua se utilizan JUnit 5 y Mockito para automatizar pruebas unitarias y de componentes, validando reglas de negocio de la API y del dominio.
+
+![unittest](./assets/unit%20integration.png)
+
+Los comportamientos del sistema se especifican en Gherkin bajo el enfoque BDD, a partir de historias de usuario y criterios de aceptación. Cada feature se automatiza con Cucumber sobre JUnit 5.
+
+![gherkin](./assets/gherkinfeature.PNG)
+
+Finalmente, para las pruebas funcionales end-to-end de la interfaz web utilizamos Selenium WebDriver (y Selenium IDE para grabar flujos base). Los escenarios se derivan de los features en Gherkin y se ejecutan sobre JUnit 5, usando ChromeDriver en modo headless dentro del pipeline de CI. Con esto validamos flujos críticos (p. ej., inicio de sesión y envío de opiniones), verificando navegación, estado del DOM y mensajes de confirmación/validación.
+
+![side](./assets/side.png)
+
 
 ## 7.2. Continuous Delivery
 
