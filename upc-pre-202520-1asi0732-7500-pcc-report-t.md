@@ -582,7 +582,7 @@ Los riesgos principales se relacionan con la baja adopción inicial por desconfi
 
 El Lean UX Canvas es una herramienta empleada en el ámbito del diseño centrado en el usuario (UX) y la metodología Lean, con el propósito de desarrollar productos de manera más eficiente y eficaz. Su finalidad es ofrecer un marco estructurado que facilita la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas que el equipo ha trabajado utilizando Canva.
 
-![Lean UX Canvas](assets/Lean_UX_Canvas.jpg)
+![Lean UX Canvas](assets/LeanUxCanvas.PNG)
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -2278,53 +2278,71 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
 
 ## 3.3. Product Backlog.
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-| ------ | ------------- | ------ | ----------- | ------------------------ |
-| 1 | US01 | Navegación Intuitiva en la Landing Page | Como visitante, quiero navegar la landing page para encontrar secciones importantes fácilmente. | 5 |
-| 2 | US02 | Visualización de Ciudades con Servicio | Como visitante, quiero ver en qué ciudades está disponible Quadrapp para saber si puedo usar el servicio. | 3 |
-| 3 | US03 | Promociones Destacadas | Como visitante, quiero ver promociones destacadas para aprovechar descuentos y beneficios. | 5 |
-| 4 | US04 | Beneficios para Conductores y Dueños de Estacionamiento | Como visitante, quiero ver los beneficios de usar Quadrapp para entender sus ventajas. | 3 |
-| 5 | US05 | Visualización de Misión de la Empresa | Como visitante, quiero ver la misión de Quadrapp para conocer sus objetivos. | 2 |
-| 6 | US06 | Visualización de Visión de la Empresa | Como visitante, quiero conocer la visión de Quadrapp para entender su crecimiento futuro. | 2 |
-| 7 | US07 | Visualización del Equipo | Como visitante, quiero ver quiénes forman el equipo para conocer al personal detrás del proyecto. | 3 |
-| 8 | US08 | Información de Contacto | Como visitante, quiero ver información de contacto para comunicarme con Quadrapp fácilmente. | 3 |
-| 9 | US09 | Envío de Mensaje de Contacto | Como visitante, quiero enviar un mensaje a Quadrapp para hacer preguntas o dar feedback. | 5 |
-| 10 | US10 | Visualización de Información de Características | Como visitante, quiero ver las características del servicio para entender lo que ofrece Quadrapp. | 3 |
-| 11 | US11 | Botón de Registro e Inicio de Sesión | Como visitante, quiero registrarme o iniciar sesión para acceder a la plataforma. | 5 |
-| 12 | US12 | Enlace a Redes Sociales | Como visitante, quiero seguir a Quadrapp en redes sociales para recibir novedades y actualizaciones. | 2 |
-| 13 | US13 | Visualización de Slogan | Como visitante, quiero ver un slogan atractivo para comprender la propuesta del servicio rápidamente. | 2 |
-| 14 | US14 | Acceso a Información Legal | Como visitante, quiero revisar términos y políticas de privacidad para entender las reglas de uso y protección de datos. | 3 |
-| 15 | US15 | Inicio de Sesión para Conductores | Como conductor, quiero iniciar sesión con mi cuenta para acceder a la aplicación. | 5 |
-| 16 | US16 | Registro de Conductores | Como conductor, quiero registrar mi cuenta para poder usar la plataforma. | 5 |
-| 17 | US17 | Registro de Propietarios de Estacionamiento | Como propietario, quiero registrar mi cuenta para acceder a las funcionalidades de Quadrapp. | 5 |
-| 18 | US18 | Búsqueda de Reservas para Conductores | Como conductor, quiero buscar mis reservas para visualizarlas y gestionarlas fácilmente. | 3 |
-| 19 | US19 | Pago de Reservas por Transacción | Como conductor, quiero pagar mis reservas por transacción para completar mis reservas. | 5 |
-| 20 | US20 | Confirmación de Reserva Registrada | Como conductor, quiero recibir confirmación de mi reserva para asegurarme que fue registrada correctamente. | 3 |
-| 21 | US21 | Registro de Opiniones | Como usuario, quiero registrar mis opiniones para dar retroalimentación sobre mi experiencia en la plataforma. | 3 |
-| 22 | US22 | Notificaciones en el Dashboard del Conductor | Como conductor, quiero recibir notificaciones en mi dashboard para estar al tanto de ofertas y recordatorios. | 5 |
-| 23 | US23 | Configuración de Preferencias de Usuario | Como usuario, quiero configurar mis preferencias para personalizar mi experiencia en la plataforma. | 3 |
-| 24 | US24 | Historial de Reservas en el Dashboard del Conductor | Como conductor, quiero ver mi historial de reservas para consultar mis reservas pasadas. | 3 |
-| 25 | US25 | Alerta de Espacio Disponible | Como conductor, quiero recibir alertas de disponibilidad de espacios para saber cuándo un espacio está libre. | 5 |
-| 26 | US26 | Soporte en Tiempo Real en el Dashboard del Conductor | Como conductor, quiero un soporte en tiempo real para resolver dudas o problemas rápidamente. | 5 |
-| 27 | US27 | Favoritos para Conductores | Como conductor, quiero marcar estacionamientos como favoritos para facilitar futuras reservas. | 3 |
-| 28 | US28 | Verificación de Reserva en el Dashboard del Conductor | Como conductor, quiero verificar el estado de mi reserva para confirmar si el espacio está listo. | 3 |
-| 29 | US29 | Cancelación de Reserva en el Dashboard | Como conductor, quiero cancelar mi reserva para evitar inconvenientes si cambian mis planes. | 5 |
-| 30 | US30 | Gestión de Alertas para Conductores | Como conductor, quiero ver todas mis alertas en el dashboard para gestionarlas fácilmente. | 5 |
-| 31 | US31 | Personalización de Notificaciones para Conductores | Como conductor, quiero personalizar mis notificaciones para recibir solo alertas relevantes. | 3 |
-| 32 | US32 | Visualización de Mapa en el Dashboard del Conductor | Como conductor, quiero acceder a un mapa interactivo para ver ubicaciones de estacionamientos cercanos. | 5 |
-| 33 | US33 | Seguimiento de Reserva en Tiempo Real | Como conductor, quiero hacer seguimiento de mi reserva en tiempo real para conocer su estado. | 5 |
-| 34 | TS01 | Gestión de Clientes en Servicio al Cliente | Como developer, quiero crear un endpoint para gestionar consultas de servicio al cliente para permitir soporte eficaz. | 3 |
-| 35 | TS02 | Notificación de Cambios en la Disponibilidad de Espacios | Como developer, quiero un endpoint que envíe notificaciones automáticas de cambios de estado de espacios para mantener a los usuarios informados. | 5 |
-| 36 | TS03 | Historial de Transacciones para Usuarios | Como developer, quiero un endpoint para consultar el historial de transacciones para permitir la revisión de pagos y reservas. | 3 |
-| 37 | TS04 | Gestión de Ocupación de Espacios en Tiempo Real | Como developer, quiero un endpoint que actualice la disponibilidad de espacios en tiempo real para reflejar cambios según sensores y cámaras. | 5 |
-| 38 | TS05 | Configuración de Alertas de Seguridad | Como developer, quiero un endpoint para configurar alertas de seguridad para responder rápidamente a eventos sospechosos. | 5 |
-| 39 | TS06 | Administración de Tarifas por Ubicación | Como developer, quiero un endpoint para configurar tarifas según ubicación para ajustar precios según demanda. | 5 |
-| 40 | TS07 | Registro de Alertas de Seguridad | Como developer, quiero un endpoint que registre todas las alertas de seguridad para que los administradores revisen incidentes pasados. | 3 |
-| 41 | TS08 | Gestión de Datos de Vehículos | Como developer, quiero un endpoint para almacenar y gestionar información de vehículos para hacer seguimiento y gestionar accesos. | 3 |
-| 42 | TS09 | Reportes de Promociones Utilizadas | Como developer, quiero un endpoint que genere reportes de promociones usadas para analizar efectividad y optimizar campañas. | 3 |
-| 43 | TS10 | Auditoría de Acciones en la Plataforma | Como developer, quiero un endpoint que registre todas las acciones críticas para garantizar seguridad y trazabilidad. | 5 |
-| 44 | TS11 | Historial de Opiniones de Usuarios | Como developer, quiero un endpoint para registrar y consultar opiniones de usuarios para mejorar la experiencia con feedback. | 3 |
-| 45 | TS12 | Integración con el Sistema de Pago | Como developer, quiero un endpoint para procesar pagos y verificar transacciones para garantizar pagos seguros. | 5 |
+
+Criterio de priorización (MoSCoW) para MVP
+
+Must (MVP): US01, US11, US15, US16, US17, US19, US20, US32, TS12, TS04
+
+Should: US10, US18, US24, US28, US33, TS14, TS03
+
+Could: US22, US25, US27, US31, TS09, TS13
+
+Won’t (TB1): SP07, integraciones IoT reales (simuladas en TB1)
+
+-**MVP — Top 12**:
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------:|:--------------|:-------|:------------|-------------:|
+|     1 | US15 | Inicio de Sesión para Conductores | Como conductor, quiero iniciar sesión con mi cuenta para acceder a la aplicación. | 5 |
+|     2 | US16 | Registro de Conductores | Como conductor, quiero registrar mi cuenta para poder usar la plataforma. | 5 |
+|     3 | US17 | Registro de Propietarios de Estacionamiento | Como propietario, quiero registrar mi cuenta para acceder a las funcionalidades de Quadrapp. | 5 |
+|     4 | US11 | Botón de Registro e Inicio de Sesión | Como visitante, quiero registrarme o iniciar sesión para acceder a la plataforma. | 5 |
+|     5 | US01 | Navegación Intuitiva en la Landing Page | Como visitante, quiero navegar la landing page para encontrar secciones importantes fácilmente. | 5 |
+|     6 | US32 | Visualización de Mapa en el Dashboard del Conductor | Como conductor, quiero acceder a un mapa interactivo para ver ubicaciones de estacionamientos cercanos. | 5 |
+|     7 | US10 | Visualización de Información de Características | Como visitante, quiero ver las características del servicio para entender lo que ofrece Quadrapp. | 3 |
+|     8 | US19 | Pago de Reservas por Transacción | Como conductor, quiero pagar mis reservas por transacción para completar mis reservas. | 5 |
+|     9 | US20 | Confirmación de Reserva Registrada | Como conductor, quiero recibir confirmación de mi reserva para asegurarme que fue registrada correctamente. | 3 |
+|    10 | TS12 | Integración con el Sistema de Pago | Como developer, quiero un endpoint para procesar pagos y verificar transacciones para garantizar pagos seguros. | 5 |
+|    11 | TS04 | Gestión de Ocupación de Espacios en Tiempo Real | Como developer, quiero un endpoint que actualice la disponibilidad de espacios en tiempo real para reflejar cambios según sensores y cámaras. | 5 |
+|    12 | US18 | Búsqueda de Reservas para Conductores | Como conductor, quiero buscar mis reservas para visualizarlas y gestionarlas fácilmente. | 3 |
+
+**Resto del Backlog**:
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------:|:--------------|:-------|:------------|-------------:|
+| 13 | US02 | Visualización de Ciudades con Servicio | Como visitante, quiero ver en qué ciudades está disponible Quadrapp para saber si puedo usar el servicio. | 3 |
+| 14 | US03 | Promociones Destacadas | Como visitante, quiero ver promociones destacadas para aprovechar descuentos y beneficios. | 5 |
+| 15 | US04 | Beneficios para Conductores y Dueños de Estacionamiento | Como visitante, quiero ver los beneficios de usar Quadrapp para entender sus ventajas. | 3 |
+| 16 | US05 | Visualización de Misión de la Empresa | Como visitante, quiero ver la misión de Quadrapp para conocer sus objetivos. | 2 |
+| 17 | US06 | Visualización de Visión de la Empresa | Como visitante, quiero conocer la visión de Quadrapp para entender su crecimiento futuro. | 2 |
+| 18 | US07 | Visualización del Equipo | Como visitante, quiero ver quiénes forman el equipo para conocer al personal detrás del proyecto. | 3 |
+| 19 | US08 | Información de Contacto | Como visitante, quiero ver información de contacto para comunicarme con Quadrapp fácilmente. | 3 |
+| 20 | US09 | Envío de Mensaje de Contacto | Como visitante, quiero enviar un mensaje a Quadrapp para hacer preguntas o dar feedback. | 5 |
+| 21 | US12 | Enlace a Redes Sociales | Como visitante, quiero seguir a Quadrapp en redes sociales para recibir novedades y actualizaciones. | 2 |
+| 22 | US13 | Visualización de Slogan | Como visitante, quiero ver un slogan atractivo para comprender la propuesta del servicio rápidamente. | 2 |
+| 23 | US14 | Acceso a Información Legal | Como visitante, quiero revisar términos y políticas de privacidad para entender las reglas de uso y protección de datos. | 3 |
+| 24 | US21 | Registro de Opiniones | Como usuario, quiero registrar mis opiniones para dar retroalimentación sobre mi experiencia en la plataforma. | 3 |
+| 25 | US22 | Notificaciones en el Dashboard del Conductor | Como conductor, quiero recibir notificaciones en mi dashboard para estar al tanto de ofertas y recordatorios. | 5 |
+| 26 | US23 | Configuración de Preferencias de Usuario | Como usuario, quiero configurar mis preferencias para personalizar mi experiencia en la plataforma. | 3 |
+| 27 | US24 | Historial de Reservas en el Dashboard del Conductor | Como conductor, quiero ver mi historial de reservas para consultar mis reservas pasadas. | 3 |
+| 28 | US25 | Alerta de Espacio Disponible | Como conductor, quiero recibir alertas de disponibilidad de espacios para saber cuándo un espacio está libre. | 5 |
+| 29 | US26 | Soporte en Tiempo Real en el Dashboard del Conductor | Como conductor, quiero un soporte en tiempo real para resolver dudas o problemas rápidamente. | 5 |
+| 30 | US27 | Favoritos para Conductores | Como conductor, quiero marcar estacionamientos como favoritos para facilitar futuras reservas. | 3 |
+| 31 | US28 | Verificación de Reserva en el Dashboard del Conductor | Como conductor, quiero verificar el estado de mi reserva para confirmar si el espacio está listo. | 3 |
+| 32 | US29 | Cancelación de Reserva en el Dashboard | Como conductor, quiero cancelar mi reserva para evitar inconvenientes si cambian mis planes. | 5 |
+| 33 | US30 | Gestión de Alertas para Conductores | Como conductor, quiero ver todas mis alertas en el dashboard para gestionarlas fácilmente. | 5 |
+| 34 | US31 | Personalización de Notificaciones para Conductores | Como conductor, quiero personalizar mis notificaciones para recibir solo alertas relevantes. | 3 |
+| 35 | US33 | Seguimiento de Reserva en Tiempo Real | Como conductor, quiero hacer seguimiento de mi reserva en tiempo real para conocer su estado. | 5 |
+| 36 | TS01 | Gestión de Clientes en Servicio al Cliente | Como developer, quiero crear un endpoint para gestionar consultas de servicio al cliente para permitir soporte eficaz. | 3 |
+| 37 | TS02 | Notificación de Cambios en la Disponibilidad de Espacios | Como developer, quiero un endpoint que envíe notificaciones automáticas de cambios de estado de espacios para mantener a los usuarios informados. | 5 |
+| 38 | TS03 | Historial de Transacciones para Usuarios | Como developer, quiero un endpoint para consultar el historial de transacciones para permitir la revisión de pagos y reservas. | 3 |
+| 39 | TS05 | Configuración de Alertas de Seguridad | Como developer, quiero un endpoint para configurar alertas de seguridad para responder rápidamente a eventos sospechosos. | 5 |
+| 40 | TS06 | Administración de Tarifas por Ubicación | Como developer, quiero un endpoint para configurar tarifas según ubicación para ajustar precios según demanda. | 5 |
+| 41 | TS07 | Registro de Alertas de Seguridad | Como developer, quiero un endpoint que registre todas las alertas de seguridad para que los administradores revisen incidentes pasados. | 3 |
+| 42 | TS08 | Gestión de Datos de Vehículos | Como developer, quiero un endpoint para almacenar y gestionar información de vehículos para hacer seguimiento y gestionar accesos. | 3 |
+| 43 | TS09 | Reportes de Promociones Utilizadas | Como developer, quiero un endpoint que genere reportes de promociones usadas para analizar efectividad y optimizar campañas. | 3 |
+| 44 | TS10 | Auditoría de Acciones en la Plataforma | Como developer, quiero un endpoint que registre todas las acciones críticas para garantizar seguridad y trazabilidad. | 5 |
+| 45 | TS11 | Historial de Opiniones de Usuarios | Como developer, quiero un endpoint para registrar y consultar opiniones de usuarios para mejorar la experiencia con feedback. | 3 |
 | 46 | TS13 | Generación de Reportes de Ocupación | Como developer, quiero un endpoint que genere reportes de ocupación para analizar el uso y optimizar la disponibilidad de espacios. | 3 |
 | 47 | TS14 | Configuración de Opciones de Notificaciones | Como developer, quiero un endpoint para que los usuarios configuren sus preferencias de notificaciones para personalizar avisos. | 3 |
 | 48 | TS15 | API de Feedback Automático | Como developer, quiero un endpoint para recopilar feedback de usuarios al finalizar reservas para obtener insights de experiencia. | 3 |
@@ -3286,440 +3304,335 @@ Reservation Class Diagram:
 
 En el marco del proyecto Quadrapp, se elaboró el Class Dictionary con el objetivo de documentar de manera precisa las clases definidas en el sistema. Este diccionario describe los nombres de las clases, sus atributos, tipos de datos, métodos principales y relaciones, brindando un nivel de detalle técnico que complementa a los Class Diagrams. Su función es servir como una guía de referencia clara y estructurada para el equipo de desarrollo, garantizando consistencia en la implementación y facilitando el mantenimiento del sistema a lo largo del tiempo.
 
-#### Reservation
+1) Reservations BC
+   Reservation (Aggregate Root)
 
-**Atributos**
+Atributos
 
-* id: Long
+id: Long
 
-* userId: Long
+driverId: Long
 
-* vehiclePlate: String
+parkingId: Long
 
-* parkingId: Long
+spotId: UUID
 
-* parkingSpotId: UUID
+timeRange: TimeRange (VO)
 
-* startTime: LocalDateTime
+price: Money (VO)
 
-* endTime: LocalDateTime
+vehiclePlate: Plate (VO, opcional)
 
-* totalPrice: Float
+status: ReservationStatus
 
-* status: ReservationStatus
+createdAt: LocalDateTime, updatedAt: LocalDateTime
 
-**Métodos**
+Métodos (invariantes embebidos)
 
-* Reservation(command: CreateReservationCommand)
+reserve(parking: Parking, timeRange: TimeRange): Reservation
 
-* calculateTotalPrice(): void
+confirm(payment: Payment): void (solo si payment.status == COMPLETED)
 
-* getDurationInHours(): Long
+cancel(policy: ReservationPolicy): void (valida ventana y penalidad)
 
-* confirm(): void
+complete(): void
 
-* cancel(): void
+getDurationHours(): Long
 
-* complete(): void
+recalculatePrice(pricing: PricingService): void
 
-**Relaciones**
+Relaciones
 
-* 1..1 con ReservationPayment
+Reservation 1..1 — 0..1 Payment (por paymentId o ReservationPayment)
 
-**ReservationPayment**
+ReservationStatus (Enum)
 
-**Atributos**
+PENDING_PAYMENT, CONFIRMED, CANCELLED, COMPLETED
 
-* reservationId: Long
+ReservationPayment (Entidad puente, opcional en este release)
 
-**Métodos**
+Atributos
 
-* ReservationPayment(reservationId: Long, amount: Double)
+id: Long
 
-----
+reservationId: Long
 
-#### IAM (Identity & Access Management)
+paymentId: Long
 
-**Role**
+amount: Money
 
-**Atributos**
+createdAt: LocalDateTime
 
-* id: Long
-* name: Roles
+2) Parking Management BC
+   Parking (Aggregate Root)
 
-**Métodos**
+Atributos
 
-* Role(), Role(name: Roles)
+id: Long
 
-* getStringName(): String
+ownerId: Long
 
-* getDefaultRole(): Role
+name: String
 
-* toRoleFromName(name: String): Role
+description: String
 
-* validateRoleSet(roles: List<Role>): List<Role>
+address: String
 
-* getId(), setId(id: Long)
+location: Location (VO)
 
-* getName(), setName(name: Roles)
+ratePerHour: Money (VO)
 
-**User**
+rating: Float
 
-**Atributos**
+totalRows: Int, totalColumns: Int
 
-* id: Long
-* email: String
-* password: String
-* role: Set<Role>
-* createdAt: Date
-* updatedAt: Date
+imageUrl: String
 
-**Métodos**
+spots: List<ParkingSpot> (consistencia por agregado)
 
-* Constructores con email/password/roles
+Métodos
 
-* addRole(role: Role)
+addSpot(label: String, row: Int, column: Int): ParkingSpot
 
-* addRoles(roles: List<Role>)
+occupySpot(spotId: UUID): void
 
-* getSerializedRoles(): List<String>
+freeSpot(spotId: UUID): void
 
-* getEmail(), getPassword(), getRoles()
+availableSpots(): Int
 
-**Role (Enumeration)**
+ParkingSpot (Entidad interna del agregado)
 
-**Valores**
+Atributos
 
-* ROLE_ADMIN
+id: UUID
 
-* ROLE_PARKING_OWNER
+available: Boolean
 
-* ROLE_DRIVER
+rowIndex: Int, columnIndex: Int
 
-----
+label: String
 
-#### Notification
+Métodos
 
+setAvailability(state: Boolean): void
 
-**Atributos**
+3) Payments BC
+   Payment (Entidad / Aggregate Root si se maneja fuera de Reservation)
 
-* id: Long
+Atributos
 
-* userId: Long
+id: Long
 
-* type: String
+amount: Money
 
-* message: String
+paidAt: LocalDateTime?
 
-**Métodos**
+status: PaymentStatus
 
-* Notification(command: CreateNotificationCommand)
+externalTransactionId: String? (VO TransactionId si prefieres)
 
-**Relaciones**
+purpose: PaymentPurpose (RESERVATION | SUBSCRIPTION)
 
-* 1..* con User
+referenceId: Long (id de la reserva o suscripción según purpose)
 
-**User**
+Métodos
 
-**Atributos**
+markAsProcessing(): void
 
-* id: Long
-* email: String
-* password: String
-* role: Set<Role>
-* createdAt: Date
-* updatedAt: Date
+markAsPaid(paidAt: LocalDateTime): void
 
-**Métodos**
+markAsFailed(reason: String?): void
 
-* Constructores con email/password/roles
+cancel(): void
 
-* addRole(role: Role)
+PaymentStatus (Enum)
 
-* addRoles(roles: List<Role>)
+PENDING, PROCESSING, CANCELLED, COMPLETED, FAILED
 
-* getSerializedRoles(): List<String>
+PaymentPurpose (Enum)
 
-* getEmail(), getPassword(), getRoles()
+RESERVATION, SUBSCRIPTION
 
-----
+4) Reviews BC
+   Review (Aggregate Root)
 
-#### Parking Management
+Atributos
 
-**Atributos**
+id: Long
 
-* id: Long
+userId: Long
 
-* ownerId: OwnerId
+parkingId: Long
 
-* name: String
+rating: Int (1..5)
 
-* description: String
+comment: String
 
-* address: String
+createdAt: LocalDateTime
 
-* lat: Double, lng: Double
+Métodos
 
-* ratePerHour: Float
+publish(command: CreateReviewCommand): Review
 
-* rating: Float
+edit(comment: String, rating: Int): void (opcional, con ventana de edición)
 
-* totalSpots, availableSpots: Integer
+Relaciones
 
-* totalRows, totalColumns: Integer
+Review *..1 User (referencia por userId)
 
-* imageUrl: String
+Review *..1 Parking (referencia por parkingId)
 
-* parkingSpotManager: SpotManager
+5) IAM BC (Identity & Access Management)
+   User (Aggregate Root)
 
-**Métodos**
+Atributos
 
-* Parking(command: CreateParkingCommand)
-* addParkingSpot(command: AddParkingSpotCommand)
-* getParkingSpots(): List<ParkingSpot>
-* getParkingSpot(UUID): ParkingSpot
+id: Long
 
-**ParkingSpotManager (Value Object)**
+email: String
 
-**Atributos**
+passwordHash: String
 
-* parkingSpots: List<ParkingSpot>
+roles: Set<Role>
 
-**Métodos**
+createdAt: Date, updatedAt: Date
 
-* addParkingSpot(parking, row, column, label)
+Métodos
 
-* getParkingSpotById(UUID)
+addRole(role: Role): void
 
-* updateParkingSpot(ParkingSpot, UUID)
+addRoles(roles: Collection<Role>): void
 
-**ParkingSpot**
+getSerializedRoles(): List<String>
 
-**Atributos**
+Role (Enum)
 
-* id: UUID
+ROLE_ADMIN, ROLE_PARKING_OWNER, ROLE_DRIVER
 
-* parkingId: Long
+6) Profile BC
+   ParkingOwner (Entidad perfil ligada a User)
 
-* available: Boolean
+Atributos
 
-* rowIndex, columnIndex: Integer
+id: Long
 
-* label: String
+userId: Long
 
-**Métodos**
+fullName: String
 
-* setAvailability(state: Boolean)
+city: String, country: String
 
-----
+phone: Phone (VO)
 
-#### Payment
+companyName: String
 
-   **Payment (Value Object)**
+ruc: Ruc (VO)
 
-**Atributos**
+createdAt: Date, updatedAt: Date
 
-* id: Long
-* amount: Double
-* paidAt: LocalDateTime
-* status: PaymentStatus
+Métodos
 
-**Métodos**
+updateContacts(phone: Phone, city: String, country: String): void
 
-* Payment(amount: Double)
+Driver (Entidad perfil ligada a User)
 
-* markAsPaid(): void
+Atributos
 
-* isForSubscription(): boolean
+id: Long
 
-* isForReservation(): boolean
+userId: Long
 
-**ReservationPayment**
+fullName: String
 
-**Atributos**
+city: String, country: String
 
-* reservationId: Long
+phone: Phone (VO)
 
-**SubscriptionPayment**
+dni: Dni (VO)
 
-**Atributos**
+createdAt: Date, updatedAt: Date
 
-* subscriptionId: Long
+Métodos
 
-**PaymentStatus (Enumeration)**
+updateContacts(phone: Phone, city: String, country: String): void
 
-**Valores**
+7) Notifications BC
+   Notification (Entidad)
 
-* PENDING
+Atributos
 
-* PROCESSING
+id: Long
 
-* CANCELLED
+userId: Long
 
-* COMPLETED
+type: NotificationType (Enum: PUSH, EMAIL, SMS …)
 
-* FAILED
+message: String
 
-----
+createdAt: LocalDateTime
 
-#### Review
+sentAt: LocalDateTime?
 
+Métodos
 
-**Atributos**
+schedule(command: CreateNotificationCommand): Notification
 
-* id: Long
+markAsSent(sentAt: LocalDateTime): void
 
-* userId: Long
+Relaciones
 
-* parkingId: Long
+Notification *..1 User (por userId)
 
-* rating: Integer
+8) Value Objects (comunes)
+   Money
 
-* comment: String
+Atributos
 
-**Métodos**
+amount: BigDecimal
 
-* Review(command: CreateReviewCommand)
+currency: String (ISO 4217, ej. “PEN”)
 
-**Relaciones**
+Métodos
 
-* *..1 con User
+plus(other: Money): Money
 
-* 1..* con Parking
+times(hours: Long): Money
 
-**Parking**
+(inmutable; valida moneda consistente)
 
-**Atributos**
+TimeRange
 
-* id: Long
+Atributos
 
-* ownerId: OwnerId
+start: LocalDateTime
 
-* name: String
+end: LocalDateTime
 
-* description: String
+Métodos / Reglas
 
-* address: String
+durationHours(): Long
 
-* lat: Double, lng: Double
+overlaps(other: TimeRange): Boolean
 
-* ratePerHour: Float
+Regla: end > start
 
-* rating: Float
+Location
 
-* totalSpots, availableSpots: Integer
+Atributos
 
-* totalRows, totalColumns: Integer
+lat: Double, lng: Double
 
-* imageUrl: String
+Regla: -90 ≤ lat ≤ 90, -180 ≤ lng ≤ 180
 
-* parkingSpotManager: SpotManager
+Phone, Dni, Ruc, Plate (cada uno con validación y normalización)
 
-**Métodos**
+Phone(number: String)
 
-* Parking(command: CreateParkingCommand)
-* addParkingSpot(command: AddParkingSpotCommand)
-* getParkingSpots(): List<ParkingSpot>
-* getParkingSpot(UUID): ParkingSpot
+Dni(value: String)
 
-**User**
+Ruc(value: String)
 
-**Atributos**
-
-* id: Long
-* email: String
-* password: String
-* role: Set<Role>
-* createdAt: Date
-* updatedAt: Date
-
-**Métodos**
-
-* Constructores con email/password/roles
-
-* addRole(role: Role)
-
-* addRoles(roles: List<Role>)
-
-* getSerializedRoles(): List<String>
-
-* getEmail(), getPassword(), getRoles()
-
-----
-
-#### Profile
-
-**User**
-
-**Atributos**
-
-* id: Long
-* email: String
-* password: String
-* role: Set<Role>
-* createdAt: Date
-* updatedAt: Date
-
-**Métodos**
-
-* Constructores con email/password/roles
-
-* addRole(role: Role)
-
-* addRoles(roles: List<Role>)
-
-* getSerializedRoles(): List<String>
-
-* getEmail(), getPassword(), getRoles()
-
-**ParkingOwner**
-
-**Atributos**
-
-* id: Long
-
-* fullName: String
-
-* city, country: String
-
-* phone: Phone
-
-* companyName: String
-
-* ruc: Ruc
-
-* userId: Long
-
-* createdAt, updatedAt: Date
-
-**Métodos**
-
-* ParkingOwner(command, userId)
-
-* getPhone(), getRuc(), getCompanyName(), getCity(), getCountry(), getUserId()
-
-**Driver**
-
-**Atributos**
-
-* id: Long
-
-* fullName: String
-
-* city, country: String
-
-* phone: Phone
-
-* dni: Dni
-
-* userId: Long
-
-* createdAt, updatedAt: Date
-
-**Métodos**
-
-* Driver(command, userId)
-* getDni(), getPhone(), getFullName(), getCity(), getCountry(), getUserId()
+Plate(value: String)
 
 ## 4.10. Database Design
 
@@ -4293,12 +4206,99 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 ### 5.2.6. RESTful API Documentation.
 
 ![1](assets/auth.png)
+**Objetivo funcional.** Registrar un usuario de la plataforma con uno o más **roles** iniciales (Driver / Parking Owner / Admin).
+
+**Historias relacionadas.**
+- **US16** Registro de conductores.
+- **US17** Registro de propietarios.
+- **US11** CTA “Registrarse” (landing).
+
+**Flujo validado en la pantalla.**
+1) Request JSON con `username`, `password`, `roles[]`.
+2) Validación de unicidad de `username` y formato de contraseña.
+3) Creación de `User` + asignación de `Role` (IAM BC).
+4) Response 200 con `id`, `username`, `roles[]` (sin exponer password).
+
+
 ![2](assets/signin.png)
+
+**Objetivo funcional.** Autenticar credenciales y emitir JWT para sesiones seguras.
+
+**Historias relacionadas.**
+
+-**US15** Iniciar sesión (conductores).
+
+-**US17** Iniciar sesión (propietarios).
+
+**Flujo validado.**
+
+1) Request con username y password.
+
+2) Verificación credenciales y estado del usuario.
+
+3) Emisión de token (JWT) + metadatos mínimos.
+
 ![3](assets/users.png)
+
+**Objetivo funcional.** Listar usuarios disponibles para administración y trazabilidad.
+
+**Historias/NFR.**
+-**US-admin** Backoffice mínimo.
+
+-**NFR04** Comunicación segura (acceso con JWT + rol Admin).
+
+**Flujo.**
+
+1) Request sin parámetros (paginación opcional).
+
+2) Response 200 con arreglo de usuarios (id, username, roles).
+
 ![4](assets/userID.png)
+
+**Objetivo funcional.** Consultar un usuario por su id para resolver incidencias o enlazar con perfiles.
+
+**Flujo/Reglas.**
+
+1) Path param userId requerido.
+
+2) Response 200 con datos básicos del usuario.
+
+3) 404 NOT_FOUND si no existe.
+
 ![5](assets/roles.png)
+
+**Objetivo funcional.** Exponer el catálogo de Roles que IAM soporta para orquestar flujos de onboarding.
+
+**Historias.**
+
+- **US16/US17** (selección de rol durante registro).
+
 ![6](assets/parkingownprofile.png)
+
+**Objetivo funcional.** Completar el perfil de propietario enlazado a un userId existente.
+
+**Bounded Context.** Profile BC (ParkingOwner) enlazado con IAM BC (User).
+
+**Flujo validado.**
+
+1) Ingreso de datos: fullName, city, country, phone, companyName, ruc, userId.
+
+2) Validación de VO: Phone (E.164) y Ruc.
+
+3) Persistencia y relación 1..1 con User.
+
 ![7](assets/parkownID.png)
+
+**Objetivo funcional.** Completar el perfil de conductor enlazado a un userId.
+
+**Flujo validado.**
+
+1) Request con fullName, city, country, phone, dni, userId.
+
+2) Validación de VO Phone y Dni.
+
+3) Persistencia y relación 1..1 con User.
+
 ![8](assets/driverprofile.png)
 ![9](assets/driverprofResponse.png)
 
