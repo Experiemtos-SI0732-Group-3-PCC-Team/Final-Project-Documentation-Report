@@ -4307,6 +4307,457 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 ![Team Collaboration Insights](assets/teamCollabInsights.png)
 
 
+## 5.2.2. Sprint 2.
+#### 5.2.2.1. Sprint Planning 2.
+
+<table border="1px" align="center">
+     <tr> 
+        <th> Sprint # </th>
+        <th> Sprint 2 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="2"> Sprint Planning Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 02/10/2024 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 17:00 pm - 19:00 pm </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Discord </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Oneglio De Paz, Beth Shantal </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+         Solis Solis, Leonardo José<br>
+         Nanfuñay Liza, Pedro Jesús <br>
+         Calisaya Sánchez, Juan Jesús <br>
+         Oneglio De Paz, Beth Shantal <br>
+         Lagos Aguilar, Luis Eduardo
+        </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+        <td> Durante el desarrolo del Sprint 1, se logró implementar con éxito la landing page, web application, mobile application y web services</td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td> Se cumplió con los objetivos propuestos en el sprint 1. Por lo que se busca, mejorar los puntos retroalimentados previamente por el docente. Así mismo, mejorar los artefactos previamente desarrollados.</td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="2"> Sprint Goal & User Stories</td>
+     </tr>
+     <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td> En este sprint se espera la implementación y deploy de la segunda versión de artefactos previamente desarrollados. Así mismo, se desarrollarán e implementarán tests que garantizen el correcto funcionamiento de la solución.</td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td> 84 </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 84 </td>
+      </tr>
+</table>
+
+### 5.2.2.2 Sprint Backlog 2
+
+El objetivo principal del Sprint 2 fue implementar mejoras significativas en artefactos como Web Application, Mobile Application y Web Services. Así mismo, la integración de tests que permitan garantizar el correcto funcionamiento de las funcionalidades de la plataforma.
+
+<table>
+  <tr>
+    <th colspan="8">Sprint # &nbsp;&nbsp; Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="2">Work-Item / Task</th>
+    <th rowspan="2">Description</th>
+    <th rowspan="2">Estimation (Hours)</th>
+    <th rowspan="2">Assigned To</th>
+    <th rowspan="2">Status <br>(To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+  </tr>
+
+  <tr>
+    <td>US15</td>
+    <td>Inicio de sesión para conductores</td>
+    <td>T15</td>
+    <td>Implementar login</td>
+    <td>Desarrollar backend y frontend para inicio de sesión de conductores</td>
+    <td>4</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US16</td>
+    <td>Registro de conductores</td>
+    <td>T16</td>
+    <td>Implementar registro conductor</td>
+    <td>Desarrollar backend y frontend para registro de conductores</td>
+    <td>4</td>
+    <td>Pedro Nanfuñay</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US17</td>
+    <td>Registro de propietarios de estacionamiento</td>
+    <td>T17</td>
+    <td>Implementar registro propietario</td>
+    <td>Desarrollar backend y frontend para registro de propietarios</td>
+    <td>4</td>
+    <td>Pedro Nanfuñay</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US18</td>
+    <td>Búsqueda de reservas</td>
+    <td>T18</td>
+    <td>Implementar búsqueda de reservas</td>
+    <td>Desarrollar lógica de búsqueda de reservas en backend y UI en frontend</td>
+    <td>6</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US19</td>
+    <td>Pago de reservas por transacción</td>
+    <td>T19</td>
+    <td>Implementar pago de reservas</td>
+    <td>Integrar flujo de pago y registrar transacciones</td>
+    <td>8</td>
+    <td>Juan Calisaya</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US20</td>
+    <td>Confirmación de reserva registrada</td>
+    <td>T20</td>
+    <td>Implementar confirmación de reserva</td>
+    <td>Generar confirmación automática al registrar una reserva</td>
+    <td>6</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US21</td>
+    <td>Registro de Opiniones</td>
+    <td>T21</td>
+    <td>Implementar registro de opiniones para usuarios</td>
+    <td>Permitir registrar opiniones de retroalimentación de los usuarios sobre las funcionalidades de la plataforma</td>
+    <td>4</td>
+    <td>Luis Lagos</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US23</td>
+    <td>Configuración de preferencias de usuario</td>
+    <td>T23</td>
+    <td>Implementar configuración de preferencias</td>
+    <td>Desarrollar módulo para que el usuario configure sus preferencias</td>
+    <td>6</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US24</td>
+    <td>Historial de Reservas en el Dashboard del Conductor</td>
+    <td>T24</td>
+    <td>Historial de reservas de espacios de estacionamiento del conductor</td>
+    <td>Implementar historial de reservas de espacios de estacionamiento realizadas por el conductor</td>
+    <td>6</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US24</td>
+    <td>Historial de Reservas en el Dashboard del Conductor</td>
+    <td>T24</td>
+    <td>Historial de reservas de espacios de estacionamiento del conductor</td>
+    <td>Implementar historial de reservas de espacios de estacionamiento realizadas por el conductor</td>
+    <td>6</td>
+    <td>Beth Oneglio</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US25</td>
+    <td>Alerta de Espacio Disponible</td>
+    <td>T25</td>
+    <td>Implementar alertas de disponibilidad de espacios</td>
+    <td>Implementar servicios de alertas para comunicar disponibilidad de espacios de estacionamiento disponibles cerca al conductor.</td>
+    <td>6</td>
+    <td>Beth Oneglio</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>US25</td>
+    <td>Alerta de Espacio Disponible</td>
+    <td>T25</td>
+    <td>Implementar alertas de disponibilidad de espacios</td>
+    <td>Implementar servicios de alertas para comunicar disponibilidad de espacios de estacionamiento disponibles cerca al conductor.</td>
+    <td>4</td>
+    <td>Beth Oneglio</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>US27</td>
+    <td>Favoritos para Conductores</td>
+    <td>T25</td>
+    <td>Añadir funcionalidad para marcar estacionamientos como favoritos</td>
+    <td>Implementar funcionalidad para permitir seleccionar estacionamientos como favoritos.</td>
+    <td>4</td>
+    <td>Luis Lagos</td>
+    <td>To-Do</td>
+  </tr>
+
+  <tr>
+    <td>US32</td>
+    <td>Visualización de Mapa en el Dashboard del Conductor</td>
+    <td>T32</td>
+    <td>Visualización de mapa interactivo</td>
+    <td>Visualización de mapa interactivo en tiempo real.</td>
+    <td>6</td>
+    <td>Beth Oneglio</td>
+    <td>In-Progress</td>
+  </tr>
+
+  <tr>
+    <td>TS01</td>
+    <td>Gestión de Clientes en Servicio al Cliente</td>
+    <td>T33</td>
+    <td>Servicio de registro de usuarios</td>
+    <td>Servicio para registro e inicio de sesión de usuarios</td>
+    <td>4</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS04</td>
+    <td>Gestión de Ocupación de Espacios en Tiempo Real</td>
+    <td>T34</td>
+    <td>Gestión de disponibilidad de espacios de estacionamiento</td>
+    <td>Verifica si el espacio de estacionamiento se encuentra disponible</td>
+    <td>6</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS04</td>
+    <td>Gestión de Ocupación de Espacios en Tiempo Real</td>
+    <td>T34</td>
+    <td>Gestión de disponibilidad de espacios de estacionamiento</td>
+    <td>Verifica si el espacio de estacionamiento se encuentra disponible</td>
+    <td>6</td>
+    <td>Leonardo Solis</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>TS17</td>
+    <td>Auditoría de Cambios de Tarifas</td>
+    <td>T34</td>
+    <td>Gestión de tarifas registrada por uso de espacio de estacionamiento</td>
+    <td>Registra tarifas por reserva de un espacio de estacionamiento</td>
+    <td>6</td>
+    <td>Pedro Nanfuñay</td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+### 5.2.2.3 Implemented Landing Page Evidence.
+
+![LandingPagev2](./assets/chapter-5-5.2/LandingPagev2.png)
+
+### 5.2.2.4 Implemented Frontend-Web Application Evidence.
+
+**Registro y Login:**
+
+![RegistroFrontendWebv2](./assets/chapter-5-5.2/RegistroFrontendWebv2.jpg)
+
+<br>
+
+**Dashboard:**
+
+![DashboardFrontendWebv2](./assets/chapter-5-5.2/DashboardFrontendWebv2.jpg)
+
+### 5.2.2.5 Acuerdo de Servicio - SaaS
+
+**Uso de la Aplicación:** Quadrapp está diseñada para facilitar el acceso, reserva y pago automatizado de espacios de estacionamiento en zonas públicas y privadas. Al utilizar la aplicación, el usuario acepta cumplir con las políticas de uso responsable establecidas por la plataforma.
+
+**Responsabilidad del Usuario:** El usuario es responsable de cualquier daño ocasionado a los espacios de estacionamiento durante el período de uso, incluyendo instalaciones físicas o sistemas asociados. Se recomienda revisar las condiciones del espacio antes de hacer uso del mismo.
+
+**Política de Pagos:** Los pagos dentro de Quadrapp se realizan mediante servicios automatizados integrados en la aplicación, incluyendo opciones de pago digital o efectivo.
+
+**Política de Uso para Pagos:** El usuario debe asegurarse de que toda transacción realizada esté correctamente registrada en la plataforma, incluyendo datos como monto, fecha y lugar. En el caso de pagos manuales, el comprobante debe ser legible y contener la información requerida. El propietario del espacio validará la transacción, proceso que puede demorar hasta 24 horas. El acceso al espacio solo será habilitado tras la aprobación del pago. Si el comprobante es inválido o ilegible, podrá ser rechazado y el usuario será notificado para corregirlo.
+
+**Obligaciones del Usuario:**
+
+- **Responsabilidad sobre el Estado del Espacio:** El usuario debe inspeccionar el estado del espacio antes de estacionar y reportar cualquier anomalía a través de la aplicación para evitar cargos por daños preexistentes.
+
+- **Cumplimiento de Normativas Locales:** El usuario se compromete a utilizar los espacios de manera responsable y a respetar las normas de tránsito y convivencia vigentes en la zona donde se ubica el estacionamiento.
+
+**Derechos del Usuario:**
+
+- **Privacidad y Protección de Datos:** Quadrapp garantiza que la información personal del usuario será tratada conforme a su política de privacidad.
+
+- **Acceso a Historial de Transacciones:** El usuario tiene derecho a consultar en cualquier momento su historial de pagos, reservas y uso de espacios dentro de la plataforma.
+
+**Restricciones del Usuario:**
+
+- **Uso No Comercial de Espacios Públicos:** Los espacios públicos reservados a través de Quadrapp están destinados exclusivamente a fines personales. El uso comercial o para actividades de mensajería requiere autorización explícita del proveedor del espacio.
+
+- **Prohibición de Subarrendamiento:** El usuario no está autorizado a subarrendar ni transferir el uso del espacio reservado a terceros mientras esté activo bajo su cuenta.
+
+### 5.2.2.6 Implemented Native-Mobile Application Evidence.
+
+**Registro:**
+
+![RegistroMobilev2](./assets/chapter-5-5.2/RegistroMobilev2.jpg)
+
+**Perfil:**
+
+![PerfilMobilev2](./assets/chapter-5-5.2/PerfilMobilev2.jpg)
+
+![EditarPerfilMobilev2](./assets/chapter-5-5.2/EditarPerfilMobilev2.jpg)
+
+**Mapa:**
+
+![MapaMobilev2](./assets/chapter-5-5.2/MapaMobilev2.jpg)
+
+**Pagos:**
+
+![MetodosPagoMobilev2](./assets/chapter-5-5.2/MetodosPagoMobilev2.jpg)
+
+![AgregarTarjetaMobilev2](./assets/chapter-5-5.2/AgregarTarjetaMobilev2.jpg)
+
+### 5.2.2.7 Implemented RESTful API and/or Serverless Backend Evidence.
+
+![BackendEvidencev2](./assets/chapter-5-5.2/BackendEvidencev2.png)
+
+### 5.2.2.8 RESTful API documentation.
+
+**IAM:**
+
+![SignUpEnd](./assets/chapter-5-5.2/SignUpEnd.png)
+
+![SignInEnd](./assets/chapter-5-5.2/SignInEnd.png)
+
+<br>
+
+**Roles:**
+
+![RolesEnd](./assets/chapter-5-5.2/RolesEnd.png)
+
+<br>
+
+**Users:**
+
+![UsersEnd](./assets/chapter-5-5.2/UsersEnd.png)
+
+![UserIdEnd](./assets/chapter-5-5.2/UserIdEnd.png)
+
+<br>
+
+**Subscription Payment:**
+
+![EditStatusSubscriptionPaymentEnd](./assets/chapter-5-5.2/EditStatusSubscriptionPaymentEnd.png)
+
+![GetSubscriptionPaymentsEnd](./assets/chapter-5-5.2/GetSubscriptionPaymentsEnd.png)
+
+![PostSubscriptionPaymentsEnd](./assets/chapter-5-5.2/PostSubscriptionPaymentsEnd.png)
+
+![GetSubscriptionPaymentIdEnd](./assets/chapter-5-5.2/GetSubscriptionPaymentIdEnd.png)
+
+<br>
+
+**Reservation Payment:**
+
+![EditStatusReservationPaymentEnd](./assets/chapter-5-5.2/EditStatusReservationPaymentEnd.png)
+
+![GetReservationPaymentsEnd](./assets/chapter-5-5.2/GetReservationPaymentsEnd.png)
+
+![PostReservationPaymentsEnd](./assets/chapter-5-5.2/PostReservationPaymentsEnd.png)
+
+![GetReservationPaymentIdEnd](./assets/chapter-5-5.2/GetReservationPaymentIdEnd.png)
+
+<br>
+
+**Parking Owner Profile:**
+
+![PostParkingOwnerProfileEnd](./assets/chapter-5-5.2/PostParkingOwnerProfileEnd.png)
+
+![GetParkingOwnerProfileIdEnd](./assets/chapter-5-5.2/GetParkingOwnerProfileIdEnd.png)
+
+<br>
+
+**Driver Profile:**
+
+![PostDriverProfileEnd](./assets/chapter-5-5.2/PostDriverProfileEnd.png)
+
+![GetDriverProfileIdEnd](./assets/chapter-5-5.2/GetDriverProfileIdEnd.png)
+
+
+**Parking Management:**
+
+![GetParkingsEnd](./assets/chapter-5-5.2/GetParkingsEnd.png)
+
+![PostParkingsEnd](./assets/chapter-5-5.2/PostParkingsEnd.png)
+
+![PatchParkingSpotEnd](./assets/chapter-5-5.2/PatchParkingSpotEnd.png)
+
+![GetParkingIdEnd](./assets/chapter-5-5.2/GetParkingIdEnd.png)
+
+### 5.2.2.9 Team Collaboration Insights.
+
+**Informe:**
+
+![ReportInsight2](./assets/chapter-5-5.2/ReportInsight2.png)
+
+**Landing Page:**
+
+![LandingInsight2](./assets/chapter-5-5.2/LandingInsight2.png)
+
+**Web Application:**
+
+![FrontendInsight2](./assets/chapter-5-5.2/FrontendInsight2.png)
+
+**Mobile Application:**
+
+![MobileInsight2](./assets/chapter-5-5.2/MobileInsight2.png)
+
+**Web Services:**
+
+![BackendInsight2](./assets/chapter-5-5.2/BackendInsight2.png)
+
+
 ### 6.1.3. Core Behavior-Driven Development.
 
 En esta sección se muestran las pruebas BDD realizadas en base a las User Stories desarrolladas para nuestra solución haciendo uso del lenguaje Gherkin y de la herramienta Cucumber.
