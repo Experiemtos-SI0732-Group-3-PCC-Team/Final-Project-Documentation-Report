@@ -4757,41 +4757,6 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
 
 ![BackendInsight2](./assets/chapter-5-5.2/BackendInsight2.png)
 
-
-### 6.1.3. Core Behavior-Driven Development.
-
-En esta sección se muestran las pruebas BDD realizadas en base a las User Stories desarrolladas para nuestra solución haciendo uso del lenguaje Gherkin y de la herramienta Cucumber.
-
-**Auth Test:**
-
-![featureAuthTest](./assets/chapter-6/featureAuthTest.png)
-
-![AuthTest](./assets/chapter-6/AuthTest.png)
-
-<br>
-
-**Driver Profile Test:**
-
-![featureDriverProfileTest](./assets/chapter-6/featureDriverProfileTest.png)
-
-![DriverProfileTest](./assets/chapter-6/DriverProfileTest.png)
-
-<br>
-
-**Parking Management Test:**
-
-![featureParkingManagement](./assets/chapter-6/featureParkingManagement.png)
-
-![ParkingManagementTest](./assets/chapter-6/ParkingManagementTest.png)
-
-<br>
-
-**Reservation Payment Test:**
-
-![featureReservationPaymentTest](./assets/chapter-6/featureReservationPaymentTest.png)
-
-![ReservationPaymentTest](./assets/chapter-6/ReservationPaymentTest.png)
-
 ### 6.1. Testing Suites & Validation.
 
 ### 6.1.1. Core Entities Unit Tests.
@@ -4866,6 +4831,40 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest2.png)
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest3.png)
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest4.png)
+
+### 6.1.3. Core Behavior-Driven Development.
+
+En esta sección se muestran las pruebas BDD realizadas en base a las User Stories desarrolladas para nuestra solución haciendo uso del lenguaje Gherkin y de la herramienta Cucumber.
+
+**Auth Test:**
+
+![featureAuthTest](./assets/chapter-6/featureAuthTest.png)
+
+![AuthTest](./assets/chapter-6/AuthTest.png)
+
+<br>
+
+**Driver Profile Test:**
+
+![featureDriverProfileTest](./assets/chapter-6/featureDriverProfileTest.png)
+
+![DriverProfileTest](./assets/chapter-6/DriverProfileTest.png)
+
+<br>
+
+**Parking Management Test:**
+
+![featureParkingManagement](./assets/chapter-6/featureParkingManagement.png)
+
+![ParkingManagementTest](./assets/chapter-6/ParkingManagementTest.png)
+
+<br>
+
+**Reservation Payment Test:**
+
+![featureReservationPaymentTest](./assets/chapter-6/featureReservationPaymentTest.png)
+
+![ReservationPaymentTest](./assets/chapter-6/ReservationPaymentTest.png)
 
 ### 6.1.4. Core System Tests.
 
