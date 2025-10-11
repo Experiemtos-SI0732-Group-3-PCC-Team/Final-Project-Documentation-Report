@@ -290,8 +290,6 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 [7.3.1. Tools and Practices](#731-tools-and-practices)  
 [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
 
-[5.3. Video About-the-Product](#54-video-about-the-product)  
-
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
