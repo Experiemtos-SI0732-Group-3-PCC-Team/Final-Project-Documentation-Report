@@ -104,7 +104,46 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 
 **TB1**
 
-<img src="assets/Insights-Tb1.png" alt="insights Quadrapp"/>
+<img src="assets/Insights-Tb1.png" alt="insights Quadrapp"/><br>
+
+**TP**
+
+Para la elaboración del informe correspondiente a la entrega TP, la implementación de las secciones se distribuyó entre los miembros del equipo de la siguiente manera:
+
+| **Integrantes**    | **Tareas Asignadas**    |
+| ----- | ---------------------- |
+| **Calisaya Sánchez, Juan Jesús** | Implementó *Continuous Deployment*, detallando las herramientas y prácticas utilizadas, así como los componentes del pipeline de despliegue en producción para garantizar actualizaciones seguras y sin interrupciones. |
+| **Lagos Aguilar, Luis Eduardo**  | Implementó *Continuous Integration*, documentando las herramientas y prácticas aplicadas, además de los componentes del pipeline de construcción y pruebas automatizadas que aseguran entregas constantes y de calidad. |
+| **Nanfuñay Liza, Pedro Jesús**   | Desarrolló la documentación y ejecución de pruebas BDD y de sistema, enfocándose en validar el cumplimiento de los criterios de aceptación, el rendimiento y la estabilidad de la aplicación.                           |
+| **Oneglio De Paz, Beth Shantal** | Aplicó *Continuous Delivery*, describiendo las herramientas, prácticas y etapas del pipeline de despliegue en entornos controlados, garantizando versiones listas para ser liberadas de forma segura y eficiente.       |
+| **Solis Solis, Leonardo José**   | Realizó pruebas unitarias e integradas sobre las entidades principales, asegurando la correcta comunicación entre los servicios y validando la estabilidad y confiabilidad del sistema.                                 |
+
+
+La colaboración en el informe se llevó a cabo mediante commits frecuentes en el repositorio de la organización PCC Team.
+
+**GitHub Collaboration Insights**
+
+GitHub también muestra un historial de las ramas principales y los procesos de fusión realizados. Todas las ramas se crearon siguiendo el diseño de GitFlow para asegurar una adecuada organización al utilizar un sistema de control de versiones.
+
+Los miembros del equipo son:
+
+- Solis Solis, Leonardo José
+- Nanfuñay Liza, Pedro Jesús
+- Calisaya Sánchez, Juan Jesús
+- Oneglio De Paz, Beth Shantal
+- Lagos Aguilar, Luis Eduardo
+
+Se describen las ramas más destacadas de la siguiente manera:
+
+main: Representada en negro. Es la rama principal del proyecto y se actualiza con cada entregable.
+develop: Representada en azul. Es la rama principal para el proceso de desarrollo del proyecto.
+feature-product-design: Representada en verde. Incluye el contenido de flujos de usuario y wireframes.
+feature-sprint1: Representada en amarillo. Contiene los artefactos relacionados con el sprint 1 en el informe.
+Los gráficos siguientes muestran los análisis de commits en el repositorio del informe, incluyendo la cantidad de líneas de texto añadidas por cada miembro del equipo.
+
+**TB1**
+
+<img src="assets/Insights-TP.png" alt="insights Quadrapp"/>
 
 # Contenido
 
@@ -218,9 +257,41 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 [5.2.6. RESTful API Documentation.](#526-restful-api-documentation)  
 [5.2.7. Team Collaboration Insights.](#527-team-collaboration-insights)  
 
+[5.3. Product Implementation & Deployment (Sprint 2)](#53-product-implementation--deployment-sprint-2)  
+[5.3.1. Sprint Backlogs](#531-sprint-backlogs)  
+[5.3.2. Implemented Landing Page Evidence](#532-implemented-landing-page-evidence)  
+[5.3.3. Implemented Frontend-Web Application Evidence](#533-implemented-frontend-web-application-evidence)  
+[5.3.4. Implemented Native-Mobile Application Evidence](#534-implemented-native-mobile-application-evidence)  
+[5.3.5. Implemented RESTful API and/or Serverless Backend Evidence](#535-implemented-restful-api-andor-serverless-backend-evidence)  
+[5.3.6. RESTful API Documentation](#536-restful-api-documentation)  
+[5.3.7. Team Collaboration Insights](#537-team-collaboration-insights)  
+
+[5.4. Video About-the-Product](#54-video-about-the-product)  
+
+[Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+
+[6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+[6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+[6.1.2. Core Integration Tests](#612-core-integration-tests)  
+[6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+[6.1.4. Core System Tests](#614-core-system-tests)  
+
+[Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+
+[7.1. Continuous Integration](#71-continuous-integration)  
+[7.1.1. Tools and Practices](#711-tools-and-practices)  
+[7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+
+[7.2. Continuous Delivery](#72-continuous-delivery)  
+[7.2.1. Tools and Practices](#721-tools-and-practices)  
+[7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+
+[7.3. Continuous Deployment](#73-continuous-deployment)  
+[7.3.1. Tools and Practices](#731-tools-and-practices)  
+[7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+
 [5.3. Video About-the-Product](#54-video-about-the-product)  
 
-[Conclusiones](#conclusiones)  
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
@@ -229,8 +300,9 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 
 | Criterio específico | Acciones Realizadas | Conclusiones |
 |---------------------|----------------------|--------------|
-| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | Solis Solis, Leonardo José<br><br>**TB1**<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>**TB1**<br><br>Durante el desarrollo y documentación de la presente solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software. Reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>Lagos Aguilar, Luis Eduardo<br><br>**TB1**<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas. | El trabajo realizado ha sido sobresaliente, cumpliendo con todos los segmentos del proyecto. El documento redactado ofrece un detallado informe sobre los pasos seguidos en la planificación, desarrollo y envío del proyecto a producción, garantizando así un resultado digno y completo. |
-| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Solis Solis, Leonardo José <br><br>**TB1**<br><br>En esta entrega, evalué el impacto de la solucion propuesta para el desarrollo de los bounded contexts de IAM y ParkingManagement, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>Nanfuñay Liza, Pedro Jesús <br><br>**TB1**<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica en cómo su implementación pueda generar beneficios en contextos globales, económicos, ambientales y sociales. Ello me permitió emitir juicios informados, valorando cómo la solución puede contribuir positivamente en diversos entornos.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, estableciendo el entorno de desarrollo adecuado, la administración del código fuente y la definición de guías de estilo y convenciones para mantener la calidad y legibilidad del proyecto. Asimismo, documenté la configuración para el despliegue del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución propuesta en contextos globales, económicos, ambientales y sociales.<br><br>Lagos Aguilar, Luis Eduardo<br><br>**TB1**<br><br> Se logró emitir juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos. El aprendizaje incluyó valorar el rol del ingeniero en la generación de soluciones sostenibles y responsables, reconociendo la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software. | En conclusión, el trabajo realizado refleja un compromiso ético y profesional en cada etapa, asegurando calidad, organización y responsabilidad en la documentación, análisis y desarrollo de la solución propuesta, lo que garantiza una implementación sólida y confiable del proyecto. |
+| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **TB1**<br><br>Solis Solis, Leonardo José<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>Durante el desarrollo y documentación de la solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software, reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso.<br><br>Calisaya Sánchez, Juan Jesús<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>Oneglio De Paz, Beth Shantal<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>Lagos Aguilar, Luis Eduardo<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas.<br><br>**TP**<br><br>Calisaya Sánchez, Juan Jesús<br><br>En esta entrega demostré responsabilidad ética y profesional al implementar el proceso de despliegue continuo, garantizando actualizaciones seguras, estables y sin interrupciones del servicio en producción.<br><br>Lagos Aguilar, Luis Eduardo<br><br>Asumí responsabilidad profesional al implementar integración continua para automatizar la construcción, pruebas y validación del código, asegurando la confiabilidad de cada actualización y promoviendo la transparencia en el ciclo de desarrollo.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>Demostré responsabilidad ética al ejecutar pruebas BDD y de sistema para validar los criterios de aceptación y el rendimiento general del software, garantizando que la aplicación cumpla con los estándares de calidad establecidos.<br><br>Oneglio De Paz, Beth Shantal<br><br>Ejercí responsabilidad profesional al aplicar entrega continua en entornos controlados, asegurando que cada versión validada sea liberada de forma segura y eficiente, manteniendo la integridad del sistema.<br><br>Solis Solis, Leonardo José<br><br>Demostré responsabilidad ética y profesional al realizar pruebas unitarias e integrales, validando la correcta comunicación entre los servicios y reforzando la estabilidad y confiabilidad del sistema. | **TB1**<br><br>El trabajo realizado fue sobresaliente, cumpliendo con todos los segmentos del proyecto. Se evidenció una aplicación ética y profesional en cada etapa de desarrollo, garantizando calidad, organización y cumplimiento de buenas prácticas en la documentación y desarrollo del sistema.<br><br>**TP**<br><br>El equipo demostró responsabilidad ética y profesional al mantener un enfoque riguroso en la calidad del software, aplicando buenas prácticas de desarrollo, despliegue y validación. Cada integrante asumió un rol técnico que reforzó la integridad, seguridad y confiabilidad del sistema en todas las etapas del ciclo de vida del proyecto. |
+| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | **TB1**<br><br>Solis Solis, Leonardo José<br><br>Evalué el impacto de la solución propuesta para el desarrollo de los bounded contexts de IAM y Parking Management, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica sobre cómo su implementación puede generar beneficios en contextos globales, económicos, ambientales y sociales.<br><br>Calisaya Sánchez, Juan Jesús<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>Oneglio De Paz, Beth Shantal<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución en distintos contextos.<br><br>Lagos Aguilar, Luis Eduardo<br><br>Emití juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos y la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software.<br><br>**TP**<br><br>Calisaya Sánchez, Juan Jesús<br><br>Emití juicios informados al reconocer el impacto del despliegue continuo en la eficiencia operativa y la reducción de costos, contribuyendo a un desarrollo sostenible y competitivo del sistema a nivel global.<br><br>Lagos Aguilar, Luis Eduardo<br><br>Evalué cómo la integración continua mejora la productividad del equipo y la calidad de las entregas, comprendiendo su relevancia económica y social al optimizar recursos y fomentar sostenibilidad.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>Reflexioné sobre el impacto positivo que las pruebas BDD y de sistema generan en la confianza del usuario final, comprendiendo que un software bien validado incrementa el valor social y técnico de la solución.<br><br>Oneglio De Paz, Beth Shantal<br><br>Analicé cómo la entrega continua promueve la eficiencia y reduce el desperdicio de recursos, comprendiendo el impacto ambiental y económico de la automatización de despliegues.<br><br>Solis Solis, Leonardo José<br><br>Emití juicios informados al reconocer que las pruebas unitarias e integrales contribuyen directamente a reducir fallos y costos de mantenimiento, generando beneficios sostenibles para la organización. | **TB1**<br><br>El trabajo refleja un compromiso ético y profesional, con juicios informados que consideran la sostenibilidad y el impacto social de las soluciones de software desarrolladas.<br><br>**TP**<br><br>El trabajo en equipo permitió aplicar juicios técnicos fundamentados, evaluando el impacto de las decisiones de ingeniería en contextos globales, económicos y sociales. Las acciones evidencian un enfoque consciente, sostenible y responsable del desarrollo tecnológico. |
+
 
 # Capítulo I: Introducción
 
@@ -4653,13 +4725,12 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
 
 ---
 
-# Conclusiones
+# Conclusiones y recomendaciones
 
+TB1:
 El desarrollo de Quadrapp permitió identificar y atender necesidades clave tanto de los conductores urbanos como de los propietarios de estacionamientos. A través de la definición de historias de usuario, epics e impact maps, se logró establecer un marco de funcionalidades orientado a mejorar la accesibilidad, la seguridad y la eficiencia en la gestión de estacionamientos. Asimismo, la incorporación de tecnologías como sensores, cámaras de monitoreo y notificaciones en tiempo real aporta soluciones innovadoras que responden a la problemática de congestión y pérdida de tiempo en zonas urbanas.  
 
 En general, el proyecto evidencia que una adecuada planificación, acompañada de metodologías ágiles, facilita la construcción de un producto escalable y adaptable a las necesidades del mercado.  
-
-# Conclusiones y recomendaciones
 
 El análisis realizado demuestra que Quadrapp tiene un alto potencial para transformar la experiencia de los usuarios y la gestión de los propietarios. No obstante, se recomienda:  
 
@@ -4702,4 +4773,6 @@ Enlace del Landing Page: https://experiemtos-si0732-group-3-pcc-team.github.io/L
 
 Enlace del Figma: https://www.figma.com/design/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=0-1&t=f4MEQSrX7t8LfGka-1
 
+Enlace del frontend: https://yellow-cliff-0ed3ede10.1.azurestaticapps.net/
 
+Enlace del mobile: https://experiemtos-si0732-group-3-pcc-team.github.io/Quadrapp-Frontend-Mobile/
