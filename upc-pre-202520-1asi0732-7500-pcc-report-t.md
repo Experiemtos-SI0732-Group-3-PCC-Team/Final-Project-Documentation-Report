@@ -4411,6 +4411,247 @@ Este pipeline se aplica tanto al microservicio de **Inventory (Things)** como al
 - Se realizan pruebas rápidas (*smoke tests*) para verificar el correcto funcionamiento de los servicios desplegados.  
 - Se monitorea el estado y rendimiento de los microservicios mediante las herramientas de observabilidad que ofrece **AWS**, asegurando que las **APIs** permanezcan accesibles y operativas.
 
+---
+
+
+## 7.3. Continuous Deployment
+
+### 7.3.1. Tools and Practices
+
+Para el **backend**, desarrollado en **Java con Spring Boot**, se utiliza **Docker** para contenerizar el servicio RESTful junto con la base de datos **MySQL**. La aplicación backend se despliega en una instancia **EC2 de AWS**, donde se ejecutan los contenedores Docker. Una vez que se genera la imagen Docker con la versión actual del código, esta puede ser desplegada en el entorno de producción, lo cual facilita la entrega continua. La imagen es portable y garantiza que lo que se prueba es exactamente lo que se despliega.
+
+Para la **landing page**, desarrollada con **HTML, CSS y JavaScript puro**, se utiliza **GitHub Pages**, el cual detecta automáticamente nuevos commits en la rama `main` mediante su **pipeline de CI/CD integrado** y despliega los archivos estáticos automáticamente.
+
+Para la **aplicación web frontend**, desarrollada con **Angular**, se utiliza **Azure Static Web Apps**, que también detecta cambios en la rama `main` y ejecuta el proceso de construcción (`ng build --prod`). Una vez compilados, los archivos estáticos son desplegados automáticamente en Azure.
+
+Para la **aplicación móvil nativa**, desarrollada con **Flutter**, se utiliza un pipeline manual que genera los builds de Android (APK/AAB) e iOS (IPA) y los distribuye automáticamente mediante **Firebase App Distribution** para pruebas internas con testers.
+
+#### Herramientas utilizadas:
+
+- **AWS EC2** (para Backend en Spring Boot + MySQL)
+- **Docker** (para contenerización del Backend y MySQL)
+- **Azure Static Web Apps** (para Frontend Web en Angular)
+- **GitHub Pages** (para Landing Page)
+- **Firebase App Distribution** (para distribución de la aplicación móvil)
+- **AWS CloudWatch** (para monitoreo y logs del backend)
+- **AWS Secrets Manager** (para gestión segura de credenciales y configuraciones)
+
+---
+
+### 7.3.2. Production Deployment Pipeline Components
+
+Este apartado describe los componentes que forman parte del pipeline de despliegue a producción de **Quadrapp** y cómo se integran para automatizar todo el proceso.
+
+---
+
+#### **Componentes del Pipeline del Backend (Spring Boot + Docker + AWS EC2)**
+
+1. **Dockerización del Backend:**  
+   La aplicación backend desarrollada en **Java 24 con Spring Boot** y la base de datos **MySQL** fueron dockerizadas. Esto permite su ejecución en cualquier entorno que tenga Docker instalado, garantizando consistencia entre desarrollo y producción.
+
+2. **Preparación del Entorno:**  
+   Antes de cada despliegue, se realiza un **backup de la base de datos MySQL** para asegurar que los datos puedan ser restaurados en caso de problemas durante la actualización.
+
+3. **Construcción de la Imagen:**  
+   Al realizar cambios en el repositorio de GitHub, se construye manualmente una nueva imagen Docker que contiene la última versión del backend. Esta imagen incluye tanto el código de la aplicación como las dependencias necesarias.
+
+4. **Despliegue en AWS EC2:**  
+   La imagen Docker se despliega en una instancia **EC2 de AWS**, donde se ejecutan los contenedores Docker. El despliegue se realiza mediante comandos Docker que detienen los contenedores antiguos, eliminan las imágenes desactualizadas y levantan los nuevos contenedores con la versión actualizada.
+
+   ```bash
+   # Detener y eliminar contenedores antiguos
+   docker-compose down
+   
+   # Construir y levantar nuevos contenedores
+   docker-compose up -d --build
+   ```
+
+5. **Post-Deployment:**  
+   Después del despliegue, se ejecutan pruebas básicas (smoke tests) para validar que el backend responde correctamente. Se monitorean logs y métricas en tiempo real utilizando **AWS CloudWatch** para detectar errores o problemas de rendimiento.
+
+6. **Gestión de Secretos:**  
+   Las credenciales sensibles (claves de base de datos, tokens de API, etc.) se gestionan mediante **AWS Secrets Manager**, asegurando que no se expongan en el código fuente ni en las variables de entorno del contenedor de manera insegura.
+
+---
+
+#### **Componentes del Pipeline de la Landing Page (HTML/CSS/JS + GitHub Pages)**
+
+1. **Detección de cambios en GitHub:**  
+   **GitHub Pages** está conectado al repositorio de la landing page. Cuando se detecta un commit en la rama `main`, se inicia automáticamente el proceso de despliegue mediante el **pipeline de CI/CD integrado de GitHub Pages**.
+
+2. **Despliegue automático:**  
+   Una vez que se detectan los cambios, GitHub Pages publica automáticamente la nueva versión de la landing page, sirviendo los archivos estáticos directamente desde el repositorio.
+
+3. **Distribución:**  
+   La página es servida a través de la infraestructura de GitHub, asegurando disponibilidad global y tiempos de carga rápidos.
+
+---
+
+#### **Componentes del Pipeline de la Aplicación Web Frontend (Angular + Azure)**
+
+1. **Detección de cambios en GitHub:**  
+   **Azure Static Web Apps** está conectado al repositorio del frontend web. Cuando se detecta un commit en la rama `main`, Azure inicia automáticamente el proceso de construcción.
+
+2. **Compilación de la aplicación:**  
+   Azure ejecuta el build de producción de Angular mediante el comando:
+   ```bash
+   npm install
+   npm run build --prod
+   ```
+   Esto genera los archivos estáticos optimizados para producción.
+
+3. **Despliegue en Azure:**  
+   La versión actualizada de la aplicación se publica automáticamente en **Azure Static Web Apps**, donde queda disponible en producción.
+
+4. **Actualización inmediata:**  
+   Azure se encarga de invalidar la caché antigua y servir la nueva versión a través de su **CDN global**, asegurando que los usuarios vean los últimos cambios de inmediato sin necesidad de limpiar la caché manualmente.
+
+5. **Monitoreo:**  
+   Se monitorea el rendimiento y errores de la aplicación mediante las herramientas de análisis integradas en Azure Static Web Apps.
+
+---
+
+#### **Componentes del Pipeline de la Aplicación Móvil (Flutter + Firebase App Distribution)**
+
+1. **Compilación de la app:**  
+   Cuando se realizan cambios en el repositorio móvil, el equipo de desarrollo ejecuta localmente los siguientes comandos para generar los builds:
+
+   - **Para Android:**
+     ```bash
+     flutter build apk --release
+     flutter build appbundle --release
+     ```
+
+   - **Para iOS:**
+     ```bash
+     flutter build ios --release
+     ```
+
+2. **Distribución mediante Firebase:**  
+   Una vez generados los archivos APK/AAB (Android) e IPA (iOS), se suben manualmente a **Firebase App Distribution** utilizando la Firebase CLI o la consola web:
+
+   ```bash
+   firebase appdistribution:distribute app-release.apk \
+     --app <FIREBASE_APP_ID> \
+     --groups "testers"
+   ```
+
+3. **Notificación a testers:**  
+   Firebase envía automáticamente notificaciones por correo electrónico a los testers registrados, permitiéndoles descargar e instalar la nueva versión de la aplicación en sus dispositivos.
+
+4. **Testing y aprobación:**  
+   Los testers prueban la nueva versión en dispositivos reales y reportan errores o sugerencias. Una vez aprobada, la versión final se prepara para su publicación en **Google Play Console** (Android) y **App Store Connect** (iOS).
+
+5. **Pipeline futuro (automatización):**  
+   Actualmente, el proceso de compilación y distribución se realiza manualmente. En el futuro, se planea implementar un pipeline automatizado utilizando **GitHub Actions** o **Fastlane** para ejecutar los builds y la distribución automáticamente al hacer push a la rama `main`.
+
+---
+
+#### **Gestión de Configuración y Secretos**
+
+Para garantizar la seguridad de las credenciales y configuraciones sensibles, **Quadrapp** utiliza **AWS Secrets Manager** para almacenar:
+
+- **Credenciales de base de datos MySQL**
+- **Claves de API externas**
+- **Tokens de autenticación**
+- **Configuraciones de entorno (producción, staging)**
+
+Esto asegura que las credenciales no se expongan en el código fuente ni en los archivos de configuración públicos. Los contenedores Docker acceden a estos secretos de manera segura durante el runtime mediante el SDK de AWS.
+
+---
+
+#### **Backup y Rollback**
+
+1. **Backup antes de cada despliegue:**  
+   Antes de desplegar una nueva versión del backend, se realiza un **backup completo de la base de datos MySQL** utilizando `mysqldump`:
+
+   ```bash
+   docker exec mysql-container mysqldump -u root -p quadrapp_db > backup_$(date +%Y%m%d_%H%M%S).sql
+   ```
+
+   Estos backups se almacenan en **AWS S3** para asegurar su disponibilidad en caso de necesitar restaurar datos.
+
+2. **Rollback en caso de problemas:**  
+   Si una nueva versión presenta problemas críticos, se puede realizar un **rollback** rápidamente a la versión anterior estable mediante los siguientes pasos:
+
+   - **Detener los contenedores actuales:**
+     ```bash
+     docker-compose down
+     ```
+
+   - **Restaurar la imagen Docker anterior:**
+     ```bash
+     docker-compose up -d
+     ```
+
+   - **Restaurar el backup de la base de datos** (si es necesario):
+     ```bash
+     docker exec -i mysql-container mysql -u root -p quadrapp_db < backup_YYYYMMDD_HHMMSS.sql
+     ```
+
+3. **Monitoreo post-rollback:**  
+   Después de realizar el rollback, se monitorean los logs en **AWS CloudWatch** para asegurar que el sistema vuelve a funcionar correctamente.
+
+---
+
+#### **Monitoreo y Observabilidad**
+
+- **AWS CloudWatch:**  
+  Se utiliza para monitorear logs, métricas de rendimiento y alarmas del backend desplegado en EC2. CloudWatch permite visualizar:
+  - Uso de CPU y memoria de la instancia EC2
+  - Logs de aplicación en tiempo real
+  - Errores HTTP y excepciones
+  - Tiempos de respuesta de los endpoints
+
+- **Alertas:**  
+  Se configuran alarmas en CloudWatch para notificar al equipo de desarrollo cuando:
+  - El uso de CPU o memoria supera el 80%
+  - Se detectan errores HTTP 500 frecuentes
+  - Los tiempos de respuesta superan los umbrales aceptables
+
+---
+
+## **Diagrama del Pipeline de Despliegue**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    CONTINUOUS DEPLOYMENT                         │
+└─────────────────────────────────────────────────────────────────┘
+
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────┐
+│   GitHub Repo   │──────>│  Build Docker   │──────>│   AWS EC2   │
+│   (Backend)     │       │     Image       │       │  (Backend)  │
+└─────────────────┘       └─────────────────┘       └─────────────┘
+        │                                                    │
+        │                                                    v
+        │                                          ┌─────────────────┐
+        │                                          │ AWS CloudWatch  │
+        │                                          │   (Monitoring)  │
+        │                                          └─────────────────┘
+        │
+        v
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────┐
+│   GitHub Repo   │──────>│ GitHub Pages CI │──────>│GitHub Pages │
+│ (Landing Page)  │       │    Pipeline     │       │  (Deploy)   │
+└─────────────────┘       └─────────────────┘       └─────────────┘
+
+        │
+        v
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────┐
+│   GitHub Repo   │──────>│  Azure Build    │──────>│    Azure    │
+│  (Frontend Web) │       │   (ng build)    │       │Static Web App│
+└─────────────────┘       └─────────────────┘       └─────────────┘
+
+        │
+        v
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────┐
+│   GitHub Repo   │──────>│Flutter Build    │──────>│  Firebase   │
+│    (Mobile)     │       │(APK/AAB/IPA)    │       │App Distrib. │
+└─────────────────┘       └─────────────────┘       └─────────────┘
+```
+
+---
+
 # Conclusiones
 
 El desarrollo de Quadrapp permitió identificar y atender necesidades clave tanto de los conductores urbanos como de los propietarios de estacionamientos. A través de la definición de historias de usuario, epics e impact maps, se logró establecer un marco de funcionalidades orientado a mejorar la accesibilidad, la seguridad y la eficiencia en la gestión de estacionamientos. Asimismo, la incorporación de tecnologías como sensores, cámaras de monitoreo y notificaciones en tiempo real aporta soluciones innovadoras que responden a la problemática de congestión y pérdida de tiempo en zonas urbanas.  
