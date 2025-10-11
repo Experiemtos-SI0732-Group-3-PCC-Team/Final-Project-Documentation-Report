@@ -5263,7 +5263,45 @@ El análisis realizado demuestra que Quadrapp tiene un alto potencial para trans
 3. Invertir en estrategias de marketing digital que aumenten la visibilidad y fomenten la adopción del sistema en nuevas ciudades.  
 4. Incorporar mecanismos de feedback continuo que permitan a los usuarios y propietarios sugerir mejoras de manera sistemática.  
 
-De esta manera, Quadrapp no solo podrá aumentar en un 30% el uso del servicio en seis meses, sino también consolidar una ventaja competitiva sostenible en el mercado de movilidad urbana.  
+De esta manera, Quadrapp no solo podrá aumentar en un 30% el uso del servicio en seis meses, sino también consolidar una ventaja competitiva sostenible en el mercado de movilidad urbana. 
+
+TP:
+El desarrollo e implementación del producto permitió consolidar un proceso integral que abarca desde la configuración de despliegue hasta la automatización de entregas continuas, evidenciando la madurez técnica y organizacional del equipo.
+
+En primer lugar, la **configuración de despliegue de software (5.1.4)** garantizó un entorno controlado, reproducible y seguro, permitiendo minimizar errores durante la puesta en marcha. La implementación de los distintos componentes —**Landing Page, aplicación web, aplicación móvil nativa y API RESTful (5.2.2 a 5.2.5)**— demostró la aplicabilidad de arquitecturas modulares y desacopladas, facilitando la integración entre servicios y la escalabilidad futura del sistema.
+
+La documentación del **API RESTful (5.2.6)** contribuyó a la mantenibilidad del proyecto, asegurando la correcta comprensión y uso de los endpoints por parte de desarrolladores y posibles integradores externos. Asimismo, las **evidencias de colaboración en equipo (5.2.7)** reflejan la eficacia de la comunicación y la distribución de tareas en entornos ágiles.
+
+Por otro lado, la inclusión de **Testing Suites y validación (6.1)** permitió garantizar la calidad del producto mediante pruebas unitarias, de integración, de comportamiento y de sistema, reduciendo defectos en etapas tardías y fortaleciendo la confiabilidad del software.
+
+Finalmente, la adopción de **prácticas DevOps (Capítulo VII)** —integración continua, entrega continua y despliegue continuo— consolidó un flujo de trabajo automatizado, coherente con las mejores prácticas de la industria. La integración de pipelines de construcción, pruebas y despliegue favoreció la detección temprana de errores, la reducción de tiempos de entrega y una mayor estabilidad en los entornos de producción.
+
+En conjunto, estas etapas demuestran una evolución significativa en la capacidad técnica del equipo, así como una aplicación coherente de metodologías ágiles y herramientas modernas de desarrollo y despliegue.
+
+---
+
+## Recomendaciones a Futuro
+
+1. **Optimización del pipeline DevOps:**  
+   Ampliar los pipelines de integración y entrega continua para incluir análisis estático de código, pruebas de rendimiento y monitoreo post-despliegue.
+
+2. **Escalabilidad en infraestructura:**  
+   Implementar soluciones de orquestación como Kubernetes o servicios serverless para gestionar la carga de manera dinámica y mejorar la disponibilidad del sistema.
+
+3. **Mejorar la trazabilidad del desarrollo:**  
+   Integrar herramientas de gestión de requisitos y control de versiones (por ejemplo, Jira + GitHub/GitLab) para reforzar la trazabilidad entre requisitos, commits y despliegues.
+
+4. **Profundizar en pruebas automatizadas:**  
+   Aumentar la cobertura de pruebas unitarias y de integración, incorporando además pruebas end-to-end automatizadas que aseguren la experiencia del usuario final.
+
+5. **Seguridad continua (DevSecOps):**  
+   Integrar análisis de vulnerabilidades y revisiones automáticas de dependencias dentro del pipeline CI/CD, fortaleciendo la seguridad del producto.
+
+6. **Mejora de la experiencia de usuario (UX):**  
+   Realizar pruebas de usabilidad y análisis de comportamiento de usuarios para refinar la interfaz y flujo de interacción en la web y la app móvil.
+
+7. **Escenarios de despliegue multiambiente:**  
+   Estandarizar entornos (desarrollo, staging, producción) mediante infraestructura como código (Terraform, Ansible) para asegurar coherencia entre despliegues.
 
 # Bibliografía
 
