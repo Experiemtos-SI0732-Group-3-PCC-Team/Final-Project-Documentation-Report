@@ -4792,6 +4792,80 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 
 ![ReservationPaymentTest](./assets/chapter-6/ReservationPaymentTest.png)
 
+### 6.1. Testing Suites & Validation.
+
+### 6.1.1. Core Entities Unit Tests.
+
+**User Tests:**
+
+![UserTest](./assets/chapter-6/usertest1.png)
+![UserTest](./assets/chapter-6/usertest2.png)
+![UserTest](./assets/chapter-6/usertest3.png)
+![UserTest](./assets/chapter-6/usertest4.png)
+![UserTest](./assets/chapter-6/usertest5.png)
+
+**Role Tests:**
+
+![RoleTest](./assets/chapter-6/roletest1.png)
+![RoleTest](./assets/chapter-6/roletest2.png)
+![RoleTest](./assets/chapter-6/roletest3.png)
+![RoleTest](./assets/chapter-6/roletest4.png)
+![RoleTest](./assets/chapter-6/roletest5.png)
+
+**Role Enum Tests:**
+
+![RoleTest](./assets/chapter-6/rolesenumtest1.png)
+
+**Parking Spot Tests:**
+![ParkingSpotTest](./assets/chapter-6/parkingspottest1.png)
+
+**Parking Tests:**
+![ParkingTest](./assets/chapter-6/parkingtest1.png)
+![ParkingTest](./assets/chapter-6/parkingtest2.png)
+![ParkingTest](./assets/chapter-6/parkingtest3.png)
+
+**Parking Spot Manager Tests:**
+![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest1.png)
+![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest2.png)
+![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest3.png)
+
+**Payment Tests:**
+![PaymentTest](./assets/chapter-6/paymenttest1.png)
+![PaymentTest](./assets/chapter-6/paymenttest2.png)
+
+**Reservation Payment Tests:**
+![ReservationPaymentTest](./assets/chapter-6/reservationpaymenttest1.png)
+![ReservationPaymentTest](./assets/chapter-6/reservationpaymenttest2.png)
+
+**Subscription Payment Tests:**
+![SubscriptionPaymentTest](./assets/chapter-6/subscriptionpaymenttest1.png)
+
+**Payment Status Tests:**
+![PaymentStatusTest](./assets/chapter-6/paymentstatustest1.png)
+
+**Driver Profile Tests:**
+![DriverProfileTest](./assets/chapter-6/drivertest1.png)
+
+**Parking Owner Profile Tests:**
+![ParkingOwnerTest](./assets/chapter-6/parkingownertest1.png)
+
+**DNI Validator Tests:**
+![DNIValidatorTest](./assets/chapter-6/dnitest1.png)
+
+**Phone Validator Tests:**
+![PhoneValidatorTest](./assets/chapter-6/phonetest1.png)
+
+**RUC Validator Tests:**
+![RUCValidatorTest](./assets/chapter-6/ructest1.png)
+
+### 6.1.2. Core Integration Tests.
+
+**Authentication Integration Tests:**
+
+![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest1.png)
+![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest2.png)
+![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest3.png)
+![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest4.png)
 
 ### 6.1.4. Core System Tests.
 
