@@ -182,6 +182,28 @@ De esta forma, garantizamos un código coherente, mantenible y fácil de escalar
 
 #### 6.2.1.2. Code Quality & Code Security.
 
+Para asegurar la confiabilidad, mantenibilidad y robustez de nuestra solución Quadrapp, se realizaron verificaciones sobre la calidad y seguridad de todo el código, donde se establecieron prácticas y herramientas que nos permiten detectar problemas tempranos y garantizar un código limpio y seguro antes de su despliegue.
+
+**Calidad del Código:**
+Evaluamos la calidad mediante métricas como complejidad ciclomática, duplicación, mantenibilidad y cobertura de pruebas. Se emplearon herramientas de análisis estático como SonarQube y SonarLint para identificar code smells, secciones duplicadas y violaciones de principios SOLID tanto en el backend (Spring Boot) como en el frontend (Angular).
+
+Además, en los entornos de deesarrollo (IntelliJ y VsCode), integramos extensiones que nos permiten detectar y corregir problemas en tiempo real, lo que ayudó a mantener un código consistente y alineado con los estándares definidos.
+
+**Seguridad del Código:**
+Para proteger los datos y prevenir vulnerabilidades críticas, seguimos las recomendaciones del estándar OWASP Top 10.
+
+Implementamos:
+
+- Validaciones estrictas de entrada en formularios para evitar inyecciones de datos o ataques XSS.
+
+- Autenticación y autorización mediante JWT, asegurando que los endpoints sensibles solo sean accesibles por usuarios autorizados.
+
+- Uso de parámetros enlazados en Spring Data JPA, previniendo inyecciones SQL.
+
+- Cifrado y manejo seguro de datos sensibles, como contraseñas y tokens.
+
+Estas medidas, junto con el análisis continuo de calidad y seguridad, nos permitieron construir un sistema robusto, con bajo nivel de vulnerabilidades y alta mantenibilidad, fortaleciendo la confianza y estabilidad del producto final.
+
 
 ### 6.2.2. Reviews
 
