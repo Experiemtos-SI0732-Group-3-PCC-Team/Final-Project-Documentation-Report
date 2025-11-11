@@ -207,6 +207,42 @@ Estas medidas, junto con el análisis continuo de calidad y seguridad, nos permi
 
 ### 6.2.2. Reviews
 
+Se realizaron revisiones de código en Quadrapp, las cuales fueron un pilar esencial para garantizar la calidad, seguridad y coherencia del software con los estándares definidos del proyecto. Este proceso combinó revisiones manuales y automatizadas, integradas dentro del flujo de trabajo del equipo.
+
+**Tipos de Revisiones:**
+
+- **Revisión por Pares:** Cada Pull Request (PR) fue revisado por al menos un miembro del equipo, verificando la claridad del código, su alineación con los principios DDD (Domain-Driven Design) y el cumplimiento de los principios SOLID.
+
+- **Revisión Formal:** Al finalizar cada sprint, se realizaron sesiones grupales de revisión utilizando listas de verificación basadas en el Source Code Style Guide, abordando aspectos como la nomenclatura, la organización de paquetes y la correcta inyección de dependencias.
+
+
+**Proceso de Revisión:**
+
+- **Pull Requests:** Todo cambio en el código debía realizarse mediante un PR con una descripción clara, pruebas asociadas y evidencia de impacto (por ejemplo: “docs(chapter-3): add user stories”).
+
+- **Checklist de Validación:** 
+Cada revisión debía verificar:
+
+  - Cumplimiento de convenciones de código (PascalCase, camelCase).
+
+  - Cobertura de pruebas unitarias (JUnit en backend, Selenium en frontend).
+
+  - Validación de seguridad según OWASP Top 10 y sanitización de entradas.
+
+- **Aprobación:** Un PR solo podía fusionarse tras recibir aprobaciones por parte del equipo.
+
+**Criterios de Aceptación:**
+
+- **Código Limpio:** Sin errores críticos ni vulnerabilidades detectadas en SonarQube.
+
+- **Cobertura de Pruebas:** Igual o superior al 80% en backend y frontend.
+
+- **Seguridad:** Ausencia de dependencias vulnerables, según npm audit y OWASP Dependency-Check.
+
+**Frecuencia:**
+
+Las revisiones se realizaron diariamente para PRs pequeños y se complementaron con retrospectivas de revisión al final de cada sprint, donde el equipo ajustaba los estándares y reforzaba la consistencia del código en todos los módulos del sistema.
+
 ---
 
 ## 6.3. Validation Interviews.
