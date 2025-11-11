@@ -164,6 +164,22 @@ Esta verificación nos permite identificar a tiempo errores comunes, malas prác
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
+Para garantizar la consistencia, mantenibilidad y escalabilidad en el desarrollo de nuestra solución, establecimos estándares y convenciones de codificación alineados con las mejores prácticas de cada tecnología empleada. Estos lineamientos abarcan desde la estructura de archivos hasta el uso de patrones de diseño, con el objetivo de mantener un código limpio, legible y coherente en todo el proyecto.
+
+**Domain-Driven Design (DDD):** Se aplicó arquitectura DDD orientada a dominios para estructurar el código por bounded contexts. Implementamos agregados como Driver y un lenguaje ubicuo que refleja los conceptos del negocio, facilitando la comprensión y evolución del sistema.
+
+**Convenciones de Nomenclatura:**
+
+- **Frontend (Angular):** Usamos KebabCase para componentes (ej: parking-profile), sufijos como .service.ts para servicios, y organizamos módulos por funcionalidades.
+
+- **Mobile (Flutter - Dart):** Aplicamos SnakeCase para clases (ej: loading_spinner), lowerCamelCase para variables y métodos, siguiendo las guías oficiales del Dart Style Guide.
+
+- **Backend (Java - Spring Boot):** Adoptamos PascalCase para clases (ej: DriverProfileControlller), camelCase para variables y métodos, y empaquetamos el código por dominio (ej: com.quadrapp.profile).
+
+**Principios SOLID:** Nos aseguramos de aplicar los principios SOLID en todas las capas, promoviendo la modularidad y la extensibilidad. Ejemplos incluyen clases con una sola responsabilidad (DriverProfileCommandServiceImpl), el uso de inyección de dependencias (Spring DI y Angular DI) y la creación de interfaces extensibles para favorecer la reutilización y el bajo acoplamiento.
+
+De esta forma, garantizamos un código coherente, mantenible y fácil de escalar, asegurando que cada parte del sistema pueda evolucionar sin comprometer la calidad ni la estabilidad general del proyecto.
+
 #### 6.2.1.2. Code Quality & Code Security.
 
 
