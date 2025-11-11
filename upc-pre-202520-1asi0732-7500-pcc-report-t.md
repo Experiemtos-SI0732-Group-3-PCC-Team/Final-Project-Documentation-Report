@@ -249,6 +249,54 @@ Las revisiones se realizaron diariamente para PRs pequeños y se complementaron 
 
 ### 6.3.1. Diseño de Entrevistas.
 
+Para la validación de nuestro proyecto, hemos diseñado una serie de entrevistas con el fin de obtener feedback de nuestros usuarios. Se presentan las preguntas que se realizarán en las entrevistas, adaptadas a los segmentos objetivos que usan Quadrapp
+
+* * *
+
+## Preguntas generales
+
+-   ¿Cuál es tu nombre?
+    
+-   ¿Qué edad tienes?
+    
+-   ¿Dónde vives actualmente?
+    
+-   ¿A qué te dedicas?
+    
+
+* * *
+
+## Preguntas segmento **Propietario de estacionamiento**
+
+-   ¿Qué característica te llama más la atención del aplicativo para publicar y administrar tus espacios? ¿Por qué?
+    
+-   ¿Qué opinas del diseño y la funcionalidad para **dar de alta y gestionar** tus estacionamientos (por ejemplo, horarios, precios, disponibilidad)?
+    
+-   ¿Qué información te gustaría poder mostrar de tus espacios para que los conductores confíen más (por ejemplo, fotos, reglas, seguridad)?
+    
+-   ¿Qué funcionalidades **agregarías** a la plataforma para facilitar tu gestión?
+    
+-   ¿Hay alguna cosa que **le quitarías** a la aplicación o que sientas que estorba?
+    
+-   Como propietario/administrador, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **publicar, administrar y cobrar** por tus espacios?
+    
+
+* * *
+
+## Preguntas segmento **Conductor**
+
+-   ¿Qué característica te llama más la atención del aplicativo para encontrar estacionamiento? ¿Por qué?
+    
+-   ¿Qué opinas del diseño y la funcionalidad para **buscar, comparar y reservar** un espacio (por ejemplo, mapa, filtros, reseñas)?
+    
+-   ¿Qué información te gustaría ver antes de reservar para sentirte seguro (por ejemplo, precio total, horarios, medidas del espacio, opiniones)?
+    
+-   ¿Qué funcionalidades **agregarías** a la aplicación para que sea más rápida o cómoda al estacionar?
+    
+-   ¿Hay alguna cosa que **le quitarías** a la aplicación o que te distraiga durante la reserva o el pago?
+    
+-   Como conductor, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **llegar, acceder y pagar** por el estacionamiento?
+
 ### 6.3.2. Registro de Entrevistas.
 
 #### Entrevistas Segmento Conductor:
