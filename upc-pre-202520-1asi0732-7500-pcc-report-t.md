@@ -5453,6 +5453,18 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
   </tr>
 </table>
 
+### 8.3.2. To-Be Product Backlog.
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------:|:--------------|:-------|:------------|-------------:|
+|     1 | TBUS01 | Visualización de historial de reservas y ganancias | Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios. | 5 |
+|     2 | TBUS02 | Visualización de estadísticas en estacionamientos | Como propietario de estacionamiento, quiero recibir estadísticas sobre ocupación, ingresos y horarios pico, para optimizar la gestión y precios de mis estacionamientos. | 7 |
+|     3 | TBUS03 | Añadir promociones | Como propietario de estacionamiento, quiero poder configurar promociones (por fechas o eventos especiales), para atraer más conductores en momentos de baja demanda. | 5 |
+|     4 | TBUS04 | Recomendaciones de estacionamientos | Como conductor, quiero recibir recomendaciones de estacionamientos según mi historial y hora del día, para ahorrar tiempo al buscar espacios disponibles. | 3 |
+|     5 | TBUS05 | Distancia y costo estimado | Como conductor, quiero visualizar en tiempo real la distancia y costo estimado hacia los estacionamientos sugeridos, para tomar decisiones rápidas y eficientes. | 5 |
+|     6 | TBUS06 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
+|     7 | TBUS07 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
+
 ---
 
 # Conclusiones y recomendaciones
