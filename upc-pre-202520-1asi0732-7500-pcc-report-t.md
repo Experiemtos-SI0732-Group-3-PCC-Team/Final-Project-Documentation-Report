@@ -158,6 +158,10 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 
 ### 6.2.1. Static Code Analysis
 
+Se realizó un proceso de verificación de estándares de codificación para garantizar que todo el código cumpla con estándares que mantengan la calidad, consistencia y buenas prácticas. En el desarrollo de nuestra solución, nos aseguramos de que el frontend en Angular cumpla con las reglas de ESLint y las guías oficiales de Angular. Para la aplicación móvil desarrollado con Flutter (Dart) seguimos las convenciones del Dart Style Guide. En el backend desarrollado con Java y Spring Boot, se siguieron convenciones de codificación de Java (como las definidas por Oracle) y las buenas prácticas recomendadas por Spring Framework, manteniendo una correcta organización de paquetes, uso adecuado de anotaciones y una clara documentación del código.
+
+Esta verificación nos permite identificar a tiempo errores comunes, malas prácticas o inconsistencias, garantizando que el código sea legible, mantenible y cumpla con los estándares definidos para cada tecnología antes de su integración o despliegue.
+
 #### 6.2.1.1. Coding standard & Code conventions.
 
 #### 6.2.1.2. Code Quality & Code Security.
