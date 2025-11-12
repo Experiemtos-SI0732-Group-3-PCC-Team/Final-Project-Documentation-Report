@@ -5506,6 +5506,185 @@ E. Pruebas de Usabilidad Multietaria
   
 Éxito: Cumplir esos umbrales; si no, priorizar mejoras de accesibilidad y simplificación del flujo.
 
+# 8.2. Experiment Design
+
+## 8.2.1. Hypotheses
+
+**H1 — Demanda: Fake Door “Buscar en tiempo real”**
+Si mostramos la función “Disponibilidad en tiempo real” (sin desarrollarla aún), al menos **≥15%** de quienes ven la CTA harán clic (**CTR**) y **≥5%** dejarán su contacto. Éxito si CTR ≥15% y lead rate ≥5%.
+
+**H2 — UI: Interfaz Simple vs Avanzada**
+Una **UI Simple** (mapa + CTA “Reservar”) producirá **≥10%** más reservas completadas y menor tiempo de tarea que la **UI Avanzada** (mapa + filtros + preview). Éxito si conversión y tiempo medio mejoran con significancia (p<0.05).
+
+**H3 — Confianza: Badges de Seguridad**
+Mostrar **indicadores de seguridad** (CCTV, iluminación, reseñas verificadas) en la ficha aumentará en **≥12%** la probabilidad de reserva y +1 punto la **confianza autopercebida** (1–5).
+
+**H4 — Motivación económica (cualitativo)**
+Conductores priorizan **precio y conveniencia**; propietarios priorizan **ocupación y ROI**. Éxito si identificamos **≥3** incentivos accionables validados por **≥60%** de entrevistados.
+
+**H5 — Usabilidad multietaria (cualitativo)**
+La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con **SUS ≥75**. Éxito si se alcanzan esos umbrales o se priorizan fixes si no se cumple.
+
+---
+
+## 8.2.2. Domain Business Metrics
+
+**Plataforma**
+- **Reservas confirmadas (Bookings)**
+- **GMV** (importe bruto de reservas)
+- **Retención D7/D28**
+- **Ocupación por parking (Owners)** = horas ocupadas / horas ofertadas
+
+**IoT / Calidad de datos**
+- **Precisión de ocupación (Accuracy)** = (TP+TN)/(TP+FP+FN+TN)
+- **Tasa de Falsos Positivos (FP rate)** y **Falsos Negativos (FN rate)**
+- **Latencia de actualización p95 (IoT→App)**
+
+**Experiencia**
+- **Conversión intención→reserva**
+- **Abandono Ficha→Checkout**
+- **Tiempo de tarea** (búsqueda/reserva, p50/p95)
+
+---
+
+## 8.2.3. Measures
+
+| Question | Measure (qué y cómo) |
+|---|---|
+| ¿Hay demanda real por “Disponibilidad en tiempo real”? | **Fake Door**: `fd_cta_view`, `fd_cta_click`, `fd_lead_submit`. KPI: **CTR** (clicks/vistas), **Lead rate** (leads/vistas). Corte por canal/dispositivo. |
+| ¿UI Simple gana a Avanzada? | **Conversión intención→reserva**; **Tiempo de tarea** (p95); **Clicks extra por reserva**. Eventos: `view_listing`, `start_checkout`, `confirm_reservation`, `ui_variant`. |
+| ¿Badges de seguridad elevan reservas/confianza? | **Uplift de conversión** y **Confianza (1–5)** post-ficha. Eventos: `view_security_badges`, `start_checkout`; microencuesta in-app. |
+| ¿Qué incentivos económicas funcionan? | **Entrevistas** (codificación temática); outcome: ≥3 palancas priorizadas con evidencia (≥60%). |
+| ¿Es usable por edades? | **Tasa de éxito**, **tiempo**, **SUS**; registro de incidentes críticos; segmentado por 18–30, 31–50, 51+. |
+| ¿Qué tan preciso/rápido es IoT? | **TP/FP/FN/TN** vs confirmación manual o ticket; **Latencia p95** desde `sensor_status_update` a `availability_rendered`. |
+
+---
+
+## 8.2.4. Conditions
+
+**Experimento E1 — Fake Door (Demand Discovery)**
+- **Condición A (Control):** Sin CTA “Disponibilidad en tiempo real”.
+- **Condición B (Tratamiento):** CTA visible + landing de interés/lead.
+- **Primaria:** CTR; **Secundaria:** lead rate; **Validez:** muestras por canal.
+
+**Experimento E2 — UI Simple vs Avanzada (A/B)**
+- **A (Control):** UI Avanzada (mapa + filtros/preview).
+- **B (Tratamiento):** UI Simple (mapa + CTA directa).
+- **Primaria:** Conversión intención→reserva; **Secundaria:** tiempo de tarea.
+- **Asignación:** 50/50 sticky por `user_id`.
+
+**Experimento E3 — Badges de Seguridad (A/B)**
+- **A:** Ficha sin badges.
+- **B:** Ficha con CCTV/iluminación/reseñas verificadas.
+- **Primaria:** Conversión ficha→checkout; **Secundaria:** confianza (1–5).
+
+**Estudios cualitativos**
+- **E4 — Entrevistas motivacionales:** 25–35 participantes (conductores/propietarios).
+- **E5 — Usabilidad multietaria moderada:** 8–10 p/segmento (18–30, 31–50, 51+).
+
+---
+
+## 8.2.5. Scale Calculations and Decisions
+
+**Parámetros**: α=0.05, potencia=0.8, bilateral; duración mínima 1 semana (A/B).
+
+**Tamaños referenciales (recalcular con baseline real):**
+- **E2 (UI) — Conversión intención→reserva**  
+  Baseline 30%, **MDE +5 pp** → ~1,000–1,300 usuarios por brazo.
+- **E3 (Seguridad) — Ficha→Checkout**  
+  Baseline 40%, **MDE +6 pp** → ~900–1,200 por brazo.
+- **E1 (Fake Door)**  
+  Necesitas **≥5,000–10,000 impresiones** para estimar CTR 10–20% con error ±2–3 pp.
+- **E4 (Entrevistas)**  
+  **N=25–35** para saturación temática (2 segmentos clave).
+- **E5 (Usabilidad)**  
+  **8–10** por grupo etario (problemas de alta severidad afloran con ~5–8).
+
+**Criterios de validez/decisión**
+- Sin **peeking**; monitorear **SRM** (±1–2 pp).
+- Reportar **p-valor**, **IC95%**, **uplift (%)** y **pp**.
+- Revisar **invariantes** (mix device/canal).
+- Decisión **ship/keep/iterate** con riesgos y next steps.
+
+---
+
+## 8.2.6. Methods Selection
+
+| Pregunta | Método | Razón |
+|---|---|---|
+| ¿Existe demanda por “tiempo real”? | **Fake Door + Lead capture** | Minimiza costo antes de integrar IoT end-to-end. |
+| ¿Qué UI convierte mejor? | **A/B clásico (Simple vs Avanzada)** | Causalidad directa sobre conversión/tiempo. |
+| ¿Seguridad aumenta confianza y reservas? | **A/B + microencuesta** | Mide efecto en conversión y percepción. |
+| ¿Qué incentivos activar? | **Entrevistas semiestructuradas** | Profundiza en motivadores y barreras. |
+| ¿La app funciona para todas las edades? | **Pruebas de usabilidad moderadas** | Detecta fricciones críticas por segmento. |
+| ¿Es fiable IoT? | **Evaluación offline (confusion matrix) + canary** | Cuantifica precisión y latencia antes de scale-up. |
+
+---
+
+## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+**Goals**
+- G1: Validar demanda y priorizar roadmap de “tiempo real”.
+- G2: Maximizar conversión (intención→reserva) y reducir tiempo de tarea.
+- G3: Incrementar confianza percibida en la ficha.
+- G4: Entender motivaciones para pricing/comisiones/retención.
+- G5: Asegurar **calidad de datos IoT** (precisión y latencia).
+
+**KPIs**
+
+| ID | KPI | Fórmula | Frecuencia | Meta inicial |
+|---|---|---|---|---|
+| KPI-1 | **CTR Fake Door** | fd_cta_click / fd_cta_view | Diario | ≥ 15% |
+| KPI-2 | **Lead rate Fake Door** | fd_lead_submit / fd_cta_view | Diario | ≥ 5% |
+| KPI-3 | **Conversión intención→reserva** | reservas / sesiones con intención | Diario/Semanal | +3–5 pp |
+| KPI-4 | **Abandono Ficha→Checkout** | (vistos sin iniciar)/(vistos ficha) | Diario | ≤ 25% |
+| KPI-5 | **Tiempo de tarea p95** | p95 (inicio→confirmación) | Semanal | −10–20% |
+| KPI-6 | **Precisión IoT** | (TP+TN)/(TP+FP+FN+TN) | Semanal | ≥ 95% |
+| KPI-7 | **Latencia IoT p95** | p95(sensor→UI) | Diario | ≤ 5 s |
+| KPI-8 | **SUS promedio** | encuesta post-test | Por estudio | ≥ 75 |
+
+---
+
+## 8.2.8. Web and Mobile Tracking Plan
+
+**Identidad y sesión**
+- `user_id`, `device_id`, `session_id`, `app_version`, `platform`, `locale`, `geo_area` (con consentimiento), `ab_variant`, `consent_analytics`, `consent_marketing`.
+
+**Eventos Fake Door**
+- `fd_cta_view` { surface }  
+- `fd_cta_click` { surface }  
+- `fd_lead_submit` { method: email|whatsapp }
+
+**Eventos UI / Reserva**
+- `view_listing` { listing_id, has_security_badges }  
+- `start_checkout` { listing_id, variant: simple|advanced }  
+- `confirm_reservation` { reservation_id }  
+- `time_to_task_ms` (propiedad calculada)
+
+**Eventos Seguridad**
+- `view_security_badges` { cctv, lighting, reviews_count }  
+- `trust_survey_submit` { score_1_5 }
+
+**Eventos IoT**
+- `sensor_status_update` { spot_id, state: free|occupied, sensor_ts }  
+- `spot_occupancy_inferred` { spot_id, state, model_version }  
+- `spot_occupancy_confirmed` { spot_id, state, source: manual|ticket }  
+- `availability_rendered` { spot_id, ui_ts }  
+> Con esto se calcula **precisión** (TP/FP/FN/TN) y **latencia** (ui_ts − sensor_ts).
+
+**Cualitativos (no product analytics)**
+- Guías, consentimientos y codificación temática en repositorio de research; subida de hallazgos a un dashboard “Research Ops”.
+
+**Dashboards**
+- **Fake Door** (CTR/Leads por canal/dispositivo).  
+- **A/B UI** (conversión, tiempo p95, clicks por reserva).  
+- **Seguridad** (uplift y confianza).  
+- **IoT** (accuracy, FP/FN, latencia p95).  
+- **Usabilidad** (SUS, issues críticos por edad/prioridad).
+
+---
+
+
 # Conclusiones y recomendaciones
 
 TB1:
