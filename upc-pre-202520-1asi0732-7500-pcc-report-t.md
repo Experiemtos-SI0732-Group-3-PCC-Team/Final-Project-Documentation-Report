@@ -5246,6 +5246,138 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
 
 ---
 
+¡Vamos a enriquecer tu Capítulo VII con mirada senior! Te dejo un texto listo para pegar en tu documento, consistente con lo que ya declaraste (Azure Application Insights, CloudWatch, Azure SWA, backend en AWS EC2, etc.).
+
+## 7.4. Continuous Monitoring
+
+El monitoreo continuo en Quadrapp unifica **métricas, logs y trazas** de todos los componentes (backend en AWS, frontend en Azure Static Web Apps y landing en GitHub Pages) para detectar degradaciones antes de que impacten al usuario. La base es **Application Insights** (Azure Monitor) para experiencia de cliente y APM, complementado con **CloudWatch** para telemetría de infraestructura del backend en EC2.  
+
+A nivel de ingeniería, la estrategia se apoya en:
+
+* **OpenTelemetry** en los servicios para generar **trazas distribuidas** y **métricas de negocio** (p. ej., reservas/min, tasa de éxito en pagos, latencia por endpoint).
+* **Correlación end-to-end** mediante `traceId` que viaja del frontend al backend, permitiendo reconstruir el flujo **buscar → reservar → pagar → check-in**.
+* **SLOs** explícitos (error budget) por dominio crítico: Auth, Búsqueda/Disponibilidad, Reserva, Pagos.
+
+---
+
+### 7.4.1. Tools and Practices
+
+**Plataformas declaradas en Quadrapp**
+
+* **Azure Application Insights** para APM del frontend web (SWA) y visibilidad en tiempo real con alertas automatizadas y análisis de rendimiento. 
+* **AWS CloudWatch** para **logs y métricas** del backend en EC2 (CPU, memoria, disco, network; logs de aplicación).  
+
+**Buenas prácticas aplicadas**
+
+1. **OpenTelemetry SDK** en el backend (Spring Boot) para:
+
+   * Trazas por request (latencia, errores, dependencias externas como MySQL/Stripe).
+   * Métricas de negocio: tasa de reservas confirmadas, tasa de fallas de pago, tiempo medio de ocupación.
+2. **Logging estructurado** (JSON) con campos de **correlación** (`traceId`, `spanId`, `userId` anon, `parkingId`, `reservationId`) ya alineado con “logging estructurado” del documento. 
+3. **Dashboards por audiencia**:
+
+   * **Operaciones**: salud del backend (CloudWatch), errores 5xx, saturación, colas, tiempo de build/deploy.
+   * **Producto**: conversión “búsqueda→reserva→pago”, abandono por paso, tiempos de respuesta percibidos (App Insights).
+4. **Monitoreo synthetic** (availability tests): pings a `health` y flujos críticos (búsqueda, reservar dummy, simular pago sandbox) desde varias regiones.
+5. **Trazabilidad de despliegues**: cada release/tag queda anotado como **deployment marker** en dashboards para relacionar incidentes con cambios. 
+
+---
+
+### 7.4.2. Monitoring Pipeline Components
+
+**Objetivo:** recolectar, normalizar, almacenar y visualizar telemetría con correlación end-to-end.
+
+1. **Ingesta**
+
+   * **Frontend (SWA)**: App Insights JS SDK captura **page views**, **front-end errors**, **AJAX dependency calls** y tiempos de interacción. 
+   * **Backend (EC2)**:
+
+     * **CloudWatch Agent / Logs** consume stdout/stderr y métricas del host. 
+     * **OpenTelemetry** exporta **trazas/métricas** de la app; los logs siguen en CloudWatch para retención y costo eficiente. 
+   * **Landing (GitHub Pages)**: métricas ligeras de disponibilidad y latencia de contenido estático (synthetics). 
+
+2. **Normalización**
+
+   * Estándar de **nombres de métricas** (prefijos por dominio: `auth.*`, `booking.*`, `payment.*`), **severidades** de log (`INFO/WARN/ERROR`), y **atributos comunes** (`env`, `service`, `version`, `region`).
+
+3. **Almacenamiento**
+
+   * **CloudWatch**: logs de aplicación, métricas de sistema y contenedores EC2.
+   * **App Insights**: métricas de rendimiento, dependencias, errores JS, tiempos de backend recibidos vía trazas.
+
+4. **Visualización**
+
+   * **Dashboards operativos** (CloudWatch + App Insights) y **cuadros de mando de producto** (conversiones y embudos).
+   * **Markers de despliegue** para ver impacto de releases. 
+
+---
+
+### 7.4.3. Alerting Pipeline Components
+
+**Principios**
+
+* Alertas **basadas en SLO** (no solo umbrales).
+* **Agrupación y deduplicación** por `service` y `traceId` para reducir ruido.
+* **Runbooks** vinculados a cada alerta (pasos de diagnóstico y rollback).
+
+**Matriz de alertas mínima viable**
+
+* **Disponibilidad API**: fallo consecutivo de **synthetic checks** o tasa de error 5xx > 1% 5 min.
+* **Latencia p95** por endpoint crítico (`/availability`, `/reservations`, `/payments/charge`) > umbral por 10 min.
+* **Errores de negocio**: ratio `payment_failed / payment_attempted` > 3% 10 min.
+* **Infra**: CPU > 80% 10 min, disco > 85%, errores de I/O o saturación de conexiones MySQL.
+* **Frontend**: incremento anómalo de **JS errors** o de **failed dependencies**.
+
+**Canalización técnica**
+
+* **Reglas en App Insights** (consultas KQL) para performance y errores de app/web. 
+* **Alarmas en CloudWatch** para métricas de EC2 y logs patterns (p. ej., “OutOfMemoryError”). 
+* **Enriquecimiento**: cada alerta adjunta **contexto** (últimos despliegues, enlaces a dashboard y a la traza más representativa).
+
+**Ciclo de vida de la alerta**
+
+1. **Disparo** → 2) **Ruteo** (por severidad y servicio) → 3) **Notificación** (on-call) → 4) **Mitigación** (runbook/rollback) → 5) **Postmortem** con acciones preventivas.
+
+---
+
+## 7.4.4. Notification Pipeline Components
+
+**Objetivo:** garantizar que la persona adecuada reciba la alerta correcta a tiempo, con contexto accionable.
+
+**Ruteo y escalamiento**
+
+* **Severidad**:
+
+  * **P1 (caída total / pagos caídos)**: notificación **inmediata** al **on-call** (24/7), escalamiento a líder de backend si en 10 min no se reconoce.
+  * **P2 (degradación significativa)**: on-call horario laboral + canal de equipo.
+  * **P3 (ruido/aviso)**: solo canal #observability para triage diario.
+* **Propiedad por servicio**:
+
+  * `booking/*` → equipo backend.
+  * `web/*` → equipo frontend.
+  * `infra/*` → plataforma/DevOps.
+
+**Canales**
+
+* **Email** para trazabilidad formal (todas las severidades).
+* **Canal de chat** del squad (#quadrapp-alerts) para P1/P2 con cards enriquecidas (métrica, umbral, últimas trazas, links a dashboard y a release).
+* **Llamada/push** (si usan una herramienta de on-call) para P1.
+
+**Contenido mínimo de la notificación**
+
+* Título claro: “P1 – Payments p95 > 2.5s (10m) – Región us-east-1”.
+* **Cuándo y desde cuándo**, **SLO afectado**, **impacto estimado de usuarios**.
+* **Enlaces** a: dashboard, consulta KQL/CloudWatch, runbook, release/tag.
+* **Acciones rápidas**: “Reiniciar tarea X”, “Hacer rollback a v1.12.3”, “Escalar a DBA”.
+
+**Runbooks y postmortems**
+
+* Cada alerta P1/P2 enlaza un **runbook** (“cómo mitigar”) y genera automáticamente un **ticket**.
+* Postmortem con **causa raíz**, **acciones correctivas** y **due date** para evitar recurrencia.
+
+---
+
+
 # Conclusiones y recomendaciones
 
 TB1:
