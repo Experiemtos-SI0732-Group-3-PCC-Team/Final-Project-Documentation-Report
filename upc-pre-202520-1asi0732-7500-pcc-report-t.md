@@ -5340,7 +5340,7 @@ A nivel de ingeniería, la estrategia se apoya en:
 
 ---
 
-## 7.4.4. Notification Pipeline Components
+### 7.4.4. Notification Pipeline Components
 
 **Objetivo:** garantizar que la persona adecuada reciba la alerta correcta a tiempo, con contexto accionable.
 
