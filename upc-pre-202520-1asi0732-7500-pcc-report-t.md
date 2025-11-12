@@ -290,6 +290,12 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 [7.3.1. Tools and Practices](#731-tools-and-practices)  
 [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
 
+[7.4. Continuous Monitoring](#74-continuous-monitoring)
+[7.4.1. Tools and Practices](#741-tools-and-practices)
+[7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+[7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+[7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
