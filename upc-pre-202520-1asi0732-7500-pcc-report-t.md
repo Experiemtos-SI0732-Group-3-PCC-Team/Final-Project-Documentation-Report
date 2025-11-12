@@ -5382,6 +5382,129 @@ A nivel de ingeniería, la estrategia se apoya en:
 
 ---
 
+# Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+
+Es una etapa clave dentro de metodologías de innovación y diseño de productos, especialmente en enfoques como Lean UX, Design Thinking o Lean Startup. Su propósito es definir cómo se validarán las hipótesis que el equipo ha planteado sobre su producto, servicio o usuarios.
+
+### 8.1.1. As-Is Summary
+
+El sistema actual de Quadrapp ofrece una propuesta innovadora para abordar la ineficiente gestión de los estacionamientos en áreas públicas y privadas con alto flujo vehicular. En entornos urbanos, los conductores suelen perder tiempo buscando espacios disponibles, lo que ocasiona congestión vehicular, aumento de la contaminación y una mala experiencia de usuario.
+
+La aplicación se orienta principalmente a dos tipos de usuarios:
+
+- Conductores particulares, que buscan estacionamientos de forma rápida y eficiente.
+- Propietarios o administradores de estacionamientos, tanto comerciales como privados, que desean optimizar el uso de sus espacios.
+
+Problemas identificados en el estado actual:
+
+- El flujo actual del sistema permite conectar a los conductores con espacios de estacionamiento disponibles mediante el uso de tecnologías IoT, cámaras, sensores y una plataforma digital accesible desde web y dispositivos móviles.
+
+- Baja disponibilidad de información en tiempo real: muchos estacionamientos aún no cuentan con sensores o sistemas conectados, lo que impide conocer la ocupación actual de los espacios.
+
+- Falta de integración tecnológica: los estacionamientos públicos y privados operan de manera independiente, dificultando una gestión unificada de la información.
+
+- Escasa visibilidad para los usuarios: los conductores no tienen una plataforma centralizada que les permita comparar precios, disponibilidad y ubicaciones cercanas.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+A. Assumptions (Suposiciones)
+
+- Al menos el 60% de los conductores urbanos busca estacionamiento durante más de 10 minutos en zonas de alto tráfico.
+- Al menos el 70% de los conductores estaría dispuesto a usar una aplicación móvil que les permita encontrar espacios disponibles en tiempo real.
+- Al menos el 50% de los propietarios de estacionamientos privados o comerciales estaría interesado en digitalizar la gestión de sus espacios para aumentar su ocupación y rentabilidad.
+
+B. Knowledge Gaps (Vacíos de Conocimiento)
+
+- ¿Qué factores influyen más en la decisión de los conductores al elegir un estacionamiento (precio, distancia, seguridad o disponibilidad)?
+- ¿Qué barreras tecnológicas o económicas enfrentan los propietarios al adoptar un sistema inteligente de gestión de estacionamientos?
+- ¿Qué tipo de interfaz y funcionalidades son más valoradas por los usuarios dentro de una aplicación de estacionamiento inteligente?
+
+C. Ideas (Ideas Propuestas)
+
+- Implementar un mapa interactivo en tiempo real con sensores IoT para mostrar la disponibilidad exacta de espacios.
+- Incorporar un sistema de reserva anticipada y pago digital dentro de la app.
+- Crear un panel de análisis y reportes para los administradores, que les permita visualizar la ocupación, ganancias y tiempos de uso.
+
+D. Claims Positivas (Afirmaciones Positivas)
+
+- “Quadrapp mejora significativamente la eficiencia y comodidad de los conductores al buscar estacionamiento.”
+- “La plataforma aumenta la rentabilidad de los estacionamientos al optimizar la ocupación de espacios.”
+- “El uso de tecnologías IoT y análisis de datos contribuye a una movilidad urbana más sostenible y ordenada.”
+
+E. Claims Negativas (Afirmaciones Negativas)
+
+- “Algunos conductores podrían no confiar en la precisión de los datos mostrados por la aplicación.”
+- “Los costos de instalación de sensores y equipos IoT podrían ser una barrera para los pequeños estacionamientos.”
+- “La adopción del sistema podría ser lenta debido a la resistencia al cambio por parte de ciertos administradores o usuarios tradicionales.”
+
+### 8.1.3. Experiment-Ready Questions
+
+Su propósito es convertir las hipótesis o suposiciones clave del proyecto en preguntas concretas, medibles y comprobables, para luego priorizarlas y decidir cuáles deben probarse primero mediante experimentos reales.
+
+| **Question** | **Confidence** | **Risk** | **Impact** | **Interest** | **Puntaje Total** |
+|---------------|----------------|-----------|-------------|---------------|-------------------|
+| ¿Los conductores estarían dispuestos a usar una aplicación móvil para encontrar estacionamientos disponibles en tiempo real? | 4 | 3 | 5 | 5 | **17** |
+| ¿Los propietarios o administradores de estacionamientos adoptarían un sistema digital para gestionar y rentabilizar sus espacios? | 3 | 4 | 5 | 4 | **16** |
+| ¿La integración de sensores IoT y cámaras puede mejorar la precisión en la detección de espacios libres? | 4 | 2 | 5 | 4 | **15** |
+| ¿La posibilidad de reservar y pagar el estacionamiento desde la app aumentará la satisfacción del usuario? | 5 | 2 | 4 | 4 | **15** |
+| ¿El diseño actual de la interfaz de Quadrapp facilita una experiencia de uso rápida y comprensible para conductores nuevos? | 4 | 3 | 4 | 4 | **15** |
+
+### 8.1.4. Question Backlog
+
+La bitácora de preguntas (Question Backlog) es el motor que impulsa nuestro aprendizaje en MoviRent. Centraliza todas las incertidumbres críticas que tenemos sobre nuestros usuarios (tanto Owners como Clients), el producto y el mercado. Su propósito es transformar nuestras suposiciones y brechas de conocimiento en preguntas concretas que podamos responder a través de la experimentación, permitiéndonos tomar decisiones basadas en evidencia.
+
+| **ID** | **Pregunta de Experimento** | **Origen / Suposición Clave** | **Prioridad** | **Estado** |
+|---------|------------------------------|--------------------------------|----------------|-------------|
+| **QB-01** | ¿Los conductores estarían dispuestos a usar una aplicación móvil para encontrar estacionamientos disponibles en tiempo real? | Se asume que los conductores urbanos buscan optimizar su tiempo y reducir la frustración al estacionar. | Alta | En planificación |
+| **QB-02** | ¿La posibilidad de reservar y pagar el estacionamiento desde la app aumentará la satisfacción del usuario? | Se cree que la automatización del proceso de búsqueda, reserva y pago mejora la experiencia del conductor. | Alta | En diseño |
+| **QB-03** | ¿Los propietarios de estacionamientos privados o comerciales adoptarían un sistema digital para gestionar sus espacios? | Se asume que los administradores desean mejorar la ocupación y rentabilidad mediante herramientas tecnológicas. | Media | Pendiente |
+| **QB-04** | ¿La integración de sensores IoT y cámaras aumenta la precisión en la detección de espacios disponibles? | Se basa en la hipótesis de que el uso de tecnologías IoT reduce errores humanos y mejora la disponibilidad en tiempo real. | Media | En evaluación |
+
+### 8.1.5. Experiment Cards
+
+A. Fake Door Test para Conductores
+
+- Question: ¿Mostrar la función “Buscar espacio en tiempo real” en la app genera interés real y clics de reserva por parte de conductores urbanos?
+- Why: Validar demanda antes de desarrollar la integración completa con IoT/ sensores — así evitamos construir una funcionalidad que nadie use.
+- What: Añadir en la web/móvil un botón/landing “Buscar estacionamiento en tiempo real” que simule la funcionalidad.
+- Hypothesis: “Al menos el 15% de los usuarios que ven la CTA harán clic en la función y ≥5% dejarán su email o solicitarán notificación.”
+Éxito: ≥15% CTR en CTA y ≥5% de conversión a leads.
+
+B. A/B Test de Interfaz Simplr VS Avanzada
+
+- Question: ¿Qué diseño (interfaz simplificada vs interfaz avanzada con filtros) produce más reservas completadas y menor tiempo de tarea para el usuario?
+- Why: Determinar la complejidad óptima de la UI para maximizar conversiones y reducir fricción.
+- What: Preparar dos versiones del flujo de búsqueda/reserva: A (Simple): mapa + botón “Reservar”; B (Avanzada): mapa + filtros (precio, seguridad, tipo de espacio) + preview.
+- Hypothesis: “La versión Simple tendrá ≥10% más tasa de reservas completas y menor tiempo medio de tarea que la Avanzada.”
+Éxito: ≥10% mejora en completación y reducción significativa (p < 0.05) en tiempo medio.
+
+C. Prueba de Confianza en Medidas de Seguridad
+
+- Question: ¿La inclusión de indicadores de seguridad (cámaras, iluminación, reseñas) en la ficha del estacionamiento aumenta la confianza y la probabilidad de reserva?
+- Why: La percepción de seguridad es factor decisivo; si mejora conversiones, es justificable invertir en verificación y badges.
+- What: Crear fichas de estacionamiento con y sin indicadores visibles de seguridad (iconos: CCTV, iluminación 24h, guardia, reseñas).
+- Hypothesis: “Las fichas con indicadores de seguridad aumentarán la probabilidad de reserva en al menos 12% y subirán la puntuación de confianza auto-reportada.”
+Éxito: ≥12% en reservas y +1 punto en escala de confianza (1–5).
+
+D. Entrevistas Sobre Motivación Económica
+
+- Question: ¿Qué motivaciones económicas (precio, descuentos por fidelidad, ingresos por alquilar su espacio) impulsan a conductores y propietarios a usar Quadrapp?
+- Why: Comprender incentivos clave para diseñar pricing, comisiones, y programas de retención tanto para conductores como para dueños.
+- What: Realizar entrevistas semiestructuradas (30–45 min) con: 15–20 conductores y 10–15 propietarios/administradores.
+- Hypothesis: “Los conductores priorizan precio y conveniencia (reserva instantánea) mientras que los propietarios priorizan aumento de ocupación y retorno sobre inversión; ofrecer descuentos iniciales y comisiones competitivas aumentará la intención de uso en ambos grupos.”
+  
+Éxito: Identificar al menos 3 incentivos accionables que ≥60% de entrevistados considere determinantes.
+
+E. Pruebas de Usabilidad Multietaria
+
+- Question: ¿La app es usable y accesible para conductores de distintas edades y niveles tecnológicos (jóvenes, adultos medios, mayores)?
+- Why: La adopción masiva requiere una UX que funcione para múltiples perfiles demográficos; fallas aquí limitan crecimiento.
+- What: Reclutar participantes en 3 grupos etarios: 18–30, 31–50, 51+. Mínimo 8–10 por grupo.
+- Hypothesis: “La versión actual de la app logrará una tasa de éxito de tarea ≥85% en 18–50 años y ≥70% en 51+; el SUS promedio será ≥75.”
+  
+Éxito: Cumplir esos umbrales; si no, priorizar mejoras de accesibilidad y simplificación del flujo.
 
 # Conclusiones y recomendaciones
 
