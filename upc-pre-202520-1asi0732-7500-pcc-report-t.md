@@ -5007,6 +5007,151 @@ Las revisiones se realizaron diariamente para PRs pequeños y se complementaron 
 
 ---
 
+## 6.3. Validation Interviews.
+
+### 6.3.1. Diseño de Entrevistas.
+
+Para la validación de nuestro proyecto, hemos diseñado una serie de entrevistas con el fin de obtener feedback de nuestros usuarios. Se presentan las preguntas que se realizarán en las entrevistas, adaptadas a los segmentos objetivos que usan Quadrapp
+
+* * *
+
+## Preguntas generales
+
+-   ¿Cuál es tu nombre?
+    
+-   ¿Qué edad tienes?
+    
+-   ¿Dónde vives actualmente?
+    
+-   ¿A qué te dedicas?
+    
+
+* * *
+
+## Preguntas segmento **Propietario de estacionamiento**
+
+-   ¿Qué característica te llama más la atención del aplicativo para publicar y administrar tus espacios? ¿Por qué?
+    
+-   ¿Qué opinas del diseño y la funcionalidad para **dar de alta y gestionar** tus estacionamientos (por ejemplo, horarios, precios, disponibilidad)?
+    
+-   ¿Qué información te gustaría poder mostrar de tus espacios para que los conductores confíen más (por ejemplo, fotos, reglas, seguridad)?
+    
+-   ¿Qué funcionalidades **agregarías** a la plataforma para facilitar tu gestión?
+    
+-   ¿Hay alguna cosa que **le quitarías** a la aplicación o que sientas que estorba?
+    
+-   Como propietario/administrador, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **publicar, administrar y cobrar** por tus espacios?
+    
+
+* * *
+
+## Preguntas segmento **Conductor**
+
+-   ¿Qué característica te llama más la atención del aplicativo para encontrar estacionamiento? ¿Por qué?
+    
+-   ¿Qué opinas del diseño y la funcionalidad para **buscar, comparar y reservar** un espacio (por ejemplo, mapa, filtros, reseñas)?
+    
+-   ¿Qué información te gustaría ver antes de reservar para sentirte seguro (por ejemplo, precio total, horarios, medidas del espacio, opiniones)?
+    
+-   ¿Qué funcionalidades **agregarías** a la aplicación para que sea más rápida o cómoda al estacionar?
+    
+-   ¿Hay alguna cosa que **le quitarías** a la aplicación o que te distraiga durante la reserva o el pago?
+    
+-   Como conductor, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **llegar, acceder y pagar** por el estacionamiento?
+
+### 6.3.2. Registro de Entrevistas.
+
+#### Entrevistas Segmento Conductor:
+
+**Entrevista 1**:
+
+Datos del entrevistado
+
+- Nombres y apellidos:
+- Edad:
+- Recidencia:
+- Enlace de la entrevista:
+- Duración de la entrevista:
+
+[Imagen](link)
+
+- Resumen de la entrevista:
+
+**Entrevista 2**:
+
+Datos del entrevistado
+
+- Nombres y apellidos:
+- Edad:
+- Recidencia:
+- Enlace de la entrevista:
+- Duración de la entrevista:
+
+[Imagen](link)
+
+- Resumen de la entrevista:
+
+**Entrevista 3**:
+
+Datos del entrevistado
+
+- Nombres y apellidos:
+- Edad:
+- Recidencia:
+- Enlace de la entrevista:
+- Duración de la entrevista:
+
+[Imagen](link)
+
+- Resumen de la entrevista:
+
+#### Entrevistas Segmento Propietario de Estacionamiento:
+
+**Entrevista 1**:
+
+Datos del entrevistado
+
+- Nombres y apellidos:
+- Edad:
+- Recidencia:
+- Enlace de la entrevista:
+- Duración de la entrevista:
+
+[Imagen](link)
+
+- Resumen de la entrevista:
+
+**Entrevista 2:**
+
+**Datos del entrevistado**
+
+- **Nombres y apellidos:** Karim Wagner Samanamud Mosquera
+- **Edad:** 24 años
+- **Residencia:** San Martin de Porres, Lima
+- **Duración de la entrevista:** 6:50 min
+
+![ValidationInterview-PropietarioDeEstacionamiento-2](./assets/chapter-6/ValidationInterview-PropietarioDeEstacionamiento-2.png)
+
+**Resumen de la entrevista:** Karim Samanamud, propietario de un estacionamiento, compartió y brindó su retroalimentación sobre la aplicación Quadrapp. En el busca mejorar la eficiencia de su gestión de su estacionamiento, ya que esto lo hace manualmente. Él considera que la interfaz es bastante intuitiva y fácil de entender. Así mismo, resalta que la seguridad es un punto clave con el que cumple nuestra aplicación, y considera útil el poder manejar la disponibilidad de los espacios de estacionamiento y de su información personal. En cuanto a la eficiencia de la aplicación, comentó que la rapidez de respuesta de la aplicación debe mantenerse en todo momento durante el uso de la aplicación. Finalmente, considera que agregar elementos al registrar un estacionamiento como fotos y videos son muy importantes para asegurar la confianza de los conductores. Por otro lado, comentó que debe existir un medio de soporte al cliente ante posibles errores que pueda presentar la aplicación.
+
+**Entrevista 3**:
+
+Datos del entrevistado
+
+- Nombres y apellidos:
+- Edad:
+- Recidencia:
+- Enlace de la entrevista:
+- Duración de la entrevista:
+
+[Imagen](link)
+
+- Resumen de la entrevista:
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+---
+
 ## 6.4. Video About-the-Product.
 
 ![Video About the Product](assets/Video-Producto.png)
