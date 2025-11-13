@@ -5249,6 +5249,227 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
 └─────────────────┘       └─────────────────┘       └─────────────┘
 ```
 
+## 8.3. Experimentation.
+
+### 8.3.1. To-Be User Stories.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS01</td>
+    <td>Propietario de Estacionamiento</td>
+    <td>Media</td>
+    <td>EP10</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Visualización de historial de reservas y ganancias</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que me encuentro en mi dashboard, When visualizo mi panel principal, Then debería ver todos las fechas, montos y estado de cada reserva.</td>
+  </tr>
+
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS02</td>
+    <td>Propietario de Estacionamiento</td>
+    <td>Alta</td>
+    <td>EP10</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Visualización de estadísticas en estacionamientos</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como propietario de estacionamiento, quiero recibir estadísticas sobre ocupación, ingresos y horarios pico, para optimizar la gestión y precios de mis estacionamientos.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que me encuentro en mi dashboard, When ingreso a la sección de estadísticas, Then debería visualizar las estadísticas referentes a la gestión de espacios de mi estacionamiento.</td>
+  </tr>
+
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS03</td>
+    <td>Propietario de Estacionamiento</td>
+    <td>Media</td>
+    <td>EP08</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Añadir promociones</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como propietario de estacionamiento, quiero poder configurar promociones (por fechas o eventos especiales), para atraer más conductores en momentos de baja demanda.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que me encuentro en la configuración de precios de espacios de estacionamiento, When inserto promociones según fechas o eventos, Then las promociones deben ser visibles para los conductores.</td>
+  </tr>
+
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS04</td>
+    <td>Conductor</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Recomendaciones de estacionamientos</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como conductor, quiero recibir recomendaciones de estacionamientos según mi historial y hora del día, para ahorrar tiempo al buscar espacios disponibles.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que he hecho uso de estacionamientos, When quiera reservar un espacio, Then el sistema deberá recomendarme estacionamientos cercanos según mi historial y hora del día.</td>
+  </tr>
+
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS05</td>
+    <td>Conductor</td>
+    <td>Alta</td>
+    <td>EP04</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Distancia y costo estimado</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como conductor, quiero visualizar en tiempo real la distancia y costo estimado hacia los estacionamientos sugeridos, para tomar decisiones rápidas y eficientes.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que deseo hacer uso de un espacio de estacionamiento, When selecciono el espacio de estacionamiento deseadoa, Then debo visualizar la distancia y costo estimado para llegar al estacionamiento.</td>
+  </tr>
+
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS06</td>
+    <td>Usuario</td>
+    <td>Alta</td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Autenticación de seguridad</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que deseo registrarme en Quadrapp, When se me solicita validar el registro mediante email o servicios de autenticación cifrada, Then el sistema deberá validar mi información y completar el registro.</td>
+  </tr>
+
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS07</td>
+    <td>Devloper</td>
+    <td>Media</td>
+    <td>EP15</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Monitoreo de métricas de actividad de usuarios y estacionamientos</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que deseo supervisar la actividad de los usuarios del servicio de Quadrapp, When ingreso al panel, Then el panel debe incluir métricas en tiempo real y reportes exportables.</td>
+  </tr>
+</table>
+
+### 8.3.2. To-Be Product Backlog.
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|------:|:--------------|:-------|:------------|-------------:|
+|     1 | TBUS01 | Visualización de historial de reservas y ganancias | Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios. | 5 |
+|     2 | TBUS02 | Visualización de estadísticas en estacionamientos | Como propietario de estacionamiento, quiero recibir estadísticas sobre ocupación, ingresos y horarios pico, para optimizar la gestión y precios de mis estacionamientos. | 7 |
+|     3 | TBUS03 | Añadir promociones | Como propietario de estacionamiento, quiero poder configurar promociones (por fechas o eventos especiales), para atraer más conductores en momentos de baja demanda. | 5 |
+|     4 | TBUS04 | Recomendaciones de estacionamientos | Como conductor, quiero recibir recomendaciones de estacionamientos según mi historial y hora del día, para ahorrar tiempo al buscar espacios disponibles. | 3 |
+|     5 | TBUS05 | Distancia y costo estimado | Como conductor, quiero visualizar en tiempo real la distancia y costo estimado hacia los estacionamientos sugeridos, para tomar decisiones rápidas y eficientes. | 5 |
+|     6 | TBUS06 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
+|     7 | TBUS07 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
+
 ---
 
 ¡Vamos a enriquecer tu Capítulo VII con mirada senior! Te dejo un texto listo para pegar en tu documento, consistente con lo que ya declaraste (Azure Application Insights, CloudWatch, Azure SWA, backend en AWS EC2, etc.).
