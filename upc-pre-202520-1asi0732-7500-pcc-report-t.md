@@ -4914,6 +4914,98 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 
 ![GetParkingsCoreTest](./assets/chapter-6/GetParkingsCoreTest.png)
 
+---
+
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+Se realizó un proceso de verificación de estándares de codificación para garantizar que todo el código cumpla con estándares que mantengan la calidad, consistencia y buenas prácticas. En el desarrollo de nuestra solución, nos aseguramos de que el frontend en Angular cumpla con las reglas de ESLint y las guías oficiales de Angular. Para la aplicación móvil desarrollado con Flutter (Dart) seguimos las convenciones del Dart Style Guide. En el backend desarrollado con Java y Spring Boot, se siguieron convenciones de codificación de Java (como las definidas por Oracle) y las buenas prácticas recomendadas por Spring Framework, manteniendo una correcta organización de paquetes, uso adecuado de anotaciones y una clara documentación del código.
+
+Esta verificación nos permite identificar a tiempo errores comunes, malas prácticas o inconsistencias, garantizando que el código sea legible, mantenible y cumpla con los estándares definidos para cada tecnología antes de su integración o despliegue.
+
+#### 6.2.1.1. Coding standard & Code conventions.
+
+Para garantizar la consistencia, mantenibilidad y escalabilidad en el desarrollo de nuestra solución, establecimos estándares y convenciones de codificación alineados con las mejores prácticas de cada tecnología empleada. Estos lineamientos abarcan desde la estructura de archivos hasta el uso de patrones de diseño, con el objetivo de mantener un código limpio, legible y coherente en todo el proyecto.
+
+**Domain-Driven Design (DDD):** Se aplicó arquitectura DDD orientada a dominios para estructurar el código por bounded contexts. Implementamos agregados como Driver y un lenguaje ubicuo que refleja los conceptos del negocio, facilitando la comprensión y evolución del sistema.
+
+**Convenciones de Nomenclatura:**
+
+- **Frontend (Angular):** Usamos KebabCase para componentes (ej: parking-profile), sufijos como .service.ts para servicios, y organizamos módulos por funcionalidades.
+
+- **Mobile (Flutter - Dart):** Aplicamos SnakeCase para clases (ej: loading_spinner), lowerCamelCase para variables y métodos, siguiendo las guías oficiales del Dart Style Guide.
+
+- **Backend (Java - Spring Boot):** Adoptamos PascalCase para clases (ej: DriverProfileControlller), camelCase para variables y métodos, y empaquetamos el código por dominio (ej: com.quadrapp.profile).
+
+**Principios SOLID:** Nos aseguramos de aplicar los principios SOLID en todas las capas, promoviendo la modularidad y la extensibilidad. Ejemplos incluyen clases con una sola responsabilidad (DriverProfileCommandServiceImpl), el uso de inyección de dependencias (Spring DI y Angular DI) y la creación de interfaces extensibles para favorecer la reutilización y el bajo acoplamiento.
+
+De esta forma, garantizamos un código coherente, mantenible y fácil de escalar, asegurando que cada parte del sistema pueda evolucionar sin comprometer la calidad ni la estabilidad general del proyecto.
+
+#### 6.2.1.2. Code Quality & Code Security.
+
+Para asegurar la confiabilidad, mantenibilidad y robustez de nuestra solución Quadrapp, se realizaron verificaciones sobre la calidad y seguridad de todo el código, donde se establecieron prácticas y herramientas que nos permiten detectar problemas tempranos y garantizar un código limpio y seguro antes de su despliegue.
+
+**Calidad del Código:**
+Evaluamos la calidad mediante métricas como complejidad ciclomática, duplicación, mantenibilidad y cobertura de pruebas. Se emplearon herramientas de análisis estático como SonarQube y SonarLint para identificar code smells, secciones duplicadas y violaciones de principios SOLID tanto en el backend (Spring Boot) como en el frontend (Angular).
+
+Además, en los entornos de deesarrollo (IntelliJ y VsCode), integramos extensiones que nos permiten detectar y corregir problemas en tiempo real, lo que ayudó a mantener un código consistente y alineado con los estándares definidos.
+
+**Seguridad del Código:**
+Para proteger los datos y prevenir vulnerabilidades críticas, seguimos las recomendaciones del estándar OWASP Top 10.
+
+Implementamos:
+
+- Validaciones estrictas de entrada en formularios para evitar inyecciones de datos o ataques XSS.
+
+- Autenticación y autorización mediante JWT, asegurando que los endpoints sensibles solo sean accesibles por usuarios autorizados.
+
+- Uso de parámetros enlazados en Spring Data JPA, previniendo inyecciones SQL.
+
+- Cifrado y manejo seguro de datos sensibles, como contraseñas y tokens.
+
+Estas medidas, junto con el análisis continuo de calidad y seguridad, nos permitieron construir un sistema robusto, con bajo nivel de vulnerabilidades y alta mantenibilidad, fortaleciendo la confianza y estabilidad del producto final.
+
+
+### 6.2.2. Reviews
+
+Se realizaron revisiones de código en Quadrapp, las cuales fueron un pilar esencial para garantizar la calidad, seguridad y coherencia del software con los estándares definidos del proyecto. Este proceso combinó revisiones manuales y automatizadas, integradas dentro del flujo de trabajo del equipo.
+
+**Tipos de Revisiones:**
+
+- **Revisión por Pares:** Cada Pull Request (PR) fue revisado por al menos un miembro del equipo, verificando la claridad del código, su alineación con los principios DDD (Domain-Driven Design) y el cumplimiento de los principios SOLID.
+
+- **Revisión Formal:** Al finalizar cada sprint, se realizaron sesiones grupales de revisión utilizando listas de verificación basadas en el Source Code Style Guide, abordando aspectos como la nomenclatura, la organización de paquetes y la correcta inyección de dependencias.
+
+
+**Proceso de Revisión:**
+
+- **Pull Requests:** Todo cambio en el código debía realizarse mediante un PR con una descripción clara, pruebas asociadas y evidencia de impacto (por ejemplo: “docs(chapter-3): add user stories”).
+
+- **Checklist de Validación:** 
+Cada revisión debía verificar:
+
+  - Cumplimiento de convenciones de código (PascalCase, camelCase).
+
+  - Cobertura de pruebas unitarias (JUnit en backend, Selenium en frontend).
+
+  - Validación de seguridad según OWASP Top 10 y sanitización de entradas.
+
+- **Aprobación:** Un PR solo podía fusionarse tras recibir aprobaciones por parte del equipo.
+
+**Criterios de Aceptación:**
+
+- **Código Limpio:** Sin errores críticos ni vulnerabilidades detectadas en SonarQube.
+
+- **Cobertura de Pruebas:** Igual o superior al 80% en backend y frontend.
+
+- **Seguridad:** Ausencia de dependencias vulnerables, según npm audit y OWASP Dependency-Check.
+
+**Frecuencia:**
+
+Las revisiones se realizaron diariamente para PRs pequeños y se complementaron con retrospectivas de revisión al final de cada sprint, donde el equipo ajustaba los estándares y reforzaba la consistencia del código en todos los módulos del sistema.
+
+---
 
 ## 6.4. Video About-the-Product.
 
