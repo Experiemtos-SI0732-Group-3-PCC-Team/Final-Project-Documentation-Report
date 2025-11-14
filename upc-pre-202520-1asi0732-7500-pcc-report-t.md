@@ -5155,13 +5155,152 @@ Datos del entrevistado
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+Para complementar la validación mediante entrevistas, se realizó una evaluación heurística basada en los 10 principios de usabilidad de Jakob Nielsen. El objetivo fue identificar problemas de interacción y oportunidades de mejora en los flujos principales de Quadrapp: búsqueda de estacionamiento, gestión de espacios, reservas y uso del módulo IoT.
+
+A continuación, se presenta el resultado de dicha evaluación:
+
+| #  | Problema identificado                                                                                  | Severidad (0–4) | Heurística violada                 |
+| -- | ------------------------------------------------------------------------------------------------------ | --------------- | ---------------------------------- |
+| 1  | En la pantalla de registro de espacio, algunos campos no indican claramente si son obligatorios.       | 3               | Prevención de errores              |
+| 2  | En el mapa, el color de algunos pines se confunde con el fondo, dificultando la visibilidad.           | 2               | Visibilidad del estado del sistema |
+| 3  | Al reservar un espacio, el usuario no recibe un feedback claro si la acción fue exitosa.               | 3               | Visibilidad del estado del sistema |
+| 4  | La opción "Regresar" en la pantalla de detalles no es consistente en todas las vistas.                 | 2               | Consistencia y estándares          |
+| 5  | No se muestran ejemplos ni ayudas contextuales en formularios complejos (como precios o reglas).       | 2               | Ayuda y documentación              |
+| 6  | La actualización de disponibilidad real-time mediante IoT no muestra un indicador de conexión estable. | 3               | Visibilidad del estado del sistema |
+| 7  | En el flujo del propietario, la jerarquía visual de textos y secciones es débil.                       | 2               | Estética y diseño minimalista      |
+| 8  | Algunos campos permiten enviar formularios incompletos, generando mensajes genéricos.                  | 3               | Prevención de errores              |
+| 9  | El contraste en ciertos botones (azul sobre gris claro) puede afectar la accesibilidad.                | 2               | Estándares y accesibilidad         |
+| 10 | La navegación entre “Espacios”, “Reservas” y “Perfil” no es totalmente intuitiva para usuarios nuevos. | 2               | Control y libertad del usuario     |
+
+
 ---
 
-## 6.4. Video About-the-Product.
+## 6.4. Auditoría de Experiencias de Usuario.
 
-![Video About the Product](assets/Video-Producto.png)
+### 6.4.1. Auditoría realizada.
 
-Enlace del Video About-the-Product: https://youtu.be/Kl0oUidnp8U
+#### 6.4.1.1. Información del grupo auditado.
+
+Nombre del responsable de la auditoría:
+Equipo Vitalia
+
+Especialización del equipo:
+Diseño de interfaces, experiencia de usuario (UX), accesibilidad digital, pruebas de usabilidad y evaluación heurística de prototipos.
+
+Fecha de realización de auditoría:
+13/11/2025
+
+Herramientas utilizadas:
+
+- Navegador web (Google Chrome)
+
+- Capturas de pantalla del prototipo funcional
+
+- Prototipos navegables (Figma / Frontend desplegado)
+
+- Documentación funcional del proyecto
+
+- Checklists de heurísticas de Nielsen
+
+#### 6.4.1.2. Cronograma de auditoría realizada.
+
+La auditoría realizada por el equipo Vitalia se desarrolló en el siguiente cronograma:
+
+| Fecha          | Actividad                                                                                                        | Responsable              |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| **11/06/2025** | Revisión de vistas principales: mapa de estacionamientos, detalles del espacio, reservas y panel del propietario | Irving Washington Allcca Guerrero           |
+| **12/06/2025** | Evaluación heurística y análisis de flujos críticos (búsqueda, reserva, publicación)                             | Andrea Milagros Cabanillas Gora        |
+| **13/06/2025** | Elaboración del informe de hallazgos y recomendaciones de mejora                                                 | Anderson Gonza Morales |
+
+
+#### 6.4.1.3. Contenido de auditoría realizada.
+
+| #      | Problema identificado                                                                                            | Severidad | Heurística violada                                                |
+| ------ | ---------------------------------------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------- |
+| **1**  | El mapa inicial muestra muchos pines juntos y no hay agrupación ("cluster"), dificultando la exploración.        | 3         | Estética y diseño minimalista, Visibilidad del estado del sistema |
+| **2**  | En la vista de detalle del estacionamiento no se muestran fotos reales, lo cual limita la confianza del usuario. | 2         | Reconocer antes que recordar                                      |
+| **3**  | Texto pequeño en dispositivos móviles dentro de la pantalla de reserva.                                          | 3         | Accesibilidad                                                     |
+| **4**  | El botón “Reservar” no indica costo total ni hora final antes de confirmar.                                      | 3         | Visibilidad del estado del sistema                                |
+| **5**  | En el registro del propietario no se indican ejemplos de campos (placeholders), causando confusión.              | 2         | Ayuda y documentación                                             |
+| **6**  | No existe retroalimentación visual al seleccionar un espacio dentro del panel del propietario.                   | 2         | Visibilidad del estado del sistema                                |
+| **7**  | No hay mensajes claros de éxito o error al actualizar disponibilidad del espacio.                                | 3         | Prevención de errores                                             |
+| **8**  | No se explica cómo funciona la integración con IoT (sensor de ocupación).                                        | 2         | Coincidencia entre el sistema y el mundo real                     |
+| **9**  | Ausencia de secciones de ayuda para entender tarifas, horarios y penalidades.                                    | 1         | Ayuda y documentación                                             |
+| **10** | El panel del propietario presenta demasiados botones juntos, dificultando la navegación.                         | 3         | Estética y diseño minimalista, Consistencia y estándares          |
+
+
+### 6.4.2. Auditoría recibida.
+
+
+#### 6.4.2.1. Información del grupo auditor.
+
+Nombre del equipo auditor:
+Vitalia
+
+Especialización del equipo:
+Diseño UX/UI, pruebas de rendimiento, accesibilidad web, arquitectura de información y análisis heurístico.
+
+Fecha de la auditoría:
+12/11/2025
+
+Herramientas utilizadas:
+
+- Google Chrome
+
+- Grabaciones de navegación
+
+- Documento de flujos del proyecto Quadrapp
+
+- Prototipos de Frontend
+
+#### 6.4.2.2. Cronograma de auditoría recibida.
+
+| Fecha          | Actividad                                                                                            | Responsable              |
+| -------------- | ---------------------------------------------------------------------------------------------------- | ------------------------ |
+| **10/06/2025** | Revisión de vistas internas de Quadrapp (suscripción, espacios, historial, pagos, creación/edición). | Claudia Gutiérrez        |
+| **11/06/2025** | Evaluación heurística del flujo completo: búsqueda → detalle → reserva → pago                        | Luis Eduardo Torres      |
+| **12/06/2025** | Elaboración de informe final con observaciones y recomendaciones                                     | María Isabel Barrenechea |
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+| #      | Problema identificado                                                                                | Severidad | Heurística violada                 |
+| ------ | ---------------------------------------------------------------------------------------------------- | --------- | ---------------------------------- |
+| **1**  | El botón "Cancelar" tiene un color muy similar al de acción principal, lo que puede generar errores. | 3         | Prevención de errores              |
+| **2**  | No se explica claramente qué incluye cada plan dentro de las suscripciones.                          | 2         | Ayuda y documentación              |
+| **3**  | No hay validación visible para los campos obligatorios al registrar o editar un estacionamiento.     | 3         | Prevención de errores              |
+| **4**  | Existen textos con errores gramaticales en pop-ups, como “se recuperados”.                           | 1         | Consistencia y estándares          |
+| **5**  | Falta retroalimentación visual luego de editar o eliminar un espacio.                                | 3         | Visibilidad del estado del sistema |
+| **6**  | El botón “Ver detalle” no indica qué información adicional aparecerá.                                | 2         | Reconocer antes que recordar       |
+| **7**  | Al eliminar reservas no aparece mensaje de confirmación final.                                       | 3         | Visibilidad del estado del sistema |
+| **8**  | El botón “Cancelar pago” es ambiguo y no explica si cancela la operación completa o solo el intento. | 2         | Control y libertad del usuario     |
+| **9**  | Algunos textos del mapa presentan bajo contraste con el fondo.                                       | 3         | Accesibilidad                      |
+| **10** | El botón "Buscar estacionamiento" no indica si hay filtros activos.                                  | 2         | Visibilidad del estado del sistema |
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+A partir de los hallazgos del equipo auditor, se realizaron y planificaron las siguientes mejoras:
+
+Mejoras implementadas
+
+- Se rediseñaron los botones “Cancelar” y “Eliminar” con colores diferenciados.
+
+- Se añadió retroalimentación visual en acciones clave (editar, eliminar, actualizar disponibilidad).
+
+- Se corrigieron textos con errores gramaticales en pop-ups y pantallas informativas.
+
+- Se mejoró el contraste de textos del mapa para cumplir estándares WCAG.
+
+Mejoras planificadas
+
+- Integrar validaciones obligatorias visibles en formularios de registro y edición.
+
+- Agregar una pantalla descriptiva de los planes de suscripción con beneficios y restricciones.
+
+- Implementar mensajes de confirmación y éxito/fracaso en la eliminación de reservas.
+
+- Mejorar la sección de búsqueda para indicar filtros activos o búsqueda general.
+
+- Rediseñar el flujo de pago para hacer más claro el significado de "Cancelar".
 
 # Capítulo VII: Devops Practices
 ## 7.1. Continuous Integration
