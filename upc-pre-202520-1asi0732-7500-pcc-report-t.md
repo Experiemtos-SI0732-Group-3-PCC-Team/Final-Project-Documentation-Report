@@ -141,7 +141,7 @@ feature-product-design: Representada en verde. Incluye el contenido de flujos de
 feature-sprint1: Representada en amarillo. Contiene los artefactos relacionados con el sprint 1 en el informe.
 Los gráficos siguientes muestran los análisis de commits en el repositorio del informe, incluyendo la cantidad de líneas de texto añadidas por cada miembro del equipo.
 
-**TB1**
+**TP**
 
 <img src="assets/Insights-TP.png" alt="insights Quadrapp"/>
 
@@ -5110,15 +5110,21 @@ Datos del entrevistado
 
 Datos del entrevistado
 
-- Nombres y apellidos:
-- Edad:
-- Recidencia:
-- Enlace de la entrevista:
-- Duración de la entrevista:
+- Nombres y apellidos: Mathias Hidalgo
+- Edad: 20 años
+- Recidencia: Santiago de Surco, Lima
+- Enlace de la entrevista: 
+- Duración de la entrevista: 10:12 min
 
-[Imagen](link)
+![Mathias-PropietarioDeEstacionamiento-1](./assets/entrevista_dueñoMathi.jpg)
 
-- Resumen de la entrevista:
+**Resumen de la entrevista:** El entrevistado, Mathias Hidalgo, de 20 años, trabaja apoyando en la organización de un estacionamiento y reside en Santiago de Surco, Lima. Durante la entrevista, Mathias compartió una experiencia bastante positiva con la aplicación.
+
+Comentó que lo que más le gustó fue la funcionalidad para registrar y administrar sus estacionamientos o espacios, así como la visualización en tiempo real mediante el dispositivo IoT, lo cual consideró muy práctico. También destacó que el diseño de la app es intuitivo, permitiéndole gestionar sin complicaciones sus espacios y las reservas correspondientes.
+
+Según Mathias, las funciones para configurar horarios y precios le parecieron innovadoras y fáciles de usar. Como mejora, sugirió la posibilidad de agregar fotos del estacionamiento, reglas de uso e incluso cámaras, con el fin de reforzar la seguridad dentro de la plataforma. Además, indicó que sería ideal habilitar pagos mediante Yape o Plin, ya que facilitaría las transacciones para los usuarios.
+
+Finalmente, mencionó que por el momento no retiraría ninguna funcionalidad, ya que la aplicación le gustó y cumple bien con lo que necesita.
 
 **Entrevista 2:**
 
