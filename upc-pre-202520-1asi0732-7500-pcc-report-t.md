@@ -5081,15 +5081,14 @@ Datos del entrevistado
 
 Datos del entrevistado
 
-- Nombres y apellidos:
-- Edad:
-- Recidencia:
-- Enlace de la entrevista:
-- Duración de la entrevista:
+- Nombres y apellidos: Aldhemir Sebastián Guadalupe Moreano
+- Edad: 23 Años
+- Residencia: Ica
+- Duración de la entrevista: 9:11 min
 
-[Imagen](link)
+[Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png)
 
-- Resumen de la entrevista:
+**- Resumen de la entrevista:** Aldhemir, un joven trabajador y conductor de vehiculo propio, nos apoyó en la demostracion de la aplicación de Quadrapp. Él considera que la aplicación cumple con lo que podría ser esperado para los conductores, facilitando el poder encontrar con anticipación un espacio de estacionamiento, además, brindo feedback en el aspecto de poder ver los comentarios de ciertos espacios de estacionamientos, para asi saber que esperar de ser seleccionado este mismo. Finalmente, también recomendó el hacer uso de referencias visuales para conocer mejor la ubicación del espacio de estacionamiento. 
 
 **Entrevista 3**:
 
