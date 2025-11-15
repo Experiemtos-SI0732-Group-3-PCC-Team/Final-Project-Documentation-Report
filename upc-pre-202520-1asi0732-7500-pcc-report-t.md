@@ -60,7 +60,7 @@
 | 1.4 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Elaboración de historias de usuario y del backlog del producto. |
 | 1.5 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Creación del diagrama de base de datos, diagrama de clases, diccionario de clases, diagramas de contenedores, diagramas de contexto y diagramas de componentes. |
 | 1.6 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Registro de las evidencias del Sprint. |
-| 1.7 | 10/10/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Product Verification & Validation y Sprint 2. |
+| 1.7 | 14/11/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Verificación y Validación del Producto, junto con la Validación de Conexiones. Además, se realizaron entrevistas sobre la aplicación para obtener información que permita implementar mejoras futuras. |
 
 # Project Report Collaboration Insights
 
@@ -102,11 +102,7 @@ feature-product-design: Representada en verde. Incluye el contenido de flujos de
 feature-sprint1: Representada en amarillo. Contiene los artefactos relacionados con el sprint 1 en el informe.
 Los gráficos siguientes muestran los análisis de commits en el repositorio del informe, incluyendo la cantidad de líneas de texto añadidas por cada miembro del equipo.
 
-**TB1**
-
-<img src="assets/Insights-Tb1.png" alt="insights Quadrapp"/><br>
-
-**TP**
+**Trabajo Parcial**
 
 Para la elaboración del informe correspondiente a la entrega TP, la implementación de las secciones se distribuyó entre los miembros del equipo de la siguiente manera:
 
@@ -118,6 +114,17 @@ Para la elaboración del informe correspondiente a la entrega TP, la implementac
 | **Oneglio De Paz, Beth Shantal** | Aplicó *Continuous Delivery*, describiendo las herramientas, prácticas y etapas del pipeline de despliegue en entornos controlados, garantizando versiones listas para ser liberadas de forma segura y eficiente.       |
 | **Solis Solis, Leonardo José**   | Realizó pruebas unitarias e integradas sobre las entidades principales, asegurando la correcta comunicación entre los servicios y validando la estabilidad y confiabilidad del sistema.                                 |
 
+**TB2**
+
+Para la elaboración del informe correspondiente a la entrega, la implementación de las secciones se distribuyó entre los miembros del equipo de la siguiente manera:
+
+| **Integrantes**    | **Tareas Asignadas**    |
+| ----- | ---------------------- |
+| **Calisaya Sánchez, Juan Jesús** | Implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado. |
+| **Lagos Aguilar, Luis Eduardo**  | Se implementaron las herramientas y prácticas necesarias para el proyecto, incluyendo el monitoreo de los componentes del pipeline, la configuración de alertas y el sistema de notificaciones para garantizar un seguimiento continuo y una respuesta rápida ante cualquier incidencia. |
+| **Nanfuñay Liza, Pedro Jesús**   | Se implementó el Análisis de Código Estático, asegurando el cumplimiento de los estándares y convenciones de codificación, así como la calidad y seguridad del código. Además, se realizaron revisiones para garantizar la correcta aplicación de buenas prácticas y detectar posibles mejoras.                         |
+| **Oneglio De Paz, Beth Shantal** | Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.       |
+| **Solis Solis, Leonardo José**   | Se definieron las hipótesis y se identificaron las métricas de negocio del dominio. Se establecieron las medidas y condiciones necesarias, se realizaron cálculos de escalamiento y decisiones pertinentes, y se seleccionaron los métodos adecuados. Además, se planificó el análisis de datos, definiendo objetivos, KPIs y métricas, así como un plan de seguimiento para plataformas web y móviles.                           |
 
 La colaboración en el informe se llevó a cabo mediante commits frecuentes en el repositorio de la organización PCC Team.
 
@@ -140,10 +147,6 @@ develop: Representada en azul. Es la rama principal para el proceso de desarroll
 feature-product-design: Representada en verde. Incluye el contenido de flujos de usuario y wireframes.
 feature-sprint1: Representada en amarillo. Contiene los artefactos relacionados con el sprint 1 en el informe.
 Los gráficos siguientes muestran los análisis de commits en el repositorio del informe, incluyendo la cantidad de líneas de texto añadidas por cada miembro del equipo.
-
-**TP**
-
-<img src="assets/Insights-TP.png" alt="insights Quadrapp"/>
 
 # Contenido
 
@@ -296,6 +299,29 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
  [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
  [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
 
+ [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+
+[8.1. Experiment Planning](#81-experiment-planning)  
+[8.1.1. As-Is Summary](#811-as-is-summary)  
+[8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)  
+[8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)  
+[8.1.4. Question Backlog](#814-question-backlog)  
+[8.1.5. Experiment Cards](#815-experiment-cards)  
+
+[8.2. Hypotheses & Metrics](#82-hypotheses--metrics)  
+[8.2.1. Hypotheses](#821-hypotheses)  
+[8.2.2. Domain Business Metrics](#822-domain-business-metrics)  
+[8.2.3. Measures](#823-measures)  
+[8.2.4. Conditions](#824-conditions)  
+[8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)  
+[8.2.6. Methods Selection](#826-methods-selection)  
+[8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)  
+[8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)  
+
+[8.3. Experimentation](#83-experimentation)  
+[8.3.1. To-Be User Stories](#831-to-be-user-stories)  
+[8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)  
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
@@ -303,8 +329,8 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 # Student Outcome
 | Criterio específico                                                                                                                                              | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Solis Solis, Leonardo José<br><br>**TB1**<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>**TP**<br><br>Demostré responsabilidad ética y profesional al realizar pruebas unitarias e integrales, validando la correcta comunicación entre los servicios y reforzando la estabilidad y confiabilidad del sistema.<br><br>**TB2**<br><br>En esta entrega asumí responsabilidad ética y profesional al desarrollar el Experiment Design del proyecto, definiendo hipótesis claras, métricas de negocio del dominio y métodos de medición que permitan evaluar el comportamiento del sistema de forma objetiva y transparente. Al establecer las condiciones experimentales, los cálculos de escala y las decisiones de validación, aseguré que cada diseño mantuviera la integridad técnica, evitando sesgos y garantizando que la toma de decisiones se base en evidencia confiable. Además, al preparar el Web and Mobile Tracking Plan, consideré principios éticos relacionados con la recolección y protección de datos, velando por que las métricas registradas sean pertinentes, necesarias y respeten la privacidad del usuario final.<br><br><br><br>Nanfuñay Liza, Pedro Jesús<br><br>**TB1**<br><br>Durante el desarrollo y documentación de la presente solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software. Reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso<br><br>**TP**<br><br>Demostré responsabilidad ética al ejecutar pruebas BDD y de sistema para validar los criterios de aceptación y el rendimiento general del software, garantizando que la aplicación cumpla con los estándares de calidad establecidos.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>**TP**<br><br>En esta entrega demostré responsabilidad ética y profesional al implementar el proceso de despliegue continuo, garantizando actualizaciones seguras, estables y sin interrupciones del servicio en producción.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>**TP**<br><br>Ejercí responsabilidad profesional al aplicar entrega continua en entornos controlados, asegurando que cada versión validada sea liberada de forma segura y eficiente, manteniendo la integridad del sistema.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas.<br><br>**TP**<br><br>Asumí responsabilidad profesional al implementar integración continua para automatizar la construcción, pruebas y validación del código, asegurando la confiabilidad de cada actualización y promoviendo la transparencia en el ciclo de desarrollo.<br><br>**TB2**<br><br>. Definí la disponibilidad, tiempos, reservas y pagos, configuré alertas claras (P1/P2/P3) para avisar rápido y a la persona correcta, probé la disponibilidad desde varias ubicaciones y dejé pasos de atención y cierre.                        | El trabajo realizado ha sido sobresaliente, cumpliendo con todos los segmentos del proyecto. El documento redactado ofrece un detallado informe sobre los pasos seguidos en la planificación, desarrollo y envío del proyecto a producción, garantizando así un resultado digno y completo. <br> El equipo demostró responsabilidad ética y profesional al mantener un enfoque riguroso en la calidad del software, aplicando buenas prácticas de desarrollo, despliegue y validación. Cada integrante asumió un rol técnico que reforzó la integridad, seguridad y confiabilidad del sistema en todas las etapas del ciclo de vida del proyecto. | 
-| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Solis Solis, Leonardo José <br><br>**TB1**<br><br>En esta entrega, evalué el impacto de la solucion propuesta para el desarrollo de los bounded contexts de IAM y ParkingManagement, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>**TP**<br><br>Emití juicios informados al reconocer que las pruebas unitarias e integrales contribuyen directamente a reducir fallos y costos de mantenimiento, generando beneficios sostenibles para la organización.<br><br>**TB2**<br><br>Durante la elaboración del Experiment Design emití juicios informados al seleccionar las métricas, KPIs y métodos de análisis que permiten evaluar el impacto real de la solución en términos de eficiencia, escalabilidad y valor generado para los usuarios. La definición de hipótesis, métricas de negocio y condiciones experimentales consideró el impacto económico y social, permitiendo anticipar beneficios asociados a la optimización del sistema, la reducción de costos operativos y la mejora de la experiencia del usuario. Asimismo, el Tracking Plan fue diseñado teniendo en cuenta la recolección mínima necesaria de datos, lo que contribuye a un uso responsable de recursos tecnológicos y a la reducción del impacto ambiental asociado al procesamiento y almacenamiento de información.<br><br><br><br>Nanfuñay Liza, Pedro Jesús <br><br>**TB1**<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica en cómo su implementación pueda generar beneficios en contextos globales, económicos, ambientales y sociales. Ello me permitió emitir juicios informados, valorando cómo la solución puede contribuir positivamente en diversos entornos.<br><br>**TP**<br><br>Reflexioné sobre el impacto positivo que las pruebas BDD y de sistema generan en la confianza del usuario final, comprendiendo que un software bien validado incrementa el valor social y técnico de la solución.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, estableciendo el entorno de desarrollo adecuado, la administración del código fuente y la definición de guías de estilo y convenciones para mantener la calidad y legibilidad del proyecto. Asimismo, documenté la configuración para el despliegue del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>**TP**<br><br>Emití juicios informados al reconocer el impacto del despliegue continuo en la eficiencia operativa y la reducción de costos, contribuyendo a un desarrollo sostenible y competitivo del sistema a nivel global.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución propuesta en contextos globales, económicos, ambientales y sociales.<br><br>**TP**<br><br>Analicé cómo la entrega continua promueve la eficiencia y reduce el desperdicio de recursos, comprendiendo el impacto ambiental y económico de la automatización de despliegues.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se logró emitir juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos. El aprendizaje incluyó valorar el rol del ingeniero en la generación de soluciones sostenibles y responsables, reconociendo la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software.<br><br>**TP**<br><br>Evalué cómo la integración continua mejora la productividad del equipo y la calidad de las entregas, comprendiendo su relevancia económica y social al optimizar recursos y fomentar sostenibilidad.<br><br>**TB2**<br><br>Tomé decisiones prácticas pensando en costo/beneficio y en la experiencia del usuario: puse metas claras de servicio y alertas alineadas a esas metas para evitar ruido, cuidé no guardar datos innecesarios y ajustar cuánto tiempo se guardan, revisé el equilibrio entre las nubes que usamos para que el monitoreo sea útil sin encarecerlo, y busqué que la app esté más disponible y responda más rápido para el usuario final. | En conclusión, el trabajo realizado refleja un compromiso ético y profesional en cada etapa, asegurando calidad, organización y responsabilidad en la documentación, análisis y desarrollo de la solución propuesta, lo que garantiza una implementación sólida y confiable del proyecto. <br> El trabajo en equipo permitió aplicar juicios técnicos fundamentados, evaluando el impacto de las decisiones de ingeniería en contextos globales, económicos y sociales. Las acciones evidencian un enfoque consciente, sostenible y responsable del desarrollo tecnológico.    
+| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Solis Solis, Leonardo José<br><br>**TB1**<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>**TP**<br><br>Demostré responsabilidad ética y profesional al realizar pruebas unitarias e integrales, validando la correcta comunicación entre los servicios y reforzando la estabilidad y confiabilidad del sistema.<br><br>**TB2**<br><br>En esta entrega asumí responsabilidad ética y profesional al desarrollar el Experiment Design del proyecto, definiendo hipótesis claras, métricas de negocio del dominio y métodos de medición que permitan evaluar el comportamiento del sistema de forma objetiva y transparente. Al establecer las condiciones experimentales, los cálculos de escala y las decisiones de validación, aseguré que cada diseño mantuviera la integridad técnica, evitando sesgos y garantizando que la toma de decisiones se base en evidencia confiable. Además, al preparar el Web and Mobile Tracking Plan, consideré principios éticos relacionados con la recolección y protección de datos, velando por que las métricas registradas sean pertinentes, necesarias y respeten la privacidad del usuario final.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>**TB1**<br><br>Durante el desarrollo y documentación de la presente solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software. Reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso<br><br>**TP**<br><br>Demostré responsabilidad ética al ejecutar pruebas BDD y de sistema para validar los criterios de aceptación y el rendimiento general del software, garantizando que la aplicación cumpla con los estándares de calidad establecidos.<br><br>**TB2**<br><br>Durante el desarrollo de está entrega, identifiqué y reflexioné sobre la importancia de desarrollar código seguro para proteger los datos del usuarios, manteniendo al mismo tiempo buenas prácticas de desarrollo. Ello me permitió actuar de manera ética y profesional y comprendí en mayor medida que implica crear soluciones seguras y respetuosas con los usuarios.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>**TP**<br><br>En esta entrega demostré responsabilidad ética y profesional al implementar el proceso de despliegue continuo, garantizando actualizaciones seguras, estables y sin interrupciones del servicio en producción.<br><br>**TB2**<br><br>Se implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>**TP**<br><br>Ejercí responsabilidad profesional al aplicar entrega continua en entornos controlados, asegurando que cada versión validada sea liberada de forma segura y eficiente, manteniendo la integridad del sistema.<br><br>**TB2**<br><br>Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas.<br><br>**TP**<br><br>Asumí responsabilidad profesional al implementar integración continua para automatizar la construcción, pruebas y validación del código, asegurando la confiabilidad de cada actualización y promoviendo la transparencia en el ciclo de desarrollo.<br><br>**TB2**<br><br>Definí la disponibilidad, tiempos, reservas y pagos, configuré alertas claras (P1/P2/P3) para avisar rápido y a la persona correcta, probé la disponibilidad desde varias ubicaciones y dejé pasos de atención y cierre.                        | El trabajo realizado ha sido sobresaliente, cumpliendo con todos los segmentos del proyecto. El documento redactado ofrece un detallado informe sobre los pasos seguidos en la planificación, desarrollo y envío del proyecto a producción, garantizando así un resultado digno y completo. <br> El equipo demostró responsabilidad ética y profesional al mantener un enfoque riguroso en la calidad del software, aplicando buenas prácticas de desarrollo, despliegue y validación. Cada integrante asumió un rol técnico que reforzó la integridad, seguridad y confiabilidad del sistema en todas las etapas del ciclo de vida del proyecto. | 
+| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Solis Solis, Leonardo José <br><br>**TB1**<br><br>En esta entrega, evalué el impacto de la solucion propuesta para el desarrollo de los bounded contexts de IAM y ParkingManagement, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>**TP**<br><br>Emití juicios informados al reconocer que las pruebas unitarias e integrales contribuyen directamente a reducir fallos y costos de mantenimiento, generando beneficios sostenibles para la organización.<br><br>**TB2**<br><br>Durante la elaboración del Experiment Design emití juicios informados al seleccionar las métricas, KPIs y métodos de análisis que permiten evaluar el impacto real de la solución en términos de eficiencia, escalabilidad y valor generado para los usuarios. La definición de hipótesis, métricas de negocio y condiciones experimentales consideró el impacto económico y social, permitiendo anticipar beneficios asociados a la optimización del sistema, la reducción de costos operativos y la mejora de la experiencia del usuario. Asimismo, el Tracking Plan fue diseñado teniendo en cuenta la recolección mínima necesaria de datos, lo que contribuye a un uso responsable de recursos tecnológicos y a la reducción del impacto ambiental asociado al procesamiento y almacenamiento de información.<br><br>Nanfuñay Liza, Pedro Jesús <br><br>**TB1**<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica en cómo su implementación pueda generar beneficios en contextos globales, económicos, ambientales y sociales. Ello me permitió emitir juicios informados, valorando cómo la solución puede contribuir positivamente en diversos entornos.<br><br>**TP**<br><br>Reflexioné sobre el impacto positivo que las pruebas BDD y de sistema generan en la confianza del usuario final, comprendiendo que un software bien validado incrementa el valor social y técnico de la solución.<br><br>**TB2**<br><br>Reflexioné sobre cómo nuestra solución puede mejorar la situación actual del transporte urbano, reduciendo el tráfico y emisiones que afectan al medio ambiente. Así como, generar oportunidades a propietarios de estacionamientos para mejorar su gestión económica y logística. De esta manera, comprendí que cada decisión técnica tiene un impacto social y ambiental, buscando que nuestra solución aporte valor a la comunidad.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, estableciendo el entorno de desarrollo adecuado, la administración del código fuente y la definición de guías de estilo y convenciones para mantener la calidad y legibilidad del proyecto. Asimismo, documenté la configuración para el despliegue del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>**TP**<br><br>Emití juicios informados al reconocer el impacto del despliegue continuo en la eficiencia operativa y la reducción de costos, contribuyendo a un desarrollo sostenible y competitivo del sistema a nivel global.<br><br>**TB2**<br><br>Se implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución propuesta en contextos globales, económicos, ambientales y sociales.<br><br>**TP**<br><br>Analicé cómo la entrega continua promueve la eficiencia y reduce el desperdicio de recursos, comprendiendo el impacto ambiental y económico de la automatización de despliegues.<br><br>**TB2**<br><br>Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se logró emitir juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos. El aprendizaje incluyó valorar el rol del ingeniero en la generación de soluciones sostenibles y responsables, reconociendo la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software.<br><br>**TP**<br><br>Evalué cómo la integración continua mejora la productividad del equipo y la calidad de las entregas, comprendiendo su relevancia económica y social al optimizar recursos y fomentar sostenibilidad.<br><br>**TB2**<br><br>Tomé decisiones prácticas pensando en costo/beneficio y en la experiencia del usuario: puse metas claras de servicio y alertas alineadas a esas metas para evitar ruido, cuidé no guardar datos innecesarios y ajustar cuánto tiempo se guardan, revisé el equilibrio entre las nubes que usamos para que el monitoreo sea útil sin encarecerlo, y busqué que la app esté más disponible y responda más rápido para el usuario final. | En conclusión, el trabajo realizado refleja un compromiso ético y profesional en cada etapa, asegurando calidad, organización y responsabilidad en la documentación, análisis y desarrollo de la solución propuesta, lo que garantiza una implementación sólida y confiable del proyecto. <br> El trabajo en equipo permitió aplicar juicios técnicos fundamentados, evaluando el impacto de las decisiones de ingeniería en contextos globales, económicos y sociales. Las acciones evidencian un enfoque consciente, sostenible y responsable del desarrollo tecnológico.    
 
 # Capítulo I: Introducción
 
@@ -4759,9 +4785,15 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
 
 ![BackendInsight2](./assets/chapter-5-5.2/BackendInsight2.png)
 
+---
+
+# Capítulo VI: Product Verification & Validation
+
 ### 6.1. Testing Suites & Validation.
 
 ### 6.1.1. Core Entities Unit Tests.
+
+En esta sección se presentan las pruebas unitarias efectuadas sobre las clases principales de nuestra solución, con el objetivo de asegurar la calidad del software.
 
 **User Tests:**
 
@@ -4784,48 +4816,62 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
 ![RoleTest](./assets/chapter-6/rolesenumtest1.png)
 
 **Parking Spot Tests:**
+
 ![ParkingSpotTest](./assets/chapter-6/parkingspottest1.png)
 
 **Parking Tests:**
+
 ![ParkingTest](./assets/chapter-6/parkingtest1.png)
 ![ParkingTest](./assets/chapter-6/parkingtest2.png)
 ![ParkingTest](./assets/chapter-6/parkingtest3.png)
 
 **Parking Spot Manager Tests:**
+
 ![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest1.png)
 ![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest2.png)
 ![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest3.png)
 
 **Payment Tests:**
+
 ![PaymentTest](./assets/chapter-6/paymenttest1.png)
 ![PaymentTest](./assets/chapter-6/paymenttest2.png)
 
 **Reservation Payment Tests:**
+
 ![ReservationPaymentTest](./assets/chapter-6/reservationpaymenttest1.png)
 ![ReservationPaymentTest](./assets/chapter-6/reservationpaymenttest2.png)
 
 **Subscription Payment Tests:**
+
 ![SubscriptionPaymentTest](./assets/chapter-6/subscriptionpaymenttest1.png)
 
 **Payment Status Tests:**
+
 ![PaymentStatusTest](./assets/chapter-6/paymentstatustest1.png)
 
 **Driver Profile Tests:**
+
 ![DriverProfileTest](./assets/chapter-6/drivertest1.png)
 
 **Parking Owner Profile Tests:**
+
 ![ParkingOwnerTest](./assets/chapter-6/parkingownertest1.png)
 
 **DNI Validator Tests:**
+
 ![DNIValidatorTest](./assets/chapter-6/dnitest1.png)
 
 **Phone Validator Tests:**
+
 ![PhoneValidatorTest](./assets/chapter-6/phonetest1.png)
 
 **RUC Validator Tests:**
+
 ![RUCValidatorTest](./assets/chapter-6/ructest1.png)
 
 ### 6.1.2. Core Integration Tests.
+
+A continuación se muestran los Core Integration Tests, fundamentales para asegurar la correcta comunicación de los controladores con otros componentes del sistema, como servicios y bases de datos. Estas pruebas permiten detectar errores, verificar respuestas ante situaciones inesperadas y asegurar el uso adecuado de los códigos de estado, contribuyendo a una mejor experiencia de usuario, facilitando la depuración y fortaleciendo la calidad y robustez del software.
 
 **Authentication Integration Tests:**
 
@@ -4844,23 +4890,17 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 
 ![AuthTest](./assets/chapter-6/AuthTest.png)
 
-<br>
-
 **Driver Profile Test:**
 
 ![featureDriverProfileTest](./assets/chapter-6/featureDriverProfileTest.png)
 
 ![DriverProfileTest](./assets/chapter-6/DriverProfileTest.png)
 
-<br>
-
 **Parking Management Test:**
 
 ![featureParkingManagement](./assets/chapter-6/featureParkingManagement.png)
 
 ![ParkingManagementTest](./assets/chapter-6/ParkingManagementTest.png)
-
-<br>
 
 **Reservation Payment Test:**
 
@@ -4876,13 +4916,9 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 
 ![SignInCoreTest](./assets/chapter-6/SignInCoreTest.png)
 
-<br>
-
 **Listado de usuarios:**
 
 ![GetUsersCoreTest](./assets/chapter-6/GetUsersCoreTest.png)
-
-<br>
 
 **Registro, actualización de estado y listado de Pago por Reserva de Espacio de Estacionamiento:**
 
@@ -4892,19 +4928,13 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 
 ![GetReservationPaymentsCoreTest](./assets/chapter-6/GetReservationPaymentsCoreTest.png)
 
-<br>
-
 **Registro de perfiles de Propietario de Estacionamiento:**
 
 ![CreateParkingOwnerProfileCoreTest](./assets/chapter-6/CreateParkingOwnerProfileCoreTest.png)
 
-<br>
-
 **Registro de perfiles de Conductor:**
 
 ![CreateDriverProfileCoreTest](./assets/chapter-6/CreateDriverProfileCoreTest.png)
-
-<br>
 
 **Registro de Estacionamientos y espacios disponibles:**
 
@@ -4913,8 +4943,6 @@ En esta sección se muestran las pruebas BDD realizadas en base a las User Stori
 ![CreateParkingSpotCoreTest](./assets/chapter-6/CreateParkingSpotCoreTest.png)
 
 ![GetParkingsCoreTest](./assets/chapter-6/GetParkingsCoreTest.png)
-
----
 
 ## 6.2. Static testing & Verification
 
@@ -4928,17 +4956,27 @@ Esta verificación nos permite identificar a tiempo errores comunes, malas prác
 
 Para garantizar la consistencia, mantenibilidad y escalabilidad en el desarrollo de nuestra solución, establecimos estándares y convenciones de codificación alineados con las mejores prácticas de cada tecnología empleada. Estos lineamientos abarcan desde la estructura de archivos hasta el uso de patrones de diseño, con el objetivo de mantener un código limpio, legible y coherente en todo el proyecto.
 
-**Domain-Driven Design (DDD):** Se aplicó arquitectura DDD orientada a dominios para estructurar el código por bounded contexts. Implementamos agregados como Driver y un lenguaje ubicuo que refleja los conceptos del negocio, facilitando la comprensión y evolución del sistema.
+**Domain-Driven Design (DDD):** 
+
+Se aplicó arquitectura DDD orientada a dominios para estructurar el código por bounded contexts. Implementamos agregados como Driver y un lenguaje ubicuo que refleja los conceptos del negocio, facilitando la comprensión y evolución del sistema.
 
 **Convenciones de Nomenclatura:**
 
-- **Frontend (Angular):** Usamos KebabCase para componentes (ej: parking-profile), sufijos como .service.ts para servicios, y organizamos módulos por funcionalidades.
+- **Frontend (Angular):** 
 
-- **Mobile (Flutter - Dart):** Aplicamos SnakeCase para clases (ej: loading_spinner), lowerCamelCase para variables y métodos, siguiendo las guías oficiales del Dart Style Guide.
+Usamos KebabCase para componentes (ej: parking-profile), sufijos como .service.ts para servicios, y organizamos módulos por funcionalidades.
 
-- **Backend (Java - Spring Boot):** Adoptamos PascalCase para clases (ej: DriverProfileControlller), camelCase para variables y métodos, y empaquetamos el código por dominio (ej: com.quadrapp.profile).
+- **Mobile (Flutter - Dart):** 
 
-**Principios SOLID:** Nos aseguramos de aplicar los principios SOLID en todas las capas, promoviendo la modularidad y la extensibilidad. Ejemplos incluyen clases con una sola responsabilidad (DriverProfileCommandServiceImpl), el uso de inyección de dependencias (Spring DI y Angular DI) y la creación de interfaces extensibles para favorecer la reutilización y el bajo acoplamiento.
+Aplicamos SnakeCase para clases (ej: loading_spinner), lowerCamelCase para variables y métodos, siguiendo las guías oficiales del Dart Style Guide.
+
+- **Backend (Java - Spring Boot):** 
+
+Adoptamos PascalCase para clases (ej: DriverProfileControlller), camelCase para variables y métodos, y empaquetamos el código por dominio (ej: com.quadrapp.profile).
+
+**Principios SOLID:** 
+
+Nos aseguramos de aplicar los principios SOLID en todas las capas, promoviendo la modularidad y la extensibilidad. Ejemplos incluyen clases con una sola responsabilidad (DriverProfileCommandServiceImpl), el uso de inyección de dependencias (Spring DI y Angular DI) y la creación de interfaces extensibles para favorecer la reutilización y el bajo acoplamiento.
 
 De esta forma, garantizamos un código coherente, mantenible y fácil de escalar, asegurando que cada parte del sistema pueda evolucionar sin comprometer la calidad ni la estabilidad general del proyecto.
 
@@ -4947,11 +4985,13 @@ De esta forma, garantizamos un código coherente, mantenible y fácil de escalar
 Para asegurar la confiabilidad, mantenibilidad y robustez de nuestra solución Quadrapp, se realizaron verificaciones sobre la calidad y seguridad de todo el código, donde se establecieron prácticas y herramientas que nos permiten detectar problemas tempranos y garantizar un código limpio y seguro antes de su despliegue.
 
 **Calidad del Código:**
+
 Evaluamos la calidad mediante métricas como complejidad ciclomática, duplicación, mantenibilidad y cobertura de pruebas. Se emplearon herramientas de análisis estático como SonarQube y SonarLint para identificar code smells, secciones duplicadas y violaciones de principios SOLID tanto en el backend (Spring Boot) como en el frontend (Angular).
 
 Además, en los entornos de deesarrollo (IntelliJ y VsCode), integramos extensiones que nos permiten detectar y corregir problemas en tiempo real, lo que ayudó a mantener un código consistente y alineado con los estándares definidos.
 
 **Seguridad del Código:**
+
 Para proteger los datos y prevenir vulnerabilidades críticas, seguimos las recomendaciones del estándar OWASP Top 10.
 
 Implementamos:
@@ -4966,23 +5006,28 @@ Implementamos:
 
 Estas medidas, junto con el análisis continuo de calidad y seguridad, nos permitieron construir un sistema robusto, con bajo nivel de vulnerabilidades y alta mantenibilidad, fortaleciendo la confianza y estabilidad del producto final.
 
-
 ### 6.2.2. Reviews
 
 Se realizaron revisiones de código en Quadrapp, las cuales fueron un pilar esencial para garantizar la calidad, seguridad y coherencia del software con los estándares definidos del proyecto. Este proceso combinó revisiones manuales y automatizadas, integradas dentro del flujo de trabajo del equipo.
 
 **Tipos de Revisiones:**
 
-- **Revisión por Pares:** Cada Pull Request (PR) fue revisado por al menos un miembro del equipo, verificando la claridad del código, su alineación con los principios DDD (Domain-Driven Design) y el cumplimiento de los principios SOLID.
+- **Revisión por Pares:** 
 
-- **Revisión Formal:** Al finalizar cada sprint, se realizaron sesiones grupales de revisión utilizando listas de verificación basadas en el Source Code Style Guide, abordando aspectos como la nomenclatura, la organización de paquetes y la correcta inyección de dependencias.
+Cada Pull Request (PR) fue revisado por al menos un miembro del equipo, verificando la claridad del código, su alineación con los principios DDD (Domain-Driven Design) y el cumplimiento de los principios SOLID.
 
+- **Revisión Formal:** 
+
+Al finalizar cada sprint, se realizaron sesiones grupales de revisión utilizando listas de verificación basadas en el Source Code Style Guide, abordando aspectos como la nomenclatura, la organización de paquetes y la correcta inyección de dependencias.
 
 **Proceso de Revisión:**
 
-- **Pull Requests:** Todo cambio en el código debía realizarse mediante un PR con una descripción clara, pruebas asociadas y evidencia de impacto (por ejemplo: “docs(chapter-3): add user stories”).
+- **Pull Requests:** 
+
+Todo cambio en el código debía realizarse mediante un PR con una descripción clara, pruebas asociadas y evidencia de impacto (por ejemplo: “docs(chapter-3): add user stories”).
 
 - **Checklist de Validación:** 
+
 Cada revisión debía verificar:
 
   - Cumplimiento de convenciones de código (PascalCase, camelCase).
@@ -4991,21 +5036,27 @@ Cada revisión debía verificar:
 
   - Validación de seguridad según OWASP Top 10 y sanitización de entradas.
 
-- **Aprobación:** Un PR solo podía fusionarse tras recibir aprobaciones por parte del equipo.
+- **Aprobación:** 
+
+Un PR solo podía fusionarse tras recibir aprobaciones por parte del equipo.
 
 **Criterios de Aceptación:**
 
-- **Código Limpio:** Sin errores críticos ni vulnerabilidades detectadas en SonarQube.
+- **Código Limpio:** 
 
-- **Cobertura de Pruebas:** Igual o superior al 80% en backend y frontend.
+Sin errores críticos ni vulnerabilidades detectadas en SonarQube.
 
-- **Seguridad:** Ausencia de dependencias vulnerables, según npm audit y OWASP Dependency-Check.
+- **Cobertura de Pruebas:** 
+
+Igual o superior al 80% en backend y frontend.
+
+- **Seguridad:** 
+
+Ausencia de dependencias vulnerables, según npm audit y OWASP Dependency-Check.
 
 **Frecuencia:**
 
 Las revisiones se realizaron diariamente para PRs pequeños y se complementaron con retrospectivas de revisión al final de cada sprint, donde el equipo ajustaba los estándares y reforzaba la consistencia del código en todos los módulos del sistema.
-
----
 
 ## 6.3. Validation Interviews.
 
@@ -5013,9 +5064,7 @@ Las revisiones se realizaron diariamente para PRs pequeños y se complementaron 
 
 Para la validación de nuestro proyecto, hemos diseñado una serie de entrevistas con el fin de obtener feedback de nuestros usuarios. Se presentan las preguntas que se realizarán en las entrevistas, adaptadas a los segmentos objetivos que usan Quadrapp
 
-* * *
-
-## Preguntas generales
+### Preguntas generales
 
 -   ¿Cuál es tu nombre?
     
@@ -5028,7 +5077,7 @@ Para la validación de nuestro proyecto, hemos diseñado una serie de entrevista
 
 * * *
 
-## Preguntas segmento **Propietario de estacionamiento**
+###  Preguntas Segmento Propietario de estacionamiento
 
 -   ¿Qué característica te llama más la atención del aplicativo para publicar y administrar tus espacios? ¿Por qué?
     
@@ -5042,10 +5091,9 @@ Para la validación de nuestro proyecto, hemos diseñado una serie de entrevista
     
 -   Como propietario/administrador, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **publicar, administrar y cobrar** por tus espacios?
     
-
 * * *
 
-## Preguntas segmento **Conductor**
+###  Preguntas Segmento Conductor
 
 -   ¿Qué característica te llama más la atención del aplicativo para encontrar estacionamiento? ¿Por qué?
     
@@ -5067,15 +5115,16 @@ Para la validación de nuestro proyecto, hemos diseñado una serie de entrevista
 
 Datos del entrevistado
 
-- Nombres y apellidos:
-- Edad:
-- Recidencia:
-- Enlace de la entrevista:
-- Duración de la entrevista:
+- Nombres y apellidos: Fernando Salgado
+- Edad: 21
+- Recidencia: Pueblo Libre
+- Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY
 
-[Imagen](link)
+[Imagen](./assets/chapter-6/Fernando_Entrevista.png)
 
-- Resumen de la entrevista:
+Resumen de la entrevista:
+
+Fernando Salgado, de 21 años y residente en Pueblo Libre, es conductor que maneja tanto por motivos personales como laborales y enfrenta dificultades frecuentes para encontrar estacionamiento en zonas concurridas. Valora que la aplicación muestre espacios disponibles en tiempo real con información confiable sobre precio y ubicación, además de contar con mapas interactivos, filtros y reseñas de otros usuarios. Prefiere ver antes de reservar detalles como precio total, horarios, medidas del espacio y fotos del estacionamiento. Sugiere funcionalidades como integración con GPS, apertura de barreras mediante código QR o desde el celular, guardar estacionamientos favoritos y pagos automáticos. Propone eliminar publicidad y pasos innecesarios, evitar notificaciones que distraigan y asegurar indicaciones claras al llegar, pagos automáticos al salir y soporte rápido en caso de problemas. En general, busca una experiencia rápida, segura y confiable que facilite reservar, acceder y pagar el estacionamiento de manera eficiente.
 
 **Entrevista 2**:
 
@@ -5084,25 +5133,29 @@ Datos del entrevistado
 - Nombres y apellidos: Aldhemir Sebastián Guadalupe Moreano
 - Edad: 23 Años
 - Residencia: Ica
-- Duración de la entrevista: 9:11 min
+- Duración de la entrevista: 9:11 minutos
 
 [Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png)
 
-**- Resumen de la entrevista:** Aldhemir, un joven trabajador y conductor de vehiculo propio, nos apoyó en la demostracion de la aplicación de Quadrapp. Él considera que la aplicación cumple con lo que podría ser esperado para los conductores, facilitando el poder encontrar con anticipación un espacio de estacionamiento, además, brindo feedback en el aspecto de poder ver los comentarios de ciertos espacios de estacionamientos, para asi saber que esperar de ser seleccionado este mismo. Finalmente, también recomendó el hacer uso de referencias visuales para conocer mejor la ubicación del espacio de estacionamiento. 
+**Resumen de la entrevista:** 
+
+Aldhemir, un joven trabajador y conductor de vehiculo propio, nos apoyó en la demostracion de la aplicación de Quadrapp. Él considera que la aplicación cumple con lo que podría ser esperado para los conductores, facilitando el poder encontrar con anticipación un espacio de estacionamiento, además, brindo feedback en el aspecto de poder ver los comentarios de ciertos espacios de estacionamientos, para asi saber que esperar de ser seleccionado este mismo. Finalmente, también recomendó el hacer uso de referencias visuales para conocer mejor la ubicación del espacio de estacionamiento. 
 
 **Entrevista 3**:
 
 Datos del entrevistado
 
-- Nombres y apellidos:
-- Edad:
-- Recidencia:
-- Enlace de la entrevista:
-- Duración de la entrevista:
+- Nombres y apellidos: Aldhemir Sebastián Guadalupe Moreano
+- Edad: 23 Años
+- Residencia: Ica
 
-[Imagen](link)
+[Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png)
 
-- Resumen de la entrevista:
+**Resumen de la entrevista:** 
+
+Aldhemir, un joven trabajador y conductor de vehiculo propio, nos apoyó en la demostracion de la aplicación de Quadrapp. Él considera que la aplicación cumple con lo que podría ser esperado para los conductores, facilitando el poder encontrar con anticipación un espacio de estacionamiento, además, brindo feedback en el aspecto de poder ver los comentarios de ciertos espacios de estacionamientos, para asi saber que esperar de ser seleccionado este mismo. Finalmente, también recomendó el hacer uso de referencias visuales para conocer mejor la ubicación del espacio de estacionamiento. 
+
+---
 
 #### Entrevistas Segmento Propietario de Estacionamiento:
 
@@ -5113,12 +5166,13 @@ Datos del entrevistado
 - Nombres y apellidos: Mathias Hidalgo
 - Edad: 20 años
 - Recidencia: Santiago de Surco, Lima
-- Enlace de la entrevista: 
-- Duración de la entrevista: 10:12 min
+- Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY 
 
 ![Mathias-PropietarioDeEstacionamiento-1](./assets/entrevista_dueñoMathi.jpg)
 
-**Resumen de la entrevista:** El entrevistado, Mathias Hidalgo, de 20 años, trabaja apoyando en la organización de un estacionamiento y reside en Santiago de Surco, Lima. Durante la entrevista, Mathias compartió una experiencia bastante positiva con la aplicación.
+**Resumen de la entrevista:** 
+
+El entrevistado, Mathias Hidalgo, de 20 años, trabaja apoyando en la organización de un estacionamiento y reside en Santiago de Surco, Lima. Durante la entrevista, Mathias compartió una experiencia bastante positiva con la aplicación.
 
 Comentó que lo que más le gustó fue la funcionalidad para registrar y administrar sus estacionamientos o espacios, así como la visualización en tiempo real mediante el dispositivo IoT, lo cual consideró muy práctico. También destacó que el diseño de la app es intuitivo, permitiéndole gestionar sin complicaciones sus espacios y las reservas correspondientes.
 
@@ -5133,32 +5187,41 @@ Finalmente, mencionó que por el momento no retiraría ninguna funcionalidad, ya
 - **Nombres y apellidos:** Karim Wagner Samanamud Mosquera
 - **Edad:** 24 años
 - **Residencia:** San Martin de Porres, Lima
-- **Duración de la entrevista:** 6:50 min
 
 ![ValidationInterview-PropietarioDeEstacionamiento-2](./assets/chapter-6/ValidationInterview-PropietarioDeEstacionamiento-2.png)
 
-**Resumen de la entrevista:** Karim Samanamud, propietario de un estacionamiento, compartió y brindó su retroalimentación sobre la aplicación Quadrapp. En el busca mejorar la eficiencia de su gestión de su estacionamiento, ya que esto lo hace manualmente. Él considera que la interfaz es bastante intuitiva y fácil de entender. Así mismo, resalta que la seguridad es un punto clave con el que cumple nuestra aplicación, y considera útil el poder manejar la disponibilidad de los espacios de estacionamiento y de su información personal. En cuanto a la eficiencia de la aplicación, comentó que la rapidez de respuesta de la aplicación debe mantenerse en todo momento durante el uso de la aplicación. Finalmente, considera que agregar elementos al registrar un estacionamiento como fotos y videos son muy importantes para asegurar la confianza de los conductores. Por otro lado, comentó que debe existir un medio de soporte al cliente ante posibles errores que pueda presentar la aplicación.
+**Resumen de la Entrevista:** 
 
-**Entrevista 3**:
+Karim Samanamud, propietario de un estacionamiento, compartió y brindó su retroalimentación sobre la aplicación Quadrapp. En el busca mejorar la eficiencia de su gestión de su estacionamiento, ya que esto lo hace manualmente. Él considera que la interfaz es bastante intuitiva y fácil de entender. Así mismo, resalta que la seguridad es un punto clave con el que cumple nuestra aplicación, y considera útil el poder manejar la disponibilidad de los espacios de estacionamiento y de su información personal. En cuanto a la eficiencia de la aplicación, comentó que la rapidez de respuesta de la aplicación debe mantenerse en todo momento durante el uso de la aplicación. Finalmente, considera que agregar elementos al registrar un estacionamiento como fotos y videos son muy importantes para asegurar la confianza de los conductores. Por otro lado, comentó que debe existir un medio de soporte al cliente ante posibles errores que pueda presentar la aplicación.
+
+**Entrevista 3:**
 
 Datos del entrevistado
 
 - Nombres y apellidos: Manuel Alexis Vargas
 - Edad: 21
 - Recidencia: San Juan de Miraflores
-- Enlace de la entrevista:
-- Duración de la entrevista: 13:min
+- Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY
 
 ![Imagen](./assets/chapter-6/PropietariodeParkingAlexis.PNG)
 
-**Resumen de la entrevista:**Durante la entrevista se le presentó a *Manuel Vargas, de **21 años, residente en **San Juan de Miraflores, estudiante universitario y trabajador del **Banco Interbank, la aplicación **Quadrapp* desarrollada por mi grupo y por mí para que pueda administrar su garage como estacionamiento, explicándole el registro, el inicio de sesión y el panel principal donde visualiza sus parkings, reservas, reseñas, notificaciones y métricas. Se le mostró paso a paso cómo dar de alta un nuevo parking (nombre, tipo, plazas, descripción, datos de contacto, web, IoT, ubicación en mapa, servicios y tarifas) y cómo editarlo o eliminarlo. Manuel señaló que lo que más le llamó la atención fue el apartado del mapa y el proceso de creación del estacionamiento con coordenadas, porque facilita que los usuarios encuentren el lugar exacto, y opinó que el diseño y las funcionalidades le parecieron didácticos, sencillos y fáciles de usar. Comentó que le gustaría mostrar información como medidas del espacio, fotos y nivel de seguridad del entorno (si es zona concurrida, enrejada, etc.) para generar mayor confianza en los conductores. Como funcionalidades adicionales, propuso registrar el tipo de vehículo y placa que ingresa (taxi, carga, custer, etc.) y, como recomendación para publicar, administrar y cobrar, sugirió incluir diversos métodos de pago (tarjeta de crédito/débito, código QR tipo Yape/Plin y efectivo). Finalmente, indicó que no quitaría nada de la aplicación, ya que todo le parecía útil y pertinente para la gestión de sus espacios.
-  
+**Resumen de la Entrevista:**
 
+Durante la entrevista se le presentó a Manuel Vargas, de 21 años, residente en San Juan de Miraflores, estudiante universitario y trabajador del Banco Interbank, la aplicación **Quadrapp** desarrollada por mi grupo y por mí para que pueda administrar su garage como estacionamiento, explicándole el registro, el inicio de sesión y el panel principal donde visualiza sus parkings, reservas, reseñas, notificaciones y métricas. Se le mostró paso a paso cómo dar de alta un nuevo parking (nombre, tipo, plazas, descripción, datos de contacto, web, IoT, ubicación en mapa, servicios y tarifas) y cómo editarlo o eliminarlo. Manuel señaló que lo que más le llamó la atención fue el apartado del mapa y el proceso de creación del estacionamiento con coordenadas, porque facilita que los usuarios encuentren el lugar exacto, y opinó que el diseño y las funcionalidades le parecieron didácticos, sencillos y fáciles de usar. Comentó que le gustaría mostrar información como medidas del espacio, fotos y nivel de seguridad del entorno (si es zona concurrida, enrejada, etc.) para generar mayor confianza en los conductores. Como funcionalidades adicionales, propuso registrar el tipo de vehículo y placa que ingresa (taxi, carga, custer, etc.) y, como recomendación para publicar, administrar y cobrar, sugirió incluir diversos métodos de pago (tarjeta de crédito/débito, código QR tipo Yape/Plin y efectivo). Finalmente, indicó que no quitaría nada de la aplicación, ya que todo le parecía útil y pertinente para la gestión de sus espacios.
+  
 ### 6.3.3. Evaluaciones según heurísticas.
 
 Para complementar la validación mediante entrevistas, se realizó una evaluación heurística basada en los 10 principios de usabilidad de Jakob Nielsen. El objetivo fue identificar problemas de interacción y oportunidades de mejora en los flujos principales de Quadrapp: búsqueda de estacionamiento, gestión de espacios, reservas y uso del módulo IoT.
 
 A continuación, se presenta el resultado de dicha evaluación:
+
+Carrera: Ingeniería de Software
+
+Curso: Diseño de Experimentos
+
+Profesor: Ivan Robles Fernández
+
+Nombre del responsable de la auditoría: Vitalia
 
 | #  | Problema identificado                                                                                  | Severidad (0–4) | Heurística violada                 |
 | -- | ------------------------------------------------------------------------------------------------------ | --------------- | ---------------------------------- |
@@ -5173,8 +5236,7 @@ A continuación, se presenta el resultado de dicha evaluación:
 | 9  | El contraste en ciertos botones (azul sobre gris claro) puede afectar la accesibilidad.                | 2               | Estándares y accesibilidad         |
 | 10 | La navegación entre “Espacios”, “Reservas” y “Perfil” no es totalmente intuitiva para usuarios nuevos. | 2               | Control y libertad del usuario     |
 
-
----
+![DashboardFrontendWebv2](./assets/chapter-5-5.2/DashboardFrontendWebv2.jpg)
 
 ## 6.4. Auditoría de Experiencias de Usuario.
 
@@ -5182,8 +5244,7 @@ A continuación, se presenta el resultado de dicha evaluación:
 
 #### 6.4.1.1. Información del grupo auditado.
 
-Nombre del responsable de la auditoría:
-Equipo Vitalia
+Nombre del responsable de la auditoría: Vitalia
 
 Especialización del equipo:
 Diseño de interfaces, experiencia de usuario (UX), accesibilidad digital, pruebas de usabilidad y evaluación heurística de prototipos.
@@ -5213,6 +5274,7 @@ La auditoría realizada por el equipo Vitalia se desarrolló en el siguiente cro
 | **12/06/2025** | Evaluación heurística y análisis de flujos críticos (búsqueda, reserva, publicación)                             | Andrea Milagros Cabanillas Gora        |
 | **13/06/2025** | Elaboración del informe de hallazgos y recomendaciones de mejora                                                 | Anderson Gonza Morales |
 
+![MapaMobilev2](./assets/chapter-5-5.2/MapaMobilev2.jpg)
 
 #### 6.4.1.3. Contenido de auditoría realizada.
 
@@ -5229,9 +5291,7 @@ La auditoría realizada por el equipo Vitalia se desarrolló en el siguiente cro
 | **9**  | Ausencia de secciones de ayuda para entender tarifas, horarios y penalidades.                                    | 1         | Ayuda y documentación                                             |
 | **10** | El panel del propietario presenta demasiados botones juntos, dificultando la navegación.                         | 3         | Estética y diseño minimalista, Consistencia y estándares          |
 
-
 ### 6.4.2. Auditoría recibida.
-
 
 #### 6.4.2.1. Información del grupo auditor.
 
@@ -5281,7 +5341,7 @@ Herramientas utilizadas:
 
 A partir de los hallazgos del equipo auditor, se realizaron y planificaron las siguientes mejoras:
 
-Mejoras implementadas
+Mejoras implementadas:
 
 - Se rediseñaron los botones “Cancelar” y “Eliminar” con colores diferenciados.
 
@@ -5291,7 +5351,7 @@ Mejoras implementadas
 
 - Se mejoró el contraste de textos del mapa para cumplir estándares WCAG.
 
-Mejoras planificadas
+Mejoras planificadas:
 
 - Integrar validaciones obligatorias visibles en formularios de registro y edición.
 
@@ -5304,7 +5364,9 @@ Mejoras planificadas
 - Rediseñar el flujo de pago para hacer más claro el significado de "Cancelar".
 
 # Capítulo VII: Devops Practices
+
 ## 7.1. Continuous Integration
+
 ### 7.1 .1. Tools and Practices
 
 En el desarrollo y la verificación de software, es clave contar con prácticas y utilidades que aseguren la calidad del código y la eficacia del equipo. En nuestro flujo de trabajo usamos un conjunto de herramientas que acelera tanto la construcción de funcionalidades como la validación de su comportamiento esperado. Estas soluciones cubren todo el ciclo de vida: desde la codificación y las pruebas hasta la automatización y el control de calidad.
@@ -5322,6 +5384,7 @@ Aplicamos metodologías como TDD (Desarrollo Guiado por Pruebas) y BDD (Desarrol
 | **Cucumber**       | BDD / Automatización de escenarios | Víncula escenarios Gherkin con pasos ejecutables en Java.                     | Alinear comportamiento esperado con requisitos del negocio y documentación viva.  |
 
 ### 7.1.2. Build & Test Suite Pipeline Components
+
 Para la integración continua se utilizan JUnit 5 y Mockito para automatizar pruebas unitarias y de componentes, validando reglas de negocio de la API y del dominio.
 
 ![unittest](./assets/unit%20integration.png)
@@ -5334,12 +5397,12 @@ Finalmente, para las pruebas funcionales end-to-end de la interfaz web utilizamo
 
 ![side](./assets/side.png)
 
-
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices  
 
-#### **Herramientas**  
+#### **Herramientas**
+
 - **Git:** Utilizado para el control de versiones del proyecto, permitiendo un seguimiento detallado de los cambios realizados en el código y facilitando el trabajo colaborativo entre los desarrolladores.  
 - **GitHub:** Plataforma central para la gestión del repositorio del proyecto, donde se almacenó el código fuente, se administraron las ramas y se realizaron revisiones mediante *pull requests*.  
 - **GitHub Pages:** Implementado para el despliegue de la *landing page* y la versión móvil, ofreciendo una solución rápida y gratuita para la visualización del entorno web del proyecto.  
@@ -5347,6 +5410,7 @@ Finalmente, para las pruebas funcionales end-to-end de la interfaz web utilizamo
 - **AWS:** Plataforma destinada al desarrollo y despliegue del *backend*, aprovechando sus servicios para gestionar bases de datos, autenticación y almacenamiento seguro de información.  
 
 #### **Prácticas**  
+
 - **Estrategia de ramas:**  
   Se aplicó una metodología basada en el uso de ramas *main* y *feature*, donde la rama *main* contenía versiones estables del proyecto y las *feature* se utilizaban para el desarrollo de nuevas funcionalidades o corrección de errores, promoviendo un flujo de trabajo ordenado y colaborativo.  
 
@@ -5361,27 +5425,29 @@ Finalmente, para las pruebas funcionales end-to-end de la interfaz web utilizamo
 El proceso de despliegue del producto **Quadrapp** se ha estructurado mediante un **pipeline automatizado** que garantiza la calidad, eficiencia y control en cada entrega.  
 Este pipeline se aplica tanto al microservicio de **Inventory (Things)** como al de **Observability (Thing States)**, y está compuesto por las siguientes etapas:
 
----
-
 #### **Build Stage**
+
 - Se construyen imágenes **Docker** de cada microservicio utilizando su respectivo *Dockerfile*.  
 - Esta etapa asegura que todas las dependencias estén correctamente instaladas y que el código sea ejecutable en un entorno uniforme y replicable.
 
 ---
 
 #### **Test Stage**
+
 - Se ejecutan pruebas unitarias (y eventualmente de integración) para validar la lógica de negocio.  
 - Se verifica la correcta respuesta de los *endpoints* y la comunicación entre los distintos servicios.
 
 ---
 
 #### **Push Stage**
+
 - Las imágenes **Docker** validadas se publican en un registro de contenedores (como **Docker Hub** o el registro interno de AWS).  
 - Esto facilita el versionamiento, la reutilización y el despliegue en diferentes entornos.
 
 ---
 
 #### **Deploy Stage**
+
 - Se utiliza **AWS** como plataforma de despliegue automático de los microservicios.  
 - Se configuran las variables de entorno, las rutas y la conexión con la base de datos **MySQL**.  
 - Cada servicio es desplegado de forma independiente, manteniendo la conectividad y coherencia entre ellos.
@@ -5389,11 +5455,11 @@ Este pipeline se aplica tanto al microservicio de **Inventory (Things)** como al
 ---
 
 #### **Post-Deployment Stage**
+
 - Se realizan pruebas rápidas (*smoke tests*) para verificar el correcto funcionamiento de los servicios desplegados.  
 - Se monitorea el estado y rendimiento de los microservicios mediante las herramientas de observabilidad que ofrece **AWS**, asegurando que las **APIs** permanezcan accesibles y operativas.
 
 ---
-
 
 ## 7.3. Continuous Deployment
 
@@ -5417,13 +5483,9 @@ Para la **aplicación móvil nativa**, desarrollada con **Flutter**, se utiliza 
 - **AWS CloudWatch** (para monitoreo y logs del backend)
 - **AWS Secrets Manager** (para gestión segura de credenciales y configuraciones)
 
----
-
 ### 7.3.2. Production Deployment Pipeline Components
 
 Este apartado describe los componentes que forman parte del pipeline de despliegue a producción de **Quadrapp** y cómo se integran para automatizar todo el proceso.
-
----
 
 #### **Componentes del Pipeline del Backend (Spring Boot + Docker + AWS EC2)**
 
@@ -5573,8 +5635,6 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
 3. **Monitoreo post-rollback:**  
    Después de realizar el rollback, se monitorean los logs en **AWS CloudWatch** para asegurar que el sistema vuelve a funcionar correctamente.
 
----
-
 #### **Monitoreo y Observabilidad**
 
 - **AWS CloudWatch:**  
@@ -5589,8 +5649,6 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
   - El uso de CPU o memoria supera el 80%
   - Se detectan errores HTTP 500 frecuentes
   - Los tiempos de respuesta superan los umbrales aceptables
-
----
 
 ## **Diagrama del Pipeline de Despliegue**
 
@@ -5645,8 +5703,6 @@ A nivel de ingeniería, la estrategia se apoya en:
 * **Correlación end-to-end** mediante `traceId` que viaja del frontend al backend, permitiendo reconstruir el flujo **buscar → reservar → pagar → check-in**.
 * **SLOs** explícitos (error budget) por dominio crítico: Auth, Búsqueda/Disponibilidad, Reserva, Pagos.
 
----
-
 ### 7.4.1. Tools and Practices
 
 **Plataformas declaradas en Quadrapp**
@@ -5667,8 +5723,6 @@ A nivel de ingeniería, la estrategia se apoya en:
    * **Producto**: conversión “búsqueda→reserva→pago”, abandono por paso, tiempos de respuesta percibidos (App Insights).
 4. **Monitoreo synthetic** (availability tests): pings a `health` y flujos críticos (búsqueda, reservar dummy, simular pago sandbox) desde varias regiones.
 5. **Trazabilidad de despliegues**: cada release/tag queda anotado como **deployment marker** en dashboards para relacionar incidentes con cambios. 
-
----
 
 ### 7.4.2. Monitoring Pipeline Components
 
@@ -5697,17 +5751,15 @@ A nivel de ingeniería, la estrategia se apoya en:
    * **Dashboards operativos** (CloudWatch + App Insights) y **cuadros de mando de producto** (conversiones y embudos).
    * **Markers de despliegue** para ver impacto de releases. 
 
----
-
 ### 7.4.3. Alerting Pipeline Components
 
-**Principios**
+**Principios:**
 
 * Alertas **basadas en SLO** (no solo umbrales).
 * **Agrupación y deduplicación** por `service` y `traceId` para reducir ruido.
 * **Runbooks** vinculados a cada alerta (pasos de diagnóstico y rollback).
 
-**Matriz de alertas mínima viable**
+**Matriz de alertas mínima viable:**
 
 * **Disponibilidad API**: fallo consecutivo de **synthetic checks** o tasa de error 5xx > 1% 5 min.
 * **Latencia p95** por endpoint crítico (`/availability`, `/reservations`, `/payments/charge`) > umbral por 10 min.
@@ -5715,23 +5767,21 @@ A nivel de ingeniería, la estrategia se apoya en:
 * **Infra**: CPU > 80% 10 min, disco > 85%, errores de I/O o saturación de conexiones MySQL.
 * **Frontend**: incremento anómalo de **JS errors** o de **failed dependencies**.
 
-**Canalización técnica**
+**Canalización técnica:**
 
 * **Reglas en App Insights** (consultas KQL) para performance y errores de app/web. 
 * **Alarmas en CloudWatch** para métricas de EC2 y logs patterns (p. ej., “OutOfMemoryError”). 
 * **Enriquecimiento**: cada alerta adjunta **contexto** (últimos despliegues, enlaces a dashboard y a la traza más representativa).
 
-**Ciclo de vida de la alerta**
+**Ciclo de vida de la alerta:**
 
 1. **Disparo** → 2) **Ruteo** (por severidad y servicio) → 3) **Notificación** (on-call) → 4) **Mitigación** (runbook/rollback) → 5) **Postmortem** con acciones preventivas.
-
----
 
 ### 7.4.4. Notification Pipeline Components
 
 **Objetivo:** garantizar que la persona adecuada reciba la alerta correcta a tiempo, con contexto accionable.
 
-**Ruteo y escalamiento**
+**Ruteo y escalamiento:**
 
 * **Severidad**:
 
@@ -5744,25 +5794,23 @@ A nivel de ingeniería, la estrategia se apoya en:
   * `web/*` → equipo frontend.
   * `infra/*` → plataforma/DevOps.
 
-**Canales**
+**Canales:**
 
 * **Email** para trazabilidad formal (todas las severidades).
 * **Canal de chat** del squad (#quadrapp-alerts) para P1/P2 con cards enriquecidas (métrica, umbral, últimas trazas, links a dashboard y a release).
 * **Llamada/push** (si usan una herramienta de on-call) para P1.
 
-**Contenido mínimo de la notificación**
+**Contenido mínimo de la notificación:**
 
 * Título claro: “P1 – Payments p95 > 2.5s (10m) – Región us-east-1”.
 * **Cuándo y desde cuándo**, **SLO afectado**, **impacto estimado de usuarios**.
 * **Enlaces** a: dashboard, consulta KQL/CloudWatch, runbook, release/tag.
 * **Acciones rápidas**: “Reiniciar tarea X”, “Hacer rollback a v1.12.3”, “Escalar a DBA”.
 
-**Runbooks y postmortems**
+**Runbooks y postmortems_**
 
 * Cada alerta P1/P2 enlaza un **runbook** (“cómo mitigar”) y genera automáticamente un **ticket**.
 * Postmortem con **causa raíz**, **acciones correctivas** y **due date** para evitar recurrencia.
-
----
 
 # Capítulo VIII: Experiment-Driven Development
 
@@ -5907,27 +5955,23 @@ Conductores priorizan **precio y conveniencia**; propietarios priorizan **ocupac
 **H5 — Usabilidad multietaria (cualitativo)**
 La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con **SUS ≥75**. Éxito si se alcanzan esos umbrales o se priorizan fixes si no se cumple.
 
----
-
 ## 8.2.2. Domain Business Metrics
 
-**Plataforma**
+**Plataforma:**
 - **Reservas confirmadas (Bookings)**
 - **GMV** (importe bruto de reservas)
 - **Retención D7/D28**
 - **Ocupación por parking (Owners)** = horas ocupadas / horas ofertadas
 
-**IoT / Calidad de datos**
+**IoT / Calidad de datos:**
 - **Precisión de ocupación (Accuracy)** = (TP+TN)/(TP+FP+FN+TN)
 - **Tasa de Falsos Positivos (FP rate)** y **Falsos Negativos (FN rate)**
 - **Latencia de actualización p95 (IoT→App)**
 
-**Experiencia**
+**Experiencia:**
 - **Conversión intención→reserva**
 - **Abandono Ficha→Checkout**
 - **Tiempo de tarea** (búsqueda/reserva, p50/p95)
-
----
 
 ## 8.2.3. Measures
 
@@ -5940,37 +5984,38 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 | ¿Es usable por edades? | **Tasa de éxito**, **tiempo**, **SUS**; registro de incidentes críticos; segmentado por 18–30, 31–50, 51+. |
 | ¿Qué tan preciso/rápido es IoT? | **TP/FP/FN/TN** vs confirmación manual o ticket; **Latencia p95** desde `sensor_status_update` a `availability_rendered`. |
 
----
-
 ## 8.2.4. Conditions
 
-**Experimento E1 — Fake Door (Demand Discovery)**
+**Experimento E1 — Fake Door (Demand Discovery):**
+
 - **Condición A (Control):** Sin CTA “Disponibilidad en tiempo real”.
 - **Condición B (Tratamiento):** CTA visible + landing de interés/lead.
 - **Primaria:** CTR; **Secundaria:** lead rate; **Validez:** muestras por canal.
 
-**Experimento E2 — UI Simple vs Avanzada (A/B)**
+**Experimento E2 — UI Simple vs Avanzada (A/B):**
+
 - **A (Control):** UI Avanzada (mapa + filtros/preview).
 - **B (Tratamiento):** UI Simple (mapa + CTA directa).
 - **Primaria:** Conversión intención→reserva; **Secundaria:** tiempo de tarea.
 - **Asignación:** 50/50 sticky por `user_id`.
 
-**Experimento E3 — Badges de Seguridad (A/B)**
+**Experimento E3 — Badges de Seguridad (A/B):**
+
 - **A:** Ficha sin badges.
 - **B:** Ficha con CCTV/iluminación/reseñas verificadas.
 - **Primaria:** Conversión ficha→checkout; **Secundaria:** confianza (1–5).
 
-**Estudios cualitativos**
+**Estudios cualitativos:**
+
 - **E4 — Entrevistas motivacionales:** 25–35 participantes (conductores/propietarios).
 - **E5 — Usabilidad multietaria moderada:** 8–10 p/segmento (18–30, 31–50, 51+).
-
----
 
 ## 8.2.5. Scale Calculations and Decisions
 
 **Parámetros**: α=0.05, potencia=0.8, bilateral; duración mínima 1 semana (A/B).
 
 **Tamaños referenciales (recalcular con baseline real):**
+
 - **E2 (UI) — Conversión intención→reserva**  
   Baseline 30%, **MDE +5 pp** → ~1,000–1,300 usuarios por brazo.
 - **E3 (Seguridad) — Ficha→Checkout**  
@@ -5982,13 +6027,12 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 - **E5 (Usabilidad)**  
   **8–10** por grupo etario (problemas de alta severidad afloran con ~5–8).
 
-**Criterios de validez/decisión**
+**Criterios de validez/decisión:**
+
 - Sin **peeking**; monitorear **SRM** (±1–2 pp).
 - Reportar **p-valor**, **IC95%**, **uplift (%)** y **pp**.
 - Revisar **invariantes** (mix device/canal).
 - Decisión **ship/keep/iterate** con riesgos y next steps.
-
----
 
 ## 8.2.6. Methods Selection
 
@@ -6001,18 +6045,17 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 | ¿La app funciona para todas las edades? | **Pruebas de usabilidad moderadas** | Detecta fricciones críticas por segmento. |
 | ¿Es fiable IoT? | **Evaluación offline (confusion matrix) + canary** | Cuantifica precisión y latencia antes de scale-up. |
 
----
-
 ## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
-**Goals**
+**Goals:**
+
 - G1: Validar demanda y priorizar roadmap de “tiempo real”.
 - G2: Maximizar conversión (intención→reserva) y reducir tiempo de tarea.
 - G3: Incrementar confianza percibida en la ficha.
 - G4: Entender motivaciones para pricing/comisiones/retención.
 - G5: Asegurar **calidad de datos IoT** (precisión y latencia).
 
-**KPIs**
+**KPIs:**
 
 | ID | KPI | Fórmula | Frecuencia | Meta inicial |
 |---|---|---|---|---|
@@ -6025,46 +6068,50 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 | KPI-7 | **Latencia IoT p95** | p95(sensor→UI) | Diario | ≤ 5 s |
 | KPI-8 | **SUS promedio** | encuesta post-test | Por estudio | ≥ 75 |
 
----
-
 ## 8.2.8. Web and Mobile Tracking Plan
 
-**Identidad y sesión**
+**Identidad y sesión:**
+
 - `user_id`, `device_id`, `session_id`, `app_version`, `platform`, `locale`, `geo_area` (con consentimiento), `ab_variant`, `consent_analytics`, `consent_marketing`.
 
-**Eventos Fake Door**
+**Eventos Fake Door:**
+
 - `fd_cta_view` { surface }  
 - `fd_cta_click` { surface }  
 - `fd_lead_submit` { method: email|whatsapp }
 
-**Eventos UI / Reserva**
+**Eventos UI / Reserva:**
+
 - `view_listing` { listing_id, has_security_badges }  
 - `start_checkout` { listing_id, variant: simple|advanced }  
 - `confirm_reservation` { reservation_id }  
 - `time_to_task_ms` (propiedad calculada)
 
-**Eventos Seguridad**
+**Eventos Seguridad:**
+
 - `view_security_badges` { cctv, lighting, reviews_count }  
 - `trust_survey_submit` { score_1_5 }
 
-**Eventos IoT**
+**Eventos IoT:**
+
 - `sensor_status_update` { spot_id, state: free|occupied, sensor_ts }  
 - `spot_occupancy_inferred` { spot_id, state, model_version }  
 - `spot_occupancy_confirmed` { spot_id, state, source: manual|ticket }  
 - `availability_rendered` { spot_id, ui_ts }  
+
 > Con esto se calcula **precisión** (TP/FP/FN/TN) y **latencia** (ui_ts − sensor_ts).
 
-**Cualitativos (no product analytics)**
+**Cualitativos (no product analytics):**
+
 - Guías, consentimientos y codificación temática en repositorio de research; subida de hallazgos a un dashboard “Research Ops”.
 
-**Dashboards**
+**Dashboards:**
+
 - **Fake Door** (CTR/Leads por canal/dispositivo).  
 - **A/B UI** (conversión, tiempo p95, clicks por reserva).  
 - **Seguridad** (uplift y confianza).  
 - **IoT** (accuracy, FP/FN, latencia p95).  
 - **Usabilidad** (SUS, issues críticos por edad/prioridad).
-
----
 
 ## 8.3. Experimentation.
 
@@ -6287,12 +6334,10 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 |     6 | TBUS06 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
 |     7 | TBUS07 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
 
----
-
-
 # Conclusiones y recomendaciones
 
 TB1:
+
 El desarrollo de Quadrapp permitió identificar y atender necesidades clave tanto de los conductores urbanos como de los propietarios de estacionamientos. A través de la definición de historias de usuario, epics e impact maps, se logró establecer un marco de funcionalidades orientado a mejorar la accesibilidad, la seguridad y la eficiencia en la gestión de estacionamientos. Asimismo, la incorporación de tecnologías como sensores, cámaras de monitoreo y notificaciones en tiempo real aporta soluciones innovadoras que responden a la problemática de congestión y pérdida de tiempo en zonas urbanas.  
 
 En general, el proyecto evidencia que una adecuada planificación, acompañada de metodologías ágiles, facilita la construcción de un producto escalable y adaptable a las necesidades del mercado.  
@@ -6307,6 +6352,7 @@ El análisis realizado demuestra que Quadrapp tiene un alto potencial para trans
 De esta manera, Quadrapp no solo podrá aumentar en un 30% el uso del servicio en seis meses, sino también consolidar una ventaja competitiva sostenible en el mercado de movilidad urbana. 
 
 TP:
+
 El desarrollo e implementación del producto permitió consolidar un proceso integral que abarca desde la configuración de despliegue hasta la automatización de entregas continuas, evidenciando la madurez técnica y organizacional del equipo.
 
 En primer lugar, la **configuración de despliegue de software (5.1.4)** garantizó un entorno controlado, reproducible y seguro, permitiendo minimizar errores durante la puesta en marcha. La implementación de los distintos componentes —**Landing Page, aplicación web, aplicación móvil nativa y API RESTful (5.2.2 a 5.2.5)**— demostró la aplicabilidad de arquitecturas modulares y desacopladas, facilitando la integración entre servicios y la escalabilidad futura del sistema.
@@ -6318,6 +6364,10 @@ Por otro lado, la inclusión de **Testing Suites y validación (6.1)** permitió
 Finalmente, la adopción de **prácticas DevOps (Capítulo VII)** —integración continua, entrega continua y despliegue continuo— consolidó un flujo de trabajo automatizado, coherente con las mejores prácticas de la industria. La integración de pipelines de construcción, pruebas y despliegue favoreció la detección temprana de errores, la reducción de tiempos de entrega y una mayor estabilidad en los entornos de producción.
 
 En conjunto, estas etapas demuestran una evolución significativa en la capacidad técnica del equipo, así como una aplicación coherente de metodologías ágiles y herramientas modernas de desarrollo y despliegue.
+
+TB2:
+
+El desarrollo del TB2 permitió consolidar el avance del proyecto mediante la validación de requerimientos, la planificación estructurada de experimentos y la aplicación de buenas prácticas de desarrollo y pruebas. A través del análisis del estado actual, la definición de hipótesis y la identificación de métricas clave, se establecieron bases sólidas para la mejora continua del producto. Las entrevistas, validaciones y pruebas aplicadas facilitaron la detección temprana de necesidades, riesgos y oportunidades, fortaleciendo la calidad de la solución propuesta. En conjunto, este entregable contribuyó a alinear la visión del equipo, mejorar la comprensión del usuario y asegurar que el proyecto avance con un enfoque más claro, eficiente y orientado a resultados.
 
 ---
 
@@ -6376,6 +6426,8 @@ Enlace del Landing Page: https://experiemtos-si0732-group-3-pcc-team.github.io/L
 
 Enlace del Figma: https://www.figma.com/design/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=0-1&t=f4MEQSrX7t8LfGka-1
 
-Enlace del frontend: https://yellow-cliff-0ed3ede10.1.azurestaticapps.net/
+Enlace del Frontend: https://yellow-cliff-0ed3ede10.1.azurestaticapps.net/
 
-Enlace del mobile: https://experiemtos-si0732-group-3-pcc-team.github.io/Quadrapp-Frontend-Mobile/
+Enlace del Mobile: https://experiemtos-si0732-group-3-pcc-team.github.io/Quadrapp-Frontend-Mobile/
+
+Enlace de las Entrevistas mostradas con Aplicación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAde3bjzRkFUGdLWr4PjL480?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jBiy6w
