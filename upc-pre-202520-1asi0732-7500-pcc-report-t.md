@@ -6328,6 +6328,8 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 
 ### 8.3.2. To-Be Product Backlog.
 
+En relación a los To-Be User Stories redactados, se desarrolla el To-Be Product Backlog, asignando por cada User Story, Story Points que permitan expresar la cantidad de esfuerzo, riesgo y complejidad que toma la User Story específica. La estimación de cada User Story se realizó considerando criterios como: Complejidad técnica, Esfuerzo de desarrollo, Elementos (endpoints o pantallas) que deben implementarse, Riesgo e incertidumbre y Volumen de trabajo.
+
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------:|:--------------|:-------|:------------|-------------:|
 |     1 | TBUS01 | Visualización de historial de reservas y ganancias | Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios. | 5 |
@@ -6337,6 +6339,8 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 |     5 | TBUS05 | Distancia y costo estimado | Como conductor, quiero visualizar en tiempo real la distancia y costo estimado hacia los estacionamientos sugeridos, para tomar decisiones rápidas y eficientes. | 5 |
 |     6 | TBUS06 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
 |     7 | TBUS07 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
+
+La suma total del To-Be Product Baklog es de 39 Story Points, lo cual permite proyectar una velocity estimada del equipo entre 18 y 22 Story Points por sprint. Lo que nos permite identificar, planificar y desarrollar las User Stories descritas anteriormente para cada sprint sin comprometer la calidad ni exceder la capacidad del equipo.
 
 # Conclusiones y recomendaciones
 
