@@ -6342,6 +6342,43 @@ En relación a los To-Be User Stories redactados, se desarrolla el To-Be Product
 
 La suma total del To-Be Product Baklog es de 39 Story Points, lo cual permite proyectar una velocity estimada del equipo entre 18 y 22 Story Points por sprint. Lo que nos permite identificar, planificar y desarrollar las User Stories descritas anteriormente para cada sprint sin comprometer la calidad ni exceder la capacidad del equipo.
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle.
+
+#### 8.3.3.1. To-Be Sprint Backlogs.
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence.
+
+**Capturas de Pantalla:**
+
+*Vista de Escritorio (Desktop View):*
+
+![HomeLandingPage](./assets/chapter-8/HomeLandingPage.png)
+
+![WhyLandingPage](./assets/chapter-8/WhyLandingPage.png)
+
+![HowLandingPage](./assets/chapter-8/HowLandingPage.png)
+
+![AboutTheProductLandingPage](./assets/chapter-8/AboutTheProductLandingPage.png)
+
+![EndLandingPage](./assets/chapter-8/EndLandingPage.png)
+
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence.
+
+**Capturas de Pantalla:**
+
+*Vista de Escritorio (Desktop View):*
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence.
+
+**Capturas de Pantalla:**
+
+*Vista Móvil (Mobile View):*
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence.
+
+#### 8.3.3.6. Team Collaboration Insights.
+
 # Conclusiones y recomendaciones
 
 TB1:
