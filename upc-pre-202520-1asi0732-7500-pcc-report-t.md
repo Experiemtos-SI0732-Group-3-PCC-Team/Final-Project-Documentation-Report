@@ -6122,7 +6122,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 ### 8.3.1. To-Be User Stories.
 
 <table border="1" cellspacing="0" cellpadding="5">
-  <tr>
+<tr>
     <td>Story ID</td>
     <td>User</td>
     <td>Priority</td>
@@ -6130,6 +6130,35 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
   </tr>
   <tr>
     <td>TBUS01</td>
+    <td>Visitante</td>
+    <td>Media</td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td colspan="3">Ver cómo funciona la app</td>
+  </tr>
+  <tr>
+    <td colspan="4">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4">Como visitante de la landing page quiero visualizar un video demostrativo del funcionamiento de la aplicación, para entender rápidamente sus beneficios y motivarme a registrarme. </td>
+  </tr>
+  <tr>
+    <td colspan="4">Acceptance Criteria</td>
+  </tr>
+  <tr>
+    <td colspan="4">Escenario 01: </strong> Given que me encuentro en la landing page, When me desplazo a la sección de "Producto", Then debería ver un video demostrativo sobre cómo utilizar la aplicación. </td>
+  </tr>
+  
+  <tr>
+    <td>Story ID</td>
+    <td>User</td>
+    <td>Priority</td>
+    <td>Epic</td>
+  </tr>
+  <tr>
+    <td>TBUS02</td>
     <td>Propietario de Estacionamiento</td>
     <td>Media</td>
     <td>EP10</td>
@@ -6158,7 +6187,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
     <td>Epic</td>
   </tr>
   <tr>
-    <td>TBUS02</td>
+    <td>TBUS03</td>
     <td>Propietario de Estacionamiento</td>
     <td>Alta</td>
     <td>EP10</td>
@@ -6187,7 +6216,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
     <td>Epic</td>
   </tr>
   <tr>
-    <td>TBUS03</td>
+    <td>TBUS04</td>
     <td>Propietario de Estacionamiento</td>
     <td>Media</td>
     <td>EP08</td>
@@ -6216,7 +6245,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
     <td>Epic</td>
   </tr>
   <tr>
-    <td>TBUS04</td>
+    <td>TBUS05</td>
     <td>Conductor</td>
     <td>Alta</td>
     <td>EP04</td>
@@ -6245,7 +6274,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
     <td>Epic</td>
   </tr>
   <tr>
-    <td>TBUS05</td>
+    <td>TBUS06</td>
     <td>Conductor</td>
     <td>Alta</td>
     <td>EP04</td>
@@ -6274,7 +6303,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
     <td>Epic</td>
   </tr>
   <tr>
-    <td>TBUS06</td>
+    <td>TBUS07</td>
     <td>Usuario</td>
     <td>Alta</td>
     <td>EP02</td>
@@ -6303,7 +6332,7 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
     <td>Epic</td>
   </tr>
   <tr>
-    <td>TBUS07</td>
+    <td>TBUS08</td>
     <td>Devloper</td>
     <td>Media</td>
     <td>EP15</td>
@@ -6332,6 +6361,7 @@ En relación a los To-Be User Stories redactados, se desarrolla el To-Be Product
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------:|:--------------|:-------|:------------|-------------:|
+|     1 | TBUS01 | Ver cómo funciona la app | Como visitante de la landing page quiero visualizar un video demostrativo del funcionamiento de la aplicación, para entender rápidamente sus beneficios y motivarme a registrarme. | 3 |
 |     1 | TBUS01 | Visualización de historial de reservas y ganancias | Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios. | 5 |
 |     2 | TBUS02 | Visualización de estadísticas en estacionamientos | Como propietario de estacionamiento, quiero recibir estadísticas sobre ocupación, ingresos y horarios pico, para optimizar la gestión y precios de mis estacionamientos. | 7 |
 |     3 | TBUS03 | Añadir promociones | Como propietario de estacionamiento, quiero poder configurar promociones (por fechas o eventos especiales), para atraer más conductores en momentos de baja demanda. | 5 |
@@ -6340,13 +6370,36 @@ En relación a los To-Be User Stories redactados, se desarrolla el To-Be Product
 |     6 | TBUS06 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
 |     7 | TBUS07 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
 
-La suma total del To-Be Product Baklog es de 39 Story Points, lo cual permite proyectar una velocity estimada del equipo entre 18 y 22 Story Points por sprint. Lo que nos permite identificar, planificar y desarrollar las User Stories descritas anteriormente para cada sprint sin comprometer la calidad ni exceder la capacidad del equipo.
+La suma total del To-Be Product Baklog es de 42 Story Points, lo cual permite proyectar una velocity estimada del equipo entre 18 y 22 Story Points por sprint. Lo que nos permite identificar, planificar y desarrollar las User Stories descritas anteriormente para cada sprint sin comprometer la calidad ni exceder la capacidad del equipo.
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle.
 
 #### 8.3.3.1. To-Be Sprint Backlogs.
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence.
+
+**Hipótesis y User Story Asociada:**
+
+El presente experimento busca validar la hipótesis de que mostrar un video demostrativo sobre cómo funciona la aplicación incrementa la confianza y motivación de los visitantes para registrarse y usar la plataforma.
+Esta implementación da cumplimiento directo a la siguiente User Story del Product Backlog:
+
+*TBUS01: Ver cómo funciona la app* <br>
+Como visitante de la landing page quiero visualizar un video demostrativo del funcionamiento de la aplicación, para entender rápidamente sus beneficios y motivarme a registrarme.
+
+**Descripción de la Implementación "To-Be":**
+Para ejecutar el experimento y cumplir con la TBUS01, se realizó una modificación en la estructura del archivo index.html mediante la adición de una sección dedicada a mostrar un video explicativo.
+
+**Cambios específicos en el código:**
+
+Nueva Sección de Video Demo (#demo-section):
+- Se añadió una sección con el id="demo-section" ubicada después de la sección de cómo funciona.
+- Incluye un título principal (“Descubre Quadrapp en acción”) y un reproductor de video embebido, que muestra el flujo de la aplicación.
+
+Actualización de la navegación principal:
+- Se agregó un enlace “Producto” en la barra de navegación que apunta a la nueva sección (href="#demo-section").
+
+Estilos CSS dedicados:
+- Se añadieron reglas para centrar el video, darle un marco responsivo y asegurar que se adapte tanto a escritorio como a móvil.
 
 **Capturas de Pantalla:**
 
