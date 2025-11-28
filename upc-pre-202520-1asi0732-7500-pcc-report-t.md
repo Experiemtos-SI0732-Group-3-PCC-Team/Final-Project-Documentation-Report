@@ -6362,13 +6362,13 @@ En relación a los To-Be User Stories redactados, se desarrolla el To-Be Product
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------:|:--------------|:-------|:------------|-------------:|
 |     1 | TBUS01 | Ver cómo funciona la app | Como visitante de la landing page quiero visualizar un video demostrativo del funcionamiento de la aplicación, para entender rápidamente sus beneficios y motivarme a registrarme. | 3 |
-|     1 | TBUS01 | Visualización de historial de reservas y ganancias | Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios. | 5 |
-|     2 | TBUS02 | Visualización de estadísticas en estacionamientos | Como propietario de estacionamiento, quiero recibir estadísticas sobre ocupación, ingresos y horarios pico, para optimizar la gestión y precios de mis estacionamientos. | 7 |
-|     3 | TBUS03 | Añadir promociones | Como propietario de estacionamiento, quiero poder configurar promociones (por fechas o eventos especiales), para atraer más conductores en momentos de baja demanda. | 5 |
-|     4 | TBUS04 | Recomendaciones de estacionamientos | Como conductor, quiero recibir recomendaciones de estacionamientos según mi historial y hora del día, para ahorrar tiempo al buscar espacios disponibles. | 3 |
-|     5 | TBUS05 | Distancia y costo estimado | Como conductor, quiero visualizar en tiempo real la distancia y costo estimado hacia los estacionamientos sugeridos, para tomar decisiones rápidas y eficientes. | 5 |
-|     6 | TBUS06 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
-|     7 | TBUS07 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
+|     1 | TBUS02 | Visualización de historial de reservas y ganancias | Como propietario de estacionamiento, quiero consultar un historial de reservas y ganancias, para monitorear el uso y rentabilidad de mis espacios. | 5 |
+|     2 | TBUS03 | Visualización de estadísticas en estacionamientos | Como propietario de estacionamiento, quiero recibir estadísticas sobre ocupación, ingresos y horarios pico, para optimizar la gestión y precios de mis estacionamientos. | 7 |
+|     3 | TBUS04 | Añadir promociones | Como propietario de estacionamiento, quiero poder configurar promociones (por fechas o eventos especiales), para atraer más conductores en momentos de baja demanda. | 5 |
+|     4 | TBUS05 | Recomendaciones de estacionamientos | Como conductor, quiero recibir recomendaciones de estacionamientos según mi historial y hora del día, para ahorrar tiempo al buscar espacios disponibles. | 3 |
+|     5 | TBUS06 | Distancia y costo estimado | Como conductor, quiero visualizar en tiempo real la distancia y costo estimado hacia los estacionamientos sugeridos, para tomar decisiones rápidas y eficientes. | 5 |
+|     6 | TBUS07 | Autenticación de seguridad | Como usuario, quiero autenticarme de forma segura usando mi cuenta registrada, para acceder a mi cuenta de forma segura. | 7 |
+|     7 | TBUS08 | Monitoreo de métricas de actividad de usuarios y estacionamientos | Como developer, quiero monitorear métricas sobre la actividad de usuarios y estacionamientos, para asegurar el cumplimiento de políticas y detectar comportamientos anómalos. | 7 |
 
 La suma total del To-Be Product Baklog es de 42 Story Points, lo cual permite proyectar una velocity estimada del equipo entre 18 y 22 Story Points por sprint. Lo que nos permite identificar, planificar y desarrollar las User Stories descritas anteriormente para cada sprint sin comprometer la calidad ni exceder la capacidad del equipo.
 
@@ -6418,9 +6418,25 @@ Estilos CSS dedicados:
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence.
 
+**Hipótesis y User Story Asociada:**
+
+El presente experimento busca validar la hipótesis de que simplificar la gestión de estacionamientos y ofrecer información clara a los propietarios.
+Esta implementación da cumplimiento directo a las siguientes User Stories del Product Backlog:
+- TBUS02: Visualización de historial de reservas y ganancias
+- TBUS02: Visualización de estadísticas en estacionamientos
+- TBUS03: Añadir promociones
+
+**Descripción de la Implementación "To-Be":**
+
+**Cambios específicos en el código:**
+- Dashboard de estadísticas: Se agregó un módulo que muestra información sobre los ingresos, espacios ocupados, estado de parkings, etc.
+- Gestión de promociones: Se añadió un formulario para configurar promociones por fechas o eventos especiales.
+
 **Capturas de Pantalla:**
 
 *Vista de Escritorio (Desktop View):*
+
+![DashboardFrontTF](./assets/chapter-8/DashboardFrontTF.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence.
 
