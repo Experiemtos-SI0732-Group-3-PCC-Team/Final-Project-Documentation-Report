@@ -6423,8 +6423,8 @@ Estilos CSS dedicados:
 El presente experimento busca validar la hipótesis de que simplificar la gestión de estacionamientos y ofrecer información clara a los propietarios.
 Esta implementación da cumplimiento directo a las siguientes User Stories del Product Backlog:
 - TBUS02: Visualización de historial de reservas y ganancias
-- TBUS02: Visualización de estadísticas en estacionamientos
-- TBUS03: Añadir promociones
+- TBUS03: Visualización de estadísticas en estacionamientos
+- TBUS04: Añadir promociones
 
 **Descripción de la Implementación "To-Be":**
 
@@ -6439,6 +6439,17 @@ Esta implementación da cumplimiento directo a las siguientes User Stories del P
 ![DashboardFrontTF](./assets/chapter-8/DashboardFrontTF.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence.
+
+**Hipótesis y User Story Asociada:**
+El presente experimento busca validar la hipótesis de que mejorar la eficiencia de procesos de recomendación y búsqueda de estacionamientos disponibles, aumentará la satisfacción de los conductores al usar la plataforma.
+
+Esta implementación da cumplimiento directo a la siguiente User Story del Product Backlog:
+- TBUS05: Recomendaciones de estacionamientos
+- TBUS06: Distancia y costo estimado
+
+**Descripción de la Implementación "To-Be":**
+- Se añadió una sección en la pantalla principal que sugiere estacionamientos cercanos basados en el historial del conductor y la hora del día.
+- Visualización de Distancia y Costo Estimado: Se muestra un costo estimado en base a la tarifa vigente y la distancia recorrida.
 
 **Capturas de Pantalla:**
 
