@@ -61,6 +61,7 @@
 | 1.5 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Creación del diagrama de base de datos, diagrama de clases, diccionario de clases, diagramas de contenedores, diagramas de contexto y diagramas de componentes. |
 | 1.6 | 16/09/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Registro de las evidencias del Sprint. |
 | 1.7 | 14/11/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Verificación y Validación del Producto, junto con la Validación de Conexiones. Además, se realizaron entrevistas sobre la aplicación para obtener información que permita implementar mejoras futuras. |
+| 1.8 | 29/11/2025 | Solis, Nanfuñay, Calisaya, Oneglio, Lagos | Validación del Trabajo Final. |
 
 # Project Report Collaboration Insights
 
@@ -147,6 +148,18 @@ develop: Representada en azul. Es la rama principal para el proceso de desarroll
 feature-product-design: Representada en verde. Incluye el contenido de flujos de usuario y wireframes.
 feature-sprint1: Representada en amarillo. Contiene los artefactos relacionados con el sprint 1 en el informe.
 Los gráficos siguientes muestran los análisis de commits en el repositorio del informe, incluyendo la cantidad de líneas de texto añadidas por cada miembro del equipo.
+
+**Trabajo Final**
+
+Los miembros del equipo son:
+
+- Solis Solis, Leonardo José
+- Nanfuñay Liza, Pedro Jesús
+- Calisaya Sánchez, Juan Jesús
+- Oneglio De Paz, Beth Shantal
+- Lagos Aguilar, Luis Eduardo
+
+![Commit Final](assets/Commit-Final.png)
 
 # Contenido
 
@@ -294,13 +307,9 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
 
 [7.4. Continuous Monitoring](#74-continuous-monitoring)
-<br>
 [7.4.1. Tools and Practices](#741-tools-and-practices) 
-<br>
 [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-<br>
 [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
-<br>
 [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
 
 [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
@@ -331,10 +340,10 @@ Los gráficos siguientes muestran los análisis de commits en el repositorio del
 [Anexos](#anexos)  
 
 # Student Outcome
-| Criterio específico                                                                                                                                              | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Solis Solis, Leonardo José<br><br>**TB1**<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>**TP**<br><br>Demostré responsabilidad ética y profesional al realizar pruebas unitarias e integrales, validando la correcta comunicación entre los servicios y reforzando la estabilidad y confiabilidad del sistema.<br><br>**TB2**<br><br>En esta entrega asumí responsabilidad ética y profesional al desarrollar el Experiment Design del proyecto, definiendo hipótesis claras, métricas de negocio del dominio y métodos de medición que permitan evaluar el comportamiento del sistema de forma objetiva y transparente. Al establecer las condiciones experimentales, los cálculos de escala y las decisiones de validación, aseguré que cada diseño mantuviera la integridad técnica, evitando sesgos y garantizando que la toma de decisiones se base en evidencia confiable. Además, al preparar el Web and Mobile Tracking Plan, consideré principios éticos relacionados con la recolección y protección de datos, velando por que las métricas registradas sean pertinentes, necesarias y respeten la privacidad del usuario final.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>**TB1**<br><br>Durante el desarrollo y documentación de la presente solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software. Reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso<br><br>**TP**<br><br>Demostré responsabilidad ética al ejecutar pruebas BDD y de sistema para validar los criterios de aceptación y el rendimiento general del software, garantizando que la aplicación cumpla con los estándares de calidad establecidos.<br><br>**TB2**<br><br>Durante el desarrollo de está entrega, identifiqué y reflexioné sobre la importancia de desarrollar código seguro para proteger los datos del usuarios, manteniendo al mismo tiempo buenas prácticas de desarrollo. Ello me permitió actuar de manera ética y profesional y comprendí en mayor medida que implica crear soluciones seguras y respetuosas con los usuarios.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>**TP**<br><br>En esta entrega demostré responsabilidad ética y profesional al implementar el proceso de despliegue continuo, garantizando actualizaciones seguras, estables y sin interrupciones del servicio en producción.<br><br>**TB2**<br><br>Se implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>**TP**<br><br>Ejercí responsabilidad profesional al aplicar entrega continua en entornos controlados, asegurando que cada versión validada sea liberada de forma segura y eficiente, manteniendo la integridad del sistema.<br><br>**TB2**<br><br>Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas.<br><br>**TP**<br><br>Asumí responsabilidad profesional al implementar integración continua para automatizar la construcción, pruebas y validación del código, asegurando la confiabilidad de cada actualización y promoviendo la transparencia en el ciclo de desarrollo.<br><br>**TB2**<br><br>Definí la disponibilidad, tiempos, reservas y pagos, configuré alertas claras (P1/P2/P3) para avisar rápido y a la persona correcta, probé la disponibilidad desde varias ubicaciones y dejé pasos de atención y cierre.                        | El trabajo realizado ha sido sobresaliente, cumpliendo con todos los segmentos del proyecto. El documento redactado ofrece un detallado informe sobre los pasos seguidos en la planificación, desarrollo y envío del proyecto a producción, garantizando así un resultado digno y completo. <br> El equipo demostró responsabilidad ética y profesional al mantener un enfoque riguroso en la calidad del software, aplicando buenas prácticas de desarrollo, despliegue y validación. Cada integrante asumió un rol técnico que reforzó la integridad, seguridad y confiabilidad del sistema en todas las etapas del ciclo de vida del proyecto. | 
-| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Solis Solis, Leonardo José <br><br>**TB1**<br><br>En esta entrega, evalué el impacto de la solucion propuesta para el desarrollo de los bounded contexts de IAM y ParkingManagement, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>**TP**<br><br>Emití juicios informados al reconocer que las pruebas unitarias e integrales contribuyen directamente a reducir fallos y costos de mantenimiento, generando beneficios sostenibles para la organización.<br><br>**TB2**<br><br>Durante la elaboración del Experiment Design emití juicios informados al seleccionar las métricas, KPIs y métodos de análisis que permiten evaluar el impacto real de la solución en términos de eficiencia, escalabilidad y valor generado para los usuarios. La definición de hipótesis, métricas de negocio y condiciones experimentales consideró el impacto económico y social, permitiendo anticipar beneficios asociados a la optimización del sistema, la reducción de costos operativos y la mejora de la experiencia del usuario. Asimismo, el Tracking Plan fue diseñado teniendo en cuenta la recolección mínima necesaria de datos, lo que contribuye a un uso responsable de recursos tecnológicos y a la reducción del impacto ambiental asociado al procesamiento y almacenamiento de información.<br><br>Nanfuñay Liza, Pedro Jesús <br><br>**TB1**<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica en cómo su implementación pueda generar beneficios en contextos globales, económicos, ambientales y sociales. Ello me permitió emitir juicios informados, valorando cómo la solución puede contribuir positivamente en diversos entornos.<br><br>**TP**<br><br>Reflexioné sobre el impacto positivo que las pruebas BDD y de sistema generan en la confianza del usuario final, comprendiendo que un software bien validado incrementa el valor social y técnico de la solución.<br><br>**TB2**<br><br>Reflexioné sobre cómo nuestra solución puede mejorar la situación actual del transporte urbano, reduciendo el tráfico y emisiones que afectan al medio ambiente. Así como, generar oportunidades a propietarios de estacionamientos para mejorar su gestión económica y logística. De esta manera, comprendí que cada decisión técnica tiene un impacto social y ambiental, buscando que nuestra solución aporte valor a la comunidad.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, estableciendo el entorno de desarrollo adecuado, la administración del código fuente y la definición de guías de estilo y convenciones para mantener la calidad y legibilidad del proyecto. Asimismo, documenté la configuración para el despliegue del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>**TP**<br><br>Emití juicios informados al reconocer el impacto del despliegue continuo en la eficiencia operativa y la reducción de costos, contribuyendo a un desarrollo sostenible y competitivo del sistema a nivel global.<br><br>**TB2**<br><br>Se implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución propuesta en contextos globales, económicos, ambientales y sociales.<br><br>**TP**<br><br>Analicé cómo la entrega continua promueve la eficiencia y reduce el desperdicio de recursos, comprendiendo el impacto ambiental y económico de la automatización de despliegues.<br><br>**TB2**<br><br>Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se logró emitir juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos. El aprendizaje incluyó valorar el rol del ingeniero en la generación de soluciones sostenibles y responsables, reconociendo la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software.<br><br>**TP**<br><br>Evalué cómo la integración continua mejora la productividad del equipo y la calidad de las entregas, comprendiendo su relevancia económica y social al optimizar recursos y fomentar sostenibilidad.<br><br>**TB2**<br><br>Tomé decisiones prácticas pensando en costo/beneficio y en la experiencia del usuario: puse metas claras de servicio y alertas alineadas a esas metas para evitar ruido, cuidé no guardar datos innecesarios y ajustar cuánto tiempo se guardan, revisé el equilibrio entre las nubes que usamos para que el monitoreo sea útil sin encarecerlo, y busqué que la app esté más disponible y responda más rápido para el usuario final. | En conclusión, el trabajo realizado refleja un compromiso ético y profesional en cada etapa, asegurando calidad, organización y responsabilidad en la documentación, análisis y desarrollo de la solución propuesta, lo que garantiza una implementación sólida y confiable del proyecto. <br> El trabajo en equipo permitió aplicar juicios técnicos fundamentados, evaluando el impacto de las decisiones de ingeniería en contextos globales, económicos y sociales. Las acciones evidencian un enfoque consciente, sostenible y responsable del desarrollo tecnológico.    
+| Criterio específico                          | Acciones Realizadas                                       | Conclusiones                                                                   |
+| ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **4.c.1** Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  | Solis Solis, Leonardo José<br><br>**TB1**<br><br>Para esta entrega demostré responsabilidad ética y profesional al diseñar y desarrollar los bounded contexts de IAM y Parking Management, haciendo uso de SpringBoot y Java para el manejo seguro de datos de usuario y el mantenimiento de la integridad del sistema.<br><br>**TP**<br><br>Demostré responsabilidad ética y profesional al realizar pruebas unitarias e integrales, validando la correcta comunicación entre los servicios y reforzando la estabilidad y confiabilidad del sistema.<br><br>**TB2**<br><br>En esta entrega asumí responsabilidad ética y profesional al desarrollar el Experiment Design del proyecto, definiendo hipótesis claras, métricas de negocio del dominio y métodos de medición que permitan evaluar el comportamiento del sistema de forma objetiva y transparente. Al establecer las condiciones experimentales, los cálculos de escala y las decisiones de validación, aseguré que cada diseño mantuviera la integridad técnica, evitando sesgos y garantizando que la toma de decisiones se base en evidencia confiable. Además, al preparar el Web and Mobile Tracking Plan, consideré principios éticos relacionados con la recolección y protección de datos, velando por que las métricas registradas sean pertinentes, necesarias y respeten la privacidad del usuario final.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>Nanfuñay Liza, Pedro Jesús<br><br>**TB1**<br><br>Durante el desarrollo y documentación de la presente solución tecnológica, demostré la responsabilidad ética y profesional al cumplir con estándares de calidad, transparencia y buenas prácticas en ingeniería de software. Reconociendo la importancia de proteger la información y mantener un comportamiento responsable en cada etapa del proceso<br><br>**TP**<br><br>Demostré responsabilidad ética al ejecutar pruebas BDD y de sistema para validar los criterios de aceptación y el rendimiento general del software, garantizando que la aplicación cumpla con los estándares de calidad establecidos.<br><br>**TB2**<br><br>Durante el desarrollo de está entrega, identifiqué y reflexioné sobre la importancia de desarrollar código seguro para proteger los datos del usuarios, manteniendo al mismo tiempo buenas prácticas de desarrollo. Ello me permitió actuar de manera ética y profesional y comprendí en mayor medida que implica crear soluciones seguras y respetuosas con los usuarios.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V asumí responsabilidad ética y profesional al configurar el entorno de desarrollo, gestionar el código fuente y definir guías de estilo claras, garantizando un trabajo ordenado, transparente y de calidad en la implementación del software.<br><br>**TP**<br><br>En esta entrega demostré responsabilidad ética y profesional al implementar el proceso de despliegue continuo, garantizando actualizaciones seguras, estables y sin interrupciones del servicio en producción.<br><br>**TB2**<br><br>Se implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II asumí responsabilidad ética y profesional al documentar de forma clara y estructurada el perfil de la startup, la problemática, el proceso Lean UX y los artefactos de Requirements Elicitation & Analysis, garantizando calidad y buenas prácticas en el trabajo.<br><br>**TP**<br><br>Ejercí responsabilidad profesional al aplicar entrega continua en entornos controlados, asegurando que cada versión validada sea liberada de forma segura y eficiente, manteniendo la integridad del sistema.<br><br>**TB2**<br><br>Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se evidenció la capacidad de identificar dilemas éticos en la práctica de la ingeniería de software y de aplicar criterios de responsabilidad profesional. El trabajo permitió reflexionar sobre el impacto de las decisiones técnicas en los usuarios y la importancia de cumplir con estándares de calidad y buenas prácticas.<br><br>**TP**<br><br>Asumí responsabilidad profesional al implementar integración continua para automatizar la construcción, pruebas y validación del código, asegurando la confiabilidad de cada actualización y promoviendo la transparencia en el ciclo de desarrollo.<br><br>**TB2**<br><br>Definí la disponibilidad, tiempos, reservas y pagos, configuré alertas claras (P1/P2/P3) para avisar rápido y a la persona correcta, probé la disponibilidad desde varias ubicaciones y dejé pasos de atención y cierre.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.                        | El trabajo realizado ha sido sobresaliente, cumpliendo con todos los segmentos del proyecto. El documento redactado ofrece un detallado informe sobre los pasos seguidos en la planificación, desarrollo y envío del proyecto a producción, garantizando así un resultado digno y completo. <br> El equipo demostró responsabilidad ética y profesional al mantener un enfoque riguroso en la calidad del software, aplicando buenas prácticas de desarrollo, despliegue y validación. Cada integrante asumió un rol técnico que reforzó la integridad, seguridad y confiabilidad del sistema en todas las etapas del ciclo de vida del proyecto. | 
+| **4.c.2** Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Solis Solis, Leonardo José <br><br>**TB1**<br><br>En esta entrega, evalué el impacto de la solucion propuesta para el desarrollo de los bounded contexts de IAM y ParkingManagement, tomando en cuenta la seguridad de datos, eficiencia y accesibilidad.<br><br>**TP**<br><br>Emití juicios informados al reconocer que las pruebas unitarias e integrales contribuyen directamente a reducir fallos y costos de mantenimiento, generando beneficios sostenibles para la organización.<br><br>**TB2**<br><br>Durante la elaboración del Experiment Design emití juicios informados al seleccionar las métricas, KPIs y métodos de análisis que permiten evaluar el impacto real de la solución en términos de eficiencia, escalabilidad y valor generado para los usuarios. La definición de hipótesis, métricas de negocio y condiciones experimentales consideró el impacto económico y social, permitiendo anticipar beneficios asociados a la optimización del sistema, la reducción de costos operativos y la mejora de la experiencia del usuario. Asimismo, el Tracking Plan fue diseñado teniendo en cuenta la recolección mínima necesaria de datos, lo que contribuye a un uso responsable de recursos tecnológicos y a la reducción del impacto ambiental asociado al procesamiento y almacenamiento de información.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>Nanfuñay Liza, Pedro Jesús <br><br>**TB1**<br><br>Al desarrollar y documentar la solución tecnológica, realicé una evaluación crítica en cómo su implementación pueda generar beneficios en contextos globales, económicos, ambientales y sociales. Ello me permitió emitir juicios informados, valorando cómo la solución puede contribuir positivamente en diversos entornos.<br><br>**TP**<br><br>Reflexioné sobre el impacto positivo que las pruebas BDD y de sistema generan en la confianza del usuario final, comprendiendo que un software bien validado incrementa el valor social y técnico de la solución.<br><br>**TB2**<br><br>Reflexioné sobre cómo nuestra solución puede mejorar la situación actual del transporte urbano, reduciendo el tráfico y emisiones que afectan al medio ambiente. Así como, generar oportunidades a propietarios de estacionamientos para mejorar su gestión económica y logística. De esta manera, comprendí que cada decisión técnica tiene un impacto social y ambiental, buscando que nuestra solución aporte valor a la comunidad.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>Calisaya Sánchez, Juan Jesús<br><br>**TB1**<br><br>En el Capítulo V: Product Implementation trabajé en la configuración y gestión del software, estableciendo el entorno de desarrollo adecuado, la administración del código fuente y la definición de guías de estilo y convenciones para mantener la calidad y legibilidad del proyecto. Asimismo, documenté la configuración para el despliegue del software, asegurando un proceso ordenado, eficiente y alineado con las buenas prácticas de implementación.<br><br>**TP**<br><br>Emití juicios informados al reconocer el impacto del despliegue continuo en la eficiencia operativa y la reducción de costos, contribuyendo a un desarrollo sostenible y competitivo del sistema a nivel global.<br><br>**TB2**<br><br>Se implementó la auditoría correspondiente, incluyendo la información del grupo auditado, el cronograma y el contenido evaluado. Asimismo, se implementó la auditoría recibida, considerando la información del grupo auditor, su cronograma y el contenido revisado.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>Oneglio De Paz, Beth Shantal<br><br>**TB1**<br><br>En los Capítulos I y II emití juicios informados al analizar la problemática, los competidores y los segmentos objetivo, considerando el impacto de la solución propuesta en contextos globales, económicos, ambientales y sociales.<br><br>**TP**<br><br>Analicé cómo la entrega continua promueve la eficiencia y reduce el desperdicio de recursos, comprendiendo el impacto ambiental y económico de la automatización de despliegues.<br><br>**TB2**<br><br>Se elaboró el resumen del estado actual (As-Is) y se recopilaron los insumos iniciales, incluyendo supuestos, brechas de conocimiento, ideas y afirmaciones. A partir de ello, se formularon preguntas listas para experimentación y se organizó un backlog de preguntas. Finalmente, se desarrollaron las tarjetas de experimentos para orientar las pruebas y validaciones posteriores.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final.<br><br>**Lagos Aguilar, Luis Eduardo**<br><br>**TB1**<br><br>Se logró emitir juicios críticos sustentados en análisis de casos reales, evaluando cómo las soluciones de software repercuten en diferentes contextos. El aprendizaje incluyó valorar el rol del ingeniero en la generación de soluciones sostenibles y responsables, reconociendo la necesidad de integrar factores sociales, ambientales y económicos en el diseño de software.<br><br>**TP**<br><br>Evalué cómo la integración continua mejora la productividad del equipo y la calidad de las entregas, comprendiendo su relevancia económica y social al optimizar recursos y fomentar sostenibilidad.<br><br>**TB2**<br><br>Tomé decisiones prácticas pensando en costo/beneficio y en la experiencia del usuario: puse metas claras de servicio y alertas alineadas a esas metas para evitar ruido, cuidé no guardar datos innecesarios y ajustar cuánto tiempo se guardan, revisé el equilibrio entre las nubes que usamos para que el monitoreo sea útil sin encarecerlo, y busqué que la app esté más disponible y responda más rápido para el usuario final.<br><br>**Trabajo Final**<br><br>Progreso satisfactorio del proyecto final. | En conclusión, el trabajo realizado refleja un compromiso ético y profesional en cada etapa, asegurando calidad, organización y responsabilidad en la documentación, análisis y desarrollo de la solución propuesta, lo que garantiza una implementación sólida y confiable del proyecto. <br> El trabajo en equipo permitió aplicar juicios técnicos fundamentados, evaluando el impacto de las decisiones de ingeniería en contextos globales, económicos y sociales. Las acciones evidencian un enfoque consciente, sostenible y responsable del desarrollo tecnológico.   |
 
 # Capítulo I: Introducción
 
@@ -715,90 +724,15 @@ La sección detalla cómo investigamos nuestros segmentos objetivo mediante la r
 
 ### 2.2.2. Registro de entrevistas.
 
-**Segmento objetivo \#1: Conductores**
+**Segmentos objetivos: Conductores y Propietarios de Estacionamiento**
 
-**Entrevista 1** 
-**Nombres y Apellidos:** Joan Talizo Balbin 
-**Edad:** 23 años 
-**Distrito:** Surco 
-**Timing:** 
-**Duración:** 6:06 
-
-![Imagen de entrevista](./assets/conductor-balbin.jpg)  <br>
-
-**Resumen**
-
-Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
-
-**Entrevista 2** 
-**Nombres y Apellidos:** Luis Ángel Anampa Lavado 
-**Edad:** 21 años 
-**Distrito:** San Borja 
-**Timing:** 
-**Duración:** 3:00 
-
-![ImagenEntrevista1-Segmento2](assets/conductor-angel.jpg) <br>
-
-**Resumen:**
-
-Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estacionamiento de forma constante. El tiempo que le toma encontrar un espacio varía según la zona y el tráfico, pudiendo tardar entre 10 a 20 minutos o más en horas punta. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que sería una herramienta muy útil. Destaca que conocer la disponibilidad de espacios en tiempo real es clave, ya que le permitiría ahorrar tiempo y evitar vueltas innecesarias. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre y cuando no sea excesiva. Al elegir un estacionamiento, valora principalmente el costo y la proximidad, dejando la seguridad en un segundo plano aunque también le parece importante. Ángel estaría muy interesado en una aplicación que le recomiende rutas hacia estacionamientos disponibles evitando el tráfico. Ha tenido experiencias frustrantes buscando estacionamiento, como perder espacios a último momento o tener que maniobrar en lugares muy estrechos. Finalmente, sugiere como mejoras la posibilidad de recibir notificaciones en tiempo real cuando se libera un espacio cercano, y también alertas de seguridad en caso de movimientos sospechosos cerca del vehículo.
-
-**Entrevista 3** 
-**Nombres y Apellidos:** Manuel Vargas
-**Edad:** 21 años 
-**Distrito:** San Juan de Miraflores
-**Timing:** 
-**Duración:** 25:00
-
-![ImagenEntrevista3-Segmento1](assets/Entrevista-Conductor-Manuel.PNG) <br>
-
-El entrevistado conduce a diario y encuentra mayores dificultades para estacionar en horas punta (3–4 p. m. y 7–8 p. m.). Busca estacionamiento con Google Maps (principal), Waze y Apple Maps, y pregunta a seguridad o locales si no conoce la zona; sin embargo, percibe que estas apps solo muestran el lugar y no brindan precio, horarios, “tiempo de gracia”, estado (abierto/mantenimiento) ni disponibilidad en tiempo real. Su satisfacción actual es 3–4/5. Sus criterios clave son seguridad del vehículo (prioridad), precio y distancia al destino. Considera razonables tarifas cercanas a S/ 7 por hora (centros comerciales) e inaceptables alrededor de S/ 40 (aeropuerto), con sensibilidad al “bolsillo común”. Prefiere pagar en efectivo o Yape en playas/calles y con tarjeta en centros comerciales. Confía sobre todo en reseñas de amigos/usuarios, además de iluminación, cámaras y personal de seguridad, y toma en cuenta el distrito. Antes de decidir necesita ver precio final, medidas/espacios amplios, plazas libres y horarios. Su principal dolor es la gente que se estaciona mal e invade espacios, con incidentes de golpes leves; además, a su padre le rompieron una luz por dejar el auto en la vía. Acepta compartir ubicación solo durante el uso de la app. Probaría una app con disponibilidad en tiempo real, reservas y pago en un toque, y pagaría comisión o suscripción si el precio es razonable, aunque reconoce que no siempre la usaría. Valora funciones como reservar espacio (prioritaria), recordatorios de tiempo, pago in-app, navegación directa al ingreso y notificaciones cercanas. Como implicaciones de producto, propone un MVP con disponibilidad en vivo, reserva, precio/hora claro, medidas/altura, señales de seguridad e identidad (iluminación/cámaras) y reseñas verificadas; un flujo “buscar cerca → ver precio final estimado → reservar → navegar al ingreso → pagar → alertas de tiempo”; pagos en efectivo/Yape y tarjeta, y un modo de privacidad que comparta la ubicación solo durante el uso.
-
-**Segmento objetivo \#2: Propietario de estacionamiento**
-
-**Entrevista 4** 
-**Nombres y Apellidos:** Joaquín Abdias Trujillo Lizarbe 
-**Edad:** 21 años 
-**Distrito:** Comas 
-**Timing:** 
-**Duración:** 3:29 
-
-![ImagenEntrevista1-Segmento2](assets/Entrevista1-Segmento2.png) <br>
-
-**Resumen:**
-
-Joaquín Trujillo es un propietario de estacionamiento, él comenta que muchas veces le resulta complicado gestionar y organizar la disponibilidad y reservación de espacios en su estacionamiento por la cantidad de clientes. Considera que la visualización en tiempo real de la disponibilidad de los espacios, así como la generación de reportes de disponibilidad es importante para acelerar la gestión y mejorar la experiencia de los clientes. Los métodos de pago que utiliza principalmente es el pago efectivo y por transacciones a través de servicios como Yape. A pesar de no haber utilizado una sistema que le permita automatizar estos procesos, estaría dispuesto a implementarlo para disminuir el tiempo requerido en estas tareas. En conclusión, Joaquín considera importante la implementación de funciones que le permitan mejorar la gestión de su estacionamiento y de sus clientes.
-
-**Segmento objetivo \#2: Propietario de estacionamiento**
-
-**Entrevista 5**  
-**Nombres y Apellidos:** Luciano De la Torre Pay Pay  
-**Edad:** 21 años   
-**Distrito:** Ate  
-**Timing:**   
-**Duración:** 5:10  
-
-![ImagenEntrevista1-Segmento2](assets/dueño-luciano.png) <br>
-
-**Resumen:**
-
-Luciano De la Torre, propietario de un estacionamiento, señala que una de sus principales dificultades es la gestión y organización de la disponibilidad y las reservas de espacios debido a la gran cantidad de clientes. Considera fundamental contar con una visualización en tiempo real de los espacios disponibles y con reportes de disponibilidad, ya que estas herramientas agilizarían la administración y mejorarían la experiencia de los usuarios. Actualmente, los métodos de pago que utiliza con mayor frecuencia son el efectivo y las transacciones digitales a través de Yape. Aunque no ha empleado previamente un sistema automatizado, está dispuesto a implementarlo para reducir el tiempo invertido en estas tareas. En conclusión, Luciano destaca la importancia de incorporar funciones que optimicen la gestión de su estacionamiento y brinden un mejor servicio a sus clientes.
-
-**Segmento objetivo \#1: Conductores**
-
-**Entrevista 1** 
-**Nombres y Apellidos:** Joan Talizo Balbin 
-**Edad:** 23 años 
-**Distrito:** Surco 
-**Timing:** 
-**Duración:** 6:06 
-
-![Imagen de entrevista](./assets/conductor-balbin.jpg)  <br>
-
-**Resumen**
-
-Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
-
+| **Entrevista** | **Datos del entrevistado** | **Imagen** | **Resumen** |
+|----------------|----------------------------|-----------|-------------|
+| **Entrevista 1** | **Nombre:** Joan Talizo Balbin  <br> **Edad:** 23 años <br> **Distrito:** Surco <br> **Duración:** 6:06 | <img src="./assets/conductor-balbin.jpg" alt="Joan Talizo Balbin" width="140"/> | Balbín usa su auto diariamente para la universidad y el trabajo, tardando entre 10 y 20 minutos en encontrar estacionamiento. No usa apps, pero considera necesaria una que muestre disponibilidad en tiempo real y recomiende rutas según tráfico. Está dispuesto a pagar por una reserva si asegura cercanía; prioriza costo y proximidad. Ha tenido experiencias frustrantes al perder espacios y valora alertas de disponibilidad y seguridad para su vehículo. |
+| **Entrevista 2** | **Nombre:** Luis Ángel Anampa Lavado <br> **Edad:** 21 años <br> **Distrito:** San Borja <br> **Duración:** 3:00 | <img src="assets/conductor-angel.jpg" alt="Luis Ángel Anampa Lavado" width="140"/> | Ángel conduce diariamente y puede tardar 10–20 min o más en horas punta buscando estacionamiento. No usa aplicaciones, pero considera clave conocer la disponibilidad en tiempo real. Está dispuesto a pagar una tarifa adicional razonable. Prioriza costo y cercanía; seguridad es secundaria. Ha perdido espacios y enfrentado maniobras difíciles. Sugiere recibir alertas cuando se liberen espacios y notificaciones de seguridad. |
+| **Entrevista 3** | **Nombre:** Manuel Vargas <br> **Edad:** 21 años <br> **Distrito:** San Juan de Miraflores <br> **Duración:** 25:00 | <img src="assets/Entrevista-Conductor-Manuel.PNG" alt="Manuel Vargas" width="140"/> | Conduce a diario con dificultades en horas punta. Usa Google Maps, Waze y Apple Maps, pero carecen de precios, horarios y disponibilidad en tiempo real. Prioriza seguridad, precio y cercanía. Considera razonable S/ 7 por hora y rechaza tarifas muy elevadas. Ha sufrido incidentes por mal estacionamiento de otros. Necesita ver precio final, plazas libres y dimensiones. Usaría una app con disponibilidad en vivo, reservas, pago rápido y navegación. Sugiere un MVP con precios claros, medidas, reseñas verificadas y modo de privacidad. |
+| **Entrevista 4** | **Nombre:** Joaquín Abdias Trujillo Lizarbe <br> **Edad:** 21 años <br> **Distrito:** Comas <br> **Duración:** 3:29 | <img src="assets/Entrevista1-Segmento2.png" alt="Joaquín Trujillo" width="140"/> | Propietario de estacionamiento. Le resulta difícil gestionar disponibilidad y reservas por la alta afluencia de clientes. Considera esencial disponer de visualización en tiempo real y reportes de ocupación para agilizar la gestión. Acepta pagos en efectivo y Yape. Aunque no ha usado sistemas automatizados, está dispuesto a implementarlos para reducir carga operativa. Valora herramientas que mejoren la administración y la experiencia del cliente. |
+| **Entrevista 5** | **Nombre:** Luciano De la Torre Pay Pay <br> **Edad:** 21 años <br> **Distrito:** Ate <br> **Duración:** 5:10 | <img src="assets/dueño-luciano.png" alt="Luciano De la Torre" width="140"/> | Propietario de un estacionamiento. Sus principales desafíos son gestionar disponibilidad y reservas por la cantidad de clientes. Considera indispensable la visualización en tiempo real y reportes que faciliten la administración. Sus métodos de pago más frecuentes son efectivo y Yape. No ha usado sistemas automatizados, pero está dispuesto a implementarlos para reducir tiempos de gestión. Reconoce la importancia de funciones que optimicen el servicio al cliente y la operación del estacionamiento. |
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -2310,18 +2244,27 @@ Las *User Stories* del proyecto **Quadrapp** están diseñadas para optimizar la
 
 ## 3.3. Product Backlog.
 
+El criterio de priorización MoSCoW para el MVP se organiza de la siguiente manera:
 
-Criterio de priorización (MoSCoW) para MVP
+**Must (imprescindible para el MVP):**  
+Incluye los elementos esenciales que deben implementarse obligatoriamente para asegurar el funcionamiento mínimo viable del sistema. Este grupo integra:  
+US01, US11, US15, US16, US17, US19, US20, US32, TS12 y TS04.
 
-Must (MVP): US01, US11, US15, US16, US17, US19, US20, US32, TS12, TS04
+**Should (altamente recomendado):**  
+Corresponde a funcionalidades importantes que aportan valor significativo, aunque no son críticas para la primera versión. Su implementación mejora la experiencia del usuario y la eficiencia del sistema. Se consideran aquí:  
+US10, US18, US24, US28, US33, TS14 y TS03.
 
-Should: US10, US18, US24, US28, US33, TS14, TS03
+**Could (opcionales de mejora):**  
+Son características complementarias que pueden añadirse si el tiempo y los recursos lo permiten. Aumentan el valor del producto, pero no afectan el funcionamiento base. En esta categoría se incluyen:  
+US22, US25, US27, US31, TS09 y TS13.
 
-Could: US22, US25, US27, US31, TS09, TS13
+**Won’t (excluidos en TB1):**  
+Elementos que no se desarrollarán en esta etapa, pero podrían considerarse en versiones futuras. Para el TB1 quedan fuera:  
+SP07 y las integraciones IoT reales (que se trabajarán solo como simulaciones en esta entrega).
 
-Won’t (TB1): SP07, integraciones IoT reales (simuladas en TB1)
+---
 
--**MVP — Top 12**:
+**Funcionalidades Prioritarias del MVP (Top 12)**
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------:|:--------------|:-------|:------------|-------------:|
@@ -2338,7 +2281,9 @@ Won’t (TB1): SP07, integraciones IoT reales (simuladas en TB1)
 |    11 | TS04 | Gestión de Ocupación de Espacios en Tiempo Real | Como developer, quiero un endpoint que actualice la disponibilidad de espacios en tiempo real para reflejar cambios según sensores y cámaras. | 5 |
 |    12 | US18 | Búsqueda de Reservas para Conductores | Como conductor, quiero buscar mis reservas para visualizarlas y gestionarlas fácilmente. | 3 |
 
-**Resto del Backlog**:
+---
+
+**Resto del Backlog**
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |------:|:--------------|:-------|:------------|-------------:|
@@ -2388,28 +2333,32 @@ Won’t (TB1): SP07, integraciones IoT reales (simuladas en TB1)
 | 56 | SP06 | Evaluación de seguridad y cifrado de datos sensibles | Como developer, quiero implementar cifrado de datos para cumplir con estándares de seguridad y proteger información de usuarios y pagos. | 8 |
 | 57 | SP07 | Pruebas de rendimiento de la aplicación | Como developer, quiero realizar pruebas de rendimiento en la aplicación para garantizar que soporte un alto volumen de usuarios concurrentes. | 8 |
 
-Enlace: https://trello.com/invite/b/68cb76046c3ed8b6f0fc18c2/ATTI91035f3a2c18dc5abbb742838e8d0be8E6AB6959/quadrapp-product-backlog-tb1-sprint-1
+Enlace del Trello: 
+https://trello.com/invite/b/68cb76046c3ed8b6f0fc18c2/ATTIde1ef2a16af5c9bbbbb8609b4b554fcfB5A94580/quadrapp-product-backlog-tp1-sprint-2
 
 ## 3.4. Impact Mapping.
 
 En esta sección, presentamos el Impact Mapping para el proyecto de Quadrapp, cuyo objetivo es desarrollar e implementar un mapa interactivo que facilite la localización. Este mapa es esencial para optimizar la experiencia de nuestros usuarios y alcanzar los objetivos comerciales.
 
 El Impact Mapping ofrece una visión clara de cómo los objetivos de negocio, las necesidades de los usuarios y las funcionalidades propuestas se interconectan. Asegura que cada elemento del desarrollo esté alineado con nuestras metas, contribuyendo al éxito de Quadrapp y mejorando tanto la experiencia de los universitarios como la de los adquirientes.
-<br>
 
-- **Segmento Conductores Urbanos:**
+---
+
+**Segmento Conductores Urbanos**
 
 El Impact Map de Quadrapp se centra en incrementar el número de conductores urbanos frecuentes que utilizan la plataforma, mejorando la seguridad y accesibilidad en los estacionamientos de zonas urbanas. El objetivo es aumentar el uso del servicio en un 30%, implementando soluciones como rutas de navegación más eficientes, cámaras de monitoreo en tiempo real y notificaciones automáticas sobre disponibilidad de espacios. Las historias de usuario están orientadas a optimizar rutas, garantizar la seguridad y gestionar alertas, brindando así una experiencia más fluida y confiable para los conductores.
 
 ![ImpactMapping-Segmento1](assets/Impact%20Mapping%20-%20%20Segmento1.png)
 
-----
+---
 
-- **Segmento Propietarios de Estacionamiento:**
+**Segmento Propietarios de Estacionamiento**
 
 El Impact Map para propietarios de estacionamientos está diseñado para optimizar la gestión de sus espacios y aumentar la satisfacción de los clientes en un 30% durante los próximos seis meses. Las soluciones incluyen reservas en tiempo real, herramientas visuales de monitoreo mediante cámaras y funcionalidades para recopilar opiniones de los usuarios. Estas funciones permiten a los propietarios maximizar la ocupación de sus espacios, reducir los tiempos de espera y mejorar la calidad del servicio a partir del feedback directo de los clientes.
 
 ![ImpactMapping-Segmento2](assets/Impact%20Mapping%20-%20Segmento2.png)
+
+---
 
 # Capítulo IV: Product Design
 
@@ -2423,7 +2372,9 @@ La aplicación *Quadrapp* se fundamenta en un diseño intuitivo, limpio y accesi
 
 Es un conjunto de normas y directrices que determinan cómo se deben redactar, diseñar o presentar documentos, contenido en línea, software u otros trabajos creativos. A continuación, se detallan los parámetros implementados en la estructura del proyecto.
 
-- **Branding:**
+---
+
+**Branding**
 
 El branding de Quadrapp está diseñado para transmitir confianza, inclusión y eficiencia urbana.
 Su identidad visual se sustenta en una paleta violeta–azul con acentos en naranja, que refuerza la idea de innovación accesible y potencia las llamadas a la acción. Los fondos claros y el alto contraste garantizan una experiencia visual clara y accesible para todos los usuarios.
@@ -2436,12 +2387,16 @@ De esta forma, Quadrapp se presenta como una marca moderna, coherente y orientad
 
 <img src="./assets/Logotipo_Servicio.png" alt="Logotipo Servicio" width="210" height="auto">
 
-- **Tipografía:**
+---
+
+**Tipografía**
 
 La tipografía de Quadrapp se basa en una Sans Serif moderna, elegida por su legibilidad, versatilidad multiplataforma y estética minimalista.
 Se establece una jerarquía tipográfica clara, acompañada de un interlineado amplio y tamaños mínimos accesibles, con el fin de garantizar una experiencia de lectura cómoda y consistente tanto en web como en dispositivos móviles.
 
-#### Tamaños
+---
+
+**Tamaños**
 
 - H1 → 32 px · 600 · violeta `#6B46C1` | uso: títulos principales  
 - H2 → 24 px · 600 · azul `#2563EB` | uso: subtítulos  
@@ -2452,13 +2407,17 @@ Se establece una jerarquía tipográfica clara, acompañada de un interlineado a
 
 - Interlineado → H1 (40 px) · H2 (32 px) · H3 (28 px) · P (24–28 px)  
 
-#### Colores aplicados a tipografía
+---
+
+**Colores aplicados a tipografía**
 
 - Primario (violeta): `#6B46C1`  
 - Secundario (azul): `#2563EB`  
 - Texto principal: `#111827`  
 
-#### Color Palette
+---
+
+**Color Palette**
 
 | Color Name       | Hex Code | Uso Principal |
 |------------------|----------|-------------------------------------------------------------------|
@@ -2480,22 +2439,30 @@ Se establece una jerarquía tipográfica clara, acompañada de un interlineado a
 
 ![Quadrapp Color Palette](./assets/Quadrapp_Paleta_Colores.png)
 
-- **Spacing:**
+---
+
+**Spacing**
 
 Usamos una escala de 8 px para asegurar ritmo visual, coherencia entre web y móvil y mejor legibilidad. La regla es construir márgenes, paddings y gaps con múltiplos de 8.
 
-- **Escala base:**
+---
+
+**Escala Base**
 
 `8 · 16 · 24 · 32 · 40 · 48 · 64 · 96 px`
 
-#### Reglas generales
+---
+
+**Reglas generales**
 
 - Márgenes y paddings estándar: 8 / 16 / 24 / 32 px (según jerarquía del contenido)  
 - Separación entre bloques mayores (secciones, hero, módulos): 64–96 px · móvil 48–64 px  
 - Gaps entre componentes hermanos (tarjetas, gráficos, tablas): 24–32 px · móvil 16–24 px  
 - Espacio negativo: uso intencional para dar respiración visual, evitando valores improvisados  
 
-#### Iconografía
+---
+
+**Iconografía**
 
 - Línea: minimal, reconocible y consistente  
 - Tamaño mínimo: 24 px (web) · 24–32 px (móvil)  
@@ -2503,7 +2470,9 @@ Usamos una escala de 8 px para asegurar ritmo visual, coherencia entre web y mó
 - Peso de trazo: 1.5–2 px  
 - Contraste: nivel AA  
 
-#### Estados (color)
+---
+
+**Estados (color)**
 
 - Default: `#4B5563` (texto secundario)  
 - Hover / Focus: `#2563EB` (azul primario)  
@@ -2511,14 +2480,18 @@ Usamos una escala de 8 px para asegurar ritmo visual, coherencia entre web y mó
 - En botón CTA naranja: `#F59E0B` → icono blanco `#FFFFFF`  
 - Deshabilitado: `#E5E7EB`  
 
-#### Paleta aplicada
+---
+
+**Paleta aplicada**
 
 - Primarios: violeta `#6B46C1`, azul `#2563EB`  
 - Éxito: `#16A34A`  
 - Error: `#DC2626`  
 - Texto: `#111827`  
 
-#### Iconografía de Acciones
+---
+
+**Iconografía de Acciones**
 
 | Acción              | Icono (Material)   | Color por defecto             | Notas de uso |
 |---------------------|--------------------|-------------------------------|--------------|
@@ -2542,17 +2515,23 @@ Usamos una escala de 8 px para asegurar ritmo visual, coherencia entre web y mó
 | **Inicio**          | `home`             | `#2563EB`                     | Página principal. |
 | **Pago**            | `credit_card`      | `#2563EB`                     | Éxito de pago: `check_circle #16A34A`. |
 
-#### Personalidad
+---
+
+**Personalidad**
 
 - Claro, cercano y orientado a la acción  
 - Inclusivo y sereno  
 - Profesional sin ser frío  
 
-#### Objetivo
+---
+
+**Objetivo**
 
 Que el usuario se sienta acompañado y en control (confianza + eficiencia)  
 
-#### Principios
+---
+
+**Principios**
 
 1. Claridad primero: frases cortas, verbos en activo, sin tecnicismos  
 2. Cercanía respetuosa: segunda persona (“tú”) en móvil; tono profesional cercano en panel web (dueños/operadores)  
@@ -2560,7 +2539,9 @@ Que el usuario se sienta acompañado y en control (confianza + eficiencia)
 4. Inclusivo y accesible: lenguaje sencillo, sin jerga local ni género marcado  
 5. Consistencia: *sentence case*, sin mayúsculas sostenidas; evita signos y emojis en exceso  
 
-#### Guía de estilo
+---
+
+**Guía de Estilo**
 
 - CTA concretos y accionables  
   Ej: “Reservar ahora”, “Pagar”, “Ver detalles”  
@@ -2571,11 +2552,13 @@ Que el usuario se sienta acompañado y en control (confianza + eficiencia)
 
 ### 4.1.2. Web Style Guidelines
 
-- **Lineamientos UI – Quadrapp:**
+**Lineamientos UI – Quadrapp**
 
 Base → branding violeta–azul con CTA naranja · escala 8 px · accesibilidad AA  
 
-#### Diseño responsivo
+---
+
+**Diseño responsivo**
 
 - Grid/ritmo: escala 8 px (8/16/24/32/64)  
   · Gutters: 24 px desktop · 16 px tablet · 12–16 px móvil  
@@ -2586,7 +2569,9 @@ Base → branding violeta–azul con CTA naranja · escala 8 px · accesibilidad
   · <960 px: 4–8 col, nav colapsada  
 - Imágenes/tablas responsivas, sin scroll horizontal  
 
-#### Navegación
+---
+
+**Navegación**
 
 - *App shell (panel operador)*  
   · Top App Bar: título de módulo + acciones globales (Soporte, Cuenta)  
@@ -2599,7 +2584,9 @@ Base → branding violeta–azul con CTA naranja · escala 8 px · accesibilidad
   · Navbar minimal: Inicio, Beneficios, Planes, Contacto  
   · CTA visible siempre  
 
-#### Componentes UI (Angular Material)
+---
+
+**Componentes UI (Angular Material)**
 
 - *Botones*  
   · Primario: `mat-flat-button` naranja `#F59E0B` · texto blanco  
@@ -2631,7 +2618,9 @@ Base → branding violeta–azul con CTA naranja · escala 8 px · accesibilidad
   · Leyendas legibles  
   · Líneas/áreas con contraste  
 
-#### Accesibilidad
+--
+
+**Accesibilidad**
 
 - Contraste: AA mínimo para texto/íconos  
 - Teclado: focus visible en todos los controles · tab orden lógico  
@@ -2649,7 +2638,7 @@ Base → branding violeta–azul con CTA naranja · escala 8 px · accesibilidad
 
 Brindar una interacción ágil y sencilla al tacto, manteniendo la coherencia visual de la web pero adaptada a pantallas reducidas y al uso en movilidad.
 
-#### Principios generales
+#### Principios Generales
 
 - **Touch-first y accesible:** objetivos táctiles ≥ 44 px, foco visible, contrastes AA.
 - **Ritmo 8 px:** márgenes/paddings y gaps en múltiplos de 8 (8/16/24/32/64).
@@ -2793,7 +2782,7 @@ Brindar una interacción ágil y sencilla al tacto, manteniendo la coherencia vi
 
 ### 4.2.1. Organization Systems
 
-#### Módulos principales
+#### Módulos Principales
 
 - **Autenticación (Auth):** Sign In / Sign Up / Recuperar clave.
 - **Explorar / Directorio:** búsqueda por lista ↔ mapa; filtros por distancia, precio, rating y horario.
@@ -2804,11 +2793,11 @@ Brindar una interacción ágil y sencilla al tacto, manteniendo la coherencia vi
 - **Dashboard & Analytics (web):** KPIs, tablas y gráficos.
 - **IoT (futuro, solo mención):** monitoreo conceptual de dispositivos/ocupación.
 
-#### Procesos secuenciales (task-flows)
+#### Procesos Secuenciales (task-flows)
 - **Reserva:** Explorar → Detalle parking → Crear reserva → Pago → Comprobante/QR.
 - **Gestión (web):** Registro/edición de parking → Tarifas → Publicación.
 
-#### Estructura de contenidos
+#### Estructura de Contenidos
 - **Web (operador/owner):**  
   App Shell con Top App Bar + Sidenav → Dashboard, Reservas, Reseñas, Perfil, Configuración.
 
@@ -2842,6 +2831,8 @@ Brindar una interacción ágil y sencilla al tacto, manteniendo la coherencia vi
 - **Claridad y consistencia:** usar *sentence case*, sin tecnicismos.
 - **Etiquetas cortas:** máximo 2–3 palabras, accionables cuando aplica.
 
+---
+
 #### Convenciones
 
 - **Navegación global (web):** Dashboard, Reservas, Reseñas, Perfil, Configuración.
@@ -2857,7 +2848,9 @@ Brindar una interacción ágil y sencilla al tacto, manteniendo la coherencia vi
     - Preferir placeholders al final:
         - Ejemplo: *“Reservas de {month}”*.
 
-#### URLs y slugs (web)
+---
+
+#### URLs y slugs (Web)
 
 - **Formato:** kebab-case, semánticos.
 - **Ejemplos:**
@@ -3002,6 +2995,10 @@ Esta interfaz fue diseñada con simplicidad en mente, empleando colores para sub
 
 En el marco del proyecto Quadrapp, se ha diseñado una landing page como puerta de entrada principal para los usuarios. Su propósito es transmitir la propuesta de valor, guiar al visitante hacia la acción de reservar estacionamientos y generar confianza en la aplicación. El diseño se inició con un wireframe en baja fidelidad, que definió estructura y jerarquía visual. Posteriormente, se aplicará la guía de estilos establecida para producir mockups en alta fidelidad. De esta manera, la landing integra coherencia estética y funcionalidad acorde al branding de Quadrapp.
 
+En esta sección, el usuario podrá visualizar de manera correcta el diseño de las pantallas con el fin de validarlas.
+
+Aquí tendrás los videos del producto, sus especificaciones, los pasos correspondientes, los integrantes del equipo y toda la información relevante entre otras pantallas responsivas.
+
 ![Quadrapp LandingPageWireframe](./assets/LandingPage-Experimentos.png)
 
 ![Quadrapp LandingPageWireframe](./assets/LandigPageWireframeResponsive.png)
@@ -3009,6 +3006,8 @@ En el marco del proyecto Quadrapp, se ha diseñado una landing page como puerta 
 ### 4.3.2. Landing Page Mock-up
 
 En el marco del proyecto Quadrapp, se desarrolló el mockup en alta fidelidad de la landing page, aplicando la guía de estilos definida (colores, tipografía, iconografía y componentes). Este mockup refleja de manera visual el branding de la aplicación, transmitiendo modernidad y confianza. A partir del wireframe inicial, se incorporaron mejoras en la jerarquía, usabilidad y atractivo visual. El resultado es una propuesta clara y coherente que guía al usuario hacia la acción de reservar estacionamientos. De esta forma, el mockup consolida la estética final y la experiencia esperada de Quadrapp.
+
+De la misma manera, así se presentará la landing page, con su diseño a color y todas sus funciones previamente aprobadas por el usuario.
 
 ![Quadrapp LandingPageMockup](./assets/LandingPageMockup-Experimentos.png)
 
@@ -3020,23 +3019,29 @@ En el marco del proyecto Quadrapp, se desarrolló el mockup en alta fidelidad de
 
 En el marco del proyecto Quadrapp, se elaboraron los wireframes móviles como base para la aplicación destinada a conductores. Estos prototipos en baja fidelidad permiten definir la estructura de navegación, distribución de pantallas y principales flujos de interacción. Se incluyen vistas clave como login, registro, búsqueda de estacionamientos, reservas y perfil de usuario. Su objetivo es validar la usabilidad y lógica de la aplicación antes de aplicar el diseño visual final. Así, los wireframes móviles sirven como punto de partida para los mockups en alta fidelidad.
 
-Inicio de sesión:
+**Inicio de sesión:**
+Este apartado permitirá al usuario acceder a su cuenta ingresando sus credenciales de forma segura.
+
 
 ![Quadrapp WireframeMovil](./assets/IniciarSesionWFmovil.png)
 
-Crear cuenta:
+**Crear cuenta:**
+En esta sección, el usuario podrá registrarse proporcionando sus datos para generar una nueva cuenta dentro de la plataforma.
 
 ![Quadrapp WireframeMovil](./assets/CreacionCuentaWFMovil.png)
 
-Información de estacionamiento:
+**Información de estacionamiento:**
+Aquí el usuario encontrará los detalles del estacionamiento seleccionado, incluyendo ubicación, disponibilidad, costos y cualquier otra información relevante para tomar una decisión informada.
 
 ![Quadrapp WireframeMovil](./assets/InformacionReservaWfmovil.png)
 
-Filtrar búsqueda: 
+**Filtrar búsqueda:**
+En esta sección el usuario podrá aplicar filtros personalizados —como ubicación, precio, horarios o disponibilidad— para encontrar rápidamente el estacionamiento que mejor se ajuste a sus necesidades.
 
 ![Quadrapp WireframeMovil](./assets/FiltrarEstacionamientoWFMovil.png)
 
-Perfil de usuario:
+**Perfil de usuario:**
+Aquí el usuario podrá visualizar y gestionar su información personal, actualizar sus datos, revisar su historial de actividades y ajustar sus preferencias dentro de la plataforma.
 
 ![Quadrapp WireframeMovil](./assets/PerfilWfMovil.png)
   
@@ -3044,11 +3049,13 @@ Perfil de usuario:
 
 En el desarrollo de Quadrapp, se diseñaron los wireflow diagrams móviles para representar de manera clara los flujos de navegación entre pantallas. Estos diagramas combinan wireframes con conexiones que muestran las acciones del usuario y sus posibles recorridos. Permiten visualizar cómo se realiza una reserva desde la búsqueda hasta el pago, incluyendo casos alternativos. Su propósito es validar la coherencia y simplicidad de la experiencia antes de la implementación. De este modo, los wireflows complementan a los wireframes y enriquecen el proceso de diseño de la app
 
-Primeros pasos del usuario:
+**Primeros pasos del usuario:**
+Esta sección guía al usuario en sus primeras interacciones dentro de la plataforma, mostrándole de manera clara cómo navegar, configurar su cuenta y utilizar las funciones principales para empezar a aprovechar el servicio desde el primer momento.
 
 ![Quadrapp FlujoFrame](./assets/FlujoPrimerosPasosWireFrame.png)
 
-Reserva de estacionamiento:
+**Reserva de estacionamiento:**
+En este apartado el usuario podrá seleccionar un espacio disponible, revisar sus características y confirmar la reserva de forma rápida y sencilla, asegurando su lugar antes de llegar al destino.
 
 ![Quadrapp FlujoFrame](./assets/ReservaDeUnEstacionamientoWFmovil.png)
 
@@ -3058,27 +3065,33 @@ Reserva de estacionamiento:
 
 En el marco del proyecto Quadrapp, se desarrollaron los mockups móviles en alta fidelidad como evolución de los wireframes iniciales. Estos prototipos incorporan el sistema de diseño definido (colores, tipografía, iconografía y componentes) para reflejar la identidad visual de la aplicación. Se presentan las vistas clave de login, registro, búsqueda de estacionamientos, reservas y perfil de usuario con un estilo consistente y atractivo. Su finalidad es mostrar cómo será la experiencia real del usuario en la app. De esta manera, los mockups móviles consolidan la propuesta final antes de la etapa de desarrollo.
 
-Tiempo de espera:
+**Tiempo de espera:**
+Aquí el usuario podrá visualizar el tiempo estimado antes de acceder al estacionamiento o completar su proceso, permitiéndole organizar mejor su llegada y mantenerse informado en tiempo real.
 
 ![Quadrapp MovilMockup](./assets/TiempoEsperaMovilMockup.png)
 
-Inicio de sesión:
+**Inicio de sesión:**
+En este apartado el usuario podrá acceder a su cuenta ingresando sus credenciales de manera rápida y segura para continuar con el uso de la plataforma.
 
 ![Quadrapp MovilMockup](./assets/InicioSesionMockuoMovil.png)
 
-Busqueda en el mapa:
+**Búsqueda en el mapa:**
+Aquí el usuario podrá localizar estacionamientos disponibles directamente desde un mapa interactivo, permitiéndole identificar opciones cercanas y explorar su ubicación en tiempo real.
 
 ![Quadrapp MovilMockup](./assets/BusquedaMapaMockUp.png)
 
-Resultado de Parkings Cercanos:
+**Resultado de parkings cercanos:**
+Aquí el usuario visualizará una lista de estacionamientos próximos según su ubicación actual o la zona seleccionada, mostrando opciones relevantes y fáciles de comparar.
 
 ![Quadrapp MovilMockup](./assets/ResultadosDeParkingsCercanosMockUp.png)
 
-Reserva de Parking:
+**Reserva de parking:**
+Aquí el usuario podrá confirmar la reserva del estacionamiento elegido, revisando detalles como costo, horario disponible y condiciones antes de finalizar el proceso.
 
 ![Quadrapp MovilMockup](./assets/ReservaDeParkingMockup.png)
 
-Perfil de Conductor:
+**Perfil de conductor:**
+Aquí el usuario visualizará y gestionará su información personal, incluyendo datos de contacto, historial de reservas y preferencias, asegurando una experiencia más personalizada y organizada.
 
 ![Quadrapp MovilMockup](./assets/PerfilMockupMovil.png)
 
@@ -3086,45 +3099,36 @@ Perfil de Conductor:
 
 En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mockups móviles, con el fin de representar los principales recorridos del usuario dentro de la aplicación. Estos diagramas muestran de manera visual y detallada cómo el usuario avanza desde el inicio de sesión, la búsqueda de estacionamientos y la reserva, hasta el pago y la visualización del pase QR. Al estar basados en los mockups de alta fidelidad, permiten validar la coherencia del diseño, la facilidad de navegación y la efectividad de los flujos planteados. Así, los User Flow Diagrams sirven como guía clara para el desarrollo e implementación de la experiencia de usuario en la app.
 
-Inicio de Sesion:
-
----
+**Inicio de sesión:**
+Aquí el usuario podrá ingresar a la plataforma utilizando sus credenciales registradas, asegurando un acceso rápido y seguro a todas las funcionalidades de la aplicación.
 
 ![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-InicioDeSesion.png)
 
----
-
-Perfil de Conductor:
-
----
+**Perfil de conductor:**
+Aquí el usuario podrá revisar y actualizar su información personal, gestionar su historial de reservas y mantener sus datos siempre actualizados para una experiencia más fluida dentro de la plataforma.
 
 ![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-Perfil.png)
 
----
-
-Visualizar Reserva:
-
----
+**Visualizar reserva:**
+Aquí el usuario podrá consultar los detalles completos de su reserva, incluyendo fecha, horario, ubicación del estacionamiento y estado actual, permitiéndole llevar un control claro y organizado de sus próximas visitas.
 
 ![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-VisualizaReservas.png)
 
-Realizar Reserva:
-
----
+**Realizar reserva:**
+Aquí el usuario podrá completar el proceso de reserva seleccionando la fecha, el horario y el estacionamiento deseado, confirmando todos los detalles antes de finalizar para asegurar una experiencia rápida y sencilla.
 
 ![Quadrapp MOCKFLOWMOVIL](./assets/MockupFlow-ReservadeParking.png)
-
----
 
 ## 4.5. Mobile Applications Prototyping
 
 ### 4.5.1. Android Mobile Applications Prototyping
 
-A continuación, se visualizara un prototipo creado en figma de la aplicación movil.
+A continuación, se mostrará un prototipo elaborado en Figma que representa el diseño y funcionamiento de la aplicación móvil.
+
 
 ![Quadrapp PROTOMOVIL](./assets/PROTOTIPOMOVILIOS.PNG)
 
-[PROTOTIPO MOVIL FIGMA](https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6453&t=nMGDtb9oLjwWZlC5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6453&show-proto-sidebar=1)
+Enlace del Prototipo: https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6453&t=nMGDtb9oLjwWZlC5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6453&show-proto-sidebar=1
 
 ## 4.6. Web Applications UX/UI Design
 
@@ -3133,26 +3137,32 @@ A continuación, se visualizara un prototipo creado en figma de la aplicación m
 En el marco del proyecto Quadrapp, se elaboraron los wireframes webs como base para la aplicación destinada a propietarios. Estos prototipos en baja fidelidad permiten definir la estructura de navegación, distribución de pantallas y principales flujos de interacción. Se incluyen vistas clave como login, registro, registro de parking, gestion de reservas y perfil de usuario. Su objetivo es validar la usabilidad y lógica de la aplicación antes de aplicar el diseño visual final. Así, los wireframes webs sirven como punto de partida para los mockups en alta fidelidad.
 
 Inicio de sesión:
+Aquí el usuario podrá ingresar a la plataforma utilizando su correo y contraseña, accediendo de manera rápida y segura a todas las funciones del sistema.
 
 ![Quadrapp WireframeWeb](./assets/WireframeInicioSesionWeb.png)
 
 Registro de Usuario:
+En esta sección, el usuario podrá crear una nueva cuenta ingresando sus datos personales básicos. Esto le permitirá acceder a las funcionalidades de la aplicación según su rol.
 
 ![Quadrapp WireframeWeb](./assets/WireframeRegistroUsuarioWeb.png)
 
 Perfil de Propietario:
+Aquí el propietario podrá visualizar y editar su información personal, así como gestionar los estacionamientos que tiene registrados dentro de la plataforma.
 
 ![Quadrapp WireframeWeb](./assets/WireframePerfilOwnerWeb.png)
 
 Registro de Estacionamiento:
+En este apartado, el propietario podrá registrar un nuevo estacionamiento, especificando detalles como ubicación, tarifa, capacidad, horarios y servicios disponibles.
 
 ![Quadrapp WireframeWeb](./assets/WireframeRegistroServicioWeb.png)
 
 Editar el perfil del estacionamiento:
+Esta sección permitirá modificar la información previamente registrada del estacionamiento, manteniendo los datos actualizados para los usuarios conductores.
 
 ![Quadrapp WireframeWeb](./assets/WireframeRegistroServicioWeb.png)
 
 Reseña de los estacionamientos:
+Aquí se mostrarán las opiniones, calificaciones y comentarios que los conductores dejan sobre cada estacionamiento, ayudando a mejorar la confianza y transparencia del servicio.
 
 ![Quadrapp WireframeWeb](./assets/WireframeReviewWeb.png)
 
@@ -3160,59 +3170,67 @@ Reseña de los estacionamientos:
 
 En el desarrollo de Quadrapp, se diseñaron los wireflow diagrams web para representar de manera clara los flujos de navegación entre pantallas. Estos diagramas combinan wireframes con conexiones que muestran las acciones del usuario y sus posibles recorridos. Permiten visualizar cómo se realiza un registro de parking, incluyendo casos alternativos. Su propósito es validar la coherencia y simplicidad de la experiencia antes de la implementación. De este modo, los wireflows complementan a los wireframes y enriquecen el proceso de diseño de la app.
 
-
 Inicio de sesión:
+Esta pantalla permite al usuario acceder a la plataforma ingresando sus credenciales. El diseño facilita un inicio de sesión rápido y seguro.
 
 ![Quadrapp WireframeFlowWeb](./assets/WIREFLOWEBINICIODESESION.png)
 
-Gestion de reservas:
+Gestión de reservas:
+Aquí el usuario puede visualizar, administrar y hacer seguimiento de todas sus reservas activas y pasadas. Se muestran detalles como fechas, horarios y estados.
 
 ![Quadrapp WireframeFlowWeb](./assets/GESTIONDERESERVASWIREFLOWWEB.png)
 
 Perfil de Propietario:
+Esta sección muestra la información del propietario, permitiendo editar sus datos personales y acceder a la administración de sus estacionamientos.
 
 ![Quadrapp WireframeFlowWeb](./assets/PERFILPROPIETARIOWIREFLOWWEB.png)
 
 Registro de Estacionamiento:
+El propietario puede registrar un nuevo estacionamiento, ingresando datos esenciales como ubicación, tarifas, capacidad y servicios disponibles.
 
 ![Quadrapp WireframeFlowWeb](./assets/REGISTRODEPARKINGWIREFLOWWEB.png)
 
 Editar el perfil del estacionamiento y ver detalles:
+Aquí se puede editar la información del estacionamiento ya registrado y visualizar los detalles completos del servicio ofrecido.
 
 ![Quadrapp WireframeFlowWeb](./assets/PERFILDEPARKINSWIREFLOWWEB.png)
 
 Reseña de los estacionamientos:
+Esta pantalla muestra las reseñas y calificaciones realizadas por los usuarios, permitiendo evaluar la calidad del estacionamiento y mejorar la confianza en la plataforma.
 
 ![Quadrapp WireframeFlowWeb](./assets/RESEÑASWIREFLOWWEB.png)
-
-
 
 ### 4.6.3. Web Applications Mock-ups
 
 En el marco del proyecto Quadrapp, se desarrollaron los mockups webs en alta fidelidad como evolución de los wireframes iniciales. Estos prototipos incorporan el sistema de diseño definido (colores, tipografía, iconografía y componentes) para reflejar la identidad visual de la aplicación. Se presentan las vistas clave de login, registro, registro de parkings, gestion de reservas y perfil de usuario con un estilo consistente y atractivo. Su finalidad es mostrar cómo será la experiencia real del usuario en la app. De esta manera, los mockups webs consolidan la propuesta final antes de la etapa de desarrollo.
 
-
 Inicio de sesión:
+Pantalla donde el usuario ingresa con su correo y contraseña para acceder a la plataforma de forma segura.
 
 ![Quadrapp MockUpWeb](./assets/MockupWebInicioSesion.png)
 
 Crear Cuenta:
+Sección para que nuevos usuarios puedan registrarse completando sus datos personales y creando sus credenciales de acceso.
 
 ![Quadrapp MockUpWeb](./assets/MockupWebCrearCuenta.png)
 
 Perfil de Propietario:
+Vista donde el propietario del estacionamiento puede revisar y actualizar su información personal, así como gestionar sus servicios asociados.
 
 ![Quadrapp MockUpWeb](./assets/MockupWebPerfilPropietario.png)
 
 Registro de Parking:
+Pantalla destinada al registro de un nuevo estacionamiento. Aquí se detallan datos como dirección, precios, horarios, aforo y características del lugar.
 
 ![Quadrapp MockUpWeb](./assets/MockupWebRegistroPerfilParking.png)
 
 Editar Perfil de Parking:
+Apartado que permite modificar la información ya registrada del estacionamiento para mantenerla actualizada y precisa para los usuarios conductores.
 
 ![Quadrapp MockUpWeb](./assets/MockupWebEditarPerfilParking.png)
 
 Reseña de Parking:
+Espacio donde los conductores pueden ver las opiniones y calificaciones de otros usuarios sobre el estacionamiento, contribuyendo a la transparencia y confianza del servicio.
 
 ![Quadrapp MockUpWeb](./assets/MockupWebReview.png)
 
@@ -3221,18 +3239,22 @@ Reseña de Parking:
 En el marco del proyecto Quadrapp, se elaboraron los User Flow Diagrams en mockups webs, con el fin de representar los principales recorridos del usuario dentro de la aplicación. Estos diagramas muestran de manera visual y detallada cómo el usuario avanza desde el inicio de sesión, el registro de parkings y la gestion de reserva. Al estar basados en los mockups de alta fidelidad, permiten validar la coherencia del diseño, la facilidad de navegación y la efectividad de los flujos planteados. Así, los User Flow Diagrams sirven como guía clara para el desarrollo e implementación de la experiencia de usuario en la app.
 
 Inicio de sesión:
+Permite al usuario acceder a su cuenta ingresando correo y contraseña. Es la puerta de entrada al sistema y valida la identidad del usuario para garantizar seguridad.
 
 ![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBINICIOSSION.png)
 
-Gestions de reservas:
+Gestión de reservas:
+En esta pantalla el usuario puede visualizar todas sus reservas, revisar detalles como horario, tarifa, estado de la reserva y acceder a opciones como modificar o cancelar. Facilita el seguimiento completo de los estacionamientos reservados.
 
 ![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBGESTIONDERESERVAS.png)
 
 Perfil de Propietario:
+Vista donde el propietario del estacionamiento puede revisar y actualizar su información personal, así como gestionar sus servicios asociados.
 
 ![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBPERFILDEPROPIETARIO.png)
 
 Registro de Parking:
+Pantalla destinada al registro de un nuevo estacionamiento. Aquí se detallan datos como dirección, precios, horarios, aforo y características del lugar.
 
 ![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBREGISTARPARKING.png)
 
@@ -3241,6 +3263,7 @@ Editar Perfil de Parking:
 ![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBEDITARYVISUALIZARDETALESPARKING.png)
 
 Reseña de Parking:
+Espacio donde los conductores pueden ver las opiniones y calificaciones de otros usuarios sobre el estacionamiento, contribuyendo a la transparencia y confianza del servicio.
 
 ![Quadrapp MockUpWeb](./assets/MOCKUPFLOWWEBRESEÑAS.png)
 
@@ -3250,7 +3273,7 @@ A continuación, se visualizara un prototipo creado en figma de la aplicación w
 
 ![Quadrapp PROTOMOVIL](./assets/PROTIPOWEB.PNG)
 
-[PROTOTIPO WEB FIGMA](https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6248&t=M8zpNzlvuVHtU2No-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6248&show-proto-sidebar=1)
+[https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6248&t=M8zpNzlvuVHtU2No-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6248&show-proto-sidebar=1](https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6248&t=M8zpNzlvuVHtU2No-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6248&show-proto-sidebar=1)
 
 ## 4.8. Domain-Driven Software Architecture
 
@@ -3271,30 +3294,37 @@ En el marco del proyecto Quadrapp, se desarrollaron los Container Diagrams, que 
 En el marco del proyecto Quadrapp, se elaboraron los Component Diagrams con el fin de detallar la organización interna de los contenedores principales, en especial el API Backend. Estos diagramas permiten visualizar los componentes clave (controladores, servicios, repositorios y adaptadores) y su relación con los bounded contexts definidos (Bookings, Payments, Directory, Reviews, Auth, Notifications, etc.). El objetivo es mostrar cómo se implementan las reglas de negocio, la interacción entre capas y la comunicación con sistemas externos, aportando un nivel de detalle esencial para el diseño, desarrollo y mantenimiento del sistema.
 
 Component IAM:
+Este componente gestiona todo lo relacionado con identidad y acceso: registro, inicio de sesión, autenticación segura, recuperación de contraseña y manejo de tokens.
 
 ![Quadrapp C4](./assets/Digram-Component-IAM-QUADRAP.png)
 
 Component Reservation:
+Se encarga del ciclo completo de reservas: disponibilidad, creación, modificación, cancelación y consulta del historial. Es esencial para coordinar espacios libres y evitar conflictos.
 
 ![Quadrapp C4](./assets/Diagram-Component-Reservation-Quadrapp.png)
 
 Component Profile:
+Administra la información del usuario o propietario, permitiendo editar datos personales, configuraciones del perfil y preferencias del sistema.
 
 ![Quadrapp C4](./assets/Diagram-Component-Profile-Quadrapp.png)
 
 Component Payment:
+Controla los procesos de pago, métodos disponibles (Yape, tarjeta, efectivo), validación de transacciones e historial. Garantiza operaciones seguras y rápidas.
 
 ![Quadrapp C4](./assets/Diagram-Component-Payment-Quadrapp.png)
 
 Component Review:
+Gestiona reseñas y calificaciones de estacionamientos, permitiendo a los usuarios compartir experiencias y ayudar a otros conductores a tomar decisiones informadas.
 
 ![Quadrapp C4](./assets/Diagram-Component-Review-Quadrapp.png)
 
 Component Parking Management:
+Este módulo permite al propietario administrar sus estacionamientos: registrar espacios, actualizar precios, modificar información, revisar disponibilidad y generar reportes.
 
 ![Quadrapp C4](./assets/Diagram-Component-ParkingManagement-Quadrapp.png)
 
 Component Notification:
+Envía alertas y notificaciones importantes, como confirmaciones de reserva, recordatorios de tiempo, avisos de seguridad o cambios en la disponibilidad.
 
 ![Quadrapp C4](./assets/Diagram-Component-Notification-Quadrapp.png)
 
@@ -3304,31 +3334,38 @@ Component Notification:
 
 En el marco del proyecto Quadrapp, se desarrollaron los Class Diagrams con el propósito de modelar las estructuras de datos y sus relaciones dentro de los distintos módulos de la aplicación. Estos diagramas representan las clases principales, sus atributos, métodos y asociaciones, permitiendo visualizar la lógica interna del sistema y cómo los objetos colaboran entre sí. De esta manera, los Class Diagrams sirven como puente entre el diseño conceptual y la implementación, asegurando consistencia, mantenibilidad y alineación con los bounded contexts previamente definidos.
 
-Iam Class Diagram:
+IAM Class Diagram:
+Representa la estructura de clases relacionadas con la gestión de identidad y acceso. Incluye usuarios, credenciales, roles, autenticación y permisos, asegurando un control sólido de seguridad.
 
 ![Quadrapp Diagram](./assets/IAMClassDiagram.png)
 
 Review Class Diagram:
+Muestra las clases encargadas de manejar reseñas, calificaciones, comentarios y su relación con usuarios y estacionamientos. Permite almacenar, consultar y moderar opiniones.
 
 ![Quadrapp Diagram](./assets/ReviewBoundedContextClassDiagram.png)
 
-Notification  Class Diagram:
+Notification Class Diagram:
+Define las clases que gestionan las notificaciones enviadas a los usuarios. Incluye tipos de mensajes, estados, métodos de envío y programación de alertas.
 
 ![Quadrapp Diagram](./assets/NotificationBoundedContextClassDiagram.png)
 
-Parking Management Class Diagram: 
+Parking Management Class Diagram:
+Describe las clases encargadas de administrar estacionamientos: espacios, tarifas, horarios, capacidades y estados de disponibilidad. Es clave para la gestión del negocio del propietario.
 
 ![Quadrapp Diagram](./assets/ParkingmanagementClassDiagram.png)
 
 Payment Class Diagram:
+Presenta la estructura relacionada con pagos y transacciones, métodos de pago, comprobantes y validaciones necesarias para procesar cobros de manera segura.
 
 ![Quadrapp Diagram](./assets/PaymentClassDiagram.png)
 
 Profile Class Diagram:
+Incluye las clases que gestionan la información del usuario o propietario, permitiendo almacenar y actualizar datos personales, configuraciones y preferencias.
 
 ![Quadrapp Diagram](./assets/SmartParking_Class_Diagram-Profile.png)
 
 Reservation Class Diagram:
+Representa las clases que administran reservas: creación, estado, horario, relación con usuarios y estacionamientos. Modela el ciclo completo de una reserva.
 
 ![Quadrapp Diagram](./assets/class-diagram-reservation.png)
 
@@ -3336,335 +3373,26 @@ Reservation Class Diagram:
 
 En el marco del proyecto Quadrapp, se elaboró el Class Dictionary con el objetivo de documentar de manera precisa las clases definidas en el sistema. Este diccionario describe los nombres de las clases, sus atributos, tipos de datos, métodos principales y relaciones, brindando un nivel de detalle técnico que complementa a los Class Diagrams. Su función es servir como una guía de referencia clara y estructurada para el equipo de desarrollo, garantizando consistencia en la implementación y facilitando el mantenimiento del sistema a lo largo del tiempo.
 
-1) Reservations BC
-   Reservation (Aggregate Root)
-
-Atributos
-
-id: Long
-
-driverId: Long
-
-parkingId: Long
-
-spotId: UUID
-
-timeRange: TimeRange (VO)
-
-price: Money (VO)
-
-vehiclePlate: Plate (VO, opcional)
-
-status: ReservationStatus
-
-createdAt: LocalDateTime, updatedAt: LocalDateTime
-
-Métodos (invariantes embebidos)
-
-reserve(parking: Parking, timeRange: TimeRange): Reservation
-
-confirm(payment: Payment): void (solo si payment.status == COMPLETED)
-
-cancel(policy: ReservationPolicy): void (valida ventana y penalidad)
-
-complete(): void
-
-getDurationHours(): Long
-
-recalculatePrice(pricing: PricingService): void
-
-Relaciones
-
-Reservation 1..1 — 0..1 Payment (por paymentId o ReservationPayment)
-
-ReservationStatus (Enum)
-
-PENDING_PAYMENT, CONFIRMED, CANCELLED, COMPLETED
-
-ReservationPayment (Entidad puente, opcional en este release)
-
-Atributos
-
-id: Long
-
-reservationId: Long
-
-paymentId: Long
-
-amount: Money
-
-createdAt: LocalDateTime
-
-2) Parking Management BC
-   Parking (Aggregate Root)
-
-Atributos
-
-id: Long
-
-ownerId: Long
-
-name: String
-
-description: String
-
-address: String
-
-location: Location (VO)
-
-ratePerHour: Money (VO)
-
-rating: Float
-
-totalRows: Int, totalColumns: Int
-
-imageUrl: String
-
-spots: List<ParkingSpot> (consistencia por agregado)
-
-Métodos
-
-addSpot(label: String, row: Int, column: Int): ParkingSpot
-
-occupySpot(spotId: UUID): void
-
-freeSpot(spotId: UUID): void
-
-availableSpots(): Int
-
-ParkingSpot (Entidad interna del agregado)
-
-Atributos
-
-id: UUID
-
-available: Boolean
-
-rowIndex: Int, columnIndex: Int
-
-label: String
-
-Métodos
-
-setAvailability(state: Boolean): void
-
-3) Payments BC
-   Payment (Entidad / Aggregate Root si se maneja fuera de Reservation)
-
-Atributos
-
-id: Long
-
-amount: Money
-
-paidAt: LocalDateTime?
-
-status: PaymentStatus
-
-externalTransactionId: String? (VO TransactionId si prefieres)
-
-purpose: PaymentPurpose (RESERVATION | SUBSCRIPTION)
-
-referenceId: Long (id de la reserva o suscripción según purpose)
-
-Métodos
-
-markAsProcessing(): void
-
-markAsPaid(paidAt: LocalDateTime): void
-
-markAsFailed(reason: String?): void
-
-cancel(): void
-
-PaymentStatus (Enum)
-
-PENDING, PROCESSING, CANCELLED, COMPLETED, FAILED
-
-PaymentPurpose (Enum)
-
-RESERVATION, SUBSCRIPTION
-
-4) Reviews BC
-   Review (Aggregate Root)
-
-Atributos
-
-id: Long
-
-userId: Long
-
-parkingId: Long
-
-rating: Int (1..5)
-
-comment: String
-
-createdAt: LocalDateTime
-
-Métodos
-
-publish(command: CreateReviewCommand): Review
-
-edit(comment: String, rating: Int): void (opcional, con ventana de edición)
-
-Relaciones
-
-Review *..1 User (referencia por userId)
-
-Review *..1 Parking (referencia por parkingId)
-
-5) IAM BC (Identity & Access Management)
-   User (Aggregate Root)
-
-Atributos
-
-id: Long
-
-email: String
-
-passwordHash: String
-
-roles: Set<Role>
-
-createdAt: Date, updatedAt: Date
-
-Métodos
-
-addRole(role: Role): void
-
-addRoles(roles: Collection<Role>): void
-
-getSerializedRoles(): List<String>
-
-Role (Enum)
-
-ROLE_ADMIN, ROLE_PARKING_OWNER, ROLE_DRIVER
-
-6) Profile BC
-   ParkingOwner (Entidad perfil ligada a User)
-
-Atributos
-
-id: Long
-
-userId: Long
-
-fullName: String
-
-city: String, country: String
-
-phone: Phone (VO)
-
-companyName: String
-
-ruc: Ruc (VO)
-
-createdAt: Date, updatedAt: Date
-
-Métodos
-
-updateContacts(phone: Phone, city: String, country: String): void
-
-Driver (Entidad perfil ligada a User)
-
-Atributos
-
-id: Long
-
-userId: Long
-
-fullName: String
-
-city: String, country: String
-
-phone: Phone (VO)
-
-dni: Dni (VO)
-
-createdAt: Date, updatedAt: Date
-
-Métodos
-
-updateContacts(phone: Phone, city: String, country: String): void
-
-7) Notifications BC
-   Notification (Entidad)
-
-Atributos
-
-id: Long
-
-userId: Long
-
-type: NotificationType (Enum: PUSH, EMAIL, SMS …)
-
-message: String
-
-createdAt: LocalDateTime
-
-sentAt: LocalDateTime?
-
-Métodos
-
-schedule(command: CreateNotificationCommand): Notification
-
-markAsSent(sentAt: LocalDateTime): void
-
-Relaciones
-
-Notification *..1 User (por userId)
-
-8) Value Objects (comunes)
-   Money
-
-Atributos
-
-amount: BigDecimal
-
-currency: String (ISO 4217, ej. “PEN”)
-
-Métodos
-
-plus(other: Money): Money
-
-times(hours: Long): Money
-
-(inmutable; valida moneda consistente)
-
-TimeRange
-
-Atributos
-
-start: LocalDateTime
-
-end: LocalDateTime
-
-Métodos / Reglas
-
-durationHours(): Long
-
-overlaps(other: TimeRange): Boolean
-
-Regla: end > start
-
-Location
-
-Atributos
-
-lat: Double, lng: Double
-
-Regla: -90 ≤ lat ≤ 90, -180 ≤ lng ≤ 180
-
-Phone, Dni, Ruc, Plate (cada uno con validación y normalización)
-
-Phone(number: String)
-
-Dni(value: String)
-
-Ruc(value: String)
-
-Plate(value: String)
+| **Bounded Context** | **Entidad / AR** | **Atributos** | **Métodos / Reglas** | **Relaciones** |
+|---------------------|------------------|----------------|------------------------|-----------------|
+| **Reservations BC** | **Reservation (Aggregate Root)** | id: Long<br>driverId: Long<br>parkingId: Long<br>spotId: UUID<br>timeRange: TimeRange (VO)<br>price: Money (VO)<br>vehiclePlate: Plate (VO?)<br>status: ReservationStatus<br>createdAt, updatedAt | reserve(parking, timeRange)<br>confirm(payment)<br>cancel(policy)<br>complete()<br>getDurationHours()<br>recalculatePrice(pricing) | Reservation 1..1 — 0..1 Payment |
+|                     | **ReservationStatus (Enum)** | PENDING_PAYMENT, CONFIRMED, CANCELLED, COMPLETED | — | — |
+|                     | **ReservationPayment** | id: Long<br>reservationId: Long<br>paymentId: Long<br>amount: Money<br>createdAt | — | Reserva — Pago (puente) |
+| **Parking Management BC** | **Parking (Aggregate Root)** | id: Long<br>ownerId: Long<br>name<br>description<br>address<br>location: Location<br>ratePerHour: Money<br>rating: Float<br>totalRows, totalColumns<br>imageUrl<br>spots: List<ParkingSpot> | addSpot()<br>occupySpot()<br>freeSpot()<br>availableSpots() | — |
+|                     | **ParkingSpot** | id: UUID<br>available: Boolean<br>rowIndex, columnIndex<br>label | setAvailability() | — |
+| **Payments BC** | **Payment (AR)** | id: Long<br>amount: Money<br>paidAt?<br>status: PaymentStatus<br>externalTransactionId?<br>purpose: PaymentPurpose<br>referenceId: Long | markAsProcessing()<br>markAsPaid()<br>markAsFailed()<br>cancel() | Payment ↔ Reservation |
+|                     | **PaymentStatus (Enum)** | PENDING, PROCESSING, CANCELLED, COMPLETED, FAILED | — | — |
+|                     | **PaymentPurpose (Enum)** | RESERVATION, SUBSCRIPTION | — | — |
+| **Reviews BC** | **Review (AR)** | id: Long<br>userId: Long<br>parkingId: Long<br>rating: Int (1–5)<br>comment<br>createdAt | publish()<br>edit() | Review *..1 User<br>Review *..1 Parking |
+| **IAM BC** | **User (AR)** | id<br>email<br>passwordHash<br>roles: Set<Role><br>createdAt, updatedAt | addRole()<br>addRoles()<br>getSerializedRoles() | — |
+|                     | **Role (Enum)** | ROLE_ADMIN, ROLE_PARKING_OWNER, ROLE_DRIVER | — | — |
+| **Profile BC** | **ParkingOwner** | id<br>userId<br>fullName<br>city, country<br>phone: Phone<br>companyName<br>ruc: Ruc<br>createdAt, updatedAt | updateContacts() | ParkingOwner → User |
+|                     | **Driver** | id<br>userId<br>fullName<br>city, country<br>phone: Phone<br>dni: Dni<br>createdAt, updatedAt | updateContacts() | Driver → User |
+| **Notifications BC** | **Notification** | id<br>userId<br>type: NotificationType<br>message<br>createdAt<br>sentAt? | schedule()<br>markAsSent() | Notification → User |
+| **Value Objects** | **Money** | amount: BigDecimal<br>currency: String | plus()<br>times()<br>valida moneda | — |
+|                     | **TimeRange** | start<br>end | durationHours()<br>overlaps()<br>Regla: end > start | — |
+|                     | **Location** | lat, lng | Regla: rangos válidos | — |
+|                     | **Phone, Dni, Ruc, Plate** | value:string | validación y normalización | — |
 
 ## 4.10. Database Design
 
@@ -3672,43 +3400,43 @@ Plate(value: String)
 
 En el marco del proyecto Quadrapp, se desarrolló el Relational Database Diagram (ERD) con el propósito de representar de forma estructurada las entidades del sistema, sus atributos y las relaciones entre ellas. Este diagrama permite visualizar la lógica de la base de datos, facilitando la comprensión de la arquitectura de datos que sustenta funcionalidades críticas como la gestión de usuarios, reservas, pagos, reseñas y administración de estacionamientos.
 
+Reservation (Reserva): Proceso mediante el cual un usuario aparta un espacio de estacionamiento por un periodo determinado, asegurando su disponibilidad durante ese tiempo.
+
+Real-Time Availability (Disponibilidad en Tiempo Real): Información que muestra al instante qué espacios están libres u ocupados dentro del estacionamiento.
+
+Geolocation (Geolocalización): Tecnología que permite identificar la ubicación exacta del usuario para mostrar opciones de estacionamiento cercanas.
+
+Interactive Map (Mapa Interactivo): Mapa digital dentro de la aplicación que presenta en tiempo real la ubicación de estacionamientos disponibles.
+
+Hourly Rates (Tarifas por Hora): Precio aplicado al uso del espacio de estacionamiento, calculado en función del número de horas reservadas.
+
+Online Payment (Pago en Línea): Realización del pago de la reserva mediante métodos electrónicos como tarjetas de crédito, débito o billeteras digitales.
+
+Booking History (Historial de Reservas): Registro completo de las reservas anteriores del usuario, con detalles como horarios, ubicación y costos.
+
+Real-Time Notifications (Notificaciones en Tiempo Real): Alertas enviadas al usuario para comunicar cambios, confirmaciones, recordatorios o avisos sobre su reserva.
+
+User (Usuario): Persona que utiliza la aplicación para buscar, reservar y pagar espacios de estacionamiento.
+
+Parking Lot Owner (Propietario de Estacionamiento): Persona o entidad que administra un estacionamiento y ofrece sus espacios disponibles a través de la aplicación.
+
+System Administrator (Administrador del Sistema): Responsable de supervisar, gestionar y mantener el correcto funcionamiento de la plataforma y sus datos.
+
+Check-in (Registro): Acción de confirmar la llegada al espacio reservado, dando inicio al tiempo de uso del estacionamiento.
+
+Check-out (Salida): Acción de marcar la salida del estacionamiento, finalizando el tiempo de uso y liberando el espacio.
+
+Parking Zone (Zona de Estacionamiento): Área delimitada que agrupa múltiples espacios de estacionamiento gestionados dentro del sistema.
+
+Time of Grace (Tiempo de Gracia): Periodo extra permitido antes o después del inicio de la reserva sin generar cargos adicionales.
+
+Fine for Excess Time (Multa por Exceso de Tiempo): Penalidad aplicada cuando el usuario excede el tiempo originalmente reservado.
+
+Validation System (Sistema de Validación): Mecanismo que verifica que un vehículo tenga una reserva válida para ocupar un espacio de estacionamiento.
+
 ![Quadrapp DiagramBase](./assets/BaseDeDatosDiagramaQuadrapp.PNG)
   
-- **Reservation (Reserva):** La acción de reservar un espacio de estacionamiento específico por un periodo de tiempo determinado, garantizando su disponibilidad.
-
-- **Real-Time Availability (Disponibilidad en Tiempo Real):** Información actualizada instantáneamente sobre los espacios de estacionamiento libres y ocupados.
-
-- **Geolocation (Geolocalización):** El uso de tecnologías de ubicación para determinar la posición geográfica del usuario y mostrar opciones de estacionamiento cercanas.
-
-- **Interactive Map (Mapa Interactivo):** Un mapa digital dentro de la aplicación que muestra la ubicación de estacionamientos disponibles en tiempo real.
-
-- **Hourly Rates (Tarifas por Hora):** El costo asociado con la reserva de un espacio de estacionamiento, calculado por horas de uso.
-
-- **Online Payment (Pago en Línea):** El proceso de completar el pago para una reserva a través de métodos de pago digitales, como tarjetas de crédito, débito o billeteras electrónicas.
-
-- **Booking History (Historial de Reservas):** Un registro de todas las reservas pasadas realizadas por el usuario, que incluye detalles como fecha, hora, ubicación y costo.
-
-- **Real-Time Notifications (Notificaciones en Tiempo Real):** Alertas enviadas al usuario para informarles sobre cambios en la disponibilidad, confirmaciones de reserva, o vencimientos de tiempo de estacionamiento.
-
-- **User (Usuario):** Persona que utiliza la aplicación para buscar, reservar y pagar por espacios de estacionamiento.
-
-- **Parking Lot Owner (Propietario de Estacionamiento):** Persona o entidad que posee y administra un estacionamiento y que ofrece espacios para la reserva a través de la aplicación.
-
-- **System Administrator (Administrador del Sistema):** Persona responsable de la gestión y mantenimiento de la aplicación, incluyendo la supervisión de la disponibilidad de los espacios y la gestión de usuarios y datos.
-
-- **Check-in (Registro):** El proceso de confirmar la llegada al espacio de estacionamiento reservado, activando el tiempo de uso.
-
-- **Check-out (Salida):** El proceso de marcar la salida del espacio de estacionamiento, finalizando el tiempo de uso y actualizando la disponibilidad.
-
-- **Parking Zone (Zona de Estacionamiento):** Una área geográfica específica que contiene múltiples espacios de estacionamiento, gestionada dentro de la aplicación.
-
-- **Time of Grace (Tiempo de Gracia):** Un periodo corto de tiempo permitido antes o después de la reserva, en el cual el usuario puede llegar sin incurrir en cargos adicionales.
-
-- **Fine for Excess Time (Multa por Exceso de Tiempo):** Un cargo adicional aplicado si un usuario excede el tiempo de estacionamiento reservado.
-
-- **Validation System (Sistema de Validación):** Mecanismo para verificar que un vehículo tenga una reserva válida para un espacio de estacionamiento específico.
-  
-  # Capítulo V: Product Implementation
+# Capítulo V: Product Implementation
 
 ### 5.1. Software Configuration Management
 
@@ -3720,117 +3448,43 @@ A continuación, presentamos el ecosistema completo de herramientas y tecnologí
 
 #### Herramientas de Gestión y Diseño
 
-- **Project Management**
-
-  - Trello ([https://trello.com](https://trello.com))
-  - Propósito: Gestión ágil de tareas y sprints
-
-  <BR>
-  
-  <img src="assets/chapter-5-5.1/trello.png" alt="Trello" width="150"/>
-  <br>
-
-  - Structurizr ([https://structurizr.com](https://structurizr.com))
-  - Vertabelo ([https://vertabelo.com](https://vertabelo.com))
-  - Propósito: Modelado de arquitectura y base de datos
-<BR>
-    <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="150"/>
-
-
-#### Herramientas de UX Research
-
-- **Investigación de Usuario**
-  - UXPressia ([https://uxpressia.com](https://uxpressia.com))
-  - Propósito: Creación de Personas, Empathy Maps, Journey Maps e Impact Maps
-  - Alcance: Investigación y análisis de usuarios
-<br>
-
-- **Mapeo de Escenarios**
-  - LucidChart ([https://lucidchart.com](https://lucidchart.com))
-  - Miro ([https://miro.com](https://miro.com))
-  - Propósito: Visualización de escenarios de usuario y flujos de trabajo
-<br>
-
-- **Flujos de Usuario**
-  - LucidChart ([https://lucidchart.com](https://lucidchart.com))
-  - Overflow ([https://overflow.io](https://overflow.io))
-  - Propósito: Documentación de Wireflows y User Flows interactivos
-
-#### Herramientas de Desarrollo
-
-- **Entorno de Desarrollo**
-  - Visual Studio Code ([https://code.visualstudio.com](https://code.visualstudio.com))
-  - Propósito: IDE principal con soporte para múltiples lenguajes y extensiones
-<br>
-
-- **Stack Frontend**
-  - Node.js ([https://nodejs.org](https://nodejs.org))
-  - Propósito: Runtime JavaScript y gestión de dependencias frontend
-<br>
-
-- **Stack Backend**
-  - Java JDK 17+ ([https://adoptium.net](https://adoptium.net))
-  - Spring Boot ([https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot))
-  - Propósito: Desarrollo de APIs RESTful y lógica de negocio
-<br>
-
-- **Virtualización**
-  - Docker Desktop ([https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop))
-  - Propósito: Contenedorización y orquestación de servicios
-
-#### Herramientas de Testing
-
-- **Testing Frontend**
-  - Jest ([https://jestjs.io](https://jestjs.io))
-  - Propósito: Framework de testing unitario para JavaScript/TypeScript
-<br>
-
-- **Testing Backend**
-  - JUnit ([https://junit.org](https://junit.org))
-  - Propósito: Framework de testing unitario para Java
-
-#### Herramientas de Despliegue
-
-- **Plataforma Cloud**
-  - Azure Portal ([https://portal.azure.com](https://portal.azure.com))
-  - Propósito: Infraestructura y servicios cloud
-  <img src="assets/chapter-5-5.1/azure.png" alt="Azure" width="150"/>
-<br>
-
-- **Automatización CI/CD**
-  - GitHub Actions ([https://github.com/features/actions](https://github.com/features/actions))
-  - Propósito: Pipelines de integración y despliegue continuo
-  <img src="assets/chapter-5-5.1/github-actions.png" alt="GitHub Actions" width="150"/>
-
-#### Herramientas de Documentación
-
-- **Documentación de Código**
-  - Markdown ([https://www.markdownguide.org](https://www.markdownguide.org))
-  - Propósito: Documentación técnica y guías de desarrollo
-<br>
-
-- **Documentación Visual**
-  - Draw.io ([https://app.diagrams.net](https://app.diagrams.net))
-  - Propósito: Diagramas técnicos y de arquitectura
-<br>
-
-- **Documentación de API**
-  - Swagger/OpenAPI ([https://swagger.io](https://swagger.io))
-  - Propósito: Documentación interactiva de endpoints REST
+| **Categoría**              | **Herramienta**           | **Enlace**                                  | **Propósito / Alcance** | **Imagen** |
+|-----------------------------|--------------------------|--------------------------------------------|------------------------|------------|
+| **Project Management**      | Trello                   | [https://trello.com](https://trello.com)   | Gestión ágil de tareas y sprints | <img src="assets/chapter-5-5.1/trello.png" alt="Trello" width="100"/> |
+|                             | Structurizr              | [https://structurizr.com](https://structurizr.com) | Modelado de arquitectura de software | <img src="assets/chapter-5-5.1/structurizr.png" alt="Structurizr" width="100"/> |
+|                             | Vertabelo                | [https://vertabelo.com](https://vertabelo.com) | Modelado de base de datos | - |
+| **UX Research**             | UXPressia                | [https://uxpressia.com](https://uxpressia.com) | Creación de Personas, Empathy Maps, Journey Maps, Impact Maps; investigación y análisis de usuarios | - |
+|                             | LucidChart               | [https://lucidchart.com](https://lucidchart.com) | Visualización de escenarios de usuario y flujos de trabajo | - |
+|                             | Miro                     | [https://miro.com](https://miro.com)      | Mapeo de escenarios y colaboración visual | - |
+|                             | Overflow                 | [https://overflow.io](https://overflow.io) | Documentación de Wireflows y User Flows interactivos | - |
+| **Desarrollo**              | Visual Studio Code       | [https://code.visualstudio.com](https://code.visualstudio.com) | IDE principal con soporte para múltiples lenguajes y extensiones | - |
+|                             | Node.js                  | [https://nodejs.org](https://nodejs.org) | Runtime JavaScript y gestión de dependencias frontend | - |
+|                             | Java JDK 17+             | [https://adoptium.net](https://adoptium.net) | Desarrollo backend y lógica de negocio | - |
+|                             | Spring Boot              | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) | Desarrollo de APIs RESTful y lógica de negocio | - |
+|                             | Docker Desktop           | [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop) | Contenedorización y orquestación de servicios | - |
+| **Testing**                 | Jest                     | [https://jestjs.io](https://jestjs.io)    | Testing unitario para JavaScript/TypeScript | - |
+|                             | JUnit                    | [https://junit.org](https://junit.org)    | Testing unitario para Java | - |
+| **Despliegue**              | Azure Portal             | [https://portal.azure.com](https://portal.azure.com) | Infraestructura y servicios cloud | <img src="assets/chapter-5-5.1/azure.png" alt="Azure" width="100"/> |
+|                             | GitHub Actions           | [https://github.com/features/actions](https://github.com/features/actions) | Automatización de CI/CD, integración y despliegue continuo | <img src="assets/chapter-5-5.1/github-actions.png" alt="GitHub Actions" width="100"/> |
+| **Documentación**           | Markdown                 | [https://www.markdownguide.org](https://www.markdownguide.org) | Documentación técnica y guías de desarrollo | - |
+|                             | Draw.io                  | [https://app.diagrams.net](https://app.diagrams.net) | Diagramas técnicos y de arquitectura | - |
+|                             | Swagger/OpenAPI          | [https://swagger.io](https://swagger.io)  | Documentación interactiva de endpoints REST | - |
 
 ## 5.1.2. Source Code Management
 
 La gestión del código fuente se centraliza en GitHub, implementando un sistema robusto de control de versiones bajo la organización [Experiemtos-SI0732-Group-3-PCC-Team](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team). Esta estructura nos permite mantener un flujo de trabajo colaborativo y organizado:
 
-- **Repositorios:**
-  - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)
-  - [Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web)
-  - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)
-  - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)
-  - [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
-  <br>
+**Repositorios**
 
-- **Workflow GitFlow:** 
+Quadrapp-Backend: [https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)
+Quadrapp-Frontend-Web: [https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web)
+Quadrapp-Frontend-Mobile: [https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)
+Landing-Page-Quadrapp: [https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)
+Final-Project-Documentation-Report: [https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
+
+---
+
+**Workflow GitFlow** 
  
   - Ramas principales: `main` (producción), `develop` (integración).
   - Ramas de features: `feature/nombre-descriptivo`.
@@ -3858,102 +3512,89 @@ Para mantener la consistencia y calidad del código a través de todo el proyect
 
 La estrategia de despliegue de Quadrapp ha sido diseñada para garantizar un proceso confiable, seguro y automatizado. Implementamos una arquitectura cloud-native que asegura alta disponibilidad y escalabilidad, mientras mantenemos la integración consistente de internacionalización (i18n) y accesibilidad (a11y) en todos los componentes del sistema:
 
-#### Configuración de Entornos
+### Configuración de Entornos
 
-- **Desarrollo Local**
-  - Tecnología: Docker Desktop
-  - Propósito: Estandarización del entorno de desarrollo
-  - Beneficios: Consistencia entre desarrolladores y aislamiento de dependencias
-<br>
+| Entorno | Plataforma / Tecnología | Propósito | Características / Beneficios |
+|---------|------------------------|-----------|-----------------------------|
+| **Desarrollo Local** | Docker Desktop | Estandarización del entorno de desarrollo | Consistencia entre desarrolladores, aislamiento de dependencias |
+| **Staging** | Azure App Service | Validación de cambios previa a producción | Entorno espejo de producción para pruebas de integración |
+| **Producción** | Azure App Service y GitHub Pages | Despliegue de aplicaciones en producción | Alta disponibilidad, escalado automático |
 
-- **Staging**
-  - Plataforma: Azure App Service
-  - Propósito: Validación de cambios previa a producción
-  - Características: Entorno espejo de producción para pruebas de integración
-<br>
+---
 
-- **Producción**
-  - Plataforma: Azure App Service y GitHub Pages
-  - Propósito: Despliegue de aplicaciones en producción
-  - Configuración: Alta disponibilidad y escalado automático
+### Pipeline de CI/CD
 
-#### Pipeline de CI/CD
+- **Automatización:** GitHub Actions  
+- **Propósito:** Integración y despliegue continuo  
+- **Repositorios con Pipelines:**
+  - Quadrapp-Backend - Servicios REST  
+    [Repositorio](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend)  
+  - Quadrapp-Frontend-Web - Aplicación Web  
+    [Repositorio](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web)  
+  - Quadrapp-Frontend-Mobile - App Móvil  
+    [Repositorio](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile)  
+  - Landing-Page-Quadrapp - Página Principal  
+    [Repositorio](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp)  
 
-- **Automatización**
-  - Tecnología: GitHub Actions
-  - Propósito: Integración y despliegue continuo
-  - Repositorios con Pipelines:
-    - [Quadrapp-Backend](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Backend) - Servicios REST
-    - [Quadrapp-Frontend-Web](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Web) - Aplicación Web
-    - [Quadrapp-Frontend-Mobile](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Quadrapp-Frontend-Mobile) - App Móvil
-    - [Landing-Page-Quadrapp](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Landing-Page-Quadrapp) - Página Principal
+---
 
-#### Componentes del Sistema
+### Componentes del Sistema
 
-- **Landing Page**
-  - Plataforma: GitHub Pages
-  - Características:
-    - Soporte multilenguaje (en_US, es_419)
-    - Accesibilidad WCAG 2.1
-    - Optimización SEO
-    
-      ![git](./assets/chapter-5-5.1/github-actions.png)
+#### Landing Page
+- Plataforma: GitHub Pages  
+- Características:
+  - Soporte multilenguaje (en_US, es_419)  
+  - Accesibilidad WCAG 2.1  
+  - Optimización SEO  
 
+#### Frontend (Web y Mobile)
+- Tecnologías: Node.js / Vue CLI  
+- Plataforma: Azure Static Web Apps  
+- Características:
+  - Interfaces adaptativas  
+  - Internacionalización i18n  
+  - Accesibilidad ARIA  
 
+#### Backend (Web Services)
+- Framework: Spring Boot  
+- Plataforma: Azure App Service  
+- Características:
+  - APIs RESTful documentadas  
+  - Mensajes multilenguaje  
+  - Logging estructurado  
 
-- **Frontend (Web y Mobile)**
-  - Tecnologías: Node.js/Vue CLI
-  - Plataforma: Azure Static Web Apps
-  - Características:
-    - Interfaces adaptativas
-    - Internacionalización i18n
-    - Accesibilidad ARIA
+---
 
+### Seguridad y Monitoreo
 
-![git](./assets/chapter-5-5.1/azure.png)
+| Área | Herramienta / Sistema | Alcance / Función | Notas |
+|------|---------------------|-----------------|------|
+| **Gestión de Secretos** | Azure Key Vault | Credenciales y configuraciones sensibles | Integración con variables de entorno en CI/CD |
+| **Control de Versiones** | Git tags y releases | Rollback automático | Estrategia: Blue-Green Deployment |
+| **Observabilidad** | Azure Application Insights | Monitoreo en tiempo real, alertas, análisis de rendimiento | Supervisión continua de la aplicación |
 
-- **Backend (Web Services)**
-  - Framework: Spring Boot
-  - Plataforma: Azure App Service
-  - Características:
-    - APIs RESTful documentadas
-    - Mensajes multilenguaje
-    - Logging estructurado
-      ![git](./assets/chapter-5-5.1/azure.png)
+---
 
-#### Seguridad y Monitoreo
-
-- **Gestión de Secretos**
-  - Herramienta: Azure Key Vault
-  - Alcance: Credenciales y configuraciones sensibles
-  - Integración: Variables de entorno en CI/CD
-<br>
-
-- **Control de Versiones**
-  - Sistema: Git tags y releases
-  - Capacidad: Rollback automático
-  - Estrategia: Blue-Green Deployment
-<br>
-
-- **Observabilidad**
-  - Plataforma: Azure Application Insights
-  - Características:
-    - Monitoreo en tiempo real
-    - Alertas automatizadas
-    - Análisis de rendimiento
-
-#### Gestión de Documentación
+### Gestión de Documentación
 
 - **Documentación Técnica**
-  - Formato: Markdown
-  - Ubicación: Repositorio centralizado
-  - Repositorio: [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)
+  - Formato: Markdown  
+  - Ubicación: Repositorio centralizado  
+  - Repositorio: [Final-Project-Documentation-Report](https://github.com/Experiemtos-SI0732-Group-3-PCC-Team/Final-Project-Documentation-Report)  
   - Alcance:
-    - Guías de desarrollo
-    - Procedimientos de despliegue
-    - Documentación de arquitectura
+    - Guías de desarrollo  
+    - Procedimientos de despliegue  
+    - Documentación de arquitectura  
 
-Esta arquitectura de despliegue integral garantiza que Quadrapp opere de manera segura, inclusiva y eficiente. La automatización de procesos, junto con las prácticas de DevOps implementadas, asegura despliegues consistentes y repetibles, minimizando errores humanos y facilitando la recuperación ante posibles incidencias. La monitorización continua y la gestión centralizada de la configuración nos permiten mantener un alto nivel de calidad y disponibilidad en todos los componentes del sistema.
+---
+
+Esta arquitectura de despliegue integral asegura que **Quadrapp** opere de manera **segura, inclusiva y eficiente**, con:  
+
+- Despliegues consistentes y repetibles  
+- Minimización de errores humanos  
+- Recuperación rápida ante incidencias  
+- Monitorización continua  
+- Gestión centralizada de configuración
 
 ## 5.2. Product Implementation & Deployment.
 
@@ -4005,7 +3646,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Diseñar e implementar listado dinámico de ciudades disponibles</td>
     <td>3</td>
     <td>Beth Oneglio</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4016,7 +3657,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Diseñar carrusel/banners para mostrar promociones activas</td>
     <td>4</td>
     <td>Beth Oneglio</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4060,7 +3701,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Mostrar miembros del equipo con fotos y roles</td>
     <td>3</td>
     <td>Beth Oneglio</td>
-    <td>In-Progress</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4082,7 +3723,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Crear formulario que envíe mensaje al backend</td>
     <td>5</td>
     <td>Beth Oneglio</td>
-    <td>In-Process</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4170,7 +3811,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Desarrollar backend y frontend para registro de propietarios</td>
     <td>5</td>
     <td>Leonardo Solis</td>
-    <td>In-Progress</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4181,7 +3822,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Desarrollar lógica de búsqueda de reservas en backend y UI en frontend</td>
     <td>6</td>
     <td>Leonardo Solis</td>
-    <td>To-do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4192,7 +3833,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Integrar flujo de pago y registrar transacciones</td>
     <td>8</td>
     <td>Leonardo Solis</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4203,7 +3844,7 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
     <td>Generar confirmación automática al registrar una reserva</td>
     <td>4</td>
     <td>Leonardo Solis</td>
-    <td>In-Progress</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4219,125 +3860,158 @@ autenticación de usuarios, la gestión de estacionamientos, las reservas y el p
 
 </table>
 
-### 5.2.2. Implemented Landing Page Evidence.
+### 5.2.2. Implemented Landing Page Evidence
 
 ![Landing Page](assets/landingPageEvidence.png)
 
-### 5.2.3. Implemented Frotend-Web Application Evidence.
+**Descripción:**  
+Captura de la página principal de **Quadrapp**, mostrando el diseño visual aprobado por el usuario, incluyendo la navegación, botones de registro/inicio de sesión, y la disposición de secciones clave. La landing page está optimizada para multilenguaje y cumple con criterios de accesibilidad y experiencia de usuario.
+
+---
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ![FrontEnd](assets/frontevidence.jpg)
 
-### 5.2.4. Implemented Native-Mobile Application Evidence.
+**Descripción:**  
+Evidencia de la aplicación web de **Quadrapp**, mostrando la interfaz de usuario para conductores y propietarios de estacionamientos. Incluye funcionalidades como búsqueda de parkings, visualización de disponibilidad en tiempo real, reservas, perfil de usuario y gestión de estacionamientos.
+
+---
+
+### 5.2.4. Implemented Native-Mobile Application Evidence
 
 ![MobileApp](assets/movilevidence.PNG)
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
+**Descripción:**  
+Captura de la aplicación móvil nativa de **Quadrapp**, demostrando la experiencia de usuario en dispositivos móviles. Se evidencia la navegación fluida, interacción con mapas, reservas de estacionamiento y acceso a perfiles, adaptado para iOS y Android.
+
+---
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 ![BackEnd](assets/backendEvidence.png)
 
-### 5.2.6. RESTful API Documentation.
+**Descripción:**  
+Evidencia del backend de **Quadrapp**, incluyendo la implementación de APIs RESTful para la gestión de reservas, usuarios, pagos, notificaciones y estacionamientos. La arquitectura garantiza la escalabilidad y comunicación eficiente entre la aplicación web, móvil y el servidor.
+
+### 5.2.6. RESTful API Documentation
+
+### 1. Registro de Usuario (Signup)
 
 ![1](assets/auth.png)
-**Objetivo funcional.** Registrar un usuario de la plataforma con uno o más **roles** iniciales (Driver / Parking Owner / Admin).
 
-**Historias relacionadas.**
-- **US16** Registro de conductores.
-- **US17** Registro de propietarios.
-- **US11** CTA “Registrarse” (landing).
+**Objetivo funcional:**  
+Registrar un usuario de la plataforma con uno o más **roles** iniciales (Driver / Parking Owner / Admin).
 
-**Flujo validado en la pantalla.**
-1) Request JSON con `username`, `password`, `roles[]`.
-2) Validación de unicidad de `username` y formato de contraseña.
-3) Creación de `User` + asignación de `Role` (IAM BC).
-4) Response 200 con `id`, `username`, `roles[]` (sin exponer password).
+**Historias relacionadas:**  
+- **US16** Registro de conductores  
+- **US17** Registro de propietarios  
+- **US11** CTA “Registrarse” (landing)  
 
+**Flujo validado:**  
+1. Request JSON con `username`, `password`, `roles[]`  
+2. Validación de unicidad de `username` y formato de contraseña  
+3. Creación de `User` + asignación de `Role` (IAM BC)  
+4. Response 200 con `id`, `username`, `roles[]` (sin exponer password)  
+
+---
+
+### 2. Inicio de Sesión (Signin)
 
 ![2](assets/signin.png)
 
-**Objetivo funcional.** Autenticar credenciales y emitir JWT para sesiones seguras.
+**Objetivo funcional:**  
+Autenticar credenciales y emitir JWT para sesiones seguras.
 
-**Historias relacionadas.**
+**Historias relacionadas:**  
+- **US15** Iniciar sesión (conductores)  
+- **US17** Iniciar sesión (propietarios)  
 
--**US15** Iniciar sesión (conductores).
+**Flujo validado:**  
+1. Request con `username` y `password`  
+2. Verificación de credenciales y estado del usuario  
+3. Emisión de token (JWT) + metadatos mínimos  
 
--**US17** Iniciar sesión (propietarios).
+---
 
-**Flujo validado.**
-
-1) Request con username y password.
-
-2) Verificación credenciales y estado del usuario.
-
-3) Emisión de token (JWT) + metadatos mínimos.
+### 3. Listar Usuarios
 
 ![3](assets/users.png)
 
-**Objetivo funcional.** Listar usuarios disponibles para administración y trazabilidad.
+**Objetivo funcional:**  
+Listar usuarios disponibles para administración y trazabilidad.
 
-**Historias/NFR.**
--**US-admin** Backoffice mínimo.
+**Historias/NFR:**  
+- **US-admin** Backoffice mínimo  
+- **NFR04** Comunicación segura (acceso con JWT + rol Admin)  
 
--**NFR04** Comunicación segura (acceso con JWT + rol Admin).
+**Flujo:**  
+1. Request sin parámetros (paginación opcional)  
+2. Response 200 con arreglo de usuarios (`id`, `username`, `roles`)  
 
-**Flujo.**
+---
 
-1) Request sin parámetros (paginación opcional).
-
-2) Response 200 con arreglo de usuarios (id, username, roles).
+### 4. Consultar Usuario por ID
 
 ![4](assets/userID.png)
 
-**Objetivo funcional.** Consultar un usuario por su id para resolver incidencias o enlazar con perfiles.
+**Objetivo funcional:**  
+Consultar un usuario por su `id` para resolver incidencias o enlazar con perfiles.
 
-**Flujo/Reglas.**
+**Flujo/Reglas:**  
+1. Path param `userId` requerido  
+2. Response 200 con datos básicos del usuario  
+3. Response 404 NOT_FOUND si no existe  
 
-1) Path param userId requerido.
+---
 
-2) Response 200 con datos básicos del usuario.
-
-3) 404 NOT_FOUND si no existe.
+### 5. Roles Disponibles
 
 ![5](assets/roles.png)
 
-**Objetivo funcional.** Exponer el catálogo de Roles que IAM soporta para orquestar flujos de onboarding.
+**Objetivo funcional:**  
+Exponer el catálogo de Roles que IAM soporta para orquestar flujos de onboarding.
 
-**Historias.**
+**Historias relacionadas:**  
+- **US16/US17** Selección de rol durante registro  
 
-- **US16/US17** (selección de rol durante registro).
+---
+
+### 6. Perfil de Propietario
 
 ![6](assets/parkingownprofile.png)
 
-**Objetivo funcional.** Completar el perfil de propietario enlazado a un userId existente.
+**Objetivo funcional:**  
+Completar el perfil de propietario enlazado a un `userId` existente.
 
-**Bounded Context.** Profile BC (ParkingOwner) enlazado con IAM BC (User).
+**Bounded Context:**  
+Profile BC (ParkingOwner) enlazado con IAM BC (User)
 
-**Flujo validado.**
+**Flujo validado:**  
+1. Ingreso de datos: `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`, `userId`  
+2. Validación de VO: Phone (E.164) y Ruc  
+3. Persistencia y relación 1..1 con User  
 
-1) Ingreso de datos: fullName, city, country, phone, companyName, ruc, userId.
+---
 
-2) Validación de VO: Phone (E.164) y Ruc.
-
-3) Persistencia y relación 1..1 con User.
+### 7. Perfil de Conductor
 
 ![7](assets/parkownID.png)
 
-**Objetivo funcional.** Completar el perfil de conductor enlazado a un userId.
+**Objetivo funcional:**  
+Completar el perfil de conductor enlazado a un `userId`.
 
-**Flujo validado.**
+**Flujo validado:**  
+1. Request con `fullName`, `city`, `country`, `phone`, `dni`, `userId`  
+2. Validación de VO Phone y Dni  
+3. Persistencia y relación 1..1 con User  
 
-1) Request con fullName, city, country, phone, dni, userId.
-
-2) Validación de VO Phone y Dni.
-
-3) Persistencia y relación 1..1 con User.
-
-![8](assets/driverprofile.png)
+![8](assets/driverprofile.png)  
 ![9](assets/driverprofResponse.png)
 
 ### 5.2.7. Team Collaboration Insights.
 
 ![Team Collaboration Insights](assets/teamCollabInsights.png)
-
 
 ## 5.2.2. Sprint 2.
 #### 5.2.2.1. Sprint Planning 2.
@@ -4542,7 +4216,7 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
     <td>Implementar servicios de alertas para comunicar disponibilidad de espacios de estacionamiento disponibles cerca al conductor.</td>
     <td>6</td>
     <td>Beth Oneglio</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4553,7 +4227,7 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
     <td>Implementar servicios de alertas para comunicar disponibilidad de espacios de estacionamiento disponibles cerca al conductor.</td>
     <td>4</td>
     <td>Beth Oneglio</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4564,7 +4238,7 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
     <td>Implementar funcionalidad para permitir seleccionar estacionamientos como favoritos.</td>
     <td>4</td>
     <td>Luis Lagos</td>
-    <td>To-Do</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4575,7 +4249,7 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
     <td>Visualización de mapa interactivo en tiempo real.</td>
     <td>6</td>
     <td>Beth Oneglio</td>
-    <td>In-Progress</td>
+    <td>Done</td>
   </tr>
 
   <tr>
@@ -4624,21 +4298,30 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
 
 </table>
 
-### 5.2.2.3 Implemented Landing Page Evidence.
+### 5.2.2.3 Implemented Landing Page Evidence
 
 ![LandingPagev2](./assets/chapter-5-5.2/LandingPagev2.png)
 
-### 5.2.2.4 Implemented Frontend-Web Application Evidence.
+**Descripción:**  
+Se presenta la landing page de Quadrapp, diseñada para ofrecer una interfaz intuitiva y atractiva. Incluye acceso rápido a funciones principales como registro, inicio de sesión y exploración de estacionamientos disponibles. La página cumple con criterios de accesibilidad, soporte multilenguaje e integración visual consistente con la identidad de la marca.
 
-**Registro y Login:**
+---
+
+### 5.2.2.4 Implemented Frontend-Web Application Evidence
+
+**Registro y Login**
 
 ![RegistroFrontendWebv2](./assets/chapter-5-5.2/RegistroFrontendWebv2.jpg)
 
-<br>
+**Descripción:**  
+Pantallas de registro y login que permiten a los usuarios crear una cuenta o iniciar sesión de manera segura. Incluyen validaciones de datos, soporte para diferentes roles (conductor o propietario) y mensajes de error claros. Garantiza la correcta autenticación antes de acceder a la aplicación.
 
-**Dashboard:**
+**Dashboard**
 
 ![DashboardFrontendWebv2](./assets/chapter-5-5.2/DashboardFrontendWebv2.jpg)
+
+**Descripción:**  
+Interfaz principal del usuario después de iniciar sesión. Muestra un resumen de reservas, notificaciones, información del perfil y accesos rápidos a funciones del sistema. El diseño es responsive y permite navegación fluida, con énfasis en la experiencia de usuario y visualización de información relevante.
 
 ### 5.2.2.5 Acuerdo de Servicio - SaaS
 
@@ -4668,138 +4351,201 @@ El objetivo principal del Sprint 2 fue implementar mejoras significativas en art
 
 - **Prohibición de Subarrendamiento:** El usuario no está autorizado a subarrendar ni transferir el uso del espacio reservado a terceros mientras esté activo bajo su cuenta.
 
-### 5.2.2.6 Implemented Native-Mobile Application Evidence.
+### 5.2.2.6 Implemented Native-Mobile Application Evidence
 
-**Registro:**
+**Registro**
 
 ![RegistroMobilev2](./assets/chapter-5-5.2/RegistroMobilev2.jpg)
 
-**Perfil:**
+**Descripción:**  
+Pantalla de registro en la aplicación móvil que permite a nuevos usuarios crear una cuenta de manera segura. Incluye validaciones de datos, selección de roles (conductor o propietario) y mensajes de error claros para asegurar la correcta creación de usuarios.
 
-![PerfilMobilev2](./assets/chapter-5-5.2/PerfilMobilev2.jpg)
+---
 
+**Perfil**
+
+![PerfilMobilev2](./assets/chapter-5-5.2/PerfilMobilev2.jpg)  
 ![EditarPerfilMobilev2](./assets/chapter-5-5.2/EditarPerfilMobilev2.jpg)
 
-**Mapa:**
+**Descripción:**  
+Pantallas de visualización y edición de perfil. Permiten al usuario actualizar su información personal, datos de contacto y detalles relevantes del perfil. Las validaciones de VOs como Phone, DNI y RUC garantizan la consistencia de los datos.
+
+---
+
+**Mapa**
 
 ![MapaMobilev2](./assets/chapter-5-5.2/MapaMobilev2.jpg)
 
-**Pagos:**
+**Descripción:**  
+Mapa interactivo que muestra los estacionamientos disponibles en tiempo real. Incluye geolocalización, disponibilidad actual de espacios y rutas optimizadas para llegar a los estacionamientos seleccionados.
 
-![MetodosPagoMobilev2](./assets/chapter-5-5.2/MetodosPagoMobilev2.jpg)
+---
 
+**Pagos**
+
+![MetodosPagoMobilev2](./assets/chapter-5-5.2/MetodosPagoMobilev2.jpg)  
 ![AgregarTarjetaMobilev2](./assets/chapter-5-5.2/AgregarTarjetaMobilev2.jpg)
 
-### 5.2.2.7 Implemented RESTful API and/or Serverless Backend Evidence.
+**Descripción:**  
+Gestión de métodos de pago dentro de la aplicación móvil. Los usuarios pueden añadir tarjetas y seleccionar métodos de pago para completar reservas de estacionamiento de manera segura y eficiente.
+
+---
+
+### 5.2.2.7 Implemented RESTful API and/or Serverless Backend Evidence
 
 ![BackendEvidencev2](./assets/chapter-5-5.2/BackendEvidencev2.png)
 
-### 5.2.2.8 RESTful API documentation.
+**Descripción:**  
+Evidencia del backend implementado con servicios RESTful. Incluye endpoints para gestión de usuarios, pagos, reservas, perfiles y estacionamientos. Soporta integración con frontend web y móvil, garantizando consistencia y seguridad en el flujo de datos.
 
-**IAM:**
+---
 
-![SignUpEnd](./assets/chapter-5-5.2/SignUpEnd.png)
+### 5.2.2.8 RESTful API Documentation
 
+**IAM (Gestión de Identidad y Acceso)**
+
+![SignUpEnd](./assets/chapter-5-5.2/SignUpEnd.png)  
 ![SignInEnd](./assets/chapter-5-5.2/SignInEnd.png)
 
-<br>
+**Descripción:**  
+Endpoints de registro e inicio de sesión. Permiten la creación de usuarios con roles iniciales y autenticación segura mediante JWT, garantizando acceso controlado y trazabilidad de sesiones.
 
-**Roles:**
+---
+
+**Roles**
 
 ![RolesEnd](./assets/chapter-5-5.2/RolesEnd.png)
 
-<br>
+**Descripción:**  
+Catálogo de roles disponibles en la aplicación. Utilizado durante el registro para asignar permisos y gestionar flujos de acceso de manera coherente.
 
-**Users:**
+---
 
-![UsersEnd](./assets/chapter-5-5.2/UsersEnd.png)
+**Users**
 
+![UsersEnd](./assets/chapter-5-5.2/UsersEnd.png)  
 ![UserIdEnd](./assets/chapter-5-5.2/UserIdEnd.png)
 
-<br>
+**Descripción:**  
+Endpoints para listar usuarios y consultar información individual. Soporte para administración de usuarios, trazabilidad y vinculación con perfiles de conductor o propietario.
 
-**Subscription Payment:**
+---
 
-![EditStatusSubscriptionPaymentEnd](./assets/chapter-5-5.2/EditStatusSubscriptionPaymentEnd.png)
+**Subscription Payment**
 
-![GetSubscriptionPaymentsEnd](./assets/chapter-5-5.2/GetSubscriptionPaymentsEnd.png)
-
-![PostSubscriptionPaymentsEnd](./assets/chapter-5-5.2/PostSubscriptionPaymentsEnd.png)
-
+![EditStatusSubscriptionPaymentEnd](./assets/chapter-5-5.2/EditStatusSubscriptionPaymentEnd.png)  
+![GetSubscriptionPaymentsEnd](./assets/chapter-5-5.2/GetSubscriptionPaymentsEnd.png)  
+![PostSubscriptionPaymentsEnd](./assets/chapter-5-5.2/PostSubscriptionPaymentsEnd.png)  
 ![GetSubscriptionPaymentIdEnd](./assets/chapter-5-5.2/GetSubscriptionPaymentIdEnd.png)
 
-<br>
+**Descripción:**  
+Gestión de pagos de suscripción. Permite crear, consultar y actualizar pagos, incluyendo estado de transacción y detalles de facturación asociados a suscripciones activas.
 
-**Reservation Payment:**
+---
 
-![EditStatusReservationPaymentEnd](./assets/chapter-5-5.2/EditStatusReservationPaymentEnd.png)
+**Reservation Payment**
 
-![GetReservationPaymentsEnd](./assets/chapter-5-5.2/GetReservationPaymentsEnd.png)
-
-![PostReservationPaymentsEnd](./assets/chapter-5-5.2/PostReservationPaymentsEnd.png)
-
+![EditStatusReservationPaymentEnd](./assets/chapter-5-5.2/EditStatusReservationPaymentEnd.png)  
+![GetReservationPaymentsEnd](./assets/chapter-5-5.2/GetReservationPaymentsEnd.png)  
+![PostReservationPaymentsEnd](./assets/chapter-5-5.2/PostReservationPaymentsEnd.png)  
 ![GetReservationPaymentIdEnd](./assets/chapter-5-5.2/GetReservationPaymentIdEnd.png)
 
-<br>
+**Descripción:**  
+Endpoints de gestión de pagos de reservas. Incluyen creación, actualización de estado y consulta de pagos, garantizando trazabilidad y consistencia con las reservas de los usuarios.
 
-**Parking Owner Profile:**
+---
 
-![PostParkingOwnerProfileEnd](./assets/chapter-5-5.2/PostParkingOwnerProfileEnd.png)
+**Parking Owner Profile**
 
+![PostParkingOwnerProfileEnd](./assets/chapter-5-5.2/PostParkingOwnerProfileEnd.png)  
 ![GetParkingOwnerProfileIdEnd](./assets/chapter-5-5.2/GetParkingOwnerProfileIdEnd.png)
 
-<br>
+**Descripción:**  
+Endpoints para crear y consultar perfiles de propietarios de estacionamientos. Permiten asociar cada perfil con un usuario registrado y mantener información coherente sobre el propietario y sus estacionamientos.
 
-**Driver Profile:**
+---
 
-![PostDriverProfileEnd](./assets/chapter-5-5.2/PostDriverProfileEnd.png)
+**Driver Profile**
 
+![PostDriverProfileEnd](./assets/chapter-5-5.2/PostDriverProfileEnd.png)  
 ![GetDriverProfileIdEnd](./assets/chapter-5-5.2/GetDriverProfileIdEnd.png)
 
+**Descripción:**  
+Endpoints para crear y consultar perfiles de conductores. Vinculan perfiles con usuarios registrados, almacenan información personal y permiten actualizar datos de contacto.
 
-**Parking Management:**
+---
 
-![GetParkingsEnd](./assets/chapter-5-5.2/GetParkingsEnd.png)
+**Parking Management**
 
-![PostParkingsEnd](./assets/chapter-5-5.2/PostParkingsEnd.png)
-
-![PatchParkingSpotEnd](./assets/chapter-5-5.2/PatchParkingSpotEnd.png)
-
+![GetParkingsEnd](./assets/chapter-5-5.2/GetParkingsEnd.png)  
+![PostParkingsEnd](./assets/chapter-5-5.2/PostParkingsEnd.png)  
+![PatchParkingSpotEnd](./assets/chapter-5-5.2/PatchParkingSpotEnd.png)  
 ![GetParkingIdEnd](./assets/chapter-5-5.2/GetParkingIdEnd.png)
 
-### 5.2.2.9 Team Collaboration Insights.
+**Descripción:**  
+Endpoints para la gestión de estacionamientos. Incluyen consulta de todos los estacionamientos, creación, modificación de espacios individuales y obtención de información detallada. Facilitan la administración de la disponibilidad y estructura de los estacionamientos en la aplicación.
 
-**Informe:**
+### 5.2.2.9 Team Collaboration Insights
+
+**Informe de Progreso**
 
 ![ReportInsight2](./assets/chapter-5-5.2/ReportInsight2.png)
 
-**Landing Page:**
+**Descripción:**  
+Evidencia del informe de avances del equipo. Muestra la documentación organizada de tareas, reuniones, decisiones y progreso de cada integrante, permitiendo la trazabilidad de actividades y la planificación de siguientes sprints.
+
+---
+
+**Landing Page**
 
 ![LandingInsight2](./assets/chapter-5-5.2/LandingInsight2.png)
 
-**Web Application:**
+**Descripción:**  
+Registro visual de la colaboración en el desarrollo de la Landing Page. Incluye revisiones, aprobaciones de diseño y ajustes realizados según retroalimentación de usuarios y equipo de QA.
+
+---
+
+**Web Application**
 
 ![FrontendInsight2](./assets/chapter-5-5.2/FrontendInsight2.png)
 
-**Mobile Application:**
+**Descripción:**  
+Evidencia de la coordinación del equipo durante la implementación del frontend web. Muestra el progreso de las funcionalidades, integración con APIs y revisión de interfaces adaptativas para asegurar consistencia y accesibilidad.
+
+---
+
+**Mobile Application**
 
 ![MobileInsight2](./assets/chapter-5-5.2/MobileInsight2.png)
 
-**Web Services:**
+**Descripción:**  
+Registro de la colaboración en el desarrollo de la aplicación móvil. Incluye seguimiento de tareas, revisión de flujos de usuario, pruebas de funcionalidad y ajustes de diseño para optimizar la experiencia en dispositivos móviles.
+
+---
+
+**Web Services / Backend**
 
 ![BackendInsight2](./assets/chapter-5-5.2/BackendInsight2.png)
 
----
+**Descripción:**  
+Evidencia del trabajo en equipo sobre la implementación de servicios RESTful. Muestra coordinación en endpoints, pruebas unitarias, integración con frontend y móvil, y revisión de seguridad y rendimiento.
 
 # Capítulo VI: Product Verification & Validation
 
 ### 6.1. Testing Suites & Validation.
 
-### 6.1.1. Core Entities Unit Tests.
+## 6.1 Core Testing Evidence
+
+En esta sección se presentan las pruebas realizadas para garantizar la calidad, consistencia y correcto funcionamiento del software, incluyendo pruebas unitarias, de integración, BDD y de sistema.
+
+---
+
+### 6.1.1 Core Entities Unit Tests
 
 En esta sección se presentan las pruebas unitarias efectuadas sobre las clases principales de nuestra solución, con el objetivo de asegurar la calidad del software.
 
-**User Tests:**
+**User Tests:**  
+Pruebas de creación, actualización y validación de usuarios, incluyendo asignación de roles y restricciones de negocio.
 
 ![UserTest](./assets/chapter-6/usertest1.png)
 ![UserTest](./assets/chapter-6/usertest2.png)
@@ -4807,7 +4553,8 @@ En esta sección se presentan las pruebas unitarias efectuadas sobre las clases 
 ![UserTest](./assets/chapter-6/usertest4.png)
 ![UserTest](./assets/chapter-6/usertest5.png)
 
-**Role Tests:**
+**Role Tests:**  
+Validación de la asignación, eliminación y manejo de roles de usuarios.
 
 ![RoleTest](./assets/chapter-6/roletest1.png)
 ![RoleTest](./assets/chapter-6/roletest2.png)
@@ -4815,137 +4562,160 @@ En esta sección se presentan las pruebas unitarias efectuadas sobre las clases 
 ![RoleTest](./assets/chapter-6/roletest4.png)
 ![RoleTest](./assets/chapter-6/roletest5.png)
 
-**Role Enum Tests:**
+**Role Enum Tests:**  
+Verificación de la correcta definición y utilización de los roles enumerados.
 
 ![RoleTest](./assets/chapter-6/rolesenumtest1.png)
 
-**Parking Spot Tests:**
+**Parking Spot Tests:**  
+Pruebas de la entidad Parking Spot, asegurando correcto manejo de disponibilidad y ubicación.
 
 ![ParkingSpotTest](./assets/chapter-6/parkingspottest1.png)
 
-**Parking Tests:**
+**Parking Tests:**  
+Validación de la entidad Parking, gestión de espacios y cálculo de tarifas.
 
 ![ParkingTest](./assets/chapter-6/parkingtest1.png)
 ![ParkingTest](./assets/chapter-6/parkingtest2.png)
 ![ParkingTest](./assets/chapter-6/parkingtest3.png)
 
-**Parking Spot Manager Tests:**
+**Parking Spot Manager Tests:**  
+Pruebas de asignación y liberación de espacios dentro de un parking.
 
 ![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest1.png)
 ![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest2.png)
 ![ParkingSpotManagerTest](./assets/chapter-6/parkingspotmanagertest3.png)
 
-**Payment Tests:**
+**Payment Tests:**  
+Validación de la entidad Payment, manejo de estados y cálculos de montos.
 
 ![PaymentTest](./assets/chapter-6/paymenttest1.png)
 ![PaymentTest](./assets/chapter-6/paymenttest2.png)
 
-**Reservation Payment Tests:**
+**Reservation Payment Tests:**  
+Pruebas de la relación entre pagos y reservas, incluyendo actualización de estados y registros asociados.
 
 ![ReservationPaymentTest](./assets/chapter-6/reservationpaymenttest1.png)
 ![ReservationPaymentTest](./assets/chapter-6/reservationpaymenttest2.png)
 
-**Subscription Payment Tests:**
+**Subscription Payment Tests:**  
+Pruebas de pagos relacionados a suscripciones, asegurando consistencia de transacciones.
 
 ![SubscriptionPaymentTest](./assets/chapter-6/subscriptionpaymenttest1.png)
 
-**Payment Status Tests:**
+**Payment Status Tests:**  
+Validación de los distintos estados de pago y sus transiciones.
 
 ![PaymentStatusTest](./assets/chapter-6/paymentstatustest1.png)
 
-**Driver Profile Tests:**
+**Driver Profile Tests:**  
+Pruebas de creación, actualización y validación de perfiles de conductor.
 
 ![DriverProfileTest](./assets/chapter-6/drivertest1.png)
 
-**Parking Owner Profile Tests:**
+**Parking Owner Profile Tests:**  
+Pruebas de perfiles de propietarios de estacionamiento y consistencia con User.
 
 ![ParkingOwnerTest](./assets/chapter-6/parkingownertest1.png)
 
-**DNI Validator Tests:**
+**DNI Validator Tests:**  
+Validación de DNI de usuarios.
 
 ![DNIValidatorTest](./assets/chapter-6/dnitest1.png)
 
-**Phone Validator Tests:**
+**Phone Validator Tests:**  
+Validación de números telefónicos.
 
 ![PhoneValidatorTest](./assets/chapter-6/phonetest1.png)
 
-**RUC Validator Tests:**
+**RUC Validator Tests:**  
+Validación de RUC de propietarios de parking.
 
 ![RUCValidatorTest](./assets/chapter-6/ructest1.png)
 
-### 6.1.2. Core Integration Tests.
+---
 
-A continuación se muestran los Core Integration Tests, fundamentales para asegurar la correcta comunicación de los controladores con otros componentes del sistema, como servicios y bases de datos. Estas pruebas permiten detectar errores, verificar respuestas ante situaciones inesperadas y asegurar el uso adecuado de los códigos de estado, contribuyendo a una mejor experiencia de usuario, facilitando la depuración y fortaleciendo la calidad y robustez del software.
+### 6.1.2 Core Integration Tests
 
-**Authentication Integration Tests:**
+Pruebas de integración para asegurar la correcta comunicación entre controladores, servicios y bases de datos.
+
+**Authentication Integration Tests:**  
+Validación de endpoints de autenticación y manejo de sesiones seguras.
 
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest1.png)
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest2.png)
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest3.png)
 ![AuthIntegrationTest](./assets/chapter-6/AuthIntegrationTest4.png)
 
-### 6.1.3. Core Behavior-Driven Development.
+---
 
-En esta sección se muestran las pruebas BDD realizadas en base a las User Stories desarrolladas para nuestra solución haciendo uso del lenguaje Gherkin y de la herramienta Cucumber.
+### 6.1.3 Core Behavior-Driven Development (BDD)
 
-**Auth Test:**
+Pruebas BDD basadas en User Stories usando lenguaje Gherkin y Cucumber.
+
+**Auth Test:**  
+Pruebas de registro y autenticación.
 
 ![featureAuthTest](./assets/chapter-6/featureAuthTest.png)
-
 ![AuthTest](./assets/chapter-6/AuthTest.png)
 
-**Driver Profile Test:**
+**Driver Profile Test:**  
+Pruebas de flujo de perfiles de conductores.
 
 ![featureDriverProfileTest](./assets/chapter-6/featureDriverProfileTest.png)
-
 ![DriverProfileTest](./assets/chapter-6/DriverProfileTest.png)
 
-**Parking Management Test:**
+**Parking Management Test:**  
+Validación de flujo de gestión de estacionamientos y espacios.
 
 ![featureParkingManagement](./assets/chapter-6/featureParkingManagement.png)
-
 ![ParkingManagementTest](./assets/chapter-6/ParkingManagementTest.png)
 
-**Reservation Payment Test:**
+**Reservation Payment Test:**  
+Pruebas de flujo de pagos de reservas.
 
 ![featureReservationPaymentTest](./assets/chapter-6/featureReservationPaymentTest.png)
-
 ![ReservationPaymentTest](./assets/chapter-6/ReservationPaymentTest.png)
 
-### 6.1.4. Core System Tests.
+---
 
-**Registro e Inicio de de sesión del Usuario:**
+### 6.1.4 Core System Tests
+
+Pruebas de extremo a extremo sobre el sistema completo.
+
+**Registro e inicio de sesión del Usuario:**  
+Validación de creación de cuenta y autenticación.
 
 ![SignUpCoreTest](./assets/chapter-6/SignUpCoreTest.png)
-
 ![SignInCoreTest](./assets/chapter-6/SignInCoreTest.png)
 
-**Listado de usuarios:**
+**Listado de usuarios:**  
+Prueba de obtención de usuarios existentes.
 
 ![GetUsersCoreTest](./assets/chapter-6/GetUsersCoreTest.png)
 
-**Registro, actualización de estado y listado de Pago por Reserva de Espacio de Estacionamiento:**
+**Registro, actualización de estado y listado de Pago por Reserva:**  
+Validación completa de pagos de reservas.
 
 ![AddReservationPaymentCoreTest](./assets/chapter-6/AddReservationPaymentCoreTest.png)
-
 ![PutReservationPaymentStatusCoreTest](./assets/chapter-6/PutReservationPaymentStatusCoreTest.png)
-
 ![GetReservationPaymentsCoreTest](./assets/chapter-6/GetReservationPaymentsCoreTest.png)
 
-**Registro de perfiles de Propietario de Estacionamiento:**
+**Registro de perfiles de Propietario de Estacionamiento:**  
+Validación de creación y persistencia de perfiles.
 
 ![CreateParkingOwnerProfileCoreTest](./assets/chapter-6/CreateParkingOwnerProfileCoreTest.png)
 
-**Registro de perfiles de Conductor:**
+**Registro de perfiles de Conductor:**  
+Prueba de creación de perfiles de conductores.
 
 ![CreateDriverProfileCoreTest](./assets/chapter-6/CreateDriverProfileCoreTest.png)
 
-**Registro de Estacionamientos y espacios disponibles:**
+**Registro de Estacionamientos y espacios disponibles:**  
+Validación de creación de parkings y sus spots.
 
 ![CreateParkingCoreTest](./assets/chapter-6/CreateParkingCoreTest.png)
-
 ![CreateParkingSpotCoreTest](./assets/chapter-6/CreateParkingSpotCoreTest.png)
-
 ![GetParkingsCoreTest](./assets/chapter-6/GetParkingsCoreTest.png)
 
 ## 6.2. Static testing & Verification
@@ -4958,109 +4728,97 @@ Esta verificación nos permite identificar a tiempo errores comunes, malas prác
 
 #### 6.2.1.1. Coding standard & Code conventions.
 
-Para garantizar la consistencia, mantenibilidad y escalabilidad en el desarrollo de nuestra solución, establecimos estándares y convenciones de codificación alineados con las mejores prácticas de cada tecnología empleada. Estos lineamientos abarcan desde la estructura de archivos hasta el uso de patrones de diseño, con el objetivo de mantener un código limpio, legible y coherente en todo el proyecto.
+## 6.2 Code Quality & Development Standards
 
-**Domain-Driven Design (DDD):** 
+Para garantizar la consistencia, mantenibilidad y escalabilidad en el desarrollo de nuestra solución, establecimos estándares y convenciones de codificación alineados con las mejores prácticas de cada tecnología empleada. Estos lineamientos abarcan desde la estructura de archivos hasta el uso de patrones de diseño, asegurando un código limpio, legible y coherente en todo el proyecto.
 
-Se aplicó arquitectura DDD orientada a dominios para estructurar el código por bounded contexts. Implementamos agregados como Driver y un lenguaje ubicuo que refleja los conceptos del negocio, facilitando la comprensión y evolución del sistema.
+---
 
-**Convenciones de Nomenclatura:**
+### 6.2.1 Development Standards
 
-- **Frontend (Angular):** 
+#### Domain-Driven Design (DDD)
+Se aplicó una arquitectura DDD orientada a dominios para estructurar el código por *bounded contexts*.  
+- Se implementaron agregados como **Driver** y un lenguaje ubicuo que refleja los conceptos del negocio.  
+- Esto facilita la comprensión, evolución y escalabilidad del sistema.
 
-Usamos KebabCase para componentes (ej: parking-profile), sufijos como .service.ts para servicios, y organizamos módulos por funcionalidades.
+#### Convenciones de Nomenclatura
+- **Frontend (Angular)**:  
+  - Componentes en **KebabCase** (ej: `parking-profile`)  
+  - Servicios con sufijos `.service.ts`  
+  - Módulos organizados por funcionalidades
 
-- **Mobile (Flutter - Dart):** 
+- **Mobile (Flutter / Dart)**:  
+  - Clases en **SnakeCase** (ej: `loading_spinner`)  
+  - Variables y métodos en **lowerCamelCase**  
+  - Basado en Dart Style Guide oficial
 
-Aplicamos SnakeCase para clases (ej: loading_spinner), lowerCamelCase para variables y métodos, siguiendo las guías oficiales del Dart Style Guide.
+- **Backend (Java / Spring Boot)**:  
+  - Clases en **PascalCase** (ej: `DriverProfileController`)  
+  - Variables y métodos en **camelCase**  
+  - Código empaquetado por dominio (ej: `com.quadrapp.profile`)
 
-- **Backend (Java - Spring Boot):** 
+#### Principios SOLID
+- Se aplican en todas las capas para asegurar modularidad y extensibilidad.  
+- Ejemplos:  
+  - Clases con **una sola responsabilidad** (`DriverProfileCommandServiceImpl`)  
+  - Uso de **inyección de dependencias** (Spring DI, Angular DI)  
+  - Interfaces extensibles para favorecer **reutilización y bajo acoplamiento**
 
-Adoptamos PascalCase para clases (ej: DriverProfileControlller), camelCase para variables y métodos, y empaquetamos el código por dominio (ej: com.quadrapp.profile).
+---
 
-**Principios SOLID:** 
+### 6.2.1.2 Code Quality & Security
 
-Nos aseguramos de aplicar los principios SOLID en todas las capas, promoviendo la modularidad y la extensibilidad. Ejemplos incluyen clases con una sola responsabilidad (DriverProfileCommandServiceImpl), el uso de inyección de dependencias (Spring DI y Angular DI) y la creación de interfaces extensibles para favorecer la reutilización y el bajo acoplamiento.
+#### Calidad del Código
+- Se evaluó mediante métricas de **complejidad ciclomática, duplicación, mantenibilidad y cobertura de pruebas**.  
+- Herramientas utilizadas: **SonarQube**, **SonarLint**.  
+- Integración en entornos de desarrollo (IntelliJ, VS Code) para detectar y corregir problemas en tiempo real.  
+- Objetivo: Mantener un código **consistente, limpio y alineado con los estándares definidos**.
 
-De esta forma, garantizamos un código coherente, mantenible y fácil de escalar, asegurando que cada parte del sistema pueda evolucionar sin comprometer la calidad ni la estabilidad general del proyecto.
+#### Seguridad del Código
+- Basado en las recomendaciones de **OWASP Top 10**.  
+- Implementaciones clave:  
+  - Validaciones estrictas en formularios para prevenir **inyecciones y XSS**  
+  - Autenticación y autorización mediante **JWT**  
+  - Uso de **parámetros enlazados** en Spring Data JPA para evitar inyecciones SQL  
+  - Cifrado y manejo seguro de datos sensibles (contraseñas, tokens)  
 
-#### 6.2.1.2. Code Quality & Code Security.
+Estas medidas permiten construir un sistema robusto, seguro y fácil de mantener.
 
-Para asegurar la confiabilidad, mantenibilidad y robustez de nuestra solución Quadrapp, se realizaron verificaciones sobre la calidad y seguridad de todo el código, donde se establecieron prácticas y herramientas que nos permiten detectar problemas tempranos y garantizar un código limpio y seguro antes de su despliegue.
+---
 
-**Calidad del Código:**
+### 6.2.2 Code Reviews
 
-Evaluamos la calidad mediante métricas como complejidad ciclomática, duplicación, mantenibilidad y cobertura de pruebas. Se emplearon herramientas de análisis estático como SonarQube y SonarLint para identificar code smells, secciones duplicadas y violaciones de principios SOLID tanto en el backend (Spring Boot) como en el frontend (Angular).
+Las revisiones de código son esenciales para garantizar la **calidad, seguridad y coherencia** del software con los estándares del proyecto.
 
-Además, en los entornos de deesarrollo (IntelliJ y VsCode), integramos extensiones que nos permiten detectar y corregir problemas en tiempo real, lo que ayudó a mantener un código consistente y alineado con los estándares definidos.
+#### Tipos de Revisiones
+- **Revisión por Pares:**  
+  Cada Pull Request (PR) es revisado por al menos un miembro del equipo, verificando alineación con **DDD** y principios **SOLID**.
 
-**Seguridad del Código:**
+- **Revisión Formal:**  
+  Al final de cada sprint, se realizan sesiones grupales con **checklists** basadas en el *Source Code Style Guide*, evaluando:  
+  - Nomenclatura  
+  - Organización de paquetes  
+  - Correcta inyección de dependencias
 
-Para proteger los datos y prevenir vulnerabilidades críticas, seguimos las recomendaciones del estándar OWASP Top 10.
+#### Proceso de Revisión
+1. **Pull Requests:**  
+   Todos los cambios se realizan mediante PR con descripción clara, pruebas asociadas y evidencia de impacto.  
+   Ejemplo: `docs(chapter-3): add user stories`
+2. **Checklist de Validación:**  
+   - Cumplimiento de convenciones de código (PascalCase, camelCase)  
+   - Cobertura de pruebas unitarias (JUnit, Selenium)  
+   - Validación de seguridad según OWASP y sanitización de entradas
+3. **Aprobación:**  
+   Un PR solo se fusiona tras recibir la aprobación del equipo.
 
-Implementamos:
+#### Criterios de Aceptación
+- **Código Limpio:** Sin errores críticos ni vulnerabilidades en SonarQube  
+- **Cobertura de Pruebas:** ≥ 80% en backend y frontend  
+- **Seguridad:** Ausencia de dependencias vulnerables (verificación con `npm audit` y OWASP Dependency-Check)
 
-- Validaciones estrictas de entrada en formularios para evitar inyecciones de datos o ataques XSS.
-
-- Autenticación y autorización mediante JWT, asegurando que los endpoints sensibles solo sean accesibles por usuarios autorizados.
-
-- Uso de parámetros enlazados en Spring Data JPA, previniendo inyecciones SQL.
-
-- Cifrado y manejo seguro de datos sensibles, como contraseñas y tokens.
-
-Estas medidas, junto con el análisis continuo de calidad y seguridad, nos permitieron construir un sistema robusto, con bajo nivel de vulnerabilidades y alta mantenibilidad, fortaleciendo la confianza y estabilidad del producto final.
-
-### 6.2.2. Reviews
-
-Se realizaron revisiones de código en Quadrapp, las cuales fueron un pilar esencial para garantizar la calidad, seguridad y coherencia del software con los estándares definidos del proyecto. Este proceso combinó revisiones manuales y automatizadas, integradas dentro del flujo de trabajo del equipo.
-
-**Tipos de Revisiones:**
-
-- **Revisión por Pares:** 
-
-Cada Pull Request (PR) fue revisado por al menos un miembro del equipo, verificando la claridad del código, su alineación con los principios DDD (Domain-Driven Design) y el cumplimiento de los principios SOLID.
-
-- **Revisión Formal:** 
-
-Al finalizar cada sprint, se realizaron sesiones grupales de revisión utilizando listas de verificación basadas en el Source Code Style Guide, abordando aspectos como la nomenclatura, la organización de paquetes y la correcta inyección de dependencias.
-
-**Proceso de Revisión:**
-
-- **Pull Requests:** 
-
-Todo cambio en el código debía realizarse mediante un PR con una descripción clara, pruebas asociadas y evidencia de impacto (por ejemplo: “docs(chapter-3): add user stories”).
-
-- **Checklist de Validación:** 
-
-Cada revisión debía verificar:
-
-  - Cumplimiento de convenciones de código (PascalCase, camelCase).
-
-  - Cobertura de pruebas unitarias (JUnit en backend, Selenium en frontend).
-
-  - Validación de seguridad según OWASP Top 10 y sanitización de entradas.
-
-- **Aprobación:** 
-
-Un PR solo podía fusionarse tras recibir aprobaciones por parte del equipo.
-
-**Criterios de Aceptación:**
-
-- **Código Limpio:** 
-
-Sin errores críticos ni vulnerabilidades detectadas en SonarQube.
-
-- **Cobertura de Pruebas:** 
-
-Igual o superior al 80% en backend y frontend.
-
-- **Seguridad:** 
-
-Ausencia de dependencias vulnerables, según npm audit y OWASP Dependency-Check.
-
-**Frecuencia:**
-
-Las revisiones se realizaron diariamente para PRs pequeños y se complementaron con retrospectivas de revisión al final de cada sprint, donde el equipo ajustaba los estándares y reforzaba la consistencia del código en todos los módulos del sistema.
+#### Frecuencia
+- Revisiones diarias para PRs pequeños  
+- Retrospectivas al final de cada sprint para reforzar la consistencia del código y ajustar estándares
 
 ## 6.3. Validation Interviews.
 
@@ -5113,172 +4871,78 @@ Para la validación de nuestro proyecto, hemos diseñado una serie de entrevista
 
 ### 6.3.2. Registro de Entrevistas.
 
-#### Entrevistas Segmento Conductor:
+### Entrevistas Segmento Conductor y Propietario de Estacionamiento
 
-**Entrevista 1**:
-
-Datos del entrevistado
-
-- Nombres y apellidos: Fernando Salgado
-- Edad: 21
-- Recidencia: Pueblo Libre
-- Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY
-
-[Imagen](./assets/chapter-6/Fernando_Entrevista.png)
-
-Resumen de la entrevista:
-
-Fernando Salgado, de 21 años y residente en Pueblo Libre, es conductor que maneja tanto por motivos personales como laborales y enfrenta dificultades frecuentes para encontrar estacionamiento en zonas concurridas. Valora que la aplicación muestre espacios disponibles en tiempo real con información confiable sobre precio y ubicación, además de contar con mapas interactivos, filtros y reseñas de otros usuarios. Prefiere ver antes de reservar detalles como precio total, horarios, medidas del espacio y fotos del estacionamiento. Sugiere funcionalidades como integración con GPS, apertura de barreras mediante código QR o desde el celular, guardar estacionamientos favoritos y pagos automáticos. Propone eliminar publicidad y pasos innecesarios, evitar notificaciones que distraigan y asegurar indicaciones claras al llegar, pagos automáticos al salir y soporte rápido en caso de problemas. En general, busca una experiencia rápida, segura y confiable que facilite reservar, acceder y pagar el estacionamiento de manera eficiente.
-
-**Entrevista 2**:
-
-Datos del entrevistado
-
-- Nombres y apellidos: Aldhemir Sebastián Guadalupe Moreano
-- Edad: 23 Años
-- Residencia: Ica
-- Duración de la entrevista: 9:11 minutos
-
-[Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png)
-
-**Resumen de la entrevista:** 
-
-Aldhemir, un joven trabajador y conductor de vehiculo propio, nos apoyó en la demostracion de la aplicación de Quadrapp. Él considera que la aplicación cumple con lo que podría ser esperado para los conductores, facilitando el poder encontrar con anticipación un espacio de estacionamiento, además, brindo feedback en el aspecto de poder ver los comentarios de ciertos espacios de estacionamientos, para asi saber que esperar de ser seleccionado este mismo. Finalmente, también recomendó el hacer uso de referencias visuales para conocer mejor la ubicación del espacio de estacionamiento. 
-
-**Entrevista 3**:
-
-Datos del entrevistado
-
-- Nombres y apellidos: Aldhemir Sebastián Guadalupe Moreano
-- Edad: 23 Años
-- Residencia: Ica
-
-[Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png)
-
-**Resumen de la entrevista:** 
-
-Aldhemir, un joven trabajador y conductor de vehiculo propio, nos apoyó en la demostracion de la aplicación de Quadrapp. Él considera que la aplicación cumple con lo que podría ser esperado para los conductores, facilitando el poder encontrar con anticipación un espacio de estacionamiento, además, brindo feedback en el aspecto de poder ver los comentarios de ciertos espacios de estacionamientos, para asi saber que esperar de ser seleccionado este mismo. Finalmente, también recomendó el hacer uso de referencias visuales para conocer mejor la ubicación del espacio de estacionamiento. 
-
----
-
-#### Entrevistas Segmento Propietario de Estacionamiento:
-
-**Entrevista 1**:
-
-Datos del entrevistado
-
-- Nombres y apellidos: Mathias Hidalgo
-- Edad: 20 años
-- Recidencia: Santiago de Surco, Lima
-- Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY 
-
-![Mathias-PropietarioDeEstacionamiento-1](./assets/entrevista_dueñoMathi.jpg)
-
-**Resumen de la entrevista:** 
-
-El entrevistado, Mathias Hidalgo, de 20 años, trabaja apoyando en la organización de un estacionamiento y reside en Santiago de Surco, Lima. Durante la entrevista, Mathias compartió una experiencia bastante positiva con la aplicación.
-
-Comentó que lo que más le gustó fue la funcionalidad para registrar y administrar sus estacionamientos o espacios, así como la visualización en tiempo real mediante el dispositivo IoT, lo cual consideró muy práctico. También destacó que el diseño de la app es intuitivo, permitiéndole gestionar sin complicaciones sus espacios y las reservas correspondientes.
-
-Según Mathias, las funciones para configurar horarios y precios le parecieron innovadoras y fáciles de usar. Como mejora, sugirió la posibilidad de agregar fotos del estacionamiento, reglas de uso e incluso cámaras, con el fin de reforzar la seguridad dentro de la plataforma. Además, indicó que sería ideal habilitar pagos mediante Yape o Plin, ya que facilitaría las transacciones para los usuarios.
-
-Finalmente, mencionó que por el momento no retiraría ninguna funcionalidad, ya que la aplicación le gustó y cumple bien con lo que necesita.
-
-**Entrevista 2:**
-
-**Datos del entrevistado**
-
-- **Nombres y apellidos:** Karim Wagner Samanamud Mosquera
-- **Edad:** 24 años
-- **Residencia:** San Martin de Porres, Lima
-
-![ValidationInterview-PropietarioDeEstacionamiento-2](./assets/chapter-6/ValidationInterview-PropietarioDeEstacionamiento-2.png)
-
-**Resumen de la Entrevista:** 
-
-Karim Samanamud, propietario de un estacionamiento, compartió y brindó su retroalimentación sobre la aplicación Quadrapp. En el busca mejorar la eficiencia de su gestión de su estacionamiento, ya que esto lo hace manualmente. Él considera que la interfaz es bastante intuitiva y fácil de entender. Así mismo, resalta que la seguridad es un punto clave con el que cumple nuestra aplicación, y considera útil el poder manejar la disponibilidad de los espacios de estacionamiento y de su información personal. En cuanto a la eficiencia de la aplicación, comentó que la rapidez de respuesta de la aplicación debe mantenerse en todo momento durante el uso de la aplicación. Finalmente, considera que agregar elementos al registrar un estacionamiento como fotos y videos son muy importantes para asegurar la confianza de los conductores. Por otro lado, comentó que debe existir un medio de soporte al cliente ante posibles errores que pueda presentar la aplicación.
-
-**Entrevista 3:**
-
-Datos del entrevistado
-
-- Nombres y apellidos: Manuel Alexis Vargas
-- Edad: 21
-- Recidencia: San Juan de Miraflores
-- Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY
-
-![Imagen](./assets/chapter-6/PropietariodeParkingAlexis.PNG)
-
-**Resumen de la Entrevista:**
-
-Durante la entrevista se le presentó a Manuel Vargas, de 21 años, residente en San Juan de Miraflores, estudiante universitario y trabajador del Banco Interbank, la aplicación **Quadrapp** desarrollada por mi grupo y por mí para que pueda administrar su garage como estacionamiento, explicándole el registro, el inicio de sesión y el panel principal donde visualiza sus parkings, reservas, reseñas, notificaciones y métricas. Se le mostró paso a paso cómo dar de alta un nuevo parking (nombre, tipo, plazas, descripción, datos de contacto, web, IoT, ubicación en mapa, servicios y tarifas) y cómo editarlo o eliminarlo. Manuel señaló que lo que más le llamó la atención fue el apartado del mapa y el proceso de creación del estacionamiento con coordenadas, porque facilita que los usuarios encuentren el lugar exacto, y opinó que el diseño y las funcionalidades le parecieron didácticos, sencillos y fáciles de usar. Comentó que le gustaría mostrar información como medidas del espacio, fotos y nivel de seguridad del entorno (si es zona concurrida, enrejada, etc.) para generar mayor confianza en los conductores. Como funcionalidades adicionales, propuso registrar el tipo de vehículo y placa que ingresa (taxi, carga, custer, etc.) y, como recomendación para publicar, administrar y cobrar, sugirió incluir diversos métodos de pago (tarjeta de crédito/débito, código QR tipo Yape/Plin y efectivo). Finalmente, indicó que no quitaría nada de la aplicación, ya que todo le parecía útil y pertinente para la gestión de sus espacios.
+| Segmento | Entrevista | Nombre | Edad | Residencia | Enlace / Imagen | Resumen |
+|----------|------------|--------|-----|------------|----------------|---------|
+| Conductor | 1 | Fernando Salgado | 21 | Pueblo Libre | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY) / ![Imagen](./assets/chapter-6/Fernando_Entrevista.png) | Valora mostrar espacios disponibles en tiempo real, mapas interactivos, filtros y reseñas. Prefiere ver precio total, horarios, medidas y fotos antes de reservar. Sugiere GPS, apertura de barreras con QR, favoritos y pagos automáticos. Busca experiencia rápida, segura y confiable. |
+| Conductor | 2 | Aldhemir Sebastián Guadalupe Moreano | 23 | Ica | ![Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png) | Considera que la app cumple expectativas para conductores. Destaca encontrar estacionamiento con anticipación, ver comentarios de otros usuarios y uso de referencias visuales para mejor ubicación. |
+| Conductor | 3 | Aldhemir Sebastián Guadalupe Moreano | 23 | Ica | ![Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png) | Similar a entrevista 2: facilidades para encontrar estacionamiento, feedback sobre comentarios y referencias visuales de ubicación. |
+| Propietario | 1 | Mathias Hidalgo | 20 | Santiago de Surco, Lima | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY) / ![Imagen](./assets/entrevista_dueñoMathi.jpg) | Positiva experiencia con la app. Destaca registro y administración de estacionamientos, visualización en tiempo real vía IoT, configuración de horarios y precios. Sugiere agregar fotos, reglas, cámaras y pagos mediante Yape/Plin. |
+| Propietario | 2 | Karim Wagner Samanamud Mosquera | 24 | San Martin de Porres, Lima | ![Imagen](./assets/chapter-6/ValidationInterview-PropietarioDeEstacionamiento-2.png) | Busca eficiencia en gestión manual de estacionamiento. Considera interfaz intuitiva y segura, control de disponibilidad de espacios y rapidez de respuesta. Sugiere agregar fotos/videos y medio de soporte al cliente. |
+| Propietario | 3 | Manuel Alexis Vargas | 21 | San Juan de Miraflores | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY) / ![Imagen](./assets/chapter-6/PropietariodeParkingAlexis.PNG) | Destaca panel principal de la app para gestionar parkings, reservas y métricas. Valora el mapa y creación de estacionamiento con coordenadas. Sugiere mostrar medidas, fotos, seguridad del entorno, registrar tipo de vehículo y métodos de pago variados (tarjeta, QR, efectivo). |
   
-### 6.3.3. Evaluaciones según heurísticas.
+### 6.3.3. Evaluaciones según heurísticas
 
-Para complementar la validación mediante entrevistas, se realizó una evaluación heurística basada en los 10 principios de usabilidad de Jakob Nielsen. El objetivo fue identificar problemas de interacción y oportunidades de mejora en los flujos principales de Quadrapp: búsqueda de estacionamiento, gestión de espacios, reservas y uso del módulo IoT.
+Para complementar la validación realizada mediante entrevistas, se llevó a cabo una **evaluación heurística** basada en los 10 principios de usabilidad de Jakob Nielsen. El objetivo fue identificar problemas de interacción y proponer mejoras en los flujos principales de **Quadrapp**, incluyendo:
 
-A continuación, se presenta el resultado de dicha evaluación:
+- Búsqueda de estacionamiento.  
+- Gestión de espacios.  
+- Reservas de estacionamiento.  
+- Uso del módulo IoT para disponibilidad en tiempo real.  
 
-Carrera: Ingeniería de Software
+**Datos de la evaluación:**
 
-Curso: Diseño de Experimentos
+- **Carrera:** Ingeniería de Software  
+- **Curso:** Diseño de Experimentos  
+- **Profesor:** Ivan Robles Fernández  
+- **Responsable de la auditoría:** Vitalia  
 
-Profesor: Ivan Robles Fernández
+| #  | Problema identificado                                                                                  | Severidad (0–4) | Heurística violada                     |
+| -- | ------------------------------------------------------------------------------------------------------ | --------------- | -------------------------------------- |
+| 1  | Campos de registro de espacio no indican claramente si son obligatorios.                               | 3               | Prevención de errores                  |
+| 2  | En el mapa, algunos pines se confunden con el fondo, dificultando la visibilidad.                     | 2               | Visibilidad del estado del sistema     |
+| 3  | Al reservar un espacio, no hay feedback claro de éxito.                                                | 3               | Visibilidad del estado del sistema     |
+| 4  | La opción "Regresar" no es consistente en todas las vistas.                                           | 2               | Consistencia y estándares              |
+| 5  | Formularios complejos (precios, reglas) carecen de ejemplos o ayuda contextual.                       | 2               | Ayuda y documentación                  |
+| 6  | Actualización real-time vía IoT no muestra indicador de conexión estable.                              | 3               | Visibilidad del estado del sistema     |
+| 7  | Jerarquía visual débil en textos y secciones del flujo del propietario.                                | 2               | Estética y diseño minimalista          |
+| 8  | Algunos formularios permiten enviarse incompletos, mostrando mensajes genéricos.                       | 3               | Prevención de errores                  |
+| 9  | Contraste en ciertos botones (azul sobre gris claro) podría afectar la accesibilidad.                  | 2               | Estándares y accesibilidad             |
+| 10 | Navegación entre “Espacios”, “Reservas” y “Perfil” no es totalmente intuitiva para usuarios nuevos.  | 2               | Control y libertad del usuario         |
 
-Nombre del responsable de la auditoría: Vitalia
+![Dashboard de la aplicación web](./assets/chapter-5-5.2/DashboardFrontendWebv2.jpg) 
 
-| #  | Problema identificado                                                                                  | Severidad (0–4) | Heurística violada                 |
-| -- | ------------------------------------------------------------------------------------------------------ | --------------- | ---------------------------------- |
-| 1  | En la pantalla de registro de espacio, algunos campos no indican claramente si son obligatorios.       | 3               | Prevención de errores              |
-| 2  | En el mapa, el color de algunos pines se confunde con el fondo, dificultando la visibilidad.           | 2               | Visibilidad del estado del sistema |
-| 3  | Al reservar un espacio, el usuario no recibe un feedback claro si la acción fue exitosa.               | 3               | Visibilidad del estado del sistema |
-| 4  | La opción "Regresar" en la pantalla de detalles no es consistente en todas las vistas.                 | 2               | Consistencia y estándares          |
-| 5  | No se muestran ejemplos ni ayudas contextuales en formularios complejos (como precios o reglas).       | 2               | Ayuda y documentación              |
-| 6  | La actualización de disponibilidad real-time mediante IoT no muestra un indicador de conexión estable. | 3               | Visibilidad del estado del sistema |
-| 7  | En el flujo del propietario, la jerarquía visual de textos y secciones es débil.                       | 2               | Estética y diseño minimalista      |
-| 8  | Algunos campos permiten enviar formularios incompletos, generando mensajes genéricos.                  | 3               | Prevención de errores              |
-| 9  | El contraste en ciertos botones (azul sobre gris claro) puede afectar la accesibilidad.                | 2               | Estándares y accesibilidad         |
-| 10 | La navegación entre “Espacios”, “Reservas” y “Perfil” no es totalmente intuitiva para usuarios nuevos. | 2               | Control y libertad del usuario     |
+*Figura: Ejemplo del Dashboard de Quadrapp, donde se evidencian los flujos evaluados durante la auditoría heurística.*
 
-![DashboardFrontendWebv2](./assets/chapter-5-5.2/DashboardFrontendWebv2.jpg)
+## 6.4. Auditoría de Experiencias de Usuario
 
-## 6.4. Auditoría de Experiencias de Usuario.
+### 6.4.1. Auditoría realizada
 
-### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado
 
-#### 6.4.1.1. Información del grupo auditado.
+- **Nombre del responsable de la auditoría:** Vitalia  
+- **Especialización del equipo:** Diseño de interfaces, experiencia de usuario (UX), accesibilidad digital, pruebas de usabilidad y evaluación heurística de prototipos.  
+- **Fecha de realización de la auditoría:** 13/11/2025  
+- **Herramientas utilizadas:**
+  - Navegador web (Google Chrome)  
+  - Capturas de pantalla del prototipo funcional  
+  - Prototipos navegables (Figma / Frontend desplegado)  
+  - Documentación funcional del proyecto  
+  - Checklists de heurísticas de Nielsen  
 
-Nombre del responsable de la auditoría: Vitalia
+#### 6.4.1.2. Cronograma de auditoría
 
-Especialización del equipo:
-Diseño de interfaces, experiencia de usuario (UX), accesibilidad digital, pruebas de usabilidad y evaluación heurística de prototipos.
+La auditoría realizada por el equipo **Vitalia** se desarrolló de acuerdo al siguiente cronograma:
 
-Fecha de realización de auditoría:
-13/11/2025
+| Fecha          | Actividad                                                                                                        | Responsable                                         |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **11/06/2025** | Revisión de vistas principales: mapa de estacionamientos, detalles del espacio, reservas y panel del propietario | Irving Washington Allcca Guerrero                   |
+| **12/06/2025** | Evaluación heurística y análisis de flujos críticos (búsqueda, reserva, publicación)                             | Andrea Milagros Cabanillas Gora                     |
+| **13/06/2025** | Elaboración del informe de hallazgos y recomendaciones de mejora                                                 | Anderson Gonza Morales                               |
 
-Herramientas utilizadas:
-
-- Navegador web (Google Chrome)
-
-- Capturas de pantalla del prototipo funcional
-
-- Prototipos navegables (Figma / Frontend desplegado)
-
-- Documentación funcional del proyecto
-
-- Checklists de heurísticas de Nielsen
-
-#### 6.4.1.2. Cronograma de auditoría realizada.
-
-La auditoría realizada por el equipo Vitalia se desarrolló en el siguiente cronograma:
-
-| Fecha          | Actividad                                                                                                        | Responsable              |
-| -------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| **11/06/2025** | Revisión de vistas principales: mapa de estacionamientos, detalles del espacio, reservas y panel del propietario | Irving Washington Allcca Guerrero           |
-| **12/06/2025** | Evaluación heurística y análisis de flujos críticos (búsqueda, reserva, publicación)                             | Andrea Milagros Cabanillas Gora        |
-| **13/06/2025** | Elaboración del informe de hallazgos y recomendaciones de mejora                                                 | Anderson Gonza Morales |
-
-![MapaMobilev2](./assets/chapter-5-5.2/MapaMobilev2.jpg)
+![Mapa de Quadrapp en la aplicación móvil](./assets/chapter-5-5.2/MapaMobilev2.jpg)  
+*Figura: Visualización del mapa en la aplicación móvil de Quadrapp, utilizado para la auditoría de UX y evaluación de flujos de búsqueda y reserva.*
 
 #### 6.4.1.3. Contenido de auditoría realizada.
 
@@ -5297,26 +4961,16 @@ La auditoría realizada por el equipo Vitalia se desarrolló en el siguiente cro
 
 ### 6.4.2. Auditoría recibida.
 
-#### 6.4.2.1. Información del grupo auditor.
+#### 6.4.2.1. Información del grupo auditor
 
-Nombre del equipo auditor:
-Vitalia
-
-Especialización del equipo:
-Diseño UX/UI, pruebas de rendimiento, accesibilidad web, arquitectura de información y análisis heurístico.
-
-Fecha de la auditoría:
-12/11/2025
-
-Herramientas utilizadas:
-
-- Google Chrome
-
-- Grabaciones de navegación
-
-- Documento de flujos del proyecto Quadrapp
-
-- Prototipos de Frontend
+- **Nombre del equipo auditor:** Vitalia  
+- **Especialización del equipo:** Diseño UX/UI, pruebas de rendimiento, accesibilidad web, arquitectura de información y análisis heurístico.  
+- **Fecha de la auditoría:** 12/11/2025  
+- **Herramientas utilizadas:**
+  - Navegador web (Google Chrome)  
+  - Grabaciones de navegación del prototipo funcional  
+  - Documento de flujos del proyecto Quadrapp  
+  - Prototipos de frontend para evaluación y mejora
 
 #### 6.4.2.2. Cronograma de auditoría recibida.
 
@@ -5341,31 +4995,28 @@ Herramientas utilizadas:
 | **9**  | Algunos textos del mapa presentan bajo contraste con el fondo.                                       | 3         | Accesibilidad                      |
 | **10** | El botón "Buscar estacionamiento" no indica si hay filtros activos.                                  | 2         | Visibilidad del estado del sistema |
 
-#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
-A partir de los hallazgos del equipo auditor, se realizaron y planificaron las siguientes mejoras:
+A partir de los hallazgos del equipo auditor, se planificaron e implementaron las siguientes mejoras para optimizar la experiencia de usuario:
 
-Mejoras implementadas:
+---
 
-- Se rediseñaron los botones “Cancelar” y “Eliminar” con colores diferenciados.
+**Mejoras implementadas:**
 
-- Se añadió retroalimentación visual en acciones clave (editar, eliminar, actualizar disponibilidad).
+- 🔹 **Botones claros:** Rediseño de los botones “Cancelar” y “Eliminar” con colores diferenciados para evitar confusiones.  
+- 🔹 **Retroalimentación visual:** Se añadieron indicaciones visuales en acciones clave (editar, eliminar, actualizar disponibilidad).  
+- 🔹 **Corrección de textos:** Ajuste de errores gramaticales en pop-ups y pantallas informativas.  
+- 🔹 **Contraste y accesibilidad:** Mejora del contraste de textos en el mapa para cumplir con estándares WCAG.
 
-- Se corrigieron textos con errores gramaticales en pop-ups y pantallas informativas.
+---
 
-- Se mejoró el contraste de textos del mapa para cumplir estándares WCAG.
+**Mejoras planificadas:**
 
-Mejoras planificadas:
-
-- Integrar validaciones obligatorias visibles en formularios de registro y edición.
-
-- Agregar una pantalla descriptiva de los planes de suscripción con beneficios y restricciones.
-
-- Implementar mensajes de confirmación y éxito/fracaso en la eliminación de reservas.
-
-- Mejorar la sección de búsqueda para indicar filtros activos o búsqueda general.
-
-- Rediseñar el flujo de pago para hacer más claro el significado de "Cancelar".
+- 🔹 **Validaciones visibles:** Implementar validaciones obligatorias claramente indicadas en formularios de registro y edición.  
+- 🔹 **Información de suscripción:** Agregar una pantalla descriptiva de los planes de suscripción, mostrando beneficios y restricciones.  
+- 🔹 **Mensajes de confirmación:** Implementar alertas de éxito o fracaso al eliminar reservas para mayor claridad.  
+- 🔹 **Indicadores de búsqueda:** Mejorar la sección de búsqueda para mostrar filtros activos y resultados generales.  
+- 🔹 **Flujo de pagos:** Rediseñar el flujo de pago para que la opción “Cancelar” sea más comprensible y evitar errores del usuario.
 
 # Capítulo VII: Devops Practices
 
@@ -5405,63 +5056,57 @@ Finalmente, para las pruebas funcionales end-to-end de la interfaz web utilizamo
 
 ### 7.2.1. Tools and Practices  
 
-#### **Herramientas**
+## 7.2. Deployment & Pipeline
 
-- **Git:** Utilizado para el control de versiones del proyecto, permitiendo un seguimiento detallado de los cambios realizados en el código y facilitando el trabajo colaborativo entre los desarrolladores.  
-- **GitHub:** Plataforma central para la gestión del repositorio del proyecto, donde se almacenó el código fuente, se administraron las ramas y se realizaron revisiones mediante *pull requests*.  
-- **GitHub Pages:** Implementado para el despliegue de la *landing page* y la versión móvil, ofreciendo una solución rápida y gratuita para la visualización del entorno web del proyecto.  
-- **Azure:** Usado para alojar y ejecutar el *frontend* de la aplicación, proporcionando escalabilidad, disponibilidad y facilidad de integración con otros servicios.  
-- **AWS:** Plataforma destinada al desarrollo y despliegue del *backend*, aprovechando sus servicios para gestionar bases de datos, autenticación y almacenamiento seguro de información.  
+### 7.2.1. Herramientas y Prácticas
 
-#### **Prácticas**  
+**Herramientas utilizadas:**
+
+- **Git:** Control de versiones para seguimiento de cambios y colaboración.  
+- **GitHub:** Gestión del repositorio, ramas y revisiones mediante *pull requests*.  
+- **GitHub Pages:** Despliegue rápido de la *landing page* y versión móvil.  
+- **Azure Static Web Apps:** Despliegue del frontend Angular con escalabilidad y disponibilidad.  
+- **AWS:** Hosting del backend y servicios relacionados (MySQL, autenticación, almacenamiento seguro).  
+
+**Prácticas implementadas:**
 
 - **Estrategia de ramas:**  
-  Se aplicó una metodología basada en el uso de ramas *main* y *feature*, donde la rama *main* contenía versiones estables del proyecto y las *feature* se utilizaban para el desarrollo de nuevas funcionalidades o corrección de errores, promoviendo un flujo de trabajo ordenado y colaborativo.  
+  - Rama `main` para versiones estables.  
+  - Ramas `feature` para desarrollo de nuevas funcionalidades o corrección de errores.  
 
 - **Integración Continua (CI):**  
-  Se implementó un sistema de integración continua mediante el cual las pruebas automatizadas se ejecutaban de manera automática cada vez que se realizaba un *push* a cualquier rama o se generaba un *pull request*. Esto aseguraba que las modificaciones no introdujeran errores y que el código mantuviera su calidad y estabilidad.  
+  - Ejecución automática de pruebas unitarias en cada *push* o *pull request*.  
+  - Garantiza calidad y estabilidad del código antes del despliegue.  
 
 - **Entrega Continua (CD) con Docker:**  
-  Las versiones de la aplicación se construyeron utilizando contenedores Docker, lo que permitió estandarizar los entornos y facilitar el despliegue. Estas versiones se publicaban en entornos de prueba (*staging*) antes de su paso a producción, permitiendo validar el comportamiento del sistema de forma ágil, confiable y segura.
+  - Construcción de contenedores Docker para estandarizar entornos.  
+  - Publicación en entornos de prueba (*staging*) antes de producción.  
 
-### 7.2.2. Stages – Deployments Pipeline Components  
+---
 
-El proceso de despliegue del producto **Quadrapp** se ha estructurado mediante un **pipeline automatizado** que garantiza la calidad, eficiencia y control en cada entrega.  
-Este pipeline se aplica tanto al microservicio de **Inventory (Things)** como al de **Observability (Thing States)**, y está compuesto por las siguientes etapas:
+### 7.2.2. Stages – Pipeline de Despliegue
+
+El **pipeline de Quadrapp** garantiza calidad, eficiencia y control en cada entrega, aplicándose a los microservicios **Inventory (Things)** y **Observability (Thing States)**.
 
 #### **Build Stage**
-
-- Se construyen imágenes **Docker** de cada microservicio utilizando su respectivo *Dockerfile*.  
-- Esta etapa asegura que todas las dependencias estén correctamente instaladas y que el código sea ejecutable en un entorno uniforme y replicable.
-
----
+- Construcción de imágenes **Docker** de cada microservicio usando su *Dockerfile*.  
+- Asegura dependencias correctas y entornos replicables.
 
 #### **Test Stage**
-
-- Se ejecutan pruebas unitarias (y eventualmente de integración) para validar la lógica de negocio.  
-- Se verifica la correcta respuesta de los *endpoints* y la comunicación entre los distintos servicios.
-
----
+- Ejecución de pruebas unitarias y de integración.  
+- Validación de endpoints y comunicación entre servicios.
 
 #### **Push Stage**
-
-- Las imágenes **Docker** validadas se publican en un registro de contenedores (como **Docker Hub** o el registro interno de AWS).  
-- Esto facilita el versionamiento, la reutilización y el despliegue en diferentes entornos.
-
----
+- Publicación de imágenes **Docker** en un registro de contenedores (*Docker Hub* o registro interno AWS).  
+- Facilita versionamiento, reutilización y despliegue en distintos entornos.
 
 #### **Deploy Stage**
-
-- Se utiliza **AWS** como plataforma de despliegue automático de los microservicios.  
-- Se configuran las variables de entorno, las rutas y la conexión con la base de datos **MySQL**.  
-- Cada servicio es desplegado de forma independiente, manteniendo la conectividad y coherencia entre ellos.
-
----
+- Despliegue automático en **AWS** con configuración de variables, rutas y conexión a **MySQL**.  
+- Cada servicio se despliega de forma independiente manteniendo coherencia y conectividad.
 
 #### **Post-Deployment Stage**
-
-- Se realizan pruebas rápidas (*smoke tests*) para verificar el correcto funcionamiento de los servicios desplegados.  
-- Se monitorea el estado y rendimiento de los microservicios mediante las herramientas de observabilidad que ofrece **AWS**, asegurando que las **APIs** permanezcan accesibles y operativas.
+- Pruebas rápidas (*smoke tests*) para verificar funcionamiento correcto.  
+- Monitoreo de estado y rendimiento mediante herramientas de observabilidad de **AWS**.
 
 ---
 
@@ -5469,70 +5114,39 @@ Este pipeline se aplica tanto al microservicio de **Inventory (Things)** como al
 
 ### 7.3.1. Tools and Practices
 
-Para el **backend**, desarrollado en **Java con Spring Boot**, se utiliza **Docker** para contenerizar el servicio RESTful junto con la base de datos **MySQL**. La aplicación backend se despliega en una instancia **EC2 de AWS**, donde se ejecutan los contenedores Docker. Una vez que se genera la imagen Docker con la versión actual del código, esta puede ser desplegada en el entorno de producción, lo cual facilita la entrega continua. La imagen es portable y garantiza que lo que se prueba es exactamente lo que se despliega.
+**Backend (Spring Boot + MySQL)**  
+- Contenerización con **Docker** y despliegue en **AWS EC2**.  
+- Imagen Docker portable asegura que lo probado es lo mismo que se despliega.  
 
-Para la **landing page**, desarrollada con **HTML, CSS y JavaScript puro**, se utiliza **GitHub Pages**, el cual detecta automáticamente nuevos commits en la rama `main` mediante su **pipeline de CI/CD integrado** y despliega los archivos estáticos automáticamente.
+**Landing Page (HTML/CSS/JS)**  
+- Despliegue automático mediante **GitHub Pages** al detectar commits en `main`.  
 
-Para la **aplicación web frontend**, desarrollada con **Angular**, se utiliza **Azure Static Web Apps**, que también detecta cambios en la rama `main` y ejecuta el proceso de construcción (`ng build --prod`). Una vez compilados, los archivos estáticos son desplegados automáticamente en Azure.
+**Frontend Web (Angular)**  
+- Despliegue en **Azure Static Web Apps**, ejecutando `ng build --prod`.  
 
-Para la **aplicación móvil nativa**, desarrollada con **Flutter**, se utiliza un pipeline manual que genera los builds de Android (APK/AAB) e iOS (IPA) y los distribuye automáticamente mediante **Firebase App Distribution** para pruebas internas con testers.
+**App Móvil (Flutter)**  
+- Pipeline manual para generar builds de Android (APK/AAB) e iOS (IPA).  
+- Distribución a testers mediante **Firebase App Distribution**.
 
-#### Herramientas utilizadas:
+**Herramientas adicionales:**  
+- **AWS CloudWatch:** Monitoreo y logs del backend.  
+- **AWS Secrets Manager:** Gestión segura de credenciales.  
 
-- **AWS EC2** (para Backend en Spring Boot + MySQL)
-- **Docker** (para contenerización del Backend y MySQL)
-- **Azure Static Web Apps** (para Frontend Web en Angular)
-- **GitHub Pages** (para Landing Page)
-- **Firebase App Distribution** (para distribución de la aplicación móvil)
-- **AWS CloudWatch** (para monitoreo y logs del backend)
-- **AWS Secrets Manager** (para gestión segura de credenciales y configuraciones)
+---
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-Este apartado describe los componentes que forman parte del pipeline de despliegue a producción de **Quadrapp** y cómo se integran para automatizar todo el proceso.
-
-#### **Componentes del Pipeline del Backend (Spring Boot + Docker + AWS EC2)**
-
-1. **Dockerización del Backend:**  
-   La aplicación backend desarrollada en **Java 24 con Spring Boot** y la base de datos **MySQL** fueron dockerizadas. Esto permite su ejecución en cualquier entorno que tenga Docker instalado, garantizando consistencia entre desarrollo y producción.
-
-2. **Preparación del Entorno:**  
-   Antes de cada despliegue, se realiza un **backup de la base de datos MySQL** para asegurar que los datos puedan ser restaurados en caso de problemas durante la actualización.
-
-3. **Construcción de la Imagen:**  
-   Al realizar cambios en el repositorio de GitHub, se construye manualmente una nueva imagen Docker que contiene la última versión del backend. Esta imagen incluye tanto el código de la aplicación como las dependencias necesarias.
-
+#### **Pipeline Backend (Spring Boot + Docker + AWS EC2)**
+1. **Dockerización:** Backend + MySQL en contenedores para consistencia entre entornos.  
+2. **Preparación del entorno:** Backup de la base de datos antes de despliegue.  
+3. **Construcción de la imagen:** Nueva imagen Docker con última versión del código.  
 4. **Despliegue en AWS EC2:**  
-   La imagen Docker se despliega en una instancia **EC2 de AWS**, donde se ejecutan los contenedores Docker. El despliegue se realiza mediante comandos Docker que detienen los contenedores antiguos, eliminan las imágenes desactualizadas y levantan los nuevos contenedores con la versión actualizada.
-
    ```bash
    # Detener y eliminar contenedores antiguos
    docker-compose down
    
    # Construir y levantar nuevos contenedores
    docker-compose up -d --build
-   ```
-
-5. **Post-Deployment:**  
-   Después del despliegue, se ejecutan pruebas básicas (smoke tests) para validar que el backend responde correctamente. Se monitorean logs y métricas en tiempo real utilizando **AWS CloudWatch** para detectar errores o problemas de rendimiento.
-
-6. **Gestión de Secretos:**  
-   Las credenciales sensibles (claves de base de datos, tokens de API, etc.) se gestionan mediante **AWS Secrets Manager**, asegurando que no se expongan en el código fuente ni en las variables de entorno del contenedor de manera insegura.
-
----
-
-#### **Componentes del Pipeline de la Landing Page (HTML/CSS/JS + GitHub Pages)**
-
-1. **Detección de cambios en GitHub:**  
-   **GitHub Pages** está conectado al repositorio de la landing page. Cuando se detecta un commit en la rama `main`, se inicia automáticamente el proceso de despliegue mediante el **pipeline de CI/CD integrado de GitHub Pages**.
-
-2. **Despliegue automático:**  
-   Una vez que se detectan los cambios, GitHub Pages publica automáticamente la nueva versión de la landing page, sirviendo los archivos estáticos directamente desde el repositorio.
-
-3. **Distribución:**  
-   La página es servida a través de la infraestructura de GitHub, asegurando disponibilidad global y tiempos de carga rápidos.
-
----
 
 #### **Componentes del Pipeline de la Aplicación Web Frontend (Angular + Azure)**
 
@@ -5656,7 +5270,6 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
 
 ## **Diagrama del Pipeline de Despliegue**
 
-```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    CONTINUOUS DEPLOYMENT                         │
 └─────────────────────────────────────────────────────────────────┘
@@ -5691,11 +5304,8 @@ Esto asegura que las credenciales no se expongan en el código fuente ni en los 
 │   GitHub Repo   │──────>│Flutter Build    │──────>│  Firebase   │
 │    (Mobile)     │       │(APK/AAB/IPA)    │       │App Distrib. │
 └─────────────────┘       └─────────────────┘       └─────────────┘
-```
 
----
-
-¡Vamos a enriquecer tu Capítulo VII con mirada senior! Te dejo un texto listo para pegar en tu documento, consistente con lo que ya declaraste (Azure Application Insights, CloudWatch, Azure SWA, backend en AWS EC2, etc.).
+Vamos a enriquecer tu Capítulo VII con mirada senior! Te dejo un texto listo para pegar en tu documento, consistente con lo que ya declaraste (Azure Application Insights, CloudWatch, Azure SWA, backend en AWS EC2, etc.).
 
 ## 7.4. Continuous Monitoring
 
@@ -5944,122 +5554,137 @@ E. Pruebas de Usabilidad Multietaria
 
 ## 8.2.1. Hypotheses
 
-**H1 — Demanda: Fake Door “Buscar en tiempo real”**
-Si mostramos la función “Disponibilidad en tiempo real” (sin desarrollarla aún), al menos **≥15%** de quienes ven la CTA harán clic (**CTR**) y **≥5%** dejarán su contacto. Éxito si CTR ≥15% y lead rate ≥5%.
+**H1 Demanda: Fake Door “Buscar en tiempo real”**  
+Si mostramos la función “Disponibilidad en tiempo real” (sin desarrollarla aún), al menos **≥15%** de quienes ven la CTA harán clic (**CTR**) y **≥5%** dejarán su contacto.  
+**Éxito:** CTR ≥15% y lead rate ≥5%.
 
-**H2 — UI: Interfaz Simple vs Avanzada**
-Una **UI Simple** (mapa + CTA “Reservar”) producirá **≥10%** más reservas completadas y menor tiempo de tarea que la **UI Avanzada** (mapa + filtros + preview). Éxito si conversión y tiempo medio mejoran con significancia (p<0.05).
+**H2 UI: Interfaz Simple vs Avanzada**  
+Una **UI Simple** (mapa + CTA “Reservar”) producirá **≥10%** más reservas completadas y menor tiempo de tarea que la **UI Avanzada** (mapa + filtros + preview).  
+**Éxito:** Conversión y tiempo medio mejoran con significancia (p<0.05).
 
-**H3 — Confianza: Badges de Seguridad**
+**H3 Confianza: Badges de Seguridad**  
 Mostrar **indicadores de seguridad** (CCTV, iluminación, reseñas verificadas) en la ficha aumentará en **≥12%** la probabilidad de reserva y +1 punto la **confianza autopercebida** (1–5).
 
-**H4 — Motivación económica (cualitativo)**
-Conductores priorizan **precio y conveniencia**; propietarios priorizan **ocupación y ROI**. Éxito si identificamos **≥3** incentivos accionables validados por **≥60%** de entrevistados.
+**H4 Motivación económica (cualitativo)**  
+Conductores priorizan **precio y conveniencia**; propietarios priorizan **ocupación y ROI**.  
+**Éxito:** Identificar **≥3** incentivos accionables validados por **≥60%** de entrevistados.
 
-**H5 — Usabilidad multietaria (cualitativo)**
-La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con **SUS ≥75**. Éxito si se alcanzan esos umbrales o se priorizan fixes si no se cumple.
+**H5 Usabilidad multietaria (cualitativo)**  
+La app logrará **≥85%** de éxito de tarea (18–50 años) y **≥70%** (51+), con **SUS ≥75**.  
+**Éxito:** Alcanzar los umbrales o priorizar fixes si no se cumple.
+
+---
 
 ## 8.2.2. Domain Business Metrics
 
-**Plataforma:**
-- **Reservas confirmadas (Bookings)**
-- **GMV** (importe bruto de reservas)
-- **Retención D7/D28**
+**Plataforma**  
+- **Reservas confirmadas (Bookings)**  
+- **GMV** (importe bruto de reservas)  
+- **Retención D7/D28**  
 - **Ocupación por parking (Owners)** = horas ocupadas / horas ofertadas
 
-**IoT / Calidad de datos:**
-- **Precisión de ocupación (Accuracy)** = (TP+TN)/(TP+FP+FN+TN)
-- **Tasa de Falsos Positivos (FP rate)** y **Falsos Negativos (FN rate)**
+**IoT / Calidad de datos**  
+- **Precisión de ocupación (Accuracy)** = (TP+TN)/(TP+FP+FN+TN)  
+- **Tasa de Falsos Positivos (FP rate)** y **Falsos Negativos (FN rate)**  
 - **Latencia de actualización p95 (IoT→App)**
 
-**Experiencia:**
-- **Conversión intención→reserva**
-- **Abandono Ficha→Checkout**
+**Experiencia**  
+- **Conversión intención→reserva**  
+- **Abandono Ficha→Checkout**  
 - **Tiempo de tarea** (búsqueda/reserva, p50/p95)
+
+---
 
 ## 8.2.3. Measures
 
-| Question | Measure (qué y cómo) |
+| Pregunta | Medida (qué y cómo) |
 |---|---|
-| ¿Hay demanda real por “Disponibilidad en tiempo real”? | **Fake Door**: `fd_cta_view`, `fd_cta_click`, `fd_lead_submit`. KPI: **CTR** (clicks/vistas), **Lead rate** (leads/vistas). Corte por canal/dispositivo. |
-| ¿UI Simple gana a Avanzada? | **Conversión intención→reserva**; **Tiempo de tarea** (p95); **Clicks extra por reserva**. Eventos: `view_listing`, `start_checkout`, `confirm_reservation`, `ui_variant`. |
+| ¿Hay demanda real por “Disponibilidad en tiempo real”? | **Fake Door**: `fd_cta_view`, `fd_cta_click`, `fd_lead_submit`. KPI: **CTR**, **Lead rate**. Corte por canal/dispositivo. |
+| ¿UI Simple gana a Avanzada? | **Conversión intención→reserva**, **Tiempo de tarea** (p95), **Clicks extra por reserva**. Eventos: `view_listing`, `start_checkout`, `confirm_reservation`, `ui_variant`. |
 | ¿Badges de seguridad elevan reservas/confianza? | **Uplift de conversión** y **Confianza (1–5)** post-ficha. Eventos: `view_security_badges`, `start_checkout`; microencuesta in-app. |
-| ¿Qué incentivos económicas funcionan? | **Entrevistas** (codificación temática); outcome: ≥3 palancas priorizadas con evidencia (≥60%). |
+| ¿Qué incentivos económicos funcionan? | **Entrevistas** (codificación temática); outcome: ≥3 palancas priorizadas con evidencia (≥60%). |
 | ¿Es usable por edades? | **Tasa de éxito**, **tiempo**, **SUS**; registro de incidentes críticos; segmentado por 18–30, 31–50, 51+. |
 | ¿Qué tan preciso/rápido es IoT? | **TP/FP/FN/TN** vs confirmación manual o ticket; **Latencia p95** desde `sensor_status_update` a `availability_rendered`. |
 
+---
+
 ## 8.2.4. Conditions
 
-**Experimento E1 — Fake Door (Demand Discovery):**
+**Experimento E1 Fake Door (Demand Discovery)**  
+- **Control (A):** Sin CTA “Disponibilidad en tiempo real”  
+- **Tratamiento (B):** CTA visible + landing de interés/lead  
+- **Primaria:** CTR  
+- **Secundaria:** Lead rate  
+- **Validez:** Muestras por canal
 
-- **Condición A (Control):** Sin CTA “Disponibilidad en tiempo real”.
-- **Condición B (Tratamiento):** CTA visible + landing de interés/lead.
-- **Primaria:** CTR; **Secundaria:** lead rate; **Validez:** muestras por canal.
+**Experimento E2 UI Simple vs Avanzada (A/B)**  
+- **Control (A):** UI Avanzada (mapa + filtros/preview)  
+- **Tratamiento (B):** UI Simple (mapa + CTA directa)  
+- **Primaria:** Conversión intención→reserva  
+- **Secundaria:** Tiempo de tarea  
+- **Asignación:** 50/50 sticky por `user_id`
 
-**Experimento E2 — UI Simple vs Avanzada (A/B):**
+**Experimento E3 Badges de Seguridad (A/B)**  
+- **Control (A):** Ficha sin badges  
+- **Tratamiento (B):** Ficha con CCTV/iluminación/reseñas verificadas  
+- **Primaria:** Conversión ficha→checkout  
+- **Secundaria:** Confianza (1–5)
 
-- **A (Control):** UI Avanzada (mapa + filtros/preview).
-- **B (Tratamiento):** UI Simple (mapa + CTA directa).
-- **Primaria:** Conversión intención→reserva; **Secundaria:** tiempo de tarea.
-- **Asignación:** 50/50 sticky por `user_id`.
+**Estudios cualitativos**  
+- **E4 — Entrevistas motivacionales:** 25–35 participantes (conductores/propietarios)  
+- **E5 — Usabilidad multietaria moderada:** 8–10 por segmento (18–30, 31–50, 51+)
 
-**Experimento E3 — Badges de Seguridad (A/B):**
+## 8.2.5. Scale Calculations and Decisions – Explicación
 
-- **A:** Ficha sin badges.
-- **B:** Ficha con CCTV/iluminación/reseñas verificadas.
-- **Primaria:** Conversión ficha→checkout; **Secundaria:** confianza (1–5).
+**Parámetros del experimento:**  
+Se establecen reglas estadísticas básicas para los experimentos:  
+- **α=0.05**: Aceptamos un 5% de probabilidad de equivocarnos al decir que hay un efecto cuando en realidad no lo hay (error tipo I).  
+- **Potencia=0.8**: 80% de probabilidad de detectar un efecto real si existe (evita errores tipo II).  
+- **Bilateral**: Se consideran cambios tanto positivos como negativos.  
+- **Duración mínima de 1 semana**: Garantiza que los datos sean representativos y se recojan suficientes usuarios en diferentes días.
 
-**Estudios cualitativos:**
+---
 
-- **E4 — Entrevistas motivacionales:** 25–35 participantes (conductores/propietarios).
-- **E5 — Usabilidad multietaria moderada:** 8–10 p/segmento (18–30, 31–50, 51+).
+**Tamaños referenciales (usuarios o participantes necesarios):**  
+- **E2 (UI)**: Para el A/B testing de interfaz simple vs avanzada, con una tasa de conversión base de 30% y un cambio mínimo detectable de 5 pp. Se necesitan ~1,000–1,300 usuarios por grupo.  
+- **E3 (Seguridad)**: Para probar si los badges de seguridad aumentan la conversión, con base del 40% y MDE de 6 pp. Se necesitan ~900–1,200 usuarios por grupo.  
+- **E1 (Fake Door)**: Para medir interés en “Disponibilidad en tiempo real” sin desarrollarla, se requieren 5,000–10,000 impresiones para estimar CTR con precisión.  
+- **E4 (Entrevistas motivacionales)**: 25–35 entrevistas hasta alcanzar saturación de temas.  
+- **E5 (Usabilidad)**: 8–10 participantes por grupo etario, ya que problemas graves suelen aparecer con 5–8 usuarios.
 
-## 8.2.5. Scale Calculations and Decisions
+---
 
-**Parámetros**: α=0.05, potencia=0.8, bilateral; duración mínima 1 semana (A/B).
-
-**Tamaños referenciales (recalcular con baseline real):**
-
-- **E2 (UI) — Conversión intención→reserva**  
-  Baseline 30%, **MDE +5 pp** → ~1,000–1,300 usuarios por brazo.
-- **E3 (Seguridad) — Ficha→Checkout**  
-  Baseline 40%, **MDE +6 pp** → ~900–1,200 por brazo.
-- **E1 (Fake Door)**  
-  Necesitas **≥5,000–10,000 impresiones** para estimar CTR 10–20% con error ±2–3 pp.
-- **E4 (Entrevistas)**  
-  **N=25–35** para saturación temática (2 segmentos clave).
-- **E5 (Usabilidad)**  
-  **8–10** por grupo etario (problemas de alta severidad afloran con ~5–8).
-
-**Criterios de validez/decisión:**
-
-- Sin **peeking**; monitorear **SRM** (±1–2 pp).
-- Reportar **p-valor**, **IC95%**, **uplift (%)** y **pp**.
-- Revisar **invariantes** (mix device/canal).
-- Decisión **ship/keep/iterate** con riesgos y next steps.
+**Criterios de validez y decisión:**  
+- **Sin peeking**: No revisar resultados parciales para evitar sesgos.  
+- **Monitorear SRM (Sample Ratio Mismatch)**: Comprobar que la proporción de usuarios por grupo sea la esperada (±1–2 pp).  
+- **Reportar métricas estadísticas**: p-valor, IC95%, uplift (%) y puntos porcentuales.  
+- **Revisar invariantes**: Asegurar que no existan diferencias significativas entre grupos por dispositivo, canal o segmento.  
+- **Decisión final (ship / keep / iterate)**:  
+  - **Ship:** lanzar la función al público.  
+  - **Keep:** mantener las pruebas activas para recolectar más datos.  
+  - **Iterate:** hacer ajustes antes de lanzar.
 
 ## 8.2.6. Methods Selection
 
 | Pregunta | Método | Razón |
 |---|---|---|
-| ¿Existe demanda por “tiempo real”? | **Fake Door + Lead capture** | Minimiza costo antes de integrar IoT end-to-end. |
-| ¿Qué UI convierte mejor? | **A/B clásico (Simple vs Avanzada)** | Causalidad directa sobre conversión/tiempo. |
-| ¿Seguridad aumenta confianza y reservas? | **A/B + microencuesta** | Mide efecto en conversión y percepción. |
-| ¿Qué incentivos activar? | **Entrevistas semiestructuradas** | Profundiza en motivadores y barreras. |
-| ¿La app funciona para todas las edades? | **Pruebas de usabilidad moderadas** | Detecta fricciones críticas por segmento. |
-| ¿Es fiable IoT? | **Evaluación offline (confusion matrix) + canary** | Cuantifica precisión y latencia antes de scale-up. |
+| ¿Existe demanda por “tiempo real”? | **Fake Door + Lead capture** | Minimiza costo antes de integrar IoT end-to-end |
+| ¿Qué UI convierte mejor? | **A/B clásico (Simple vs Avanzada)** | Causalidad directa sobre conversión/tiempo |
+| ¿Seguridad aumenta confianza y reservas? | **A/B + microencuesta** | Mide efecto en conversión y percepción |
+| ¿Qué incentivos activar? | **Entrevistas semiestructuradas** | Profundiza en motivadores y barreras |
+| ¿La app funciona para todas las edades? | **Pruebas de usabilidad moderadas** | Detecta fricciones críticas por segmento |
+| ¿Es fiable IoT? | **Evaluación offline (confusion matrix) + canary** | Cuantifica precisión y latencia antes de scale-up |
 
-## 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+## 8.2.7. Data Analytics: Goals, KPIs and Metrics
 
-**Goals:**
+**Goals**  
+- **G1:** Validar demanda y priorizar roadmap de “tiempo real”  
+- **G2:** Maximizar conversión (intención→reserva) y reducir tiempo de tarea  
+- **G3:** Incrementar confianza percibida en la ficha  
+- **G4:** Entender motivaciones para pricing/comisiones/retención  
+- **G5:** Asegurar **calidad de datos IoT** (precisión y latencia)
 
-- G1: Validar demanda y priorizar roadmap de “tiempo real”.
-- G2: Maximizar conversión (intención→reserva) y reducir tiempo de tarea.
-- G3: Incrementar confianza percibida en la ficha.
-- G4: Entender motivaciones para pricing/comisiones/retención.
-- G5: Asegurar **calidad de datos IoT** (precisión y latencia).
-
-**KPIs:**
+**KPIs**
 
 | ID | KPI | Fórmula | Frecuencia | Meta inicial |
 |---|---|---|---|---|
@@ -6070,52 +5695,44 @@ La app logrará **≥85%** de éxito de tarea (18–50) y **≥70%** (51+), con 
 | KPI-5 | **Tiempo de tarea p95** | p95 (inicio→confirmación) | Semanal | −10–20% |
 | KPI-6 | **Precisión IoT** | (TP+TN)/(TP+FP+FN+TN) | Semanal | ≥ 95% |
 | KPI-7 | **Latencia IoT p95** | p95(sensor→UI) | Diario | ≤ 5 s |
-| KPI-8 | **SUS promedio** | encuesta post-test | Por estudio | ≥ 75 |
+| KPI-8 | **SUS promedio** | Encuesta post-test | Por estudio | ≥ 75 |
 
 ## 8.2.8. Web and Mobile Tracking Plan
 
-**Identidad y sesión:**
+## Tracking Plan
 
-- `user_id`, `device_id`, `session_id`, `app_version`, `platform`, `locale`, `geo_area` (con consentimiento), `ab_variant`, `consent_analytics`, `consent_marketing`.
-
-**Eventos Fake Door:**
-
-- `fd_cta_view` { surface }  
-- `fd_cta_click` { surface }  
-- `fd_lead_submit` { method: email|whatsapp }
-
-**Eventos UI / Reserva:**
-
-- `view_listing` { listing_id, has_security_badges }  
-- `start_checkout` { listing_id, variant: simple|advanced }  
-- `confirm_reservation` { reservation_id }  
-- `time_to_task_ms` (propiedad calculada)
-
-**Eventos Seguridad:**
-
-- `view_security_badges` { cctv, lighting, reviews_count }  
-- `trust_survey_submit` { score_1_5 }
-
-**Eventos IoT:**
-
-- `sensor_status_update` { spot_id, state: free|occupied, sensor_ts }  
-- `spot_occupancy_inferred` { spot_id, state, model_version }  
-- `spot_occupancy_confirmed` { spot_id, state, source: manual|ticket }  
-- `availability_rendered` { spot_id, ui_ts }  
-
-> Con esto se calcula **precisión** (TP/FP/FN/TN) y **latencia** (ui_ts − sensor_ts).
-
-**Cualitativos (no product analytics):**
-
-- Guías, consentimientos y codificación temática en repositorio de research; subida de hallazgos a un dashboard “Research Ops”.
-
-**Dashboards:**
-
-- **Fake Door** (CTR/Leads por canal/dispositivo).  
-- **A/B UI** (conversión, tiempo p95, clicks por reserva).  
-- **Seguridad** (uplift y confianza).  
-- **IoT** (accuracy, FP/FN, latencia p95).  
-- **Usabilidad** (SUS, issues críticos por edad/prioridad).
+| Categoría | Evento / Variable | Detalle |
+|---|---|---|
+| **Identidad y sesión** | `user_id` | Identificador único de usuario |
+|  | `device_id` | Identificador del dispositivo |
+|  | `session_id` | Identificador de la sesión |
+|  | `app_version` | Versión de la app |
+|  | `platform` | Plataforma (iOS/Android/Web) |
+|  | `locale` | Configuración regional / idioma |
+|  | `geo_area` | Ubicación geográfica (con consentimiento) |
+|  | `ab_variant` | Variante asignada en test A/B |
+|  | `consent_analytics` | Consentimiento para analytics |
+|  | `consent_marketing` | Consentimiento para marketing |
+| **Eventos Fake Door** | `fd_cta_view` | Vista del CTA { surface } |
+|  | `fd_cta_click` | Click en el CTA { surface } |
+|  | `fd_lead_submit` | Envío de contacto { method: email|whatsapp } |
+| **Eventos UI / Reserva** | `view_listing` | Vista del listing { listing_id, has_security_badges } |
+|  | `start_checkout` | Inicio de checkout { listing_id, variant: simple|advanced } |
+|  | `confirm_reservation` | Confirmación de reserva { reservation_id } |
+|  | `time_to_task_ms` | Tiempo de tarea calculado |
+| **Eventos Seguridad** | `view_security_badges` | Vista de badges { cctv, lighting, reviews_count } |
+|  | `trust_survey_submit` | Encuesta de confianza { score_1_5 } |
+| **Eventos IoT** | `sensor_status_update` | Estado sensor { spot_id, state: free|occupied, sensor_ts } |
+|  | `spot_occupancy_inferred` | Ocupación inferida { spot_id, state, model_version } |
+|  | `spot_occupancy_confirmed` | Ocupación confirmada { spot_id, state, source: manual|ticket } |
+|  | `availability_rendered` | Disponibilidad mostrada { spot_id, ui_ts } |
+| **Cualitativos** | Guías / Research | Guías, consentimientos y codificación temática en repositorio |
+|  | Dashboard | Subida de hallazgos a “Research Ops” |
+| **Dashboards** | Fake Door | CTR / Leads por canal/dispositivo |
+|  | A/B UI | Conversión, tiempo p95, clicks por reserva |
+|  | Seguridad | Uplift y confianza |
+|  | IoT | Accuracy, FP/FN, latencia p95 |
+|  | Usabilidad | SUS, issues críticos por edad/prioridad |
 
 ## 8.3. Experimentation.
 
@@ -6376,148 +5993,139 @@ La suma total del To-Be Product Baklog es de 42 Story Points, lo cual permite pr
 
 #### 8.3.3.1. To-Be Sprint Backlogs.
 
-#### 8.3.3.2. Implemented To-Be Landing Page Evidence.
+| HUX-TXX | Nombre Task | Story Points | STATUS | Usuario |
+|---------|------------|-------------:|--------|---------|
+| HUX-T01 | Implementar video demostrativo en landing page | 3 | Listo | Visitante |
+| HUX-T02 | Crear vista de historial de reservas | 3 | Listo | Propietario de estacionamiento |
+| HUX-T03 | Calcular y mostrar ganancias por reserva | 2 | Listo | Propietario de estacionamiento |
+| HUX-T04 | Generar estadísticas de ocupación y horarios pico | 4 | Listo | Propietario de estacionamiento |
+| HUX-T05 | Generar reporte de ingresos totales | 3 | Listo | Propietario de estacionamiento |
+| HUX-T06 | Configurar promociones por fechas/eventos | 5 | Listo | Propietario de estacionamiento |
+| HUX-T07 | Implementar recomendaciones basadas en historial y hora | 3 | Listo | Conductor |
+| HUX-T08 | Mostrar distancia y costo estimado en tiempo real | 5 | Listo | Conductor |
+| HUX-T09 | Autenticación segura con cuenta registrada | 7 | Listo | Usuario |
+| HUX-T10 | Monitorear métricas de actividad de usuarios | 4 | Listo | Developer |
+| HUX-T11 | Monitorear métricas de actividad de estacionamientos | 3 | Listo | Developer |
 
-**Hipótesis y User Story Asociada:**
+### 8.3.3.2 Implemented To-Be Landing Page Evidence
 
-El presente experimento busca validar la hipótesis de que mostrar un video demostrativo sobre cómo funciona la aplicación incrementa la confianza y motivación de los visitantes para registrarse y usar la plataforma.
-Esta implementación da cumplimiento directo a la siguiente User Story del Product Backlog:
+**Hipótesis y User Story Asociada:**  
+El experimento busca validar que mostrar un video demostrativo incrementa la confianza y motivación de los visitantes para registrarse.  
 
-*TBUS01: Ver cómo funciona la app* <br>
-Como visitante de la landing page quiero visualizar un video demostrativo del funcionamiento de la aplicación, para entender rápidamente sus beneficios y motivarme a registrarme.
+**User Story:**  
+- **TBUS01: Ver cómo funciona la app**  
+  *Como visitante de la landing page quiero visualizar un video demostrativo del funcionamiento de la aplicación, para entender rápidamente sus beneficios y motivarme a registrarme.*
 
-**Descripción de la Implementación "To-Be":**
-Para ejecutar el experimento y cumplir con la TBUS01, se realizó una modificación en la estructura del archivo index.html mediante la adición de una sección dedicada a mostrar un video explicativo.
+**Descripción de la Implementación "To-Be":**  
+- Se añadió una sección `#demo-section` con título y reproductor de video embebido.  
+- Se actualizó la navegación agregando un enlace “Producto” apuntando a la nueva sección.  
+- Estilos CSS responsivos para centrar el video y adaptarlo a escritorio y móvil.
 
-**Cambios específicos en el código:**
-
-Nueva Sección de Video Demo (#demo-section):
-- Se añadió una sección con el id="demo-section" ubicada después de la sección de cómo funciona.
-- Incluye un título principal (“Descubre Quadrapp en acción”) y un reproductor de video embebido, que muestra el flujo de la aplicación.
-
-Actualización de la navegación principal:
-- Se agregó un enlace “Producto” en la barra de navegación que apunta a la nueva sección (href="#demo-section").
-
-Estilos CSS dedicados:
-- Se añadieron reglas para centrar el video, darle un marco responsivo y asegurar que se adapte tanto a escritorio como a móvil.
-
-**Capturas de Pantalla:**
-
-*Vista de Escritorio (Desktop View):*
-
-![HomeLandingPage](./assets/chapter-8/HomeLandingPage.png)
-
-![WhyLandingPage](./assets/chapter-8/WhyLandingPage.png)
-
-![HowLandingPage](./assets/chapter-8/HowLandingPage.png)
-
-![AboutTheProductLandingPage](./assets/chapter-8/AboutTheProductLandingPage.png)
-
-![EndLandingPage](./assets/chapter-8/EndLandingPage.png)
-
-
-#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence.
-
-**Hipótesis y User Story Asociada:**
-
-El presente experimento busca validar la hipótesis de que simplificar la gestión de estacionamientos y ofrecer información clara a los propietarios.
-Esta implementación da cumplimiento directo a las siguientes User Stories del Product Backlog:
-- TBUS02: Visualización de historial de reservas y ganancias
-- TBUS03: Visualización de estadísticas en estacionamientos
-- TBUS04: Añadir promociones
-
-**Descripción de la Implementación "To-Be":**
-
-**Cambios específicos en el código:**
-- Dashboard de estadísticas: Se agregó un módulo que muestra información sobre los ingresos, espacios ocupados, estado de parkings, etc.
-- Gestión de promociones: Se añadió un formulario para configurar promociones por fechas o eventos especiales.
-
-**Capturas de Pantalla:**
-
-*Vista de Escritorio (Desktop View):*
-
-![DashboardFrontTF](./assets/chapter-8/DashboardFrontTF.png)
-
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence.
-
-**Hipótesis y User Story Asociada:**
-El presente experimento busca validar la hipótesis de que mejorar la eficiencia de procesos de recomendación y búsqueda de estacionamientos disponibles, aumentará la satisfacción de los conductores al usar la plataforma.
-
-Esta implementación da cumplimiento directo a la siguiente User Story del Product Backlog:
-- TBUS05: Recomendaciones de estacionamientos
-- TBUS06: Distancia y costo estimado
-
-**Descripción de la Implementación "To-Be":**
-- Se añadió una sección en la pantalla principal que sugiere estacionamientos cercanos basados en el historial del conductor y la hora del día.
-- Visualización de Distancia y Costo Estimado: Se muestra un costo estimado en base a la tarifa vigente y la distancia recorrida.
-
-**Capturas de Pantalla:**
-
-*Vista Móvil (Mobile View):*
-
-#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence.
-
-#### 8.3.3.6. Team Collaboration Insights.
-
-# Conclusiones y recomendaciones
-
-TB1:
-
-El desarrollo de Quadrapp permitió identificar y atender necesidades clave tanto de los conductores urbanos como de los propietarios de estacionamientos. A través de la definición de historias de usuario, epics e impact maps, se logró establecer un marco de funcionalidades orientado a mejorar la accesibilidad, la seguridad y la eficiencia en la gestión de estacionamientos. Asimismo, la incorporación de tecnologías como sensores, cámaras de monitoreo y notificaciones en tiempo real aporta soluciones innovadoras que responden a la problemática de congestión y pérdida de tiempo en zonas urbanas.  
-
-En general, el proyecto evidencia que una adecuada planificación, acompañada de metodologías ágiles, facilita la construcción de un producto escalable y adaptable a las necesidades del mercado.  
-
-El análisis realizado demuestra que Quadrapp tiene un alto potencial para transformar la experiencia de los usuarios y la gestión de los propietarios. No obstante, se recomienda:  
-
-1. Priorizar la seguridad de los datos de los usuarios mediante estándares de cifrado y cumplimiento normativo (p. ej., GDPR, CCPA).  
-2. Implementar pruebas de usabilidad constantes con usuarios reales para optimizar la experiencia en la aplicación móvil y la landing page.  
-3. Invertir en estrategias de marketing digital que aumenten la visibilidad y fomenten la adopción del sistema en nuevas ciudades.  
-4. Incorporar mecanismos de feedback continuo que permitan a los usuarios y propietarios sugerir mejoras de manera sistemática.  
-
-De esta manera, Quadrapp no solo podrá aumentar en un 30% el uso del servicio en seis meses, sino también consolidar una ventaja competitiva sostenible en el mercado de movilidad urbana. 
-
-TP:
-
-El desarrollo e implementación del producto permitió consolidar un proceso integral que abarca desde la configuración de despliegue hasta la automatización de entregas continuas, evidenciando la madurez técnica y organizacional del equipo.
-
-En primer lugar, la **configuración de despliegue de software (5.1.4)** garantizó un entorno controlado, reproducible y seguro, permitiendo minimizar errores durante la puesta en marcha. La implementación de los distintos componentes —**Landing Page, aplicación web, aplicación móvil nativa y API RESTful (5.2.2 a 5.2.5)**— demostró la aplicabilidad de arquitecturas modulares y desacopladas, facilitando la integración entre servicios y la escalabilidad futura del sistema.
-
-La documentación del **API RESTful (5.2.6)** contribuyó a la mantenibilidad del proyecto, asegurando la correcta comprensión y uso de los endpoints por parte de desarrolladores y posibles integradores externos. Asimismo, las **evidencias de colaboración en equipo (5.2.7)** reflejan la eficacia de la comunicación y la distribución de tareas en entornos ágiles.
-
-Por otro lado, la inclusión de **Testing Suites y validación (6.1)** permitió garantizar la calidad del producto mediante pruebas unitarias, de integración, de comportamiento y de sistema, reduciendo defectos en etapas tardías y fortaleciendo la confiabilidad del software.
-
-Finalmente, la adopción de **prácticas DevOps (Capítulo VII)** —integración continua, entrega continua y despliegue continuo— consolidó un flujo de trabajo automatizado, coherente con las mejores prácticas de la industria. La integración de pipelines de construcción, pruebas y despliegue favoreció la detección temprana de errores, la reducción de tiempos de entrega y una mayor estabilidad en los entornos de producción.
-
-En conjunto, estas etapas demuestran una evolución significativa en la capacidad técnica del equipo, así como una aplicación coherente de metodologías ágiles y herramientas modernas de desarrollo y despliegue.
-
-TB2:
-
-El desarrollo del TB2 permitió consolidar el avance del proyecto mediante la validación de requerimientos, la planificación estructurada de experimentos y la aplicación de buenas prácticas de desarrollo y pruebas. A través del análisis del estado actual, la definición de hipótesis y la identificación de métricas clave, se establecieron bases sólidas para la mejora continua del producto. Las entrevistas, validaciones y pruebas aplicadas facilitaron la detección temprana de necesidades, riesgos y oportunidades, fortaleciendo la calidad de la solución propuesta. En conjunto, este entregable contribuyó a alinear la visión del equipo, mejorar la comprensión del usuario y asegurar que el proyecto avance con un enfoque más claro, eficiente y orientado a resultados.
+**Capturas de Pantalla:**  
+- Desktop View:  
+![HomeLandingPage](./assets/chapter-8/HomeLandingPage.png)  
+![WhyLandingPage](./assets/chapter-8/WhyLandingPage.png)  
+![HowLandingPage](./assets/chapter-8/HowLandingPage.png)  
+![AboutTheProductLandingPage](./assets/chapter-8/AboutTheProductLandingPage.png)  
+![EndLandingPage](./assets/chapter-8/EndLandingPage.png)  
 
 ---
 
-## Recomendaciones a Futuro
+### 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence
 
-1. **Optimización del pipeline DevOps:**  
-   Ampliar los pipelines de integración y entrega continua para incluir análisis estático de código, pruebas de rendimiento y monitoreo post-despliegue.
+**Hipótesis y User Stories Asociadas:**  
+Validar que simplificar la gestión de estacionamientos y ofrecer información clara incrementa eficiencia y satisfacción.  
 
-2. **Escalabilidad en infraestructura:**  
-   Implementar soluciones de orquestación como Kubernetes o servicios serverless para gestionar la carga de manera dinámica y mejorar la disponibilidad del sistema.
+**User Stories:**  
+- TBUS02: Visualización de historial de reservas y ganancias  
+- TBUS03: Visualización de estadísticas en estacionamientos  
+- TBUS04: Añadir promociones
 
-3. **Mejorar la trazabilidad del desarrollo:**  
-   Integrar herramientas de gestión de requisitos y control de versiones (por ejemplo, Jira + GitHub/GitLab) para reforzar la trazabilidad entre requisitos, commits y despliegues.
+**Implementación "To-Be":**  
+- Dashboard de estadísticas: ingresos, ocupación, estado de parkings.  
+- Gestión de promociones: formulario para configurar promociones por fechas/eventos.  
 
-4. **Profundizar en pruebas automatizadas:**  
-   Aumentar la cobertura de pruebas unitarias y de integración, incorporando además pruebas end-to-end automatizadas que aseguren la experiencia del usuario final.
+**Captura de Pantalla:**  
+![DashboardFrontTF](./assets/chapter-8/DashboardFrontTF.png)  
 
-5. **Seguridad continua (DevSecOps):**  
-   Integrar análisis de vulnerabilidades y revisiones automáticas de dependencias dentro del pipeline CI/CD, fortaleciendo la seguridad del producto.
+---
 
-6. **Mejora de la experiencia de usuario (UX):**  
-   Realizar pruebas de usabilidad y análisis de comportamiento de usuarios para refinar la interfaz y flujo de interacción en la web y la app móvil.
+### 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence
 
-7. **Escenarios de despliegue multiambiente:**  
-   Estandarizar entornos (desarrollo, staging, producción) mediante infraestructura como código (Terraform, Ansible) para asegurar coherencia entre despliegues.
+**Hipótesis y User Stories Asociadas:**  
+Mejorar eficiencia de recomendación y búsqueda de estacionamientos para aumentar satisfacción de conductores.  
+
+**User Stories:**  
+- TBUS05: Recomendaciones de estacionamientos  
+- TBUS06: Distancia y costo estimado
+
+**Implementación "To-Be":**  
+- Sección en pantalla principal con sugerencias de estacionamientos según historial y hora.  
+- Visualización de distancia y costo estimado basado en tarifa vigente y distancia recorrida.
+
+**Capturas de Pantalla:**  
+- Vista Móvil (Mobile View)  
+
+### 8.3.3.5 Implemented To-Be RESTful API / Serverless Backend Evidence
+*(Pendiente de completar con evidencias de API/Backend)*
+
+### 8.3.3.6 Team Collaboration Insights
+
+![Team Collaboration Insights](assets/teamCollabInsights.png)
+
+### Conclusiones y Recomendaciones
+
+**TB1 – Quadrapp: Impacto y Aprendizajes**  
+- Identificación de necesidades clave de conductores y propietarios.  
+- Mejoras en accesibilidad, seguridad y eficiencia.  
+- Incorporación de sensores, cámaras y notificaciones en tiempo real.  
+
+**Recomendaciones principales:**  
+1. Seguridad de datos (GDPR, CCPA)  
+2. Pruebas de usabilidad constantes  
+3. Marketing digital para aumentar adopción  
+4. Mecanismos de feedback continuo  
+
+---
+
+**TP – Desarrollo Técnico y DevOps**  
+- Arquitectura modular y desacoplada: Landing Page, app web, app móvil, API RESTful  
+- Documentación de API para mantenibilidad  
+- Testing Suites y validación (unitarias, integración, end-to-end)  
+- Prácticas DevOps: integración, entrega y despliegue continuo  
+
+---
+
+**TB2 – Validación de Requerimientos y Mejora Continua**  
+- Consolidación de planificación y experimentación  
+- Detección temprana de necesidades, riesgos y oportunidades  
+
+---
+
+**Recomendaciones a Futuro:**  
+1. Optimización de pipelines CI/CD (análisis estático, pruebas rendimiento, monitoreo)  
+2. Escalabilidad con Kubernetes o servicios serverless  
+3. Trazabilidad: Jira + GitHub/GitLab  
+4. Ampliar pruebas unitarias, integración y end-to-end  
+5. Seguridad continua (DevSecOps)  
+6. Mejorar UX mediante pruebas de usabilidad  
+7. Escenarios multiambiente con infraestructura como código (Terraform, Ansible)  
+
+### Conclusión Final – Trabajo Final (TF)
+
+El desarrollo del proyecto **Quadrapp** demuestra un enfoque integral para resolver problemas de movilidad urbana y gestión de estacionamientos, combinando tecnología, experiencia de usuario y buenas prácticas de desarrollo de software.  
+
+**Resultados alcanzados:**  
+- Se validaron las **hipótesis iniciales** mediante la implementación de la landing page, la aplicación web y la app móvil, evidenciando que la visualización de un video demostrativo incrementa la confianza y motivación de los usuarios (TBUS01).  
+- Se consolidó la **gestión de estacionamientos** con dashboards de estadísticas, historial de reservas, ganancias y promociones configurables (TBUS02, TBUS03, TBUS04).  
+- Se mejoró la **experiencia del conductor**, proporcionando recomendaciones personalizadas y estimación de distancia y costos en tiempo real (TBUS05, TBUS06).  
+- Se aplicaron **prácticas DevOps y testing automatizado**, asegurando calidad, estabilidad y continuidad en los despliegues (TP).  
+
+**Lecciones aprendidas:**  
+1. La planificación basada en **User Stories y epics** facilita priorizar funcionalidades clave.  
+2. La integración de herramientas de **monitorización, métricas y feedback de usuarios** permite decisiones informadas y mejora continua.  
+3. La adopción de **arquitecturas modulares y desacopladas** facilita escalabilidad y mantenibilidad futura.  
+4. La coordinación del equipo bajo **metodologías ágiles** garantiza una ejecución organizada y controlada de los experimentos y entregables.  
 
 # Bibliografía
 
@@ -6543,16 +6151,12 @@ Villagra-Arnedo, C. J., Satorre-Cuerda, R., Molina-Carmona, R., Llorens-Largo, F
 
 # Anexos
 
-Enlace del Trello: https://trello.com/invite/b/68cb76046c3ed8b6f0fc18c2/ATTI91035f3a2c18dc5abbb742838e8d0be8E6AB6959/quadrapp-product-backlog-tb1-sprint-1
-
-Enlace del Video About the Product: https://discord.com/channels/@me/1274158419292586106/1417715867222933504
-
-Enlace del Landing Page: https://experiemtos-si0732-group-3-pcc-team.github.io/Landing-Page-Quadrapp/
-
-Enlace del Figma: https://www.figma.com/design/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=0-1&t=f4MEQSrX7t8LfGka-1
-
-Enlace del Frontend: https://yellow-cliff-0ed3ede10.1.azurestaticapps.net/
-
-Enlace del Mobile: https://experiemtos-si0732-group-3-pcc-team.github.io/Quadrapp-Frontend-Mobile/
-
-Enlace de las Entrevistas mostradas con Aplicación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAde3bjzRkFUGdLWr4PjL480?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jBiy6w
+| Recurso | Enlace |
+|---------|--------|
+| Trello | https://trello.com/invite/b/68cb76046c3ed8b6f0fc18c2/ATTI91035f3a2c18dc5abbb742838e8d0be8E6AB6959/quadrapp-product-backlog-tb1-sprint-1 |
+| Video About the Product | https://discord.com/channels/@me/1274158419292586106/1417715867222933504 |
+| Landing Page | https://experiemtos-si0732-group-3-pcc-team.github.io/Landing-Page-Quadrapp/ |
+| Figma | https://www.figma.com/design/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=0-1&t=f4MEQSrX7t8LfGka-1 |
+| Frontend Web | https://yellow-cliff-0ed3ede10.1.azurestaticapps.net/ |
+| Mobile App | https://experiemtos-si0732-group-3-pcc-team.github.io/Quadrapp-Frontend-Mobile/ |
+| Entrevistas con Aplicación | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAde3bjzRkFUGdLWr4PjL480?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jBiy6wen |
