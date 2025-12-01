@@ -6145,20 +6145,90 @@ El **100% de los usuarios entrevistados** (conductores y propietarios) coinciden
 * 🟧 Consideran indispensable las fotos y medidas (100%)
 * 🟦 No consideran necesaria la información visual (0%)
 
-#### 2. Importancia de la Evidencia Visual
-#### 3. Importancia de la Evidencia Visual
-#### 4. Importancia de la Evidencia Visual
-#### 5. Importancia de la Evidencia Visual
-#### 6. Importancia de la Evidencia Visual
+
+![DiagramaCircular](assets/informaciónvisual.PNG)
 
 
-### 8.4.2  Re-scored and Re-prioritized Question Backlog
+#### 2. Herramientas de Ubicación y Mapas
+
+El **67% de los entrevistados** resaltó la importancia de las herramientas de **geolocalización y mapas interactivos**. Específicamente, los conductores valoran las referencias visuales para llegar al sitio, y los propietarios valoran la precisión de las coordenadas para evitar confusiones con los clientes.
+
+**Cantidad de entrevistados que priorizan mapas y referencias visuales**
+
+* 🟧 Valoran mapas interactivos y referencias visuales (67%)
+* 🟦 Priorizan otros aspectos funcionales (33%)
+
+![DiagramaCircular](assets/graficoubicaciónytiemporeal.PNG)
+
+
+#### 3. Modernización de Métodos de Pago
+
+El **50% de la muestra** (representado por Fernando, Mathias y Manuel) solicitó explícitamente la integración de **billeteras digitales (Yape/Plin)**, pagos con QR o sistemas automáticos. Consideran que limitar el pago a efectivo o tarjetas tradicionales es una barrera para la agilidad del servicio.
+
+**Cantidad de entrevistados que solicitan métodos de pago modernos**
+
+* 🟧 Solicitan integración Yape/Plin/QR (50%)
+* 🟦 Conformes con métodos estándar (50%)
+
+![DiagramaCircular](assets/metodosdepago.PNG)
+
+#### 4. Valoración de Reseñas y Comentarios (Social Proof)
+
+El **50% de los entrevistados** (específicamente la totalidad del segmento de conductores) indicó que **leer las reseñas y comentarios** de otros usuarios es un factor decisivo antes de realizar una reserva. Para el segmento de demanda, la "prueba social" es tan importante como el precio.
+
+**Cantidad de entrevistados que dependen de las reseñas para decidir**
+
+* 🟧 Consideran las reseñas un factor decisivo (50%)
+* 🟦 No mencionaron las reseñas como prioridad (50%)
+
+![DiagramaCircular](assets/GraficoDeReseñas.PNG)
+
+#### 5. Interés en Automatización y Tecnología IoT
+
+Un **33% de los usuarios** (los perfiles más tecnológicos como Fernando y Mathias) sugirieron la implementación de **hardware o automatización avanzada**, tal como apertura de barreras con QR o integración con dispositivos IoT para verificar el estado del parking en tiempo real, buscando reducir la interacción humana.
+
+**Cantidad de entrevistados interesados en automatización (IoT/Hardware)**
+
+* 🟧 Solicitan automatización/IoT (33%)
+* 🟦 Prefieren gestión mediante la App estándar (67%)
+
+![DiagramaCircular](assets/GraficoInteresadosIot.PNG)
+
+#### 6. Satisfacción con la Gestión Administrativa (Owners)
+
+El **50% de los entrevistados** (correspondiente al segmento de Propietarios) validó positivamente las funcionalidades del **panel de administración**. Destacaron la capacidad de gestionar horarios, precios y ver métricas como una solución efectiva a sus problemas actuales de control manual.
+
+**Cantidad de entrevistados que validan el panel de gestión administrativa**
+
+* 🟧 Valoran el control de horarios/precios (50%)
+* 🟦 Enfocados en la experiencia de usuario final (50%)
+
+![DiagramaCircular](assets/GraficoGestion.PNG)
+
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| # | Question | Estado | Valor | Riesgo | Nueva Prioridad | Acción siguiente |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | ¿La información visual (fotos/medidas) es suficiente para generar confianza? | Validado | Alto | Bajo | 1 | Implementar carga de fotos y medidas detalladas en el perfil |
+| 2 | ¿Los métodos de pago actuales son suficientes para el usuario local? | Parcial | Alto | Medio | 2 | Integrar pasarelas de pago digitales (Yape/Plin) |
+| 3 | ¿El panel de administración simplifica la gestión de los Owners? | Validado | Alto | Bajo | 3 | Refinar UX del dashboard para mantener simplicidad |
+| 4 | ¿Las reseñas y calificaciones influyen en la decisión de reserva? | Validado | Medio | Bajo | 4 | Destacar módulo de comentarios en la vista de reserva |
+| 5 | ¿La automatización (IoT/Barreras) es crítica para el lanzamiento? | No validado | Medio | Alto | 5 | Mover a backlog futuro (Nice-to-have) |
+
 
 ## 8.5 Continuous Learning
 ### 8.4.2 Shareback session artifacts: Learning workflow
 
+
 ## 8.6 To-be software plataform Pre-launch 
+
+
 ### 8.4.2  About the product  intro video
+
+
+
+
 
 ### Conclusiones y Recomendaciones
 
