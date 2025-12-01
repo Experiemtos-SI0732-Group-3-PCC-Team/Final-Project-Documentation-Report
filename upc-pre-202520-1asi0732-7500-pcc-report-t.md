@@ -6170,7 +6170,7 @@ El **50% de la muestra** (representado por Fernando, Mathias y Manuel) solicitó
 * 🟧 Solicitan integración Yape/Plin/QR (50%)
 * 🟦 Conformes con métodos estándar (50%)
 
-![DiagramaCircular](assets/metodosdepago.PNG)
+![DiagramaCircular](assets/GraficoMetodosDePago.PNG)
 
 #### 4. Valoración de Reseñas y Comentarios (Social Proof)
 
