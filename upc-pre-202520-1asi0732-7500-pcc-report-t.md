@@ -6218,15 +6218,19 @@ El **50% de los entrevistados** (correspondiente al segmento de Propietarios) va
 
 
 ## 8.5 Continuous Learning
-### 8.4.2 Shareback session artifacts: Learning workflow
 
+### 8.5.1 Shareback session artifacts: Learning workflow
+Figma (Prototipo): El prototipo interactivo desarrollado en Figma refleja las interfaces que hicimos en la aplicacion web. El diseño se basó en las necesidades y expectativas de los usuarios, se ajustó elementos visuales y funcionales durante el proceso para optimizar la experiencia.
+
+https://www.figma.com/proto/v2CGFTXCBSLdjVzKeUbhfI/Untitled?node-id=1127-6453&t=nMGDtb9oLjwWZlC5-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1127%3A6453&show-proto-sidebar=1
 
 ## 8.6 To-be software plataform Pre-launch 
 
+En este seccion se presenta el despliegue  del landing page el cual llevara tanto a la descarga de la aplcaicon  movil como el enlace a la aplicacion web. Diseñado exclusivamente para que los ususarios sepan quienes trabajarn detras del proyecto.
 
-### 8.4.2  About the product  intro video
+### 8.6.1  About the product  intro video
 
-
+Nuestro Video About The Product : [VideoFinal](https://youtu.be/R_jbr6J0Jiw)
 
 
 
