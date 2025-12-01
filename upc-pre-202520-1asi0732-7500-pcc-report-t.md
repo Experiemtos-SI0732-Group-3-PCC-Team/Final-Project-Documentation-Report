@@ -3287,7 +3287,7 @@ En el marco del proyecto Quadrapp, se elaboró el Software Architecture Context 
 
 En el marco del proyecto Quadrapp, se desarrollaron los Container Diagrams, que descomponen el sistema en sus principales contenedores de software. Estos diagramas muestran cómo se organizan la aplicación web, la aplicación móvil, el backend API, los servicios de soporte y la base de datos. Su objetivo es detallar la responsabilidad de cada contenedor, las tecnologías empleadas y las interacciones entre ellos, brindando una visión clara de la arquitectura lógica y de despliegue de la solución.
 
-![Quadrapp C4](./assets/C4QuadrappContainers.PNG)
+![Quadrapp C4](./assets/DiagramContainerQuadrapp.png)
 
 ### 4.8.3. Software Architecture Components Diagrams
 
@@ -3337,37 +3337,33 @@ En el marco del proyecto Quadrapp, se desarrollaron los Class Diagrams con el pr
 IAM Class Diagram:
 Representa la estructura de clases relacionadas con la gestión de identidad y acceso. Incluye usuarios, credenciales, roles, autenticación y permisos, asegurando un control sólido de seguridad.
 
-![Quadrapp Diagram](./assets/IAMClassDiagram.png)
+![Quadrapp Diagram](./assets/ClasesDiagramIam.png)
 
-Review Class Diagram:
-Muestra las clases encargadas de manejar reseñas, calificaciones, comentarios y su relación con usuarios y estacionamientos. Permite almacenar, consultar y moderar opiniones.
+Support Class Diagram:
+Muestra las clases encargadas de manejar reseñas, calificaciones, comentarios y sus notificaciones relacionado con usuarios y estacionamientos. Permite almacenar, consultar y moderar opiniones.
 
-![Quadrapp Diagram](./assets/ReviewBoundedContextClassDiagram.png)
+![Quadrapp Diagram](./assets/ClasesDiagramaSupport.png)
 
-Notification Class Diagram:
-Define las clases que gestionan las notificaciones enviadas a los usuarios. Incluye tipos de mensajes, estados, métodos de envío y programación de alertas.
-
-![Quadrapp Diagram](./assets/NotificationBoundedContextClassDiagram.png)
 
 Parking Management Class Diagram:
 Describe las clases encargadas de administrar estacionamientos: espacios, tarifas, horarios, capacidades y estados de disponibilidad. Es clave para la gestión del negocio del propietario.
 
-![Quadrapp Diagram](./assets/ParkingmanagementClassDiagram.png)
+![Quadrapp Diagram](./assets/ClasesDiagramParking.png)
 
 Payment Class Diagram:
 Presenta la estructura relacionada con pagos y transacciones, métodos de pago, comprobantes y validaciones necesarias para procesar cobros de manera segura.
 
-![Quadrapp Diagram](./assets/PaymentClassDiagram.png)
+![Quadrapp Diagram](./assets/ClasesDiagramaPago.png)
 
 Profile Class Diagram:
 Incluye las clases que gestionan la información del usuario o propietario, permitiendo almacenar y actualizar datos personales, configuraciones y preferencias.
 
-![Quadrapp Diagram](./assets/SmartParking_Class_Diagram-Profile.png)
+![Quadrapp Diagram](./assets/ClasesDiagramProfile.png)
 
 Reservation Class Diagram:
 Representa las clases que administran reservas: creación, estado, horario, relación con usuarios y estacionamientos. Modela el ciclo completo de una reserva.
 
-![Quadrapp Diagram](./assets/class-diagram-reservation.png)
+![Quadrapp Diagram](./assets/ClasesDiagramReservation.png)
 
 ### 4.9.2. Class Dictionary
 
@@ -6007,7 +6003,7 @@ La suma total del To-Be Product Baklog es de 42 Story Points, lo cual permite pr
 | HUX-T10 | Monitorear métricas de actividad de usuarios | 4 | Listo | Developer |
 | HUX-T11 | Monitorear métricas de actividad de estacionamientos | 3 | Listo | Developer |
 
-### 8.3.3.2 Implemented To-Be Landing Page Evidence
+#### 8.3.3.2 Implemented To-Be Landing Page Evidence
 
 **Hipótesis y User Story Asociada:**  
 El experimento busca validar que mostrar un video demostrativo incrementa la confianza y motivación de los visitantes para registrarse.  
@@ -6031,7 +6027,7 @@ El experimento busca validar que mostrar un video demostrativo incrementa la con
 
 ---
 
-### 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence
+####  8.3.3.3 Implemented To-Be Frontend-Web Application Evidence
 
 **Hipótesis y User Stories Asociadas:**  
 Validar que simplificar la gestión de estacionamientos y ofrecer información clara incrementa eficiencia y satisfacción.  
@@ -6050,7 +6046,7 @@ Validar que simplificar la gestión de estacionamientos y ofrecer información c
 
 ---
 
-### 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence
+####  8.3.3.4 Implemented To-Be Native-Mobile Application Evidence
 
 **Hipótesis y User Stories Asociadas:**  
 Mejorar eficiencia de recomendación y búsqueda de estacionamientos para aumentar satisfacción de conductores.  
@@ -6066,12 +6062,103 @@ Mejorar eficiencia de recomendación y búsqueda de estacionamientos para aument
 **Capturas de Pantalla:**  
 - Vista Móvil (Mobile View)  
 
-### 8.3.3.5 Implemented To-Be RESTful API / Serverless Backend Evidence
+#### 8.3.3.5 Implemented To-Be RESTful API / Serverless Backend Evidence
 *(Pendiente de completar con evidencias de API/Backend)*
 
-### 8.3.3.6 Team Collaboration Insights
+#### 8.3.3.6 Team Collaboration Insights
 
 ![Team Collaboration Insights](assets/teamCollabInsights.png)
+
+### 8.3.4  To - Be Validations interviews 
+#### 8.3.4.1  Diseño de entrevistas
+
+Para la validación de nuestro proyecto, hemos diseñado una serie de entrevistas con el fin de obtener feedback de nuestros usuarios. Se presentan las preguntas que se realizarán en las entrevistas, adaptadas a los segmentos objetivos que usan Quadrapp
+
+### Preguntas generales
+
+-   ¿Cuál es tu nombre?
+
+-   ¿Qué edad tienes?
+
+-   ¿Dónde vives actualmente?
+
+-   ¿A qué te dedicas?
+
+
+* * *
+
+###  Preguntas Segmento Propietario de estacionamiento
+
+-   ¿Qué característica te llama más la atención del aplicativo para publicar y administrar tus espacios? ¿Por qué?
+
+-   ¿Qué opinas del diseño y la funcionalidad para **dar de alta y gestionar** tus estacionamientos (por ejemplo, horarios, precios, disponibilidad)?
+
+-   ¿Qué información te gustaría poder mostrar de tus espacios para que los conductores confíen más (por ejemplo, fotos, reglas, seguridad)?
+
+-   ¿Qué funcionalidades **agregarías** a la plataforma para facilitar tu gestión?
+
+-   ¿Hay alguna cosa que **le quitarías** a la aplicación o que sientas que estorba?
+
+-   Como propietario/administrador, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **publicar, administrar y cobrar** por tus espacios?
+
+* * *
+
+###  Preguntas Segmento Conductor
+
+-   ¿Qué característica te llama más la atención del aplicativo para encontrar estacionamiento? ¿Por qué?
+
+-   ¿Qué opinas del diseño y la funcionalidad para **buscar, comparar y reservar** un espacio (por ejemplo, mapa, filtros, reseñas)?
+
+-   ¿Qué información te gustaría ver antes de reservar para sentirte seguro (por ejemplo, precio total, horarios, medidas del espacio, opiniones)?
+
+-   ¿Qué funcionalidades **agregarías** a la aplicación para que sea más rápida o cómoda al estacionar?
+
+-   ¿Hay alguna cosa que **le quitarías** a la aplicación o que te distraiga durante la reserva o el pago?
+
+-   Como conductor, ¿tienes alguna **recomendación** que ayude a mejorar la experiencia de **llegar, acceder y pagar** por el estacionamiento?
+
+#### 8.3.4.2  Registro  de entrevistas
+
+#####   Registro  de entrevistas para propetarios de estacionamiento y conductores
+
+| Segmento | Entrevista | Nombre | Edad | Residencia | Enlace / Imagen | Resumen |
+|----------|------------|--------|-----|------------|----------------|---------|
+| Conductor | 1 | Fernando Salgado | 21 | Pueblo Libre | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY) / ![Imagen](./assets/chapter-6/Fernando_Entrevista.png) | Valora mostrar espacios disponibles en tiempo real, mapas interactivos, filtros y reseñas. Prefiere ver precio total, horarios, medidas y fotos antes de reservar. Sugiere GPS, apertura de barreras con QR, favoritos y pagos automáticos. Busca experiencia rápida, segura y confiable. |
+| Conductor | 2 | Aldhemir Sebastián Guadalupe Moreano | 23 | Ica | ![Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png) | Considera que la app cumple expectativas para conductores. Destaca encontrar estacionamiento con anticipación, ver comentarios de otros usuarios y uso de referencias visuales para mejor ubicación. |
+| Conductor | 3 | Aldhemir Sebastián Guadalupe Moreano | 23 | Ica | ![Imagen](./assets/chapter-6/ValidationInterview-Conductor-2.png) | Similar a entrevista 2: facilidades para encontrar estacionamiento, feedback sobre comentarios y referencias visuales de ubicación. |
+| Propietario | 1 | Mathias Hidalgo | 20 | Santiago de Surco, Lima | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY) / ![Imagen](./assets/entrevista_dueñoMathi.jpg) | Positiva experiencia con la app. Destaca registro y administración de estacionamientos, visualización en tiempo real vía IoT, configuración de horarios y precios. Sugiere agregar fotos, reglas, cámaras y pagos mediante Yape/Plin. |
+| Propietario | 2 | Karim Wagner Samanamud Mosquera | 24 | San Martin de Porres, Lima | ![Imagen](./assets/chapter-6/ValidationInterview-PropietarioDeEstacionamiento-2.png) | Busca eficiencia en gestión manual de estacionamiento. Considera interfaz intuitiva y segura, control de disponibilidad de espacios y rapidez de respuesta. Sugiere agregar fotos/videos y medio de soporte al cliente. |
+| Propietario | 3 | Manuel Alexis Vargas | 21 | San Juan de Miraflores | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213423_upc_edu_pe/IQBvn0SYL--qSoJhWvDujCXrAfdZfW0iQ9COkBg8skd0p6U?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=GklXJY) / ![Imagen](./assets/chapter-6/PropietariodeParkingAlexis.PNG) | Destaca panel principal de la app para gestionar parkings, reservas y métricas. Valora el mapa y creación de estacionamiento con coordenadas. Sugiere mostrar medidas, fotos, seguridad del entorno, registrar tipo de vehículo y métodos de pago variados (tarjeta, QR, efectivo). |
+
+
+## 8.4 Experiment aftermath and analysis
+### 8.4.1 Analysis  and interpretation of results
+
+A partir de las entrevistas realizadas se llegaron a las siguientes conclusiones:
+
+#### 1. Importancia de la Evidencia Visual
+
+El **100% de los usuarios entrevistados** (conductores y propietarios) coinciden en que la visualización detallada de **evidencia visual del espacio** (fotografías, medidas exactas y referencias del entorno) es indispensable. Consideran que, sin estos elementos, la confianza para reservar o gestionar el espacio disminuye drásticamente.
+
+**Cantidad de entrevistados que requieren información visual para confiar**
+
+* 🟧 Consideran indispensable las fotos y medidas (100%)
+* 🟦 No consideran necesaria la información visual (0%)
+
+#### 2. Importancia de la Evidencia Visual
+#### 3. Importancia de la Evidencia Visual
+#### 4. Importancia de la Evidencia Visual
+#### 5. Importancia de la Evidencia Visual
+#### 6. Importancia de la Evidencia Visual
+
+
+### 8.4.2  Re-scored and Re-prioritized Question Backlog
+
+## 8.5 Continuous Learning
+### 8.4.2 Shareback session artifacts: Learning workflow
+
+## 8.6 To-be software plataform Pre-launch 
+### 8.4.2  About the product  intro video
 
 ### Conclusiones y Recomendaciones
 
