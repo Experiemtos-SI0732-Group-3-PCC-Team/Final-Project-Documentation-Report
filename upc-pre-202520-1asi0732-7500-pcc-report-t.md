@@ -6230,7 +6230,7 @@ En este seccion se presenta el despliegue  del landing page el cual llevara tant
 
 ### 8.6.1  About the product  intro video
 
-Nuestro Video About The Product : [VideoFinal](https://youtu.be/R_jbr6J0Jiw)
+Nuestro Video About The Product : [VideoFinal](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a118_upc_edu_pe/IQBqloEwSqQWSo_ug6zlNmkwAfqgJAIbOxh81tNThr5gJnc?e=NLoaAK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
